@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints & large binary files
+approach3_results/results/intent_model/
+approach2/results/
+approach1/results/
+approach4/results/
+ner/results/ner_model/
+ner/results/ner_phobert_model/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# RAG embeddings (auto-regenerated)
+chatbot/rag_embeddings.npy
+chatbot/rag_index.json
+
+# Database & session state
+chatbot.db
+sessions/
+logs/
+
+# Environment & secrets
+.env
+*.env
+*.key
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.gz
+_minted*/
+
+# IDE
+.vscode/
+.idea/
+*.swp

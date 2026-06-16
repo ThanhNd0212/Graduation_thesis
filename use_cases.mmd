@@ -1,0 +1,21 @@
+flowchart LR
+    KH(["Customer"])
+    NV(["Staff"])
+    QL(["Manager"])
+
+    subgraph SYS["Chatbot System"]
+        direction TB
+        UC1(["UC-1\nInquire info &\nPlace order"])
+        UC2(["UC-2\nOrder multiple\nproducts"])
+        UC3(["UC-3\nCompare costs\nof 2 modes"])
+        UC4(["UC-4\nEscalate to\nstaff"])
+        UC5(["UC-5\nView orders\n& metrics"])
+    end
+
+    KH -- "product inquiry / order" --> UC1
+    KH -- "reply-to, multi-item cart" --> UC2
+    KH -- "bot cannot handle" --> UC4
+    NV -- "receive escalation" --> UC4
+    QL -- "access /metrics" --> UC3
+    QL -- "view order history" --> UC5
+    UC1 -. "include" .-> UC2

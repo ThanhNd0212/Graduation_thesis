@@ -1,0 +1,78 @@
+DANH SACH NHAN
+==================================================
+01. Goodbye
+02. add_product
+03. agree
+04. agree_order
+05. ask_final_price
+06. ask_find_product
+07. ask_gift_package
+08. ask_legit
+09. ask_order_status
+10. ask_order_wait_time
+11. ask_payment_method
+12. ask_product_availability
+13. ask_product_image
+14. ask_product_info
+15. ask_product_price
+16. ask_product_suggestion
+17. ask_shipping_fee
+18. ask_shop_info
+19. buy_thanks
+20. complain_shipping_issue
+21. confirm_received
+22. customer_reject
+23. delivery_time_requirement
+24. get_product_direct
+25. give_product
+26. greeting
+27. immediate_ship
+28. other
+29. product_complaint
+30. provide_budget
+31. provide_cus_inf
+32. special_demand
+
+Tong so nhan: 32
+
+
+===== THONG KE MOI =====
+PHAN BO LABELS
+================================================================================
+STT  LABEL                              COUNT     PERCENT
+================================================================================
+1    give_product                       528       10.55%
+2    ask_product_price                  386       7.71%
+3    ask_product_availability           259       5.17%
+4    other                              237       4.73%
+5    ask_order_status                   230       4.59%
+6    delivery_time_requirement          201       4.01%
+7    agree                              201       4.01%
+8    provide_cus_inf                    193       3.85%
+9    get_product_direct                 179       3.57%
+10   ask_shop_info                      174       3.48%
+11   greeting                           172       3.44%
+12   agree_order                        168       3.36%
+13   ask_payment_method                 165       3.30%
+14   ask_product_suggestion             141       2.82%
+15   ask_product_image                  132       2.64%
+16   buy_thanks                         126       2.52%
+17   provide_budget                     124       2.48%
+18   ask_product_info                   122       2.44%
+19   ask_order_wait_time                119       2.38%
+20   confirm_received                   115       2.30%
+21   product_complaint                  111       2.22%
+22   Goodbye                            109       2.18%
+23   immediate_ship                     108       2.16%
+24   ask_legit                          105       2.10%
+25   add_product                        103       2.06%
+26   complain_shipping_issue            103       2.06%
+27   special_demand                     102       2.04%
+28   customer_reject                    70        1.40%
+29   ask_final_price                    65        1.30%
+30   ask_shipping_fee                   56        1.12%
+31   ask_gift_package                   56        1.12%
+32   ask_find_product                   47        0.94%
+================================================================================
+Tong so label xuat hien: 5007
+So label khac nhau: 32

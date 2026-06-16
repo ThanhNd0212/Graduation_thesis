@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEGO Shop — Chatbot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Chat column -->
+    <section class="chat">
+      <header class="chat-header">
+        <div class="avatar">🧱</div>
+        <div class="who">
+          <div class="name">LEGO Shop</div>
+          <div class="status">Đang hoạt động · chatbot</div>
+        </div>
+        <div class="mode-toggle">
+          <button id="mode-hybrid"   class="mode-btn active" data-mode="hybrid">Hybrid</button>
+          <button id="mode-llm"      class="mode-btn"        data-mode="llm_full">Full LLM</button>
+        </div>
+        <a href="/metrics" class="metrics-link" title="Xem đơn hàng & metrics">📊</a>
+        <button id="reset-btn" class="reset" title="Phiên mới">⟳</button>
+      </header>
+
+      <div id="messages" class="messages"></div>
+
+      <!-- quoted-reply preview -->
+      <div id="reply-bar" class="reply-bar hidden">
+        <div class="reply-bar-text">
+          <span class="reply-bar-label">Đang trả lời</span>
+          <span id="reply-bar-snippet"></span>
+        </div>
+        <button id="reply-cancel" class="reply-cancel">✕</button>
+      </div>
+
+      <form id="composer" class="composer">
+        <input id="input" type="text" autocomplete="off" placeholder="Nhắn tin cho shop..." />
+        <button type="submit" class="send">➤</button>
+      </form>
+    </section>
+
+    <!-- Slot panel -->
+    <aside class="panel">
+      <h2>Hồ sơ khách</h2>
+      <div class="card">
+        <h3>Khách hàng</h3>
+        <div id="slot-customer" class="kv"></div>
+      </div>
+      <div class="card">
+        <h3>Nhu cầu / đơn</h3>
+        <div id="slot-order" class="kv"></div>
+      </div>
+      <div class="card">
+        <h3>Giỏ hàng</h3>
+        <div id="slot-cart" class="cart"></div>
+      </div>
+      <div class="card meta">
+        <span>Trạng thái đơn: <b id="slot-stage">—</b></span>
+        <span>Thanh toán: <b id="slot-payment">—</b></span>
+      </div>
+    </aside>
+  </div>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>

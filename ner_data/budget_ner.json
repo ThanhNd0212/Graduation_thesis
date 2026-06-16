@@ -1,0 +1,1956 @@
+[
+  {
+    "id": 0,
+    "text": "chắc 200 đổ lại ợ :v",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "label": "MAX_BUDGET",
+        "text": "200"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text": "tầm 600-500 là oki ạ",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "label": "MAX_BUDGET",
+        "text": "600"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "label": "MIN_BUDGET",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "shop ơi, bên mình có mẫu lego nào tầm 200-300 kh ạ",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion"
+    ],
+    "entities": [
+      {
+        "start": 38,
+        "end": 41,
+        "label": "MIN_BUDGET",
+        "text": "200"
+      },
+      {
+        "start": 42,
+        "end": 45,
+        "label": "MAX_BUDGET",
+        "text": "300"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "bên c sẵn mẫu xe nào budget 5-700 hơm",
+    "cats": [
+      "provide_budget",
+      "ask_product_availability",
+      "ask_product_suggestion"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 29,
+        "label": "MIN_BUDGET",
+        "text": "5"
+      },
+      {
+        "start": 30,
+        "end": 33,
+        "label": "MAX_BUDGET",
+        "text": "700"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Tổng 600 đổ xuống ạ",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "label": "MAX_BUDGET",
+        "text": "600"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Tầm 2-500 ạ",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "label": "MIN_BUDGET",
+        "text": "2"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "label": "MAX_BUDGET",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Trong tầm giá đấy giúp em",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": []
+  },
+  {
+    "id": 7,
+    "text": "400k đổ xún á",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "MAX_BUDGET",
+        "text": "400k"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Sốp cho e hỏi trong tầm giá 200-300 mua dc món nào k sốp🥲",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 31,
+        "label": "MIN_BUDGET",
+        "text": "200"
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "label": "MAX_BUDGET",
+        "text": "300"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "kkk bạn còn bộ nào giá như này ko ạ",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion"
+    ],
+    "entities": []
+  },
+  {
+    "id": 10,
+    "text": "Hi shop, e đg muốn tìm mẫu lego tầm 300k trở xuống cho nam ạ. Shop có gợi ý mẫu nào ko ạ?",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 40,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "shop ơi mình có bộ hoa nào sẵn giá tầm 150 k ạa",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion"
+    ],
+    "entities": [
+      {
+        "start": 39,
+        "end": 44,
+        "label": "MAX_BUDGET",
+        "text": "150 k"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "budget e khoảng 200-250 thi có nhiều mẫu khônng ạ",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "label": "MIN_BUDGET",
+        "text": "200"
+      },
+      {
+        "start": 20,
+        "end": 23,
+        "label": "MAX_BUDGET",
+        "text": "250"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "budget của e cx sinh viên thui ạ tầm 3-400, b ấy chắc là thíc xe, đá bóng, mấy nvat marvel ncla e kím cái nào đệp đệp là dc ạ",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion"
+    ],
+    "entities": [
+      {
+        "start": 37,
+        "end": 38,
+        "label": "MIN_BUDGET",
+        "text": "3"
+      },
+      {
+        "start": 39,
+        "end": 42,
+        "label": "MAX_BUDGET",
+        "text": "400"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Chào sốp m mua mua quà tặng cho b trai budget dưới 300k ạ sốp có thể gợi í giúp mình đc ko ạ? B ý sn ngày 4/5. M cảm ơn sốp nhé",
+    "cats": [
+      "provide_budget",
+      "ask_product_suggestion",
+      "delivery_time_requirement"
+    ],
+    "entities": [
+      {
+        "start": 51,
+        "end": 55,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "mình chi được 750 quay đầu ạ",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 17,
+        "label": "MAX_BUDGET",
+        "text": "750"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "mẫu 435",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": []
+  },
+  {
+    "id": 17,
+    "text": "Mình có ngân sách khoảng 500k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Budget của mình tầm 1tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 23,
+        "label": "MAX_BUDGET",
+        "text": "1tr"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "Mình muốn tìm sản phẩm dưới 2 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Ngân sách của mình khoảng 800 nghìn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 26,
+        "end": 35,
+        "label": "MAX_BUDGET",
+        "text": "800 nghìn"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Mình chỉ có khoảng 300k thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "Tầm giá mình muốn là khoảng 1,5 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "label": "MAX_BUDGET",
+        "text": "1,5 triệu"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "Mình dự kiến chi khoảng 2m ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 24,
+        "end": 26,
+        "label": "MAX_BUDGET",
+        "text": "2m"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "Ngân sách tối đa của mình là 1tr5.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 29,
+        "end": 33,
+        "label": "MAX_BUDGET",
+        "text": "1tr5"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Mình muốn mua trong khoảng 700k đến 1m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "label": "MIN_BUDGET",
+        "text": "700k"
+      },
+      {
+        "start": 36,
+        "end": 38,
+        "label": "MAX_BUDGET",
+        "text": "1m"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "Tài chính của mình khoảng 5tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "label": "MAX_BUDGET",
+        "text": "5tr"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "Mình muốn tìm sản phẩm dưới 500k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "Mình có thể chi khoảng 2 đến 3tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 23,
+        "end": 24,
+        "label": "MIN_BUDGET",
+        "text": "2"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "label": "MAX_BUDGET",
+        "text": "3tr"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "Budget tầm 1 triệu đổ lại.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "Mình chỉ muốn chi dưới 1 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "Khoảng giá mình nhắm tới là 1-2m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 29,
+        "label": "MIN_BUDGET",
+        "text": "1"
+      },
+      {
+        "start": 30,
+        "end": 32,
+        "label": "MAX_BUDGET",
+        "text": "2m"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "Mình có khoảng 600 nghìn để mua.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "label": "MAX_BUDGET",
+        "text": "600 nghìn"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "Mình muốn sản phẩm tầm 900k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "label": "MAX_BUDGET",
+        "text": "900k"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "Dưới 1 triệu rưỡi là được.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu rưỡi"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "Mình muốn mua hàng trong tầm giá hợp lý, khoảng 1m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 48,
+        "end": 50,
+        "label": "MAX_BUDGET",
+        "text": "1m"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "Mình chỉ có ngân sách giới hạn khoảng 400k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "label": "MAX_BUDGET",
+        "text": "400k"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "Tầm 2 triệu có mẫu nào đẹp không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "Mình muốn tìm bộ trong khoảng 3tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "label": "MAX_BUDGET",
+        "text": "3tr"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "Khoảng 1 triệu quay đầu thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "Mình không muốn vượt quá 2,5 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "label": "MAX_BUDGET",
+        "text": "2,5 triệu"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "Dưới 800k càng tốt.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "label": "MAX_BUDGET",
+        "text": "800k"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "Budget khoảng 700 nghìn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 23,
+        "label": "MAX_BUDGET",
+        "text": "700 nghìn"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "Mình dự tính chi tối đa 1,2tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 24,
+        "end": 29,
+        "label": "MAX_BUDGET",
+        "text": "1,2tr"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "Tầm 4 triệu có lựa chọn nào tốt không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "MAX_BUDGET",
+        "text": "4 triệu"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "Mình cần sản phẩm khoảng 2 triệu trở xuống.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "Khoảng giá 500k đến 700k nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "label": "MAX_BUDGET",
+        "text": "700k"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "Mình có khoảng 1 triệu rưỡi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu rưỡi"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Chỉ cần dưới 2m là ổn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 13,
+        "end": 15,
+        "label": "MAX_BUDGET",
+        "text": "2m"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Tối đa 3tr thôi nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "label": "MAX_BUDGET",
+        "text": "3tr"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "Mình muốn mua quà khoảng 1tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 28,
+        "label": "MAX_BUDGET",
+        "text": "1tr"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "Budget cho món quà này khoảng 2 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "Mình có khoảng 10 triệu để đầu tư.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "MAX_BUDGET",
+        "text": "10 triệu"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "Tầm 1 triệu là đẹp.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "Khoảng 1-1,5 triệu là hợp lý.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "label": "MIN_BUDGET",
+        "text": "1"
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "label": "MAX_BUDGET",
+        "text": "1,5 triệu"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Mình cần sản phẩm dưới 300k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "Không quá 5tr nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "label": "MAX_BUDGET",
+        "text": "5tr"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "text": "Mình muốn sản phẩm vừa túi tiền, khoảng 800k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 40,
+        "end": 44,
+        "label": "MAX_BUDGET",
+        "text": "800k"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "Budget khoảng 2,2m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "label": "MAX_BUDGET",
+        "text": "2,2m"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "Mình dự kiến bỏ ra khoảng 6 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "label": "MAX_BUDGET",
+        "text": "6 triệu"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "Khoảng 700k trở xuống.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "label": "MAX_BUDGET",
+        "text": "700k"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "Mình có khoảng 2 triệu để chọn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "Chỉ cần dưới 1 triệu rưỡi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu rưỡi"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "Mình muốn tìm bộ tầm trung, khoảng 1 tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "label": "MAX_BUDGET",
+        "text": "1 tr"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "Budget của mình không nhiều, khoảng 500.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 39,
+        "label": "MAX_BUDGET",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "Tối đa 800 nghìn thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "label": "MAX_BUDGET",
+        "text": "800 nghìn"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "Mình định chi khoảng 3,5 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "label": "MAX_BUDGET",
+        "text": "3,5 triệu"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "Khoảng giá 2-4tr nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "label": "MIN_BUDGET",
+        "text": "2"
+      },
+      {
+        "start": 13,
+        "end": 16,
+        "label": "MAX_BUDGET",
+        "text": "4tr"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "Mình chỉ có 1 triệu ngân sách.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "Tầm 5 trăm nghìn có mẫu nào không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 16,
+        "label": "MAX_BUDGET",
+        "text": "5 trăm nghìn"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "Khoảng một triệu đổ lại.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "label": "MAX_BUDGET",
+        "text": "một triệu"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "Mình muốn quà trong tầm 2tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 24,
+        "end": 27,
+        "label": "MAX_BUDGET",
+        "text": "2tr"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "Mình có thể chi khoảng 7m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 23,
+        "end": 25,
+        "label": "MAX_BUDGET",
+        "text": "7m"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "Không quá 1,2 củ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "MAX_BUDGET",
+        "text": "1,2 củ"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "Tối đa khoảng 900k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "label": "MAX_BUDGET",
+        "text": "900k"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "Budget khoảng 1,8 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 23,
+        "label": "MAX_BUDGET",
+        "text": "1,8 triệu"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "Mình dự tính chi 2,5 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "label": "MAX_BUDGET",
+        "text": "2,5 triệu"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "Khoảng giá hợp lý với mình là 1 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "Tầm này mình chỉ có 600k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "label": "MAX_BUDGET",
+        "text": "600k"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "Dưới 3 triệu là được.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "label": "MAX_BUDGET",
+        "text": "3 triệu"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "Mình cần sản phẩm trong mức giá 4tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "label": "MAX_BUDGET",
+        "text": "4tr"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "Khoảng 2 triệu rưỡi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu rưỡi"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "Mình muốn chọn bộ khoảng 1 triệu rưỡi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 37,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu rưỡi"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "Tầm 750k nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "label": "MAX_BUDGET",
+        "text": "750k"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "Không vượt quá 700k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "MAX_BUDGET",
+        "text": "700k"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "Budget mình khoảng 8 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "label": "MAX_BUDGET",
+        "text": "8 triệu"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "Mình có 2m để mua quà.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 10,
+        "label": "MAX_BUDGET",
+        "text": "2m"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "Mình muốn lựa chọn dưới 1 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "Khoảng 300-500k thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "Tầm 1 triệu đến 1,2 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "label": "MAX_BUDGET",
+        "text": "1,2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "Mình dự định mua trong khoảng 2 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "Không quá 2tr nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "label": "MAX_BUDGET",
+        "text": "2tr"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "Budget của mình tầm 3 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "label": "MAX_BUDGET",
+        "text": "3 triệu"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "Mình muốn sản phẩm trong tầm 5 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "label": "MAX_BUDGET",
+        "text": "5 triệu"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text": "Chỉ có khoảng 450k thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "label": "MAX_BUDGET",
+        "text": "450k"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text": "Khoảng giá 1,3 tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "MAX_BUDGET",
+        "text": "1,3 tr"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text": "Mình có thể chi tối đa 4 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 23,
+        "end": 30,
+        "label": "MAX_BUDGET",
+        "text": "4 triệu"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text": "Tầm 2m đổ lại.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "label": "MAX_BUDGET",
+        "text": "2m"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text": "Khoảng 1,7 triệu là ổn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "label": "MAX_BUDGET",
+        "text": "1,7 triệu"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text": "Mình cần món quà khoảng 800k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "label": "MAX_BUDGET",
+        "text": "800k"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text": "Dưới 600k có mẫu nào đẹp không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "label": "MAX_BUDGET",
+        "text": "600k"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text": "Mình định chi khoảng 9 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "label": "MAX_BUDGET",
+        "text": "9 triệu"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text": "Khoảng giá từ 1 đến 3 củ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "label": "MIN_BUDGET",
+        "text": "1"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "label": "MAX_BUDGET",
+        "text": "3 củ"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text": "Mình chỉ muốn chi mức vừa phải, khoảng 1 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 39,
+        "end": 46,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text": "Tối đa 2,8 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "label": "MAX_BUDGET",
+        "text": "2,8 triệu"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text": "Budget khoảng 5 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 21,
+        "label": "MAX_BUDGET",
+        "text": "5 triệu"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text": "Mình có khoảng 2,2tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "label": "MAX_BUDGET",
+        "text": "2,2tr"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text": "Tầm 350k thôi nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "label": "MAX_BUDGET",
+        "text": "350k"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text": "Không quá 1 củ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "label": "MAX_BUDGET",
+        "text": "1 củ"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text": "Khoảng 700-900k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "label": "MIN_BUDGET",
+        "text": "700"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "label": "MAX_BUDGET",
+        "text": "900k"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "Mình dự kiến đầu tư khoảng 12m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 27,
+        "end": 30,
+        "label": "MAX_BUDGET",
+        "text": "12m"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text": "Mức giá phù hợp với mình là 2 tr.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "label": "MAX_BUDGET",
+        "text": "2 tr"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text": "Budget khoảng 15m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 17,
+        "label": "MAX_BUDGET",
+        "text": "15m"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text": "Mình muốn mua trong khoảng 5-7 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 27,
+        "end": 28,
+        "label": "MIN_BUDGET",
+        "text": "5"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "label": "MAX_BUDGET",
+        "text": "7 triệu"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "text": "Chỉ cần dưới 2,5tr là được.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "label": "MAX_BUDGET",
+        "text": "2,5tr"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text": "Tầm giá mong muốn của mình khoảng 1m.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 34,
+        "end": 36,
+        "label": "MAX_BUDGET",
+        "text": "1m"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text": "Mình có ngân sách khoảng 1 đến 2 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 26,
+        "label": "MIN_BUDGET",
+        "text": "1"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text": "Mình có ngân sách khoảng 1 tr, shop tư vấn giúp.",
+    "cats": [
+      "ask_product_suggestion",
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "label": "MAX_BUDGET",
+        "text": "1 tr"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text": "Có bộ nào dưới 500k không?",
+    "cats": [
+      "ask_product_suggestion",
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text": "Shop gợi ý vài mẫu từ 1 đến 2m đc ko ạ.",
+    "cats": [
+      "ask_product_suggestion",
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 22,
+        "end": 23,
+        "label": "MIN_BUDGET",
+        "text": "1"
+      },
+      {
+        "start": 28,
+        "end": 30,
+        "label": "MAX_BUDGET",
+        "text": "2m"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "Có sản phẩm nào vừa đẹp vừa giá hợp lý không?",
+    "cats": [
+      "ask_product_suggestion",
+      "provide_budget"
+    ],
+    "entities": []
+  },
+  {
+    "id": 121,
+    "text": "Có bộ nào phù hợp với ngân sách của mình không?",
+    "cats": [
+      "ask_product_suggestion",
+      "provide_budget"
+    ],
+    "entities": []
+  },
+  {
+    "id": 122,
+    "text": "em chắc nửa vời nên em mới bảo bộ nào giá mềm đó anh =))",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": []
+  },
+  {
+    "id": 123,
+    "text": "50-75",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "MIN_BUDGET",
+        "text": "50"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "label": "MAX_BUDGET",
+        "text": "75"
+      }
+    ]
+  }
+]

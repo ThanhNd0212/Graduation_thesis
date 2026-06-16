@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEGO Chatbot — Đơn hàng & Metrics</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --blue: #0084ff; --green: #43a047; --bg: #f0f2f5;
+      --line: #e5e5e5; --muted: #65676b;
+    }
+    body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: #050505; }
+    header {
+      background: #fff; border-bottom: 1px solid var(--line);
+      padding: 14px 24px; display: flex; align-items: center; gap: 16px;
+    }
+    header a { color: var(--blue); text-decoration: none; font-size: 14px; }
+    h1 { font-size: 18px; }
+    main { max-width: 1100px; margin: 24px auto; padding: 0 16px; display: grid; gap: 24px; }
+    .card {
+      background: #fff; border-radius: 10px; padding: 20px 24px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    }
+    .card h2 { font-size: 15px; margin-bottom: 14px; color: #333; }
+
+    /* Metrics comparison */
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .mode-card { border-radius: 8px; padding: 16px; }
+    .mode-card.hybrid  { background: #e3f2fd; border-left: 4px solid var(--blue); }
+    .mode-card.llm     { background: #e8f5e9; border-left: 4px solid var(--green); }
+    .mode-card h3 { font-size: 14px; margin-bottom: 10px; }
+    .stat { display: flex; justify-content: space-between; font-size: 13px; padding: 4px 0; border-bottom: 1px solid rgba(0,0,0,.06); }
+    .stat:last-child { border-bottom: none; }
+    .stat .val { font-weight: 600; }
+
+    /* Sessions table */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { background: #f8f9fa; text-align: left; padding: 8px 12px; border-bottom: 2px solid var(--line); font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+    td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafafa; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+    .badge.hybrid { background: #e3f2fd; color: var(--blue); }
+    .badge.llm_full { background: #e8f5e9; color: var(--green); }
+    .empty { color: var(--muted); font-style: italic; text-align: center; padding: 32px; }
+
+    /* Orders table */
+    .items-list { font-size: 12px; color: var(--muted); }
+    .payment { font-size: 12px; }
+    .refresh { float: right; border: 1px solid var(--line); background: #fff; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+    .refresh:hover { background: #f0f2f5; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/">← Quay lại chat</a>
+    <h1>📊 Đơn hàng & Metrics</h1>
+    <button class="refresh" onclick="loadAll()">⟳ Làm mới</button>
+  </header>
+
+  <main>
+    <!-- RAG status banner -->
+    <div id="rag-banner" class="card" style="display:none; background:#fff8e1; border-left:4px solid #f9a825;">
+      <b id="rag-banner-text">⏳ RAG đang khởi tạo embedding...</b>
+      <span style="color:#888; font-size:12px; margin-left:8px;">Xem tiến trình trong terminal. Trang sẽ tự cập nhật khi xong.</span>
+    </div>
+
+    <!-- Live metrics comparison -->
+    <div class="card">
+      <h2>So sánh chế độ (phiên hiện tại — reset khi khởi động lại server)</h2>
+      <div class="compare" id="compare-grid">
+        <div class="mode-card hybrid" id="stats-hybrid">
+          <h3>⚙️ Hybrid (rule-based + NLP)</h3>
+          <div class="stat"><span>Số lượt chat</span><span class="val" id="h-turns">—</span></div>
+          <div class="stat"><span>Latency TB</span><span class="val" id="h-lat">—</span></div>
+          <div class="stat"><span>LLM tokens</span><span class="val">0</span></div>
+          <div class="stat"><span>Chi phí ước tính</span><span class="val">0đ</span></div>
+        </div>
+        <div class="mode-card llm" id="stats-llm">
+          <h3>🤖 Full LLM (Gemini 2.5 Flash Lite + RAG)</h3>
+          <div class="stat"><span>Số lượt chat</span><span class="val" id="l-turns">—</span></div>
+          <div class="stat"><span>Latency TB</span><span class="val" id="l-lat">—</span></div>
+          <div class="stat"><span>Tokens vào / ra</span><span class="val" id="l-tok">—</span></div>
+          <div class="stat"><span>Chi phí ước tính</span><span class="val" id="l-cost">—</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Session-level table -->
+    <div class="card">
+      <h2>Chi tiết theo phiên chat</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Session</th>
+            <th>Chế độ</th>
+            <th>Lượt</th>
+            <th>Latency TB</th>
+            <th>Tokens vào</th>
+            <th>Tokens ra</th>
+          </tr>
+        </thead>
+        <tbody id="session-tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- Completed orders from DB -->
+    <div class="card">
+      <h2>Đơn hàng đã hoàn tất (DB)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Thời gian</th>
+            <th>Khách hàng</th>
+            <th>SĐT</th>
+            <th>Địa chỉ</th>
+            <th>Sản phẩm</th>
+            <th>Tổng tiền</th>
+            <th>Thanh toán</th>
+          </tr>
+        </thead>
+        <tbody id="orders-tbody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script>
+    // Gemini 2.5 Flash Lite pricing (approximate, USD per 1M tokens)
+    const PRICE_IN  = 0.075;   // $/1M input tokens
+    const PRICE_OUT = 0.30;    // $/1M output tokens
+    const USD_TO_VND = 25000;
+
+    function fmt(n) { return n !== undefined && n !== null ? Number(n).toLocaleString('vi-VN') : '—'; }
+    function fmtMs(ms) { return ms >= 1000 ? (ms/1000).toFixed(1) + 's' : ms + 'ms'; }
+
+    function calcCostVnd(tIn, tOut) {
+      const usd = (tIn / 1e6) * PRICE_IN + (tOut / 1e6) * PRICE_OUT;
+      return Math.round(usd * USD_TO_VND);
+    }
+
+    async function loadMetrics() {
+      const res = await fetch('/api/metrics');
+      const { sessions } = await res.json();
+
+      // Aggregate by mode across all sessions
+      const agg = { hybrid: { turns:0, lat:0, tIn:0, tOut:0 }, llm_full: { turns:0, lat:0, tIn:0, tOut:0 } };
+      for (const s of sessions) {
+        const a = agg[s.mode] || agg.hybrid;
+        a.turns += s.turns;
+        a.lat   += s.avg_latency_ms * s.turns;
+        a.tIn   += s.llm_tokens_in;
+        a.tOut  += s.llm_tokens_out;
+      }
+
+      // Update hybrid stats
+      const h = agg.hybrid;
+      document.getElementById('h-turns').textContent = h.turns || '0';
+      document.getElementById('h-lat').textContent   = h.turns ? fmtMs(Math.round(h.lat / h.turns)) : '—';
+
+      // Update LLM stats
+      const l = agg.llm_full;
+      document.getElementById('l-turns').textContent = l.turns || '0';
+      document.getElementById('l-lat').textContent   = l.turns ? fmtMs(Math.round(l.lat / l.turns)) : '—';
+      document.getElementById('l-tok').textContent   = l.turns ? `${fmt(l.tIn)} / ${fmt(l.tOut)}` : '—';
+      document.getElementById('l-cost').textContent  = l.turns ? fmt(calcCostVnd(l.tIn, l.tOut)) + 'đ' : '—';
+
+      // Session table
+      const tbody = document.getElementById('session-tbody');
+      if (!sessions.length) {
+        tbody.innerHTML = '<tr><td colspan="6" class="empty">Chưa có dữ liệu phiên nào.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = sessions.map(s => `
+        <tr>
+          <td>${s.session_id}</td>
+          <td><span class="badge ${s.mode}">${s.mode === 'llm_full' ? 'Full LLM' : 'Hybrid'}</span></td>
+          <td>${s.turns}</td>
+          <td>${fmtMs(s.avg_latency_ms)}</td>
+          <td>${fmt(s.llm_tokens_in) || '0'}</td>
+          <td>${fmt(s.llm_tokens_out) || '0'}</td>
+        </tr>`).join('');
+    }
+
+    async function loadOrders() {
+      const res = await fetch('/orders');
+      const orders = await res.json();
+      const tbody = document.getElementById('orders-tbody');
+      if (!orders.length) {
+        tbody.innerHTML = '<tr><td colspan="8" class="empty">Chưa có đơn hàng nào được hoàn tất.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = orders.map(o => `
+        <tr>
+          <td>#${o.id}</td>
+          <td>${o.created_at}</td>
+          <td>${o.name || '—'}</td>
+          <td>${o.phone || '—'}</td>
+          <td>${o.address || '—'}</td>
+          <td class="items-list">${(o.items||[]).map(i => i.product_name).join(', ') || '—'}</td>
+          <td>${fmt(o.final_total)}đ</td>
+          <td class="payment">${o.payment_method || '—'}${o.gift_wrap ? ' 🎁' : ''}</td>
+        </tr>`).join('');
+    }
+
+    async function checkRagStatus() {
+      try {
+        const r = await fetch('/api/rag-status');
+        const s = await r.json();
+        const banner = document.getElementById('rag-banner');
+        const txt    = document.getElementById('rag-banner-text');
+        if (s.building) {
+          banner.style.display = '';
+          txt.textContent = '⏳ RAG đang build embedding lần đầu cho 11K sản phẩm (~2–5 phút)...';
+        } else if (s.error) {
+          banner.style.display = '';
+          banner.style.background = '#ffebee';
+          banner.style.borderColor = '#e53935';
+          txt.textContent = '❌ RAG lỗi: ' + s.error;
+        } else if (s.ready) {
+          banner.style.display = 'none';
+        }
+      } catch (e) {}
+    }
+
+    async function loadAll() {
+      await Promise.all([loadMetrics(), loadOrders(), checkRagStatus()]);
+    }
+
+    loadAll();
+    setInterval(loadMetrics, 5000);      // live-update metrics mỗi 5 giây
+    setInterval(checkRagStatus, 3000);   // poll RAG status khi đang build
+  </script>
+</body>
+</html>

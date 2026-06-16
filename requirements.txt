@@ -1,0 +1,31 @@
+# ── Data & utilities ──────────────────────────────────────────────────────────
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+scikit-multilearn>=0.2.0
+scipy>=1.7
+joblib>=1.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.4
+seaborn>=0.11
+
+# ── Approaches 2, 3, 4: BERT-based models ────────────────────────────────────
+torch>=1.12
+transformers>=4.20.0
+hf_xet                 # faster Hugging Face model downloads (optional but recommended)
+
+# ── Approach 3: text normalization ────────────────────────────────────────────
+# (regex is built-in; no extra package needed for rule-based normalization)
+
+# ── Chatbot demo (Messenger UI + serving) ─────────────────────────────────────
+fastapi>=0.110
+uvicorn>=0.27
+
+# ── Phase 2 NER: annotation pipeline ─────────────────────────────────────────
+google-generativeai>=0.5.0     # Gemini API
+python-dotenv>=1.0             # load .env
+
+# ── Phase 2 NER (future): fuzzy product matching ──────────────────────────────
+rapidfuzz>=2.0
+underthesea>=6.0        # Vietnamese word segmentation for PhoBERT intent inference

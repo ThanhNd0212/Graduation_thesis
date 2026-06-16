@@ -1,0 +1,5396 @@
+[
+  {
+    "id": 0,
+    "text": "tớ ở 123B mai hắc đế ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "label": "ADDRESS",
+        "text": "123B mai hắc đế"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text": "shop ship cho t về \n- Ngọc Minh\n- sdt: 0986602295\n- 1 Dịch Vọng, Phường Dịch Vọng, CG (toà nhà The West gửi ở cổng Dịch Vọng)",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "label": "NAME",
+        "text": "Ngọc Minh"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "label": "PHONE",
+        "text": "0986602295"
+      },
+      {
+        "start": 52,
+        "end": 125,
+        "label": "ADDRESS",
+        "text": "1 Dịch Vọng, Phường Dịch Vọng, CG (toà nhà The West gửi ở cổng Dịch Vọng)"
+      },
+      {
+        "start": 83,
+        "end": 85,
+        "label": "CITY",
+        "text": "CG"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "tên: Phạm Thành\nsdt: 0949913458\ndchi: 46 Sơn Hải Đồ Sơn Hải Phòng",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "label": "NAME",
+        "text": "Phạm Thành"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "label": "PHONE",
+        "text": "0949913458"
+      },
+      {
+        "start": 38,
+        "end": 65,
+        "label": "ADDRESS",
+        "text": "46 Sơn Hải Đồ Sơn Hải Phòng"
+      },
+      {
+        "start": 56,
+        "end": 65,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Nguyên Thảo\n0912495077\nK45/10B Dũng Sĩ Thanh Khê",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "NAME",
+        "text": "Nguyên Thảo"
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "label": "PHONE",
+        "text": "0912495077"
+      },
+      {
+        "start": 23,
+        "end": 48,
+        "label": "ADDRESS",
+        "text": "K45/10B Dũng Sĩ Thanh Khê"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "K45/10B đường Dũng Sĩ Thanh Khê,Phường Thanh Khê Tây,Quận Thanh Khê",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 67,
+        "label": "ADDRESS",
+        "text": "K45/10B đường Dũng Sĩ Thanh Khê,Phường Thanh Khê Tây,Quận Thanh Khê"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "em bên mạn đống đa =)))",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "label": "CITY",
+        "text": "đống đa"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "105 trung liệt, trung liệt, đống đa",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 35,
+        "label": "ADDRESS",
+        "text": "105 trung liệt, trung liệt, đống đa"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Thục Anh\n0945275918\n105A Trung Liệt, Trung Liệt, Đống Đa, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "NAME",
+        "text": "Thục Anh"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "label": "PHONE",
+        "text": "0945275918"
+      },
+      {
+        "start": 20,
+        "end": 64,
+        "label": "ADDRESS",
+        "text": "105A Trung Liệt, Trung Liệt, Đống Đa, Hà Nội"
+      },
+      {
+        "start": 58,
+        "end": 64,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Tên: Thuỳ Dương \nSdt: 0392132217\nĐịa chỉ: Số 20B, ngõ 143 đường Chiến Thắng, Tân Triều, Thanh Trì, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "label": "NAME",
+        "text": "Thuỳ Dương"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PHONE",
+        "text": "0392132217"
+      },
+      {
+        "start": 42,
+        "end": 105,
+        "label": "ADDRESS",
+        "text": "Số 20B, ngõ 143 đường Chiến Thắng, Tân Triều, Thanh Trì, Hà Nội"
+      },
+      {
+        "start": 99,
+        "end": 105,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Ship ra số 11 ngõ 13 quảng khánh giá nnhieu ah",
+    "cats": [
+      "ask_shipping_fee",
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 32,
+        "label": "ADDRESS",
+        "text": "số 11 ngõ 13 quảng khánh"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "0966283566\nSố 11 ngõ 13 quảng khánh quảng an tây hồ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PHONE",
+        "text": "0966283566"
+      },
+      {
+        "start": 11,
+        "end": 51,
+        "label": "ADDRESS",
+        "text": "Số 11 ngõ 13 quảng khánh quảng an tây hồ"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Shop ship e ra số 7 ngõ 111 xuân diệu tây hồ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 44,
+        "label": "ADDRESS",
+        "text": "số 7 ngõ 111 xuân diệu tây hồ"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Search trên gg map là số 5b ngõ 111 xuân diệu ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 22,
+        "end": 45,
+        "label": "ADDRESS",
+        "text": "số 5b ngõ 111 xuân diệu"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "dạ em ở hp ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 10,
+        "label": "CITY",
+        "text": "hp"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Phương Uyên \n0945011385\nNgõ 61 ngách 33 nhà 35 Lạc Trung, phường Vĩnh tuy, quận Hai Bà Trưng, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "NAME",
+        "text": "Phương Uyên"
+      },
+      {
+        "start": 13,
+        "end": 23,
+        "label": "PHONE",
+        "text": "0945011385"
+      },
+      {
+        "start": 24,
+        "end": 100,
+        "label": "ADDRESS",
+        "text": "Ngõ 61 ngách 33 nhà 35 Lạc Trung, phường Vĩnh tuy, quận Hai Bà Trưng, Hà Nội"
+      },
+      {
+        "start": 94,
+        "end": 100,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "Bùi Minh Đức \n0345163163\n185 Nguyễn Khang, Yên Hoà, Cầu Giấy, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "NAME",
+        "text": "Bùi Minh Đức"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "label": "PHONE",
+        "text": "0345163163"
+      },
+      {
+        "start": 25,
+        "end": 68,
+        "label": "ADDRESS",
+        "text": "185 Nguyễn Khang, Yên Hoà, Cầu Giấy, Hà Nội"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "dạa mình ở 107 Hàng Gai Hoàn Kiếm HN sđt 0854920304 ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 36,
+        "label": "ADDRESS",
+        "text": "107 Hàng Gai Hoàn Kiếm HN"
+      },
+      {
+        "start": 34,
+        "end": 36,
+        "label": "CITY",
+        "text": "HN"
+      },
+      {
+        "start": 41,
+        "end": 51,
+        "label": "PHONE",
+        "text": "0854920304"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "107 Hàng Gai Hoàn Kiếm Hà Nội ( cửa hàng Sen )",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 29,
+        "label": "ADDRESS",
+        "text": "107 Hàng Gai Hoàn Kiếm Hà Nội"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "0854920304 sdt mình ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PHONE",
+        "text": "0854920304"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "giờ đấy m lại có việc đi mất rùi :))) hay nếu b tiện giờ hành chính thì b gửi ship giúp m ra toà DMC ở kim mã đc khum",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 93,
+        "end": 109,
+        "label": "ADDRESS",
+        "text": "toà DMC ở kim mã"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "khánh vân\n0867885663\ntoà R4A goldmark city 136 hồ tùng mậu, phường phú diễn, bắc từ liêm, HN",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "NAME",
+        "text": "khánh vân"
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "label": "PHONE",
+        "text": "0867885663"
+      },
+      {
+        "start": 21,
+        "end": 92,
+        "label": "ADDRESS",
+        "text": "toà R4A goldmark city 136 hồ tùng mậu, phường phú diễn, bắc từ liêm, HN"
+      },
+      {
+        "start": 90,
+        "end": 92,
+        "label": "CITY",
+        "text": "HN"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "mình tên nhi\nsdt 0972358944",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 9,
+        "end": 12,
+        "label": "NAME",
+        "text": "nhi"
+      },
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PHONE",
+        "text": "0972358944"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "dc: 44 an dương vương p9 q5",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 27,
+        "label": "ADDRESS",
+        "text": "44 an dương vương p9 q5"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "label": "CITY",
+        "text": "q5"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "Nhi\n0972358944\ndc: 44 an dương vương p9 q5",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "label": "NAME",
+        "text": "Nhi"
+      },
+      {
+        "start": 4,
+        "end": 14,
+        "label": "PHONE",
+        "text": "0972358944"
+      },
+      {
+        "start": 19,
+        "end": 42,
+        "label": "ADDRESS",
+        "text": "44 an dương vương p9 q5"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "t cx ở hà nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "CITY",
+        "text": "hà nội"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Lê Minh",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "NAME",
+        "text": "Lê Minh"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "0971767754",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PHONE",
+        "text": "0971767754"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "THPT FPT Hà Nội Hoà Lạc Thạch Thất",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "Ánh Dương 0961181235\r\nCửa hàng Quân Tâm, phố Cầu Hương, Thổ Tang, Vĩnh Tường, Vĩnh Phúc",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "NAME",
+        "text": "Ánh Dương"
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "label": "PHONE",
+        "text": "0961181235"
+      },
+      {
+        "start": 22,
+        "end": 87,
+        "label": "ADDRESS",
+        "text": "Cửa hàng Quân Tâm, phố Cầu Hương, Thổ Tang, Vĩnh Tường, Vĩnh Phúc"
+      },
+      {
+        "start": 78,
+        "end": 87,
+        "label": "CITY",
+        "text": "Vĩnh Phúc"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "số 38, ngõ 4 Xóm Cổng Đồng, tổ 20, Làng Bắc Lãm\n0342390933\nNg nhận: Anh Trung\nEm gửi ah",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 47,
+        "label": "ADDRESS",
+        "text": "số 38, ngõ 4 Xóm Cổng Đồng, tổ 20, Làng Bắc Lãm"
+      },
+      {
+        "start": 48,
+        "end": 58,
+        "label": "PHONE",
+        "text": "0342390933"
+      },
+      {
+        "start": 68,
+        "end": 77,
+        "label": "NAME",
+        "text": "Anh Trung"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "em ở quảng bình ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "label": "CITY",
+        "text": "quảng bình"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "Thùy Anh 0842776386 Đối diện siêu thị bình minh, thôn thanh vinh, xã Thanh Trạch, Bố trạch, Quảng Bình",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "NAME",
+        "text": "Thùy Anh"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "label": "PHONE",
+        "text": "0842776386"
+      },
+      {
+        "start": 20,
+        "end": 102,
+        "label": "ADDRESS",
+        "text": "Đối diện siêu thị bình minh, thôn thanh vinh, xã Thanh Trạch, Bố trạch, Quảng Bình"
+      },
+      {
+        "start": 92,
+        "end": 102,
+        "label": "CITY",
+        "text": "Quảng Bình"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "Tên: Ái\nSdt: +84 86 5346047\nĐịa chỉ: 109 trưng nhị, phường 1, tp Vũng tàu",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "NAME",
+        "text": "Ái"
+      },
+      {
+        "start": 13,
+        "end": 27,
+        "label": "PHONE",
+        "text": "+84 86 5346047"
+      },
+      {
+        "start": 37,
+        "end": 73,
+        "label": "ADDRESS",
+        "text": "109 trưng nhị, phường 1, tp Vũng tàu"
+      },
+      {
+        "start": 65,
+        "end": 73,
+        "label": "CITY",
+        "text": "Vũng tàu"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "dạ mình ở hcm ai",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "label": "CITY",
+        "text": "hcm"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "Trần An Phong\n0973332622\n33/6b trung lang phường 12 quận tân bình tp hcm",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "NAME",
+        "text": "Trần An Phong"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "label": "PHONE",
+        "text": "0973332622"
+      },
+      {
+        "start": 25,
+        "end": 65,
+        "label": "ADDRESS",
+        "text": "33/6b trung lang phường 12 quận tân bình"
+      },
+      {
+        "start": 66,
+        "end": 72,
+        "label": "CITY",
+        "text": "tp hcm"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "text": "Không thấy mình rep IG thì báo mình qua số 0916848789 nhé",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 43,
+        "end": 53,
+        "label": "PHONE",
+        "text": "0916848789"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "Mình ở chỗ đào tấn",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "label": "ADDRESS",
+        "text": "đào tấn"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "text": "Đ/c: 24 Linh Lang, Cống Vị, Ba Đình, Hà Nội\nTrang - 0916848789",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 43,
+        "label": "ADDRESS",
+        "text": "24 Linh Lang, Cống Vị, Ba Đình, Hà Nội"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "CITY",
+        "text": "Hà Nội"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "label": "NAME",
+        "text": "Trang"
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "label": "PHONE",
+        "text": "0916848789"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "text": "Hic bạn báo ship ra Linh Lang giúp mình được không",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "label": "ADDRESS",
+        "text": "Linh Lang"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "text": "60 ngõ 157 chùa láng nhé",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "label": "ADDRESS",
+        "text": "60 ngõ 157 chùa láng"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "Dạ bạn ui v bộ này shop vẫn ship ra linh lang cho mình dko ạ",
+    "cats": [
+      "agree_order",
+      "provide_cus_inf"
+    ],
+    "entities": []
+  },
+  {
+    "id": 41,
+    "text": "2 bộ này bạn đặt ship giúp mình về Bắc Ninh nhé",
+    "cats": [
+      "agree_order",
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 35,
+        "end": 43,
+        "label": "CITY",
+        "text": "Bắc Ninh"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "Trang -  0913297999\nĐ/c: BT2-9, Khu đô thị Phúc Ninh, đường Đấu Mã, TP Bắc Ninh, tỉnh Bắc Ninh",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "label": "NAME",
+        "text": "Trang"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "label": "PHONE",
+        "text": "0913297999"
+      },
+      {
+        "start": 25,
+        "end": 94,
+        "label": "ADDRESS",
+        "text": "BT2-9, Khu đô thị Phúc Ninh, đường Đấu Mã, TP Bắc Ninh, tỉnh Bắc Ninh"
+      },
+      {
+        "start": 71,
+        "end": 79,
+        "label": "CITY",
+        "text": "Bắc Ninh"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "Đào Thanh Quang \n0876577142\nSố 16/83 ngõ 24 Kim Đồng, Giáp Bát, Hoàng Mai, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "NAME",
+        "text": "Đào Thanh Quang"
+      },
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PHONE",
+        "text": "0876577142"
+      },
+      {
+        "start": 28,
+        "end": 81,
+        "label": "ADDRESS",
+        "text": "Số 16/83 ngõ 24 Kim Đồng, Giáp Bát, Hoàng Mai, Hà Nội"
+      },
+      {
+        "start": 75,
+        "end": 81,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "Ad ship cho em đến cổng Parabol - Đại học bách khoa Hà Nội ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 19,
+        "end": 58,
+        "label": "ADDRESS",
+        "text": "cổng Parabol - Đại học bách khoa Hà Nội"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "Qua trường ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": []
+  },
+  {
+    "id": 46,
+    "text": "Tên: Gia Khanh\nsdt: 0931012008 \nđc: HP4-05, Vinhomes Riverside, Phúc Đồng, Long Biên, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "label": "NAME",
+        "text": "Gia Khanh"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "label": "PHONE",
+        "text": "0931012008"
+      },
+      {
+        "start": 36,
+        "end": 92,
+        "label": "ADDRESS",
+        "text": "HP4-05, Vinhomes Riverside, Phúc Đồng, Long Biên, Hà Nội"
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "em ở Bắc Ninh ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "label": "CITY",
+        "text": "Bắc Ninh"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "Tên người nhận: Thu Tâm\nSĐT: 0388719815\nĐịa chỉ: 19 Ngõ 6 Đường Thành Cổ, Tổ 18 Khu 4 , phường Vệ An, Thành Phố Bắc Ninh, Bắc Ninh.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "label": "NAME",
+        "text": "Thu Tâm"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0388719815"
+      },
+      {
+        "start": 49,
+        "end": 130,
+        "label": "ADDRESS",
+        "text": "19 Ngõ 6 Đường Thành Cổ, Tổ 18 Khu 4 , phường Vệ An, Thành Phố Bắc Ninh, Bắc Ninh"
+      },
+      {
+        "start": 112,
+        "end": 120,
+        "label": "CITY",
+        "text": "Bắc Ninh"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "Long\n0943752631\nChung cư CT15 greenpark",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "NAME",
+        "text": "Long"
+      },
+      {
+        "start": 5,
+        "end": 15,
+        "label": "PHONE",
+        "text": "0943752631"
+      },
+      {
+        "start": 16,
+        "end": 39,
+        "label": "ADDRESS",
+        "text": "Chung cư CT15 greenpark"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "text": "hmm vậy thì sóp gửi đến vào nhà sách thanh hải gửi cho phòng 1103 nhá ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 65,
+        "label": "ADDRESS",
+        "text": "nhà sách thanh hải gửi cho phòng 1103"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "drui ạ toà chung cư 18t sóp nha",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": []
+  },
+  {
+    "id": 52,
+    "text": "Là khu CT15 toà 18T ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "ADDRESS",
+        "text": "CT15 toà 18T"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "The matrix one sảng diamond đường lê quang đạo nam từ liêm hà nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 65,
+        "label": "ADDRESS",
+        "text": "The matrix one sảng diamond đường lê quang đạo nam từ liêm hà nội"
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "label": "CITY",
+        "text": "hà nội"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "0896673888",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PHONE",
+        "text": "0896673888"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "text": "Ngân 0889977405\n48 Lê Văn Lương, Thanh Xuân, Hà Nội ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "NAME",
+        "text": "Ngân"
+      },
+      {
+        "start": 5,
+        "end": 15,
+        "label": "PHONE",
+        "text": "0889977405"
+      },
+      {
+        "start": 16,
+        "end": 51,
+        "label": "ADDRESS",
+        "text": "48 Lê Văn Lương, Thanh Xuân, Hà Nội"
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "text": "toà Diamond flower ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": []
+  },
+  {
+    "id": 57,
+    "text": "Bảo ngọc\n0968196004\n62 nguyễn huy tưởng thanh xuân hà nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "NAME",
+        "text": "Bảo ngọc"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "label": "PHONE",
+        "text": "0968196004"
+      },
+      {
+        "start": 20,
+        "end": 57,
+        "label": "ADDRESS",
+        "text": "62 nguyễn huy tưởng thanh xuân hà nội"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "label": "CITY",
+        "text": "hà nội"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "text": "Phạm Minh Quang\n0961288579\nKý túc xá khu A, Đường Tạ Quang Bửu, Khu phố 33, Dĩ An, Thành phố Hồ Chí Minh \nnote: Giao ở cổng chính ạ \nem gửi link gg map luôn ạ (https://maps.app.goo.gl/xjfQpdH4QhN17hza9?g_st=ic)",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "NAME",
+        "text": "Phạm Minh Quang"
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PHONE",
+        "text": "0961288579"
+      },
+      {
+        "start": 27,
+        "end": 104,
+        "label": "ADDRESS",
+        "text": "Ký túc xá khu A, Đường Tạ Quang Bửu, Khu phố 33, Dĩ An, Thành phố Hồ Chí Minh"
+      },
+      {
+        "start": 83,
+        "end": 104,
+        "label": "CITY",
+        "text": "Thành phố Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "text": "Mình ở hà nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "CITY",
+        "text": "hà nội"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "Mình đang đỗ ô tô ngay trc ga Hà Nội luôn nha",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "16 bình lộc phương tân bình khu 5 thành phố Hải Phòng ( HD cũ ) ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 53,
+        "label": "ADDRESS",
+        "text": "16 bình lộc phương tân bình khu 5 thành phố Hải Phòng"
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "vi anh nhé a",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": []
+  },
+  {
+    "id": 63,
+    "text": "Phùng Vi Anh\n086 2417163\n16 bình lộc phương tân bình khu 5 thành phố Hải Dương",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "NAME",
+        "text": "Phùng Vi Anh"
+      },
+      {
+        "start": 13,
+        "end": 24,
+        "label": "PHONE",
+        "text": "086 2417163"
+      },
+      {
+        "start": 25,
+        "end": 78,
+        "label": "ADDRESS",
+        "text": "16 bình lộc phương tân bình khu 5 thành phố Hải Dương"
+      },
+      {
+        "start": 69,
+        "end": 78,
+        "label": "CITY",
+        "text": "Hải Dương"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "0582574886",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PHONE",
+        "text": "0582574886"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "đinh bảo sdt 0369339910 \nsố nhà 85 tổ 1 khu 1a phường cao thắng hạ long quảng ninh",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "NAME",
+        "text": "đinh bảo"
+      },
+      {
+        "start": 13,
+        "end": 23,
+        "label": "PHONE",
+        "text": "0369339910"
+      },
+      {
+        "start": 25,
+        "end": 82,
+        "label": "ADDRESS",
+        "text": "số nhà 85 tổ 1 khu 1a phường cao thắng hạ long quảng ninh"
+      },
+      {
+        "start": 72,
+        "end": 82,
+        "label": "CITY",
+        "text": "quảng ninh"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "Phương Linh, 0886662468, P2-22 Eastern Park, Thạch Bàn, Long Biên, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "NAME",
+        "text": "Phương Linh"
+      },
+      {
+        "start": 13,
+        "end": 23,
+        "label": "PHONE",
+        "text": "0886662468"
+      },
+      {
+        "start": 25,
+        "end": 73,
+        "label": "ADDRESS",
+        "text": "P2-22 Eastern Park, Thạch Bàn, Long Biên, Hà Nội"
+      },
+      {
+        "start": 67,
+        "end": 73,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "Tối mai b ship sang đc E103 Ngõ 76 Kim Mã Thượng dc k ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 23,
+        "end": 48,
+        "label": "ADDRESS",
+        "text": "E103 Ngõ 76 Kim Mã Thượng"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "B đổi sdt thành 0913097986 luôn hộ mình nha",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PHONE",
+        "text": "0913097986"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "Bùi Thu Hương 0868810829 sn 55 tổ 2 phố Nguyễn danh đới phường trần lãm thành phố thái bình",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "NAME",
+        "text": "Bùi Thu Hương"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "label": "PHONE",
+        "text": "0868810829"
+      },
+      {
+        "start": 25,
+        "end": 91,
+        "label": "ADDRESS",
+        "text": "sn 55 tổ 2 phố Nguyễn danh đới phường trần lãm thành phố thái bình"
+      },
+      {
+        "start": 82,
+        "end": 91,
+        "label": "CITY",
+        "text": "thái bình"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "Bn gửi sang địa chỉ 26A ngõ 37 dịch vọng quận cầu giấy dùm mk",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 54,
+        "label": "ADDRESS",
+        "text": "26A ngõ 37 dịch vọng quận cầu giấy"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "Ngô Cát Tường\n0935896853\n178/17A1 phan đăng lưu, quận phú nhuận",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "NAME",
+        "text": "Ngô Cát Tường"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "label": "PHONE",
+        "text": "0935896853"
+      },
+      {
+        "start": 25,
+        "end": 63,
+        "label": "ADDRESS",
+        "text": "178/17A1 phan đăng lưu, quận phú nhuận"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "Saigon place ngõ 37 trần quốc hoàn cầu giấy hà nội \nSđt: 0815236457\nTên:  Chi \nGiao ngày 5/5",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 50,
+        "label": "ADDRESS",
+        "text": "Saigon place ngõ 37 trần quốc hoàn cầu giấy hà nội"
+      },
+      {
+        "start": 44,
+        "end": 50,
+        "label": "CITY",
+        "text": "hà nội"
+      },
+      {
+        "start": 57,
+        "end": 67,
+        "label": "PHONE",
+        "text": "0815236457"
+      },
+      {
+        "start": 74,
+        "end": 77,
+        "label": "NAME",
+        "text": "Chi"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "text": "nhà số 6 ngõ 48 thái hà đống đa",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 31,
+        "label": "ADDRESS",
+        "text": "nhà số 6 ngõ 48 thái hà đống đa"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "035 9582005-quỳnh anh",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PHONE",
+        "text": "035 9582005"
+      },
+      {
+        "start": 12,
+        "end": 21,
+        "label": "NAME",
+        "text": "quỳnh anh"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "text": "châu\n0818658806\nNgõ 132 khương trung, thanh xuân, hn ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "NAME",
+        "text": "châu"
+      },
+      {
+        "start": 5,
+        "end": 15,
+        "label": "PHONE",
+        "text": "0818658806"
+      },
+      {
+        "start": 16,
+        "end": 52,
+        "label": "ADDRESS",
+        "text": "Ngõ 132 khương trung, thanh xuân, hn"
+      },
+      {
+        "start": 50,
+        "end": 52,
+        "label": "CITY",
+        "text": "hn"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "Thuỳ Linh\n0968587307\nsn 2a, ngõ 60 đường Lương Ngọc Quyến, Văn Quán, Hà Đông",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "NAME",
+        "text": "Thuỳ Linh"
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "label": "PHONE",
+        "text": "0968587307"
+      },
+      {
+        "start": 21,
+        "end": 76,
+        "label": "ADDRESS",
+        "text": "sn 2a, ngõ 60 đường Lương Ngọc Quyến, Văn Quán, Hà Đông"
+      },
+      {
+        "start": 69,
+        "end": 76,
+        "label": "CITY",
+        "text": "Hà Đông"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "text": "Nguyễn Quỳnh Trang\n0963245695\nEm lấy hàng trực tiếp ạ",
+    "cats": [
+      "get_product_direct",
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "label": "NAME",
+        "text": "Nguyễn Quỳnh Trang"
+      },
+      {
+        "start": 19,
+        "end": 29,
+        "label": "PHONE",
+        "text": "0963245695"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "text": "sn 34b ngõ mai hắc đế tổ 14 phường nguyễn trãi thành phố hà giang",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 3,
+        "end": 65,
+        "label": "ADDRESS",
+        "text": "34b ngõ mai hắc đế tổ 14 phường nguyễn trãi thành phố hà giang"
+      },
+      {
+        "start": 57,
+        "end": 65,
+        "label": "CITY",
+        "text": "hà giang"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "text": "sđt 0355313309",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "label": "PHONE",
+        "text": "0355313309"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "text": "Tên: Ngọc Minh\nSDT:0865936825\nĐịa chỉ: Số 22 ngõ 255 Nguyễn Khang, Yên Hoà, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "label": "NAME",
+        "text": "Ngọc Minh"
+      },
+      {
+        "start": 19,
+        "end": 29,
+        "label": "PHONE",
+        "text": "0865936825"
+      },
+      {
+        "start": 39,
+        "end": 82,
+        "label": "ADDRESS",
+        "text": "Số 22 ngõ 255 Nguyễn Khang, Yên Hoà, Hà Nội"
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "text": "- Nguyễn Hoàng Phúc\n- 0382446715\n- Phòng 805, Chung Cư CitiZen, Đ. số 9A, Khu dân cư Trung Sơn, Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 2,
+        "end": 19,
+        "label": "NAME",
+        "text": "Nguyễn Hoàng Phúc"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PHONE",
+        "text": "0382446715"
+      },
+      {
+        "start": 35,
+        "end": 143,
+        "label": "ADDRESS",
+        "text": "Phòng 805, Chung Cư CitiZen, Đ. số 9A, Khu dân cư Trung Sơn, Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh"
+      },
+      {
+        "start": 128,
+        "end": 143,
+        "label": "CITY",
+        "text": "TP. Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "text": "17 Phan Bội Châu, Hoàng Văn Thụ,Hồng Bàng,Hải Phòng \n0705876256\nNgọc Anh",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 51,
+        "label": "ADDRESS",
+        "text": "17 Phan Bội Châu, Hoàng Văn Thụ,Hồng Bàng,Hải Phòng"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "label": "PHONE",
+        "text": "0705876256"
+      },
+      {
+        "start": 64,
+        "end": 72,
+        "label": "NAME",
+        "text": "Ngọc Anh"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "text": "Hn ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "label": "CITY",
+        "text": "Hn"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "text": "khánh vy 0985625001\nSố 20 ngõ 310/21 đường nghi tàm quận tây hồ hà nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "NAME",
+        "text": "khánh vy"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "label": "PHONE",
+        "text": "0985625001"
+      },
+      {
+        "start": 20,
+        "end": 70,
+        "label": "ADDRESS",
+        "text": "Số 20 ngõ 310/21 đường nghi tàm quận tây hồ hà nội"
+      },
+      {
+        "start": 64,
+        "end": 70,
+        "label": "CITY",
+        "text": "hà nội"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "text": "Shop gọi số này giúp mình ạ 0359966003",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0359966003"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "text": "0983041896\nNgọc Ánh\n211 nguyễn đức cảnh, hoàng mai, hà nội ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PHONE",
+        "text": "0983041896"
+      },
+      {
+        "start": 11,
+        "end": 19,
+        "label": "NAME",
+        "text": "Ngọc Ánh"
+      },
+      {
+        "start": 20,
+        "end": 58,
+        "label": "ADDRESS",
+        "text": "211 nguyễn đức cảnh, hoàng mai, hà nội"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "label": "CITY",
+        "text": "hà nội"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "text": "mình ở hn ấy",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 9,
+        "label": "CITY",
+        "text": "hn"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "text": "tên: Trần Anh Hiếu\nSĐT: 0936488320\nĐịa chỉ: Toà A1, Chung cư Green Pearl, 378 Minh Khai, Hai Bà Trưng, Hn",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "label": "NAME",
+        "text": "Trần Anh Hiếu"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0936488320"
+      },
+      {
+        "start": 44,
+        "end": 105,
+        "label": "ADDRESS",
+        "text": "Toà A1, Chung cư Green Pearl, 378 Minh Khai, Hai Bà Trưng, Hn"
+      },
+      {
+        "start": 103,
+        "end": 105,
+        "label": "CITY",
+        "text": "Hn"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "text": "tên: Trần Anh Hiếu\nSĐT: 0936488320\nĐịa chỉ: Toà A1, Chung cư Green Pearl, 378 Minh Khai, Hai Bà Trưng, Hn",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "label": "NAME",
+        "text": "Trần Anh Hiếu"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0936488320"
+      },
+      {
+        "start": 44,
+        "end": 105,
+        "label": "ADDRESS",
+        "text": "Toà A1, Chung cư Green Pearl, 378 Minh Khai, Hai Bà Trưng, Hn"
+      },
+      {
+        "start": 103,
+        "end": 105,
+        "label": "CITY",
+        "text": "Hn"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "text": "Tên người nhận là Nguyễn Minh Anh, số điện thoại 0912345678, địa chỉ số 25 ngõ 12 phố Chùa Láng, phường Láng Thượng, quận Đống Đa, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "label": "NAME",
+        "text": "Nguyễn Minh Anh"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "label": "PHONE",
+        "text": "0912345678"
+      },
+      {
+        "start": 69,
+        "end": 137,
+        "label": "ADDRESS",
+        "text": "số 25 ngõ 12 phố Chùa Láng, phường Láng Thượng, quận Đống Đa, Hà Nội"
+      },
+      {
+        "start": 131,
+        "end": 137,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "text": "Em tên Trần Thu Hà, SĐT 0987654321, nhận hàng tại căn hộ A1205 chung cư Vinhomes Smart City, phường Tây Mỗ, quận Nam Từ Liêm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "label": "NAME",
+        "text": "Trần Thu Hà"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0987654321"
+      },
+      {
+        "start": 50,
+        "end": 132,
+        "label": "ADDRESS",
+        "text": "căn hộ A1205 chung cư Vinhomes Smart City, phường Tây Mỗ, quận Nam Từ Liêm, Hà Nội"
+      },
+      {
+        "start": 126,
+        "end": 132,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "text": "Người nhận là Lê Quốc Bảo, điện thoại 0903456789, địa chỉ 178 đường Nguyễn Văn Cừ, phường An Hòa, quận Ninh Kiều, Cần Thơ.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "label": "NAME",
+        "text": "Lê Quốc Bảo"
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "label": "PHONE",
+        "text": "0903456789"
+      },
+      {
+        "start": 58,
+        "end": 121,
+        "label": "ADDRESS",
+        "text": "178 đường Nguyễn Văn Cừ, phường An Hòa, quận Ninh Kiều, Cần Thơ"
+      },
+      {
+        "start": 114,
+        "end": 121,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "text": "Chị tên Phạm Ngọc Lan, số 0934567890, địa chỉ số 12 đường Trần Phú, phường Hải Châu 1, quận Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "NAME",
+        "text": "Phạm Ngọc Lan"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0934567890"
+      },
+      {
+        "start": 46,
+        "end": 109,
+        "label": "ADDRESS",
+        "text": "số 12 đường Trần Phú, phường Hải Châu 1, quận Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 102,
+        "end": 109,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "text": "Anh ghi giúp em tên Hoàng Gia Huy, số điện thoại 0978123456, địa chỉ 45/8 đường Lê Văn Sỹ, phường 13, quận Phú Nhuận, TP. Hồ Chí Minh.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 33,
+        "label": "NAME",
+        "text": "Hoàng Gia Huy"
+      },
+      {
+        "start": 49,
+        "end": 59,
+        "label": "PHONE",
+        "text": "0978123456"
+      },
+      {
+        "start": 69,
+        "end": 133,
+        "label": "ADDRESS",
+        "text": "45/8 đường Lê Văn Sỹ, phường 13, quận Phú Nhuận, TP. Hồ Chí Minh"
+      },
+      {
+        "start": 118,
+        "end": 133,
+        "label": "CITY",
+        "text": "TP. Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "text": "Tôi là Nguyễn Thị Mai, số điện thoại 0945678901, nhận tại số 88 đường Võ Thị Sáu, phường Thống Nhất, thành phố Biên Hòa, Đồng Nai.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "NAME",
+        "text": "Nguyễn Thị Mai"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "PHONE",
+        "text": "0945678901"
+      },
+      {
+        "start": 58,
+        "end": 129,
+        "label": "ADDRESS",
+        "text": "số 88 đường Võ Thị Sáu, phường Thống Nhất, thành phố Biên Hòa, Đồng Nai"
+      },
+      {
+        "start": 121,
+        "end": 129,
+        "label": "CITY",
+        "text": "Đồng Nai"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "text": "Người nhận Trần Đức Nam, SĐT 0961234567, địa chỉ căn 1809 tòa S2.03 Vinhomes Ocean Park, xã Đa Tốn, huyện Gia Lâm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "label": "NAME",
+        "text": "Trần Đức Nam"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0961234567"
+      },
+      {
+        "start": 49,
+        "end": 121,
+        "label": "ADDRESS",
+        "text": "căn 1809 tòa S2.03 Vinhomes Ocean Park, xã Đa Tốn, huyện Gia Lâm, Hà Nội"
+      },
+      {
+        "start": 115,
+        "end": 121,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "text": "Em tên Đỗ Khánh Linh, số 0923456789, địa chỉ 63 đường Nguyễn Huệ, phường Bến Nghé, quận 1, TP. Hồ Chí Minh.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Đỗ Khánh Linh"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "0923456789"
+      },
+      {
+        "start": 45,
+        "end": 106,
+        "label": "ADDRESS",
+        "text": "63 đường Nguyễn Huệ, phường Bến Nghé, quận 1, TP. Hồ Chí Minh"
+      },
+      {
+        "start": 91,
+        "end": 106,
+        "label": "CITY",
+        "text": "TP. Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "text": "Anh gửi cho chị Nguyễn Thanh Hương, số điện thoại 0899123456, địa chỉ số 7 ngõ 34 phố Hoàng Cầu, phường Ô Chợ Dừa, quận Đống Đa, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 34,
+        "label": "NAME",
+        "text": "Nguyễn Thanh Hương"
+      },
+      {
+        "start": 50,
+        "end": 60,
+        "label": "PHONE",
+        "text": "0899123456"
+      },
+      {
+        "start": 70,
+        "end": 135,
+        "label": "ADDRESS",
+        "text": "số 7 ngõ 34 phố Hoàng Cầu, phường Ô Chợ Dừa, quận Đống Đa, Hà Nội"
+      },
+      {
+        "start": 129,
+        "end": 135,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "text": "Mình là Lê Minh Khang, điện thoại 0812345678, địa chỉ 24 đường Lý Tự Trọng, phường Minh Khai, quận Hồng Bàng, Hải Phòng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "NAME",
+        "text": "Lê Minh Khang"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "PHONE",
+        "text": "0812345678"
+      },
+      {
+        "start": 54,
+        "end": 119,
+        "label": "ADDRESS",
+        "text": "24 đường Lý Tự Trọng, phường Minh Khai, quận Hồng Bàng, Hải Phòng"
+      },
+      {
+        "start": 110,
+        "end": 119,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "text": "Tên nhận hàng là Phan Tuấn Kiệt, số 0901122334, địa chỉ số 101 đường Phạm Văn Đồng, phường Linh Đông, thành phố Thủ Đức, TP. Hồ Chí Minh.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "label": "NAME",
+        "text": "Phan Tuấn Kiệt"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "label": "PHONE",
+        "text": "0901122334"
+      },
+      {
+        "start": 56,
+        "end": 136,
+        "label": "ADDRESS",
+        "text": "số 101 đường Phạm Văn Đồng, phường Linh Đông, thành phố Thủ Đức, TP. Hồ Chí Minh"
+      },
+      {
+        "start": 121,
+        "end": 136,
+        "label": "CITY",
+        "text": "TP. Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "text": "Em tên Vũ Ngọc Anh, SĐT 0977445566, địa chỉ căn B0806 chung cư Eco Green, phường Tân Thuận Tây, quận 7, TP. Hồ Chí Minh.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "label": "NAME",
+        "text": "Vũ Ngọc Anh"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0977445566"
+      },
+      {
+        "start": 44,
+        "end": 119,
+        "label": "ADDRESS",
+        "text": "căn B0806 chung cư Eco Green, phường Tân Thuận Tây, quận 7, TP. Hồ Chí Minh"
+      },
+      {
+        "start": 104,
+        "end": 119,
+        "label": "CITY",
+        "text": "TP. Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "text": "Người nhận là Bùi Quang Huy, số điện thoại 0939988776, địa chỉ 56 đường Trần Hưng Đạo, phường Cửa Nam, quận Hoàn Kiếm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "label": "NAME",
+        "text": "Bùi Quang Huy"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "label": "PHONE",
+        "text": "0939988776"
+      },
+      {
+        "start": 63,
+        "end": 125,
+        "label": "ADDRESS",
+        "text": "56 đường Trần Hưng Đạo, phường Cửa Nam, quận Hoàn Kiếm, Hà Nội"
+      },
+      {
+        "start": 119,
+        "end": 125,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "text": "Chị tên Nguyễn Bảo Trâm, số 0862345678, địa chỉ số 14 đường Nguyễn Trãi, phường Phú Hội, thành phố Huế.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "NAME",
+        "text": "Nguyễn Bảo Trâm"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0862345678"
+      },
+      {
+        "start": 48,
+        "end": 102,
+        "label": "ADDRESS",
+        "text": "số 14 đường Nguyễn Trãi, phường Phú Hội, thành phố Huế"
+      },
+      {
+        "start": 99,
+        "end": 102,
+        "label": "CITY",
+        "text": "Huế"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "text": "Anh ghi tên Lâm Hoàng Phúc, điện thoại 0988111222, địa chỉ 220 đường Điện Biên Phủ, phường 17, quận Bình Thạnh, TP. Hồ Chí Minh.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "label": "NAME",
+        "text": "Lâm Hoàng Phúc"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "label": "PHONE",
+        "text": "0988111222"
+      },
+      {
+        "start": 59,
+        "end": 127,
+        "label": "ADDRESS",
+        "text": "220 đường Điện Biên Phủ, phường 17, quận Bình Thạnh, TP. Hồ Chí Minh"
+      },
+      {
+        "start": 116,
+        "end": 127,
+        "label": "CITY",
+        "text": "Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "text": "Tôi là Trần Mỹ Duyên, số điện thoại 0902233445, nhận tại số 9 đường Hùng Vương, phường Tự An, thành phố Buôn Ma Thuột, Đắk Lắk.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Trần Mỹ Duyên"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "label": "PHONE",
+        "text": "0902233445"
+      },
+      {
+        "start": 57,
+        "end": 126,
+        "label": "ADDRESS",
+        "text": "số 9 đường Hùng Vương, phường Tự An, thành phố Buôn Ma Thuột, Đắk Lắk"
+      },
+      {
+        "start": 119,
+        "end": 126,
+        "label": "CITY",
+        "text": "Đắk Lắk"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "text": "Em tên Nguyễn Gia Bảo, SĐT 0915566778, địa chỉ 33 ngõ 5 phố Tôn Đức Thắng, phường Hàng Bột, quận Đống Đa, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "NAME",
+        "text": "Nguyễn Gia Bảo"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0915566778"
+      },
+      {
+        "start": 47,
+        "end": 112,
+        "label": "ADDRESS",
+        "text": "33 ngõ 5 phố Tôn Đức Thắng, phường Hàng Bột, quận Đống Đa, Hà Nội"
+      },
+      {
+        "start": 106,
+        "end": 112,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "text": "Người nhận là Đặng Hải Yến, số 0941122334, địa chỉ căn hộ C1502 Masteri Thảo Điền, phường Thảo Điền, thành phố Thủ Đức, TP. Hồ Chí Minh.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 26,
+        "label": "NAME",
+        "text": "Đặng Hải Yến"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "0941122334"
+      },
+      {
+        "start": 58,
+        "end": 135,
+        "label": "ADDRESS",
+        "text": "C1502 Masteri Thảo Điền, phường Thảo Điền, thành phố Thủ Đức, TP. Hồ Chí Minh"
+      },
+      {
+        "start": 120,
+        "end": 135,
+        "label": "CITY",
+        "text": "TP. Hồ Chí Minh"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "text": "Chị tên Phạm Quốc Khánh, điện thoại 0972334455, địa chỉ 75 đường Lê Lợi, phường Lam Sơn, thành phố Thanh Hóa.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "NAME",
+        "text": "Phạm Quốc Khánh"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "label": "PHONE",
+        "text": "0972334455"
+      },
+      {
+        "start": 56,
+        "end": 108,
+        "label": "ADDRESS",
+        "text": "75 đường Lê Lợi, phường Lam Sơn, thành phố Thanh Hóa"
+      },
+      {
+        "start": 99,
+        "end": 108,
+        "label": "CITY",
+        "text": "Thanh Hóa"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "text": "Anh ghi giúp em tên Võ Minh Tâm, số điện thoại 0898234567, địa chỉ số 42 đường Nguyễn Tất Thành, phường Xuân Hà, quận Thanh Khê, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 31,
+        "label": "NAME",
+        "text": "Võ Minh Tâm"
+      },
+      {
+        "start": 47,
+        "end": 57,
+        "label": "PHONE",
+        "text": "0898234567"
+      },
+      {
+        "start": 67,
+        "end": 136,
+        "label": "ADDRESS",
+        "text": "số 42 đường Nguyễn Tất Thành, phường Xuân Hà, quận Thanh Khê, Đà Nẵng"
+      },
+      {
+        "start": 129,
+        "end": 136,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "Em tên Nguyễn Khánh Vy, SĐT 0916677889, địa chỉ 16 ngõ 45 Trần Duy Hưng, P. Trung Hòa, Q. Cầu Giấy, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "NAME",
+        "text": "Nguyễn Khánh Vy"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0916677889"
+      },
+      {
+        "start": 48,
+        "end": 106,
+        "label": "ADDRESS",
+        "text": "16 ngõ 45 Trần Duy Hưng, P. Trung Hòa, Q. Cầu Giấy, Hà Nội"
+      },
+      {
+        "start": 100,
+        "end": 106,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "text": "Người nhận là Trần Quốc Anh, số điện thoại 0982345671, căn B1208 Goldmark City, 136 Hồ Tùng Mậu, Bắc Từ Liêm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "label": "NAME",
+        "text": "Trần Quốc Anh"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "label": "PHONE",
+        "text": "0982345671"
+      },
+      {
+        "start": 59,
+        "end": 116,
+        "label": "ADDRESS",
+        "text": "B1208 Goldmark City, 136 Hồ Tùng Mậu, Bắc Từ Liêm, Hà Nội"
+      },
+      {
+        "start": 110,
+        "end": 116,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "text": "Anh ghi giúp tôi tên Lê Thảo Nguyên, số 0905566778, 52 Lê Duẩn, Hải Châu 1, Q. Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "NAME",
+        "text": "Lê Thảo Nguyên"
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "label": "PHONE",
+        "text": "0905566778"
+      },
+      {
+        "start": 52,
+        "end": 96,
+        "label": "ADDRESS",
+        "text": "52 Lê Duẩn, Hải Châu 1, Q. Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 89,
+        "end": 96,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "text": "Chị tên Phạm Minh Tú, điện thoại 0973456123, 88/4 Nguyễn Thị Minh Khai, Q.3, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "NAME",
+        "text": "Phạm Minh Tú"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "label": "PHONE",
+        "text": "0973456123"
+      },
+      {
+        "start": 45,
+        "end": 75,
+        "label": "ADDRESS",
+        "text": "88/4 Nguyễn Thị Minh Khai, Q.3"
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "text": "Mình là Hoàng Đức Long, số 0942233445, số 11 đường 30/4, P. Xuân Khánh, Ninh Kiều, Cần Thơ.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "NAME",
+        "text": "Hoàng Đức Long"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0942233445"
+      },
+      {
+        "start": 42,
+        "end": 90,
+        "label": "ADDRESS",
+        "text": "11 đường 30/4, P. Xuân Khánh, Ninh Kiều, Cần Thơ"
+      },
+      {
+        "start": 83,
+        "end": 90,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "text": "Tên nhận hàng Nguyễn Bảo Châu, 0899123678, căn S1.1509 Vinhomes Grand Park, Long Bình, TP. Thủ Đức, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 29,
+        "label": "NAME",
+        "text": "Nguyễn Bảo Châu"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "0899123678"
+      },
+      {
+        "start": 43,
+        "end": 98,
+        "label": "ADDRESS",
+        "text": "căn S1.1509 Vinhomes Grand Park, Long Bình, TP. Thủ Đức"
+      },
+      {
+        "start": 100,
+        "end": 106,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "text": "Em tên Đặng Nhật Minh, SĐT 0812349876, 35 Trường Chinh, P. Tân Lợi, TP Buôn Ma Thuột, Đắk Lắk.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "NAME",
+        "text": "Đặng Nhật Minh"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0812349876"
+      },
+      {
+        "start": 39,
+        "end": 93,
+        "label": "ADDRESS",
+        "text": "35 Trường Chinh, P. Tân Lợi, TP Buôn Ma Thuột, Đắk Lắk"
+      },
+      {
+        "start": 71,
+        "end": 84,
+        "label": "CITY",
+        "text": "Buôn Ma Thuột"
+      },
+      {
+        "start": 86,
+        "end": 93,
+        "label": "CITY",
+        "text": "Đắk Lắk"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "text": "Người nhận Trần Thu Uyên, số 0967788990, 104 Hùng Vương, P. An Cựu, TP Huế.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "label": "NAME",
+        "text": "Trần Thu Uyên"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0967788990"
+      },
+      {
+        "start": 41,
+        "end": 66,
+        "label": "ADDRESS",
+        "text": "104 Hùng Vương, P. An Cựu"
+      },
+      {
+        "start": 71,
+        "end": 74,
+        "label": "CITY",
+        "text": "Huế"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "text": "Anh gửi cho chị Lưu Gia Hân, điện thoại 0934455667, 7 ngõ 98 Thái Hà, Đống Đa, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "NAME",
+        "text": "Lưu Gia Hân"
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "label": "PHONE",
+        "text": "0934455667"
+      },
+      {
+        "start": 52,
+        "end": 85,
+        "label": "ADDRESS",
+        "text": "7 ngõ 98 Thái Hà, Đống Đa, Hà Nội"
+      },
+      {
+        "start": 79,
+        "end": 85,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "text": "Tôi là Vũ Thanh Phong, số 0908877665, 142 Phạm Văn Đồng, Linh Tây, Thủ Đức, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "NAME",
+        "text": "Vũ Thanh Phong"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0908877665"
+      },
+      {
+        "start": 38,
+        "end": 82,
+        "label": "ADDRESS",
+        "text": "142 Phạm Văn Đồng, Linh Tây, Thủ Đức, TP.HCM"
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "Em tên Bùi Ngọc Mai, SĐT 0981122335, căn A1706 The Manor, Mễ Trì, Nam Từ Liêm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Bùi Ngọc Mai"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "0981122335"
+      },
+      {
+        "start": 37,
+        "end": 85,
+        "label": "ADDRESS",
+        "text": "căn A1706 The Manor, Mễ Trì, Nam Từ Liêm, Hà Nội"
+      },
+      {
+        "start": 79,
+        "end": 85,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "text": "Người nhận là Nguyễn Hoàng Nam, 0913344556, 23 Nguyễn Văn Linh, P. Vĩnh Trung, Thanh Khê, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "label": "NAME",
+        "text": "Nguyễn Hoàng Nam"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0913344556"
+      },
+      {
+        "start": 44,
+        "end": 97,
+        "label": "ADDRESS",
+        "text": "23 Nguyễn Văn Linh, P. Vĩnh Trung, Thanh Khê, Đà Nẵng"
+      },
+      {
+        "start": 90,
+        "end": 97,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "text": "Chị tên Trương Minh Anh, số điện thoại 0945566779, 65 Lê Hồng Phong, Ngô Quyền, Hải Phòng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "NAME",
+        "text": "Trương Minh Anh"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "label": "PHONE",
+        "text": "0945566779"
+      },
+      {
+        "start": 51,
+        "end": 89,
+        "label": "ADDRESS",
+        "text": "65 Lê Hồng Phong, Ngô Quyền, Hải Phòng"
+      },
+      {
+        "start": 80,
+        "end": 89,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "text": "Anh ghi tên Phan Gia Bảo, 0977766554, 19/6 Điện Biên Phủ, Bình Thạnh, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "NAME",
+        "text": "Phan Gia Bảo"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0977766554"
+      },
+      {
+        "start": 38,
+        "end": 76,
+        "label": "ADDRESS",
+        "text": "19/6 Điện Biên Phủ, Bình Thạnh, TP.HCM"
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "text": "Mình là Đỗ Thu Trang, số 0898345671, 210 Trần Phú, P. Phước Ninh, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "NAME",
+        "text": "Đỗ Thu Trang"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "0898345671"
+      },
+      {
+        "start": 37,
+        "end": 83,
+        "label": "ADDRESS",
+        "text": "210 Trần Phú, P. Phước Ninh, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "text": "Người nhận Nguyễn Đức Huy, 0919988776, căn C0905 Imperia Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "label": "NAME",
+        "text": "Nguyễn Đức Huy"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0919988776"
+      },
+      {
+        "start": 39,
+        "end": 96,
+        "label": "ADDRESS",
+        "text": "căn C0905 Imperia Smart City, Tây Mỗ, Nam Từ Liêm, Hà Nội"
+      },
+      {
+        "start": 90,
+        "end": 96,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "text": "Em tên Lê Minh Khuê, số 0961122337, 48 Nguyễn Trãi, P. Phú Hội, Huế.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Lê Minh Khuê"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0961122337"
+      },
+      {
+        "start": 36,
+        "end": 67,
+        "label": "ADDRESS",
+        "text": "48 Nguyễn Trãi, P. Phú Hội, Huế"
+      },
+      {
+        "start": 64,
+        "end": 67,
+        "label": "CITY",
+        "text": "Huế"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "text": "Anh gửi cho tôi tên Trần Quốc Đạt, 0936677881, 12 Võ Văn Tần, Q.3, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 33,
+        "label": "NAME",
+        "text": "Trần Quốc Đạt"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "label": "PHONE",
+        "text": "0936677881"
+      },
+      {
+        "start": 47,
+        "end": 73,
+        "label": "ADDRESS",
+        "text": "12 Võ Văn Tần, Q.3, TP.HCM"
+      },
+      {
+        "start": 67,
+        "end": 73,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "text": "Chị tên Vương Bảo Ngọc, SĐT 0987766552, 75 Quang Trung, Hà Đông, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "NAME",
+        "text": "Vương Bảo Ngọc"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0987766552"
+      },
+      {
+        "start": 40,
+        "end": 71,
+        "label": "ADDRESS",
+        "text": "75 Quang Trung, Hà Đông, Hà Nội"
+      },
+      {
+        "start": 65,
+        "end": 71,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "text": "Tôi là Nguyễn Tiến Đạt, số 0909988112, 28 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "NAME",
+        "text": "Nguyễn Tiến Đạt"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0909988112"
+      },
+      {
+        "start": 39,
+        "end": 74,
+        "label": "ADDRESS",
+        "text": "28 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội"
+      },
+      {
+        "start": 68,
+        "end": 74,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "text": "Em tên Hồ Khánh Linh, 0975544332, 6A Nguyễn Văn Cừ, Long Biên, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Hồ Khánh Linh"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PHONE",
+        "text": "0975544332"
+      },
+      {
+        "start": 34,
+        "end": 69,
+        "label": "ADDRESS",
+        "text": "6A Nguyễn Văn Cừ, Long Biên, Hà Nội"
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "text": "Người nhận là Võ Anh Thư, số 0947788991, căn R3.2208 Royal City, Thanh Xuân, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "label": "NAME",
+        "text": "Võ Anh Thư"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0947788991"
+      },
+      {
+        "start": 41,
+        "end": 83,
+        "label": "ADDRESS",
+        "text": "căn R3.2208 Royal City, Thanh Xuân, Hà Nội"
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "text": "Anh ghi giúp tên Phạm Nhật Hào, 0898456123, 109 Lý Thường Kiệt, P.7, Tân Bình, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "label": "NAME",
+        "text": "Phạm Nhật Hào"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0898456123"
+      },
+      {
+        "start": 44,
+        "end": 85,
+        "label": "ADDRESS",
+        "text": "109 Lý Thường Kiệt, P.7, Tân Bình, TP.HCM"
+      },
+      {
+        "start": 79,
+        "end": 85,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "text": "Chị tên Đinh Quỳnh Chi, 0912233448, 54 Pasteur, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "NAME",
+        "text": "Đinh Quỳnh Chi"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0912233448"
+      },
+      {
+        "start": 36,
+        "end": 65,
+        "label": "ADDRESS",
+        "text": "54 Pasteur, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 58,
+        "end": 65,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "text": "Mình là Nguyễn Tuấn Kiệt, số 0988877663, 31 Võ Thị Sáu, Thống Nhất, Biên Hòa, Đồng Nai.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "label": "NAME",
+        "text": "Nguyễn Tuấn Kiệt"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0988877663"
+      },
+      {
+        "start": 41,
+        "end": 86,
+        "label": "ADDRESS",
+        "text": "31 Võ Thị Sáu, Thống Nhất, Biên Hòa, Đồng Nai"
+      },
+      {
+        "start": 78,
+        "end": 86,
+        "label": "CITY",
+        "text": "Đồng Nai"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "text": "Người nhận Trần Gia Linh, 0931122445, 99 Hai Bà Trưng, Q.1, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "label": "NAME",
+        "text": "Trần Gia Linh"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0931122445"
+      },
+      {
+        "start": 38,
+        "end": 66,
+        "label": "ADDRESS",
+        "text": "99 Hai Bà Trưng, Q.1, TP.HCM"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "text": "Em tên Lý Hoàng Phúc, SĐT 0964433221, 44 Lê Lợi, Lam Sơn, TP Thanh Hóa.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Lý Hoàng Phúc"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0964433221"
+      },
+      {
+        "start": 38,
+        "end": 70,
+        "label": "ADDRESS",
+        "text": "44 Lê Lợi, Lam Sơn, TP Thanh Hóa"
+      },
+      {
+        "start": 61,
+        "end": 70,
+        "label": "CITY",
+        "text": "Thanh Hóa"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "text": "Anh gửi cho chị Nguyễn Kim Ngân, 0905544338, căn A2307 Times City, Hai Bà Trưng, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 31,
+        "label": "NAME",
+        "text": "Nguyễn Kim Ngân"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "label": "PHONE",
+        "text": "0905544338"
+      },
+      {
+        "start": 45,
+        "end": 87,
+        "label": "ADDRESS",
+        "text": "căn A2307 Times City, Hai Bà Trưng, Hà Nội"
+      },
+      {
+        "start": 81,
+        "end": 87,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "text": "Tôi là Đỗ Minh Châu, số 0971122338, 13 Trần Não, An Khánh, TP. Thủ Đức, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Đỗ Minh Châu"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0971122338"
+      },
+      {
+        "start": 36,
+        "end": 78,
+        "label": "ADDRESS",
+        "text": "13 Trần Não, An Khánh, TP. Thủ Đức, TP.HCM"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "text": "Tên người nhận Phan Thanh Tùng, 0943344557, 86 Nguyễn Huệ, Bến Nghé, Q.1, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 30,
+        "label": "NAME",
+        "text": "Phan Thanh Tùng"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0943344557"
+      },
+      {
+        "start": 44,
+        "end": 80,
+        "label": "ADDRESS",
+        "text": "86 Nguyễn Huệ, Bến Nghé, Q.1, TP.HCM"
+      },
+      {
+        "start": 74,
+        "end": 80,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "text": "Em tên Trần Khả Hân, 0899988772, 22 Nguyễn Công Trứ, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Trần Khả Hân"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "label": "PHONE",
+        "text": "0899988772"
+      },
+      {
+        "start": 33,
+        "end": 70,
+        "label": "ADDRESS",
+        "text": "22 Nguyễn Công Trứ, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "text": "Người nhận là Nguyễn Đức Thành, số 0915566443, 17 ngách 4 ngõ 85 Hạ Đình, Thanh Xuân, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "label": "NAME",
+        "text": "Nguyễn Đức Thành"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "label": "PHONE",
+        "text": "0915566443"
+      },
+      {
+        "start": 47,
+        "end": 92,
+        "label": "ADDRESS",
+        "text": "17 ngách 4 ngõ 85 Hạ Đình, Thanh Xuân, Hà Nội"
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "text": "Anh ghi giúp tôi tên Vũ Bảo Trâm, 0983344559, 120 Phan Đình Phùng, TP Vinh, Nghệ An.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "label": "NAME",
+        "text": "Vũ Bảo Trâm"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "PHONE",
+        "text": "0983344559"
+      },
+      {
+        "start": 46,
+        "end": 83,
+        "label": "ADDRESS",
+        "text": "120 Phan Đình Phùng, TP Vinh, Nghệ An"
+      },
+      {
+        "start": 70,
+        "end": 74,
+        "label": "CITY",
+        "text": "Vinh"
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "label": "CITY",
+        "text": "Nghệ An"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "text": "Chị tên Lê Quốc Hưng, 0907766559, căn S2.0812 Vinhomes Ocean Park, Gia Lâm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "NAME",
+        "text": "Lê Quốc Hưng"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PHONE",
+        "text": "0907766559"
+      },
+      {
+        "start": 34,
+        "end": 82,
+        "label": "ADDRESS",
+        "text": "căn S2.0812 Vinhomes Ocean Park, Gia Lâm, Hà Nội"
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "text": "Mình là Trương Hải Nam, số 0976655441, 73 Hoàng Diệu, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "NAME",
+        "text": "Trương Hải Nam"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0976655441"
+      },
+      {
+        "start": 39,
+        "end": 71,
+        "label": "ADDRESS",
+        "text": "73 Hoàng Diệu, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 64,
+        "end": 71,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "text": "Người nhận Nguyễn Ngọc Hân, 0942233114, 15 Nguyễn Du, Bến Thành, Q.1, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "label": "NAME",
+        "text": "Nguyễn Ngọc Hân"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0942233114"
+      },
+      {
+        "start": 40,
+        "end": 68,
+        "label": "ADDRESS",
+        "text": "15 Nguyễn Du, Bến Thành, Q.1"
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "text": "Em tên Đặng Tuấn Anh, SĐT 0898123459, 204 Tô Hiệu, Lê Chân, Hải Phòng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Đặng Tuấn Anh"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0898123459"
+      },
+      {
+        "start": 38,
+        "end": 69,
+        "label": "ADDRESS",
+        "text": "204 Tô Hiệu, Lê Chân, Hải Phòng"
+      },
+      {
+        "start": 60,
+        "end": 69,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "text": "Anh gửi cho chị Bùi Gia Hân, 0914433229, 39 Trần Quang Khải, Hoàn Kiếm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "NAME",
+        "text": "Bùi Gia Hân"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0914433229"
+      },
+      {
+        "start": 41,
+        "end": 78,
+        "label": "ADDRESS",
+        "text": "39 Trần Quang Khải, Hoàn Kiếm, Hà Nội"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "text": "Tôi là Phạm Quốc Việt, số 0985566772, 58 Võ Nguyên Giáp, Sơn Trà, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "NAME",
+        "text": "Phạm Quốc Việt"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0985566772"
+      },
+      {
+        "start": 38,
+        "end": 73,
+        "label": "ADDRESS",
+        "text": "58 Võ Nguyên Giáp, Sơn Trà, Đà Nẵng"
+      },
+      {
+        "start": 66,
+        "end": 73,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "text": "Tên nhận hàng Nguyễn Minh Châu, 0937788994, căn M2.1405 Masteri Centre Point, Long Thạnh Mỹ, TP. Thủ Đức, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "label": "NAME",
+        "text": "Nguyễn Minh Châu"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0937788994"
+      },
+      {
+        "start": 44,
+        "end": 104,
+        "label": "ADDRESS",
+        "text": "căn M2.1405 Masteri Centre Point, Long Thạnh Mỹ, TP. Thủ Đức"
+      },
+      {
+        "start": 106,
+        "end": 112,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "text": "Em tên Hồ Khánh Linh, 0975544332, 6A Nguyễn Văn Cừ, Long Biên, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Hồ Khánh Linh"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PHONE",
+        "text": "0975544332"
+      },
+      {
+        "start": 34,
+        "end": 69,
+        "label": "ADDRESS",
+        "text": "6A Nguyễn Văn Cừ, Long Biên, Hà Nội"
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "text": "Người nhận là Võ Anh Thư, số 0947788991, căn R3.2208 Royal City, Thanh Xuân, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "label": "NAME",
+        "text": "Võ Anh Thư"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0947788991"
+      },
+      {
+        "start": 41,
+        "end": 83,
+        "label": "ADDRESS",
+        "text": "căn R3.2208 Royal City, Thanh Xuân, Hà Nội"
+      },
+      {
+        "start": 77,
+        "end": 83,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "text": "Anh ghi giúp tên Phạm Nhật Hào, 0898456123, 109 Lý Thường Kiệt, P.7, Tân Bình, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "label": "NAME",
+        "text": "Phạm Nhật Hào"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0898456123"
+      },
+      {
+        "start": 44,
+        "end": 85,
+        "label": "ADDRESS",
+        "text": "109 Lý Thường Kiệt, P.7, Tân Bình, TP.HCM"
+      },
+      {
+        "start": 79,
+        "end": 85,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "text": "Chị tên Đinh Quỳnh Chi, 0912233448, 54 Pasteur, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "NAME",
+        "text": "Đinh Quỳnh Chi"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0912233448"
+      },
+      {
+        "start": 36,
+        "end": 65,
+        "label": "ADDRESS",
+        "text": "54 Pasteur, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 58,
+        "end": 65,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "text": "Mình là Nguyễn Tuấn Kiệt, số 0988877663, 31 Võ Thị Sáu, Thống Nhất, Biên Hòa, Đồng Nai.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "label": "NAME",
+        "text": "Nguyễn Tuấn Kiệt"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0988877663"
+      },
+      {
+        "start": 41,
+        "end": 86,
+        "label": "ADDRESS",
+        "text": "31 Võ Thị Sáu, Thống Nhất, Biên Hòa, Đồng Nai"
+      },
+      {
+        "start": 78,
+        "end": 86,
+        "label": "CITY",
+        "text": "Đồng Nai"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "text": "Người nhận Trần Gia Linh, 0931122445, 99 Hai Bà Trưng, Q.1, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "label": "NAME",
+        "text": "Trần Gia Linh"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0931122445"
+      },
+      {
+        "start": 38,
+        "end": 58,
+        "label": "ADDRESS",
+        "text": "99 Hai Bà Trưng, Q.1"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "text": "Em tên Lý Hoàng Phúc, SĐT 0964433221, 44 Lê Lợi, Lam Sơn, TP Thanh Hóa.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Lý Hoàng Phúc"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0964433221"
+      },
+      {
+        "start": 38,
+        "end": 70,
+        "label": "ADDRESS",
+        "text": "44 Lê Lợi, Lam Sơn, TP Thanh Hóa"
+      },
+      {
+        "start": 61,
+        "end": 70,
+        "label": "CITY",
+        "text": "Thanh Hóa"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "text": "Anh gửi cho chị Nguyễn Kim Ngân, 0905544338, căn A2307 Times City, Hai Bà Trưng, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 31,
+        "label": "NAME",
+        "text": "Nguyễn Kim Ngân"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "label": "PHONE",
+        "text": "0905544338"
+      },
+      {
+        "start": 45,
+        "end": 87,
+        "label": "ADDRESS",
+        "text": "căn A2307 Times City, Hai Bà Trưng, Hà Nội"
+      },
+      {
+        "start": 81,
+        "end": 87,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "text": "Tôi là Đỗ Minh Châu, số 0971122338, 13 Trần Não, An Khánh, TP. Thủ Đức, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Đỗ Minh Châu"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0971122338"
+      },
+      {
+        "start": 36,
+        "end": 78,
+        "label": "ADDRESS",
+        "text": "13 Trần Não, An Khánh, TP. Thủ Đức, TP.HCM"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "text": "Tên người nhận Phan Thanh Tùng, 0943344557, 86 Nguyễn Huệ, Bến Nghé, Q.1, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 30,
+        "label": "NAME",
+        "text": "Phan Thanh Tùng"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0943344557"
+      },
+      {
+        "start": 44,
+        "end": 80,
+        "label": "ADDRESS",
+        "text": "86 Nguyễn Huệ, Bến Nghé, Q.1, TP.HCM"
+      },
+      {
+        "start": 74,
+        "end": 80,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "text": "Em tên Trần Khả Hân, 0899988772, 22 Nguyễn Công Trứ, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Trần Khả Hân"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "label": "PHONE",
+        "text": "0899988772"
+      },
+      {
+        "start": 33,
+        "end": 70,
+        "label": "ADDRESS",
+        "text": "22 Nguyễn Công Trứ, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "text": "Người nhận là Nguyễn Đức Thành, số 0915566443, 17 ngách 4 ngõ 85 Hạ Đình, Thanh Xuân, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "label": "NAME",
+        "text": "Nguyễn Đức Thành"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "label": "PHONE",
+        "text": "0915566443"
+      },
+      {
+        "start": 47,
+        "end": 92,
+        "label": "ADDRESS",
+        "text": "17 ngách 4 ngõ 85 Hạ Đình, Thanh Xuân, Hà Nội"
+      },
+      {
+        "start": 86,
+        "end": 92,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "text": "Anh ghi giúp tôi tên Vũ Bảo Trâm, 0983344559, 120 Phan Đình Phùng, TP Vinh, Nghệ An.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "label": "NAME",
+        "text": "Vũ Bảo Trâm"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "PHONE",
+        "text": "0983344559"
+      },
+      {
+        "start": 46,
+        "end": 83,
+        "label": "ADDRESS",
+        "text": "120 Phan Đình Phùng, TP Vinh, Nghệ An"
+      },
+      {
+        "start": 67,
+        "end": 74,
+        "label": "CITY",
+        "text": "TP Vinh"
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "label": "CITY",
+        "text": "Nghệ An"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "text": "Chị tên Lê Quốc Hưng, 0907766559, căn S2.0812 Vinhomes Ocean Park, Gia Lâm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "NAME",
+        "text": "Lê Quốc Hưng"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PHONE",
+        "text": "0907766559"
+      },
+      {
+        "start": 34,
+        "end": 82,
+        "label": "ADDRESS",
+        "text": "căn S2.0812 Vinhomes Ocean Park, Gia Lâm, Hà Nội"
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "text": "Mình là Trương Hải Nam, số 0976655441, 73 Hoàng Diệu, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "NAME",
+        "text": "Trương Hải Nam"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0976655441"
+      },
+      {
+        "start": 39,
+        "end": 71,
+        "label": "ADDRESS",
+        "text": "73 Hoàng Diệu, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 64,
+        "end": 71,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "text": "Người nhận Nguyễn Ngọc Hân, 0942233114, 15 Nguyễn Du, Bến Thành, Q.1, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "label": "NAME",
+        "text": "Nguyễn Ngọc Hân"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0942233114"
+      },
+      {
+        "start": 40,
+        "end": 76,
+        "label": "ADDRESS",
+        "text": "15 Nguyễn Du, Bến Thành, Q.1, TP.HCM"
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "text": "Em tên Đặng Tuấn Anh, SĐT 0898123459, 204 Tô Hiệu, Lê Chân, Hải Phòng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Đặng Tuấn Anh"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0898123459"
+      },
+      {
+        "start": 38,
+        "end": 69,
+        "label": "ADDRESS",
+        "text": "204 Tô Hiệu, Lê Chân, Hải Phòng"
+      },
+      {
+        "start": 60,
+        "end": 69,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "text": "Anh gửi cho chị Bùi Gia Hân, 0914433229, 39 Trần Quang Khải, Hoàn Kiếm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "NAME",
+        "text": "Bùi Gia Hân"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0914433229"
+      },
+      {
+        "start": 41,
+        "end": 78,
+        "label": "ADDRESS",
+        "text": "39 Trần Quang Khải, Hoàn Kiếm, Hà Nội"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "text": "Tôi là Phạm Quốc Việt, số 0985566772, 58 Võ Nguyên Giáp, Sơn Trà, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "label": "NAME",
+        "text": "Phạm Quốc Việt"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0985566772"
+      },
+      {
+        "start": 38,
+        "end": 73,
+        "label": "ADDRESS",
+        "text": "58 Võ Nguyên Giáp, Sơn Trà, Đà Nẵng"
+      },
+      {
+        "start": 66,
+        "end": 73,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "text": "Tên nhận hàng Nguyễn Minh Châu, 0937788994, căn M2.1405 Masteri Centre Point, Long Thạnh Mỹ, TP. Thủ Đức, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "label": "NAME",
+        "text": "Nguyễn Minh Châu"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0937788994"
+      },
+      {
+        "start": 44,
+        "end": 112,
+        "label": "ADDRESS",
+        "text": "căn M2.1405 Masteri Centre Point, Long Thạnh Mỹ, TP. Thủ Đức, TP.HCM"
+      },
+      {
+        "start": 106,
+        "end": 112,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "text": "Em tên Trần Hoài An, 0966677883, 8 Nguyễn Thị Định, Cầu Giấy, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Trần Hoài An"
+      },
+      {
+        "start": 21,
+        "end": 31,
+        "label": "PHONE",
+        "text": "0966677883"
+      },
+      {
+        "start": 33,
+        "end": 68,
+        "label": "ADDRESS",
+        "text": "8 Nguyễn Thị Định, Cầu Giấy, Hà Nội"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "text": "Người nhận là Lê Khánh Duy, số 0903344551, 142 Hùng Vương, Ninh Kiều, Cần Thơ.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 26,
+        "label": "NAME",
+        "text": "Lê Khánh Duy"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "0903344551"
+      },
+      {
+        "start": 43,
+        "end": 77,
+        "label": "ADDRESS",
+        "text": "142 Hùng Vương, Ninh Kiều, Cần Thơ"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "text": "Anh ghi giúp tôi tên Vũ Phương Linh, 0972233441, 61 Trần Phú, Ba Đình, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "NAME",
+        "text": "Vũ Phương Linh"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "PHONE",
+        "text": "0972233441"
+      },
+      {
+        "start": 49,
+        "end": 77,
+        "label": "ADDRESS",
+        "text": "61 Trần Phú, Ba Đình, Hà Nội"
+      },
+      {
+        "start": 71,
+        "end": 77,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "text": "Chị tên Nguyễn Quốc Bảo, 0949988773, 90 Điện Biên Phủ, Bình Thạnh, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "NAME",
+        "text": "Nguyễn Quốc Bảo"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "0949988773"
+      },
+      {
+        "start": 37,
+        "end": 73,
+        "label": "ADDRESS",
+        "text": "90 Điện Biên Phủ, Bình Thạnh, TP.HCM"
+      },
+      {
+        "start": 67,
+        "end": 73,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "text": "Mình là Hồ Minh Khang, số 0899344556, 27 Lý Tự Trọng, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "NAME",
+        "text": "Hồ Minh Khang"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0899344556"
+      },
+      {
+        "start": 38,
+        "end": 71,
+        "label": "ADDRESS",
+        "text": "27 Lý Tự Trọng, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 64,
+        "end": 71,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "text": "Người nhận Trương Nhật Minh, 0911122448, căn C1203 Ecopark, Văn Giang, Hưng Yên.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "label": "NAME",
+        "text": "Trương Nhật Minh"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "0911122448"
+      },
+      {
+        "start": 41,
+        "end": 79,
+        "label": "ADDRESS",
+        "text": "căn C1203 Ecopark, Văn Giang, Hưng Yên"
+      },
+      {
+        "start": 71,
+        "end": 79,
+        "label": "CITY",
+        "text": "Hưng Yên"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "text": "Em tên Phan Mỹ Linh, SĐT 0986655447, 11 Nguyễn Trãi, Hà Đông, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "label": "NAME",
+        "text": "Phan Mỹ Linh"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "0986655447"
+      },
+      {
+        "start": 37,
+        "end": 68,
+        "label": "ADDRESS",
+        "text": "11 Nguyễn Trãi, Hà Đông, Hà Nội"
+      },
+      {
+        "start": 62,
+        "end": 68,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "text": "Anh gửi cho chị Đỗ Thành Nam, 0902233115, 74 Cách Mạng Tháng 8, Ninh Kiều, Cần Thơ.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "NAME",
+        "text": "Đỗ Thành Nam"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "0902233115"
+      },
+      {
+        "start": 42,
+        "end": 82,
+        "label": "ADDRESS",
+        "text": "74 Cách Mạng Tháng 8, Ninh Kiều, Cần Thơ"
+      },
+      {
+        "start": 75,
+        "end": 82,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "text": "Tôi là Nguyễn Quỳnh Anh, số 0978877669, 55 Lê Duẩn, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "label": "NAME",
+        "text": "Nguyễn Quỳnh Anh"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0978877669"
+      },
+      {
+        "start": 40,
+        "end": 69,
+        "label": "ADDRESS",
+        "text": "55 Lê Duẩn, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "text": "Tên nhận hàng Bùi Hoàng Long, 0945566448, 29 Nguyễn Bỉnh Khiêm, Ngô Quyền, Hải Phòng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 28,
+        "label": "NAME",
+        "text": "Bùi Hoàng Long"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "0945566448"
+      },
+      {
+        "start": 42,
+        "end": 84,
+        "label": "ADDRESS",
+        "text": "29 Nguyễn Bỉnh Khiêm, Ngô Quyền, Hải Phòng"
+      },
+      {
+        "start": 75,
+        "end": 84,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "text": "Em tên Lê Thu Phương, 0899766551, căn A1002 Sunshine City, Bắc Từ Liêm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Lê Thu Phương"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "PHONE",
+        "text": "0899766551"
+      },
+      {
+        "start": 34,
+        "end": 78,
+        "label": "ADDRESS",
+        "text": "căn A1002 Sunshine City, Bắc Từ Liêm, Hà Nội"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "text": "Người nhận là Trần Đức Minh, số 0917788996, 146 Nguyễn Oanh, Gò Vấp, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "label": "NAME",
+        "text": "Trần Đức Minh"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0917788996"
+      },
+      {
+        "start": 44,
+        "end": 75,
+        "label": "ADDRESS",
+        "text": "146 Nguyễn Oanh, Gò Vấp, TP.HCM"
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "text": "Anh ghi giúp tôi tên Võ Thanh Hà, 0981122449, 32 Trần Cao Vân, Hải Châu, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "label": "NAME",
+        "text": "Võ Thanh Hà"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "PHONE",
+        "text": "0981122449"
+      },
+      {
+        "start": 46,
+        "end": 80,
+        "label": "ADDRESS",
+        "text": "32 Trần Cao Vân, Hải Châu, Đà Nẵng"
+      },
+      {
+        "start": 73,
+        "end": 80,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "text": "Chị tên Nguyễn Gia Huy, 0933344558, 18 Kim Mã, Ba Đình, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "label": "NAME",
+        "text": "Nguyễn Gia Huy"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "label": "PHONE",
+        "text": "0933344558"
+      },
+      {
+        "start": 36,
+        "end": 62,
+        "label": "ADDRESS",
+        "text": "18 Kim Mã, Ba Đình, Hà Nội"
+      },
+      {
+        "start": 56,
+        "end": 62,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "text": "Mình là Đặng Bảo Ngọc, số 0965566771, 84 Phạm Ngũ Lão, Q.1, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "label": "NAME",
+        "text": "Đặng Bảo Ngọc"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0965566771"
+      },
+      {
+        "start": 38,
+        "end": 66,
+        "label": "ADDRESS",
+        "text": "84 Phạm Ngũ Lão, Q.1, TP.HCM"
+      },
+      {
+        "start": 60,
+        "end": 66,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "text": "Người nhận Phạm Minh Quân, 0909988774, căn S3.0608 Sala, An Lợi Đông, TP. Thủ Đức, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "label": "NAME",
+        "text": "Phạm Minh Quân"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0909988774"
+      },
+      {
+        "start": 39,
+        "end": 81,
+        "label": "ADDRESS",
+        "text": "căn S3.0608 Sala, An Lợi Đông, TP. Thủ Đức"
+      },
+      {
+        "start": 83,
+        "end": 89,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "text": "Em tên Trương Hoài Nam, SĐT 0974433228, 67 Nguyễn Văn Linh, Thanh Khê, Đà Nẵng.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "label": "NAME",
+        "text": "Trương Hoài Nam"
+      },
+      {
+        "start": 28,
+        "end": 38,
+        "label": "PHONE",
+        "text": "0974433228"
+      },
+      {
+        "start": 40,
+        "end": 78,
+        "label": "ADDRESS",
+        "text": "67 Nguyễn Văn Linh, Thanh Khê, Đà Nẵng"
+      },
+      {
+        "start": 71,
+        "end": 78,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "text": "Anh gửi cho chị Nguyễn Thảo Vy, 0946677885, 21 Đội Cấn, Ba Đình, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 30,
+        "label": "NAME",
+        "text": "Nguyễn Thảo Vy"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "0946677885"
+      },
+      {
+        "start": 44,
+        "end": 71,
+        "label": "ADDRESS",
+        "text": "21 Đội Cấn, Ba Đình, Hà Nội"
+      },
+      {
+        "start": 65,
+        "end": 71,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "text": "Tôi là Bùi Tuấn Kiệt, số 0898456782, 53 Hoàng Văn Thụ, Tân Bình, TP.HCM.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 20,
+        "label": "NAME",
+        "text": "Bùi Tuấn Kiệt"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "0898456782"
+      },
+      {
+        "start": 37,
+        "end": 71,
+        "label": "ADDRESS",
+        "text": "53 Hoàng Văn Thụ, Tân Bình, TP.HCM"
+      },
+      {
+        "start": 65,
+        "end": 71,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "text": "Tên nhận hàng Lê Khánh An, 0912233117, 102 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "label": "NAME",
+        "text": "Lê Khánh An"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "label": "PHONE",
+        "text": "0912233117"
+      },
+      {
+        "start": 39,
+        "end": 75,
+        "label": "ADDRESS",
+        "text": "102 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội"
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "text": "mình ở sg…",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 9,
+        "label": "CITY",
+        "text": "sg"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "text": "cho t gửi nhaa",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": []
+  },
+  {
+    "id": 192,
+    "text": "t gửi thông tin ship nha",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": []
+  }
+]

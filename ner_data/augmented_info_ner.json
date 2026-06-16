@@ -1,0 +1,1027 @@
+[
+  {
+    "text": "tên mình là thành nha shop",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "label": "NAME",
+        "text": "thành"
+      }
+    ]
+  },
+  {
+    "text": "người nhận: ngọc\n0912345678\n23 Lý Thường Kiệt Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "label": "NAME",
+        "text": "ngọc"
+      },
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PHONE",
+        "text": "0912345678"
+      },
+      {
+        "start": 28,
+        "end": 52,
+        "label": "ADDRESS",
+        "text": "23 Lý Thường Kiệt Hà Nội"
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "text": "shop ghi tên là minh nhé, sđt 0987654321",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "label": "NAME",
+        "text": "minh"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "0987654321"
+      }
+    ]
+  },
+  {
+    "text": "ok bạn, người nhận là hương, địa chỉ 15b Nguyễn Trãi, TP.HCM",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "label": "NAME",
+        "text": "hương"
+      },
+      {
+        "start": 37,
+        "end": 60,
+        "label": "ADDRESS",
+        "text": "15b Nguyễn Trãi, TP.HCM"
+      },
+      {
+        "start": 54,
+        "end": 60,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "text": "thông tin giao hàng: lan, 0909111222, số nhà 45 đường số 3, Bình Thạnh",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 21,
+        "end": 24,
+        "label": "NAME",
+        "text": "lan"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "PHONE",
+        "text": "0909111222"
+      },
+      {
+        "start": 38,
+        "end": 70,
+        "label": "ADDRESS",
+        "text": "số nhà 45 đường số 3, Bình Thạnh"
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "label": "CITY",
+        "text": "Bình Thạnh"
+      }
+    ]
+  },
+  {
+    "text": "cho mình gửi tên là hà với ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 22,
+        "label": "NAME",
+        "text": "hà"
+      }
+    ]
+  },
+  {
+    "text": "tên lin, sdt 0333444555, 10 An Dương Vương, Đà Nẵng",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "label": "NAME",
+        "text": "lin"
+      },
+      {
+        "start": 13,
+        "end": 23,
+        "label": "PHONE",
+        "text": "0333444555"
+      },
+      {
+        "start": 25,
+        "end": 51,
+        "label": "ADDRESS",
+        "text": "10 An Dương Vương, Đà Nẵng"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "text": "anh ơi, người nhận tên anh, số đt 0977777888 ạ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "label": "NAME",
+        "text": "anh"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "PHONE",
+        "text": "0977777888"
+      }
+    ]
+  },
+  {
+    "text": "mình tên tùng, địa chỉ 100 Lê Lợi, Quận 1, TPHCM",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "label": "NAME",
+        "text": "tùng"
+      },
+      {
+        "start": 23,
+        "end": 48,
+        "label": "ADDRESS",
+        "text": "100 Lê Lợi, Quận 1, TPHCM"
+      },
+      {
+        "start": 43,
+        "end": 48,
+        "label": "CITY",
+        "text": "TPHCM"
+      }
+    ]
+  },
+  {
+    "text": "Gửi hàng cho mình tên nam, sdt 0888999000, 55 Trần Hưng Đạo, Cầu Giấy, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "label": "NAME",
+        "text": "nam"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "0888999000"
+      },
+      {
+        "start": 43,
+        "end": 77,
+        "label": "ADDRESS",
+        "text": "55 Trần Hưng Đạo, Cầu Giấy, Hà Nội"
+      },
+      {
+        "start": 71,
+        "end": 77,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "text": "tên mình là thành nha shop",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "label": "NAME",
+        "text": "thành"
+      }
+    ]
+  },
+  {
+    "text": "người nhận: ngọc\n0912345678\n23 Lý Thường Kiệt, Quận 1, TP.HCM",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "label": "NAME",
+        "text": "ngọc"
+      },
+      {
+        "start": 17,
+        "end": 27,
+        "label": "PHONE",
+        "text": "0912345678"
+      },
+      {
+        "start": 28,
+        "end": 61,
+        "label": "ADDRESS",
+        "text": "23 Lý Thường Kiệt, Quận 1, TP.HCM"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "text": "shop ơi cho mình đặt hàng với ạ, tên là hương",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 40,
+        "end": 45,
+        "label": "NAME",
+        "text": "hương"
+      }
+    ]
+  },
+  {
+    "text": "giao hàng tới địa chỉ 55 Nguyễn Du, Đà Nẵng cho lan nhé",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 22,
+        "end": 43,
+        "label": "ADDRESS",
+        "text": "55 Nguyễn Du, Đà Nẵng"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "label": "NAME",
+        "text": "lan"
+      }
+    ]
+  },
+  {
+    "text": "cho minh xin thông tin người nhận ạ, tên là minh, sđt 0909876543",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "label": "NAME",
+        "text": "minh"
+      },
+      {
+        "start": 54,
+        "end": 64,
+        "label": "PHONE",
+        "text": "0909876543"
+      }
+    ]
+  },
+  {
+    "text": "tên: hà, địa chỉ: 123 Lê Lợi, Hải Phòng, sđt: 0988123456",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "NAME",
+        "text": "hà"
+      },
+      {
+        "start": 18,
+        "end": 39,
+        "label": "ADDRESS",
+        "text": "123 Lê Lợi, Hải Phòng"
+      },
+      {
+        "start": 30,
+        "end": 39,
+        "label": "CITY",
+        "text": "Hải Phòng"
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "label": "PHONE",
+        "text": "0988123456"
+      }
+    ]
+  },
+  {
+    "text": "mua giúp mình cái này, tên người nhận là linh, số đt 0333987654",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "label": "NAME",
+        "text": "linh"
+      },
+      {
+        "start": 53,
+        "end": 63,
+        "label": "PHONE",
+        "text": "0333987654"
+      }
+    ]
+  },
+  {
+    "text": "tên mình là anh, gửi về 789 Trần Hưng Đạo, Cần Thơ nha",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 15,
+        "label": "NAME",
+        "text": "anh"
+      },
+      {
+        "start": 24,
+        "end": 50,
+        "label": "ADDRESS",
+        "text": "789 Trần Hưng Đạo, Cần Thơ"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "text": "tên tùng, sdt 0911223344, địa chỉ 10 Xô Viết Nghệ Tĩnh, Bình Thạnh, TP.HCM",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "label": "NAME",
+        "text": "tùng"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "label": "PHONE",
+        "text": "0911223344"
+      },
+      {
+        "start": 34,
+        "end": 74,
+        "label": "ADDRESS",
+        "text": "10 Xô Viết Nghệ Tĩnh, Bình Thạnh, TP.HCM"
+      },
+      {
+        "start": 68,
+        "end": 74,
+        "label": "CITY",
+        "text": "TP.HCM"
+      }
+    ]
+  },
+  {
+    "text": "người nhận là mai, số điện thoại 0977889900, địa chỉ 32 Hai Bà Trưng, Hà Nội",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 17,
+        "label": "NAME",
+        "text": "mai"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "label": "PHONE",
+        "text": "0977889900"
+      },
+      {
+        "start": 53,
+        "end": 76,
+        "label": "ADDRESS",
+        "text": "32 Hai Bà Trưng, Hà Nội"
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "label": "CITY",
+        "text": "Hà Nội"
+      }
+    ]
+  },
+  {
+    "text": "tên mình là thành nhé shop",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "label": "NAME",
+        "text": "thành"
+      }
+    ]
+  },
+  {
+    "text": "người nhận: ngọc / sdt 0912345678",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "label": "NAME",
+        "text": "ngọc"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "0912345678"
+      }
+    ]
+  },
+  {
+    "text": "cho mình đặt hàng, tên là hương ở số 15 Nguyễn Du",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 26,
+        "end": 31,
+        "label": "NAME",
+        "text": "hương"
+      },
+      {
+        "start": 37,
+        "end": 49,
+        "label": "ADDRESS",
+        "text": "15 Nguyễn Du"
+      }
+    ]
+  },
+  {
+    "text": "shop cho mình hỏi đơn hàng này tên lan sdt 0987654321 địa chỉ 45 Trần Hưng Đạo, TP HCM",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 35,
+        "end": 38,
+        "label": "NAME",
+        "text": "lan"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "label": "PHONE",
+        "text": "0987654321"
+      },
+      {
+        "start": 62,
+        "end": 86,
+        "label": "ADDRESS",
+        "text": "45 Trần Hưng Đạo, TP HCM"
+      },
+      {
+        "start": 80,
+        "end": 86,
+        "label": "CITY",
+        "text": "TP HCM"
+      }
+    ]
+  },
+  {
+    "text": "tên minh là hà, sdt 0909123456",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 14,
+        "label": "NAME",
+        "text": "hà"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "label": "PHONE",
+        "text": "0909123456"
+      }
+    ]
+  },
+  {
+    "text": "tên người nhận là linh, địa chỉ chung cư B, đường A, quận 1",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "NAME",
+        "text": "linh"
+      },
+      {
+        "start": 32,
+        "end": 59,
+        "label": "ADDRESS",
+        "text": "chung cư B, đường A, quận 1"
+      }
+    ]
+  },
+  {
+    "text": "tên anh, sdt 0998877665, địa chỉ 78 Lê Lợi, Đà Nẵng",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "label": "NAME",
+        "text": "anh"
+      },
+      {
+        "start": 13,
+        "end": 23,
+        "label": "PHONE",
+        "text": "0998877665"
+      },
+      {
+        "start": 33,
+        "end": 51,
+        "label": "ADDRESS",
+        "text": "78 Lê Lợi, Đà Nẵng"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "label": "CITY",
+        "text": "Đà Nẵng"
+      }
+    ]
+  },
+  {
+    "text": "tên tùng. số 99 Ba Tháng Hai, Cần Thơ",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "label": "NAME",
+        "text": "tùng"
+      },
+      {
+        "start": 13,
+        "end": 37,
+        "label": "ADDRESS",
+        "text": "99 Ba Tháng Hai, Cần Thơ"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "text": "người nhận nam, sdt 0977777777, nhà 21 đường X, phường Y, tỉnh Z",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 11,
+        "end": 14,
+        "label": "NAME",
+        "text": "nam"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "label": "PHONE",
+        "text": "0977777777"
+      },
+      {
+        "start": 32,
+        "end": 64,
+        "label": "ADDRESS",
+        "text": "nhà 21 đường X, phường Y, tỉnh Z"
+      }
+    ]
+  },
+  {
+    "text": "tên mình là mai, số nhà 123, hẻm 456, đường ABC, quận 7, TPHCM. sdt 0913579246",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 15,
+        "label": "NAME",
+        "text": "mai"
+      },
+      {
+        "start": 17,
+        "end": 62,
+        "label": "ADDRESS",
+        "text": "số nhà 123, hẻm 456, đường ABC, quận 7, TPHCM"
+      },
+      {
+        "start": 57,
+        "end": 62,
+        "label": "CITY",
+        "text": "TPHCM"
+      },
+      {
+        "start": 68,
+        "end": 78,
+        "label": "PHONE",
+        "text": "0913579246"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi shop có giao hàng về HN không ạ?",
+    "cats": [
+      "ask_shipping_availability"
+    ],
+    "entities": [
+      {
+        "start": 32,
+        "end": 34,
+        "label": "CITY",
+        "text": "HN"
+      }
+    ]
+  },
+  {
+    "text": "Ship mình qua SG với nha shop ơi.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "label": "CITY",
+        "text": "SG"
+      }
+    ]
+  },
+  {
+    "text": "Cái này ship về ĐN có lâu không ạ?",
+    "cats": [
+      "ask_shipping_time"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "label": "CITY",
+        "text": "ĐN"
+      }
+    ]
+  },
+  {
+    "text": "Em ở CT, shop có chi nhánh nào gần đây không?",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "CITY",
+        "text": "CT"
+      }
+    ]
+  },
+  {
+    "text": "Cho em xin địa chỉ cửa hàng ở HP với ạ.",
+    "cats": [
+      "ask_store_address"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 32,
+        "label": "CITY",
+        "text": "HP"
+      }
+    ]
+  },
+  {
+    "text": "Gửi về VT thì bao nhiêu tiền ship vậy shop?",
+    "cats": [
+      "ask_shipping_fee"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 9,
+        "label": "CITY",
+        "text": "VT"
+      }
+    ]
+  },
+  {
+    "text": "Em muốn đặt hàng giao về TPHCM vào thứ 7 này được không?",
+    "cats": [
+      "ask_delivery_schedule"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "label": "CITY",
+        "text": "TPHCM"
+      }
+    ]
+  },
+  {
+    "text": "Shop ơi, em ở QN có nhận được hàng không ạ?",
+    "cats": [
+      "ask_shipping_availability"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "label": "CITY",
+        "text": "QN"
+      }
+    ]
+  },
+  {
+    "text": "Em ở HN, có muốn đổi sang địa chỉ khác ở SG được không?",
+    "cats": [
+      "provide_cus_inf",
+      "change_delivery_address"
+    ],
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "label": "CITY",
+        "text": "HN"
+      },
+      {
+        "start": 41,
+        "end": 43,
+        "label": "CITY",
+        "text": "SG"
+      }
+    ]
+  },
+  {
+    "text": "Hàng có ship về Cần Thơ không shop ơi?",
+    "cats": [
+      "ask_shipping_availability"
+    ],
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ship về CT có nhanh không ạ?",
+    "cats": [
+      "ask_shipping_speed"
+    ],
+    "entities": [
+      {
+        "start": 19,
+        "end": 21,
+        "label": "CITY",
+        "text": "CT"
+      }
+    ]
+  },
+  {
+    "text": "Mình ở VT nha, cần gấp lắm ạ.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 9,
+        "label": "CITY",
+        "text": "VT"
+      }
+    ]
+  },
+  {
+    "text": "Shop ơi, cho em địa chỉ shop ở SG với ạ.",
+    "cats": [
+      "ask_shop_address"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 33,
+        "label": "CITY",
+        "text": "SG"
+      }
+    ]
+  },
+  {
+    "text": "Em đang cần món này gấp, có ship về DN không shop ơi?",
+    "cats": [
+      "ask_shipping_availability"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 38,
+        "label": "CITY",
+        "text": "DN"
+      }
+    ]
+  },
+  {
+    "text": "Sản phẩm này có bán ở cửa hàng HN không ạ?",
+    "cats": [
+      "ask_store_availability"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 33,
+        "label": "CITY",
+        "text": "HN"
+      }
+    ]
+  },
+  {
+    "text": "Phí ship ra ĐN là bao nhiêu vậy ạ?",
+    "cats": [
+      "ask_shipping_fee"
+    ],
+    "entities": [
+      {
+        "start": 12,
+        "end": 14,
+        "label": "CITY",
+        "text": "ĐN"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi là tphcm mình giao hàng có tính phí không ạ?",
+    "cats": [
+      "ask_shipping_fee"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "label": "CITY",
+        "text": "tphcm"
+      }
+    ]
+  },
+  {
+    "text": "Em muốn đặt hàng, địa chỉ là ở HP.",
+    "cats": [
+      "provide_cus_inf"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 33,
+        "label": "CITY",
+        "text": "HP"
+      }
+    ]
+  },
+  {
+    "text": "Bên mình có ship về Cần Thơ không ạ?",
+    "cats": [
+      "ask_shipping_availability"
+    ],
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "label": "CITY",
+        "text": "Cần Thơ"
+      }
+    ]
+  },
+  {
+    "text": "Xin hỏi hàng có đến được Quảng Ninh không ạ?",
+    "cats": [
+      "ask_shipping_availability"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "label": "CITY",
+        "text": "Quảng Ninh"
+      }
+    ]
+  }
+]

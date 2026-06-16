@@ -1,0 +1,1828 @@
+{"text": "box này còn k ạ", "cats": ["ask_product_availability"]}
+{"text": "bạn có bộ nào tầm 200 ko ạ", "cats": ["ask_product_suggestion"]}
+{"text": "bạn có hình ảnh thực tế mẫu này k ạ", "cats": ["ask_product_image"]}
+{"text": "mình cần gấp ngày mai á", "cats": ["delivery_time_requirement"]}
+{"text": "bạn ơi b sẵn con này k ạ =))", "cats": ["ask_product_availability"]}
+{"text": "cậu cho tớ đặt màu xanh với ạ", "cats": ["agree_order"]}
+{"text": "tầm sáng mai tớ lấy", "cats": ["delivery_time_requirement"]}
+{"text": "còn sẵn hoa lego k shop", "cats": ["ask_product_availability"]}
+{"text": "có hoa lego chưa shop", "cats": ["ask_product_availability"]}
+{"text": "mình hỏi con mec 1:8 sốp có hàng sẵn k ạ", "cats": ["ask_product_availability"]}
+{"text": "trước trung thu lun á b", "cats": ["delivery_time_requirement"]}
+{"text": "h shop còn mẫu xe nào sẵn k á", "cats": ["ask_product_availability"]}
+{"text": "shop ơi bên mình còn hàng con Mario kh vậy ạa", "cats": ["ask_product_availability"]}
+{"text": "giá cả sao z ạ", "cats": ["ask_product_price"]}
+{"text": "Bạn có thể gửi ảnh mẫu mario cho shop được khum ạ", "cats": ["ask_product_image"]}
+{"text": "dạ v shop cho t ord nha", "cats": ["agree_order"]}
+{"text": "vậy mình chốt lấy con Mario ạ", "cats": ["agree_order"]}
+{"text": "à nma ship từ t4 đổ đi dc kh shop", "cats": ["delivery_time_requirement"]}
+{"text": "tầm 3h hôm t4 tớ muốn nhận hàng thì có dc khum ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Vậy tầm loanh quanh 3h shop ship cho bạn nhen", "cats": ["delivery_time_requirement"]}
+{"text": "ối shop ơi cho t hỏi t muốn đẩy giờ nhận ship lên 2h có dc kh v ạ 🥹", "cats": ["delivery_time_requirement"]}
+{"text": "vậy shop cho t đổi h ship thành 2h nha tớ cảm ơn shop nhìuuu", "cats": ["delivery_time_requirement"]}
+{"text": "Nếu được thì shop ship trong buổi sáng luôn có được không ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Dậy vậy sáng shop ship cho bạn nhen", "cats": ["delivery_time_requirement"]}
+{"text": "Không biết tầm 8r, 9h bình mình đã mọc để shop ship hàng cho bạn chưa ạ", "cats": ["delivery_time_requirement"]}
+{"text": "10h đc kh ạ =)))))", "cats": ["delivery_time_requirement"]}
+{"text": "sốp ơi còn mẫu ford gt ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Bên mình còn sẵn mẫu f1 ferrari không nhỉ", "cats": ["ask_product_availability"]}
+{"text": "shop còn  bộ này ko ạ", "cats": ["ask_product_availability"]}
+{"text": "e lấy bộ này nha ạ", "cats": ["agree_order"]}
+{"text": "e lấy nha shop", "cats": ["agree_order"]}
+{"text": "còn mẫu khác nữa k ạ", "cats": ["ask_product_suggestion"]}
+{"text": "thế lấy cnay đi ạ", "cats": ["agree_order"]}
+{"text": "bao g có hàng thế ạ", "cats": ["ask_order_status", "ask_order_wait_time"]}
+{"text": "mình có order f1 pit stop & pit crew with ferrari car k ạ", "cats": ["ask_find_product", "ask_product_availability"]}
+{"text": "nên shop tư vấn cho em có bộ nào giá mềm mềm tý đi ạ", "cats": ["ask_product_suggestion"]}
+{"text": "a có bộ nào sẵn ko", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "Con mẫu nào mà hài hài giống v kh", "cats": ["ask_find_product"]}
+{"text": "shop gửi ảnh bộ lego này cho em xem dc khum ạ", "cats": ["ask_product_image"]}
+{"text": "nma shop có mấy mẫu bó hoa kh ạ", "cats": ["ask_product_availability"]}
+{"text": "em chào sốp ạaa, em muốn order mẫu này ạ", "cats": ["agree_order", "greeting"]}
+{"text": "dạ shop tư vấn choa em vài mẫu xe oki dc hem ạ", "cats": ["ask_product_suggestion"]}
+{"text": "dạ v em chốt lun ạ", "cats": ["agree", "agree_order"]}
+{"text": "shop cho em xem bao bì ở ngoài vứi ạ", "cats": ["ask_product_image"]}
+{"text": "Shop ui mình có sẵn mẫu nào ở HN hong ạ", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "Mẫu 1 giá nhiu thế ah", "cats": ["ask_product_price"]}
+{"text": "À ảnh 2 con porsche trắng", "cats": ["ask_product_image"]}
+{"text": "Này là size nhiêu thế anh, có hộp đẹp đẽ khum ạ, em mang đi tặng", "cats": ["ask_product_info"]}
+{"text": "Sôpa có những mẫu nào thế ah", "cats": ["ask_product_availability"]}
+{"text": "Mai sốp qua chụp cho em coi box con  nà với nha", "cats": ["ask_product_image"]}
+{"text": "Sốp ơi nay chụp box giúp em nha", "cats": ["ask_product_image"]}
+{"text": "Hellu sốp ạ sốp có sẵn em lego nào honggg", "cats": ["ask_product_availability"]}
+{"text": "sốp ơi mẫu này giá sao ạ", "cats": ["ask_product_price"]}
+{"text": "lap xong kích thước ntn ạ", "cats": ["ask_product_info"]}
+{"text": "sốp sốp cho em đặt 1 box này vớiiii", "cats": ["agree_order"]}
+{"text": "hmmm chiều nay em rảnh từ 4h đến tầm 5r. chứ tối lỡ bận rồi ạ", "cats": ["delivery_time_requirement"]}
+{"text": "hoặc không thì sáng mai được ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Vậy tầm sau 4r shop sẽ ship cho bạn nhé ạ", "cats": ["delivery_time_requirement"]}
+{"text": "em rảnh cả sáng hehe", "cats": ["delivery_time_requirement"]}
+{"text": "tầm 8r là đẹp nhất ạ", "cats": ["delivery_time_requirement"]}
+{"text": "xe này có sẵn ko b", "cats": ["ask_product_availability"]}
+{"text": "cho mình xem hình full box với ạ", "cats": ["ask_product_image"]}
+{"text": "xe này tỉ lệ thế nào b nhỉ", "cats": ["ask_product_info"]}
+{"text": "báo lại mình giá nha", "cats": ["ask_product_price"]}
+{"text": "Cho mình hỏi bộ này giá bao nhiêu v ạ", "cats": ["ask_product_price"]}
+{"text": "Vậy cho e đặt 1 bộ", "cats": ["agree", "agree_order"]}
+{"text": "Cho e hỏi chút là bộ của e đã về chưa z ạ", "cats": ["ask_order_status"]}
+{"text": "Đồ của mình đến VN chưa ạ", "cats": ["ask_order_status"]}
+{"text": "Bạn oi nếu muốn qua đấy lấy thì mấy h lấy dc v", "cats": ["get_product_direct"]}
+{"text": "Thế ship luôn hnay cho e dc k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Shop ơi trc e có mua con này shop có kích thước dài rộng của nó k e muốn mua hộp mica để đựng ý", "cats": ["ask_product_info"]}
+{"text": "sốp ơi sốp cho em hỏi mấy cái xe giá đó là có động cơ chưa ạ", "cats": ["ask_product_info"]}
+{"text": "Shop đang sẵn mẫu nào ạ", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "Cho e xin thông tin bộ này nha ạ", "cats": ["ask_product_info"]}
+{"text": "Cho e 1 hộp nha", "cats": ["agree", "agree_order"]}
+{"text": "Thế mai ship e nha", "cats": ["delivery_time_requirement"]}
+{"text": "Dạ tầm 10h mình ship cho bạn nhé ạ", "cats": ["delivery_time_requirement"]}
+{"text": "shop còn bộ này k ạ ?", "cats": ["ask_product_availability"]}
+{"text": "mình lấy bộ này nhé", "cats": ["agree_order"]}
+{"text": "này là hàng or hay có sẵn v ạ🥲", "cats": ["ask_product_availability"]}
+{"text": "dạ em muốn hỏi giá ạ", "cats": ["ask_product_price"]}
+{"text": "shop có ảnh feedback hay ảnh thật kh ạaa", "cats": ["ask_product_image"]}
+{"text": "shop ơi mình còn bộ stranger things hộp nhăn k ạ", "cats": ["ask_product_availability"]}
+{"text": "mình lấy bộ này nhe", "cats": ["agree_order"]}
+{"text": "em muốn mua con ford đó ạ", "cats": ["agree_order"]}
+{"text": "shop ưi mình ship đơn của em chưa ạ", "cats": ["ask_order_status"]}
+{"text": "mình ord 1 em mẹc f1 với ạ", "cats": ["agree_order"]}
+{"text": "dạ vâng ạ thee chiều nay mình qua lấy luôn đc ko ạ", "cats": ["delivery_time_requirement"]}
+{"text": "hoặc tầm chiều mai mình qua lấy đc ko ạ", "cats": ["delivery_time_requirement"]}
+{"text": "chiều mai loanh quanh tầm 4 rưỡi 5 giờ gì đó", "cats": ["delivery_time_requirement"]}
+{"text": "hay bh b có tiện b ship cho mình luôn đ  k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "b ơi mai b có ship đc cho mình khum ạ hoặc lnao b tiện ạ", "cats": ["delivery_time_requirement"]}
+{"text": "chiều tối nay b ship giúp mình với ạ", "cats": ["delivery_time_requirement"]}
+{"text": "sốp ơi mẫu mẹc còn khum ạa", "cats": ["ask_product_availability"]}
+{"text": "cho m lấy 1 chú nha ạ", "cats": ["agree_order"]}
+{"text": "nếu tiện thì m chạy qua lấy :)))", "cats": ["get_product_direct"]}
+{"text": "nếu tầm 6h chiều mai m qua thì có được hông ạ", "cats": ["delivery_time_requirement"]}
+{"text": "hoặc vẫn 6h thứ 6 hoặc t7 m qua lấy ạ 🙏 b tiện cái nào thì báo m vứi", "cats": ["delivery_time_requirement"]}
+{"text": "thế t7 m chạy qua nhá bác ơii", "cats": ["get_product_direct", "delivery_time_requirement"]}
+{"text": "á sốp ơi tình hình là sáng nay t qua luôn đc khum ạ :))) tầm 9 10h ạ", "cats": ["delivery_time_requirement"]}
+{"text": "tầm 9h hơn m qua nha sốp :3", "cats": ["delivery_time_requirement"]}
+{"text": "Cho e xin giá bộ này với ạ", "cats": ["ask_product_price"]}
+{"text": "shop còn con mercedes - amg f1 w14 k ạ?", "cats": ["ask_product_availability"]}
+{"text": "shop ơi ferrari đỏ 1:8 bên mình giá sao ạ", "cats": ["ask_product_price"]}
+{"text": "lắp sẵn roi hay sao z ạ shop", "cats": ["ask_product_info"]}
+{"text": "em qua tận nơi lấy được không ạ, tại e đi tặng nên sợ hộp ship nó bị móp ấy ạ", "cats": ["get_product_direct"]}
+{"text": "sốp ơi con toothless bnhiu ạ", "cats": ["ask_product_price"]}
+{"text": "Cho em hỏi stick với chiếc por ạ", "cats": ["ask_product_price"]}
+{"text": "shop ơi, bên mình có mẫu lego nào tầm 200-300 kh ạ", "cats": ["provide_budget", "ask_product_suggestion"]}
+{"text": "cho em xem qua mấy mẫu này với ạ", "cats": ["ask_product_image"]}
+{"text": "mẫu này size như nào ạ", "cats": ["ask_product_info"]}
+{"text": "mẫu này có sẵn kh ạ", "cats": ["ask_product_availability"]}
+{"text": "shop đang sẵn những bộ lego nào v ạ", "cats": ["ask_product_availability"]}
+{"text": "mẫu này bên mình còn kh ạ", "cats": ["ask_product_availability"]}
+{"text": "cho em xin giá cả nữa ạ", "cats": ["ask_product_price"]}
+{"text": "shop còn con speed champion hem ạ", "cats": ["ask_product_availability"]}
+{"text": "mấy con đó có tầm giá nhau ko ạ", "cats": ["ask_product_price"]}
+{"text": "dạ vậy bạn cho mình xem những mấy còn lại với ạ", "cats": ["ask_product_image"]}
+{"text": "z mình lấy con bên phải với ạ", "cats": ["agree_order"]}
+{"text": "đều có sẵn hết đko ạ", "cats": ["ask_product_availability"]}
+{"text": "vậy mình vẫn lấy con bên phải nha sốp", "cats": ["agree_order"]}
+{"text": "dạ vậy mình lấy con đó nha sốp", "cats": ["agree_order"]}
+{"text": "mình lấy 1 wall e với 1 dom’s dodge", "cats": ["agree_order"]}
+{"text": "mình lấy xe dom nhen", "cats": ["agree_order"]}
+{"text": "bên c sẵn mẫu xe nào budget 5-700 hơm", "cats": ["provide_budget", "ask_product_availability", "ask_product_suggestion"]}
+{"text": "cho e hỏi mẫu lego oto siêu xe treo tường với a", "cats": ["ask_product_suggestion"]}
+{"text": "shop chốt e con đen", "cats": ["agree_order"]}
+{"text": "Shop check đơn hàng cho e đến đâu r", "cats": ["ask_order_status"]}
+{"text": "Cho mình xem mẫu này ạ", "cats": ["ask_product_image"]}
+{"text": "Giá s bn ơii", "cats": ["ask_product_price"]}
+{"text": "Hàng có sẵn hay order ạ", "cats": ["ask_product_availability"]}
+{"text": "Vâng ship cho m 1 em nhé", "cats": ["agree_order"]}
+{"text": "shop còn sẵn bộ này k ạ", "cats": ["ask_product_availability"]}
+{"text": "Shop có các mẫu spiderman hem ạ hoặc xe tăng í ạ", "cats": ["ask_product_suggestion", "give_product"]}
+{"text": "Dạ cọc bnhiu ạ hay sao ad", "cats": ["agree_order"]}
+{"text": "Shop lego spiderman k ạ", "cats": ["ask_product_availability", "give_product"]}
+{"text": "Có kiểu này hum shop oiii", "cats": ["ask_find_product", "give_product"]}
+{"text": "Dạ mình coi vs", "cats": ["ask_product_image", "ask_product_info"]}
+{"text": "Bộ này bnhiu ad shop", "cats": ["ask_product_price"]}
+{"text": "Hàng e tới đâu rui á shop, có mã vận hàng hok ạ", "cats": ["ask_order_status"]}
+{"text": "Em xin giá xe con merc F1 vứi ạ", "cats": ["ask_product_price"]}
+{"text": "Sẵn ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Hay phải order á sốp", "cats": ["ask_product_availability"]}
+{"text": "lego stranger things còn ko b", "cats": ["ask_product_availability"]}
+{"text": "Sốp cho e hỏi trong tầm giá 200-300 mua dc món nào k sốp🥲", "cats": ["provide_budget", "ask_product_suggestion"]}
+{"text": "Cái này to chà bá lửa vậy hả bà :)))))", "cats": ["ask_product_info"]}
+{"text": "Nhỏ này là 2x mấy vậy mom :))", "cats": ["ask_product_price"]}
+{"text": "E này đặt hay có sẵn luôn ạ", "cats": ["ask_product_availability"]}
+{"text": "gia như nào vậy shop", "cats": ["ask_product_price"]}
+{"text": "kkk bạn còn bộ nào giá như này ko ạ", "cats": ["provide_budget", "ask_product_suggestion"]}
+{"text": "2/9 cx ko kịp hả shop", "cats": ["delivery_time_requirement"]}
+{"text": "dạ em đặt mẫu này ạ", "cats": ["agree", "agree_order"]}
+{"text": "bộ này giá sao shop", "cats": ["ask_product_price"]}
+{"text": "Hi shop, e đg muốn tìm mẫu lego tầm 300k trở xuống cho nam ạ. Shop có gợi ý mẫu nào ko ạ?", "cats": ["provide_budget", "ask_product_suggestion"]}
+{"text": "Bạn nam thích câu cá vs động vật ak", "cats": ["ask_find_product"]}
+{"text": "Cho mình hỏi là mình có hẹn đc giờ giao ko ạ? Vì mình cần giao ở thủ đức vào tối thứ 6 ạ", "cats": ["delivery_time_requirement", "delivery_time_requirement"]}
+{"text": "Vậy là ko kịp 22/8 ạ 😭", "cats": ["delivery_time_requirement"]}
+{"text": "V bạn cho mình đặt bộ hình Venice ship về Vucng Tàu đc k ạ?", "cats": ["agree_order"]}
+{"text": "Mình đặt cái này ạ.", "cats": ["agree", "agree_order"]}
+{"text": "Shop ơi cho mình hỏi mình có thể track đc đơn hàng tới đâu r k ạ?", "cats": ["ask_order_status"]}
+{"text": "dạ shop ơi mình muốn tham khảo sp non lego bên shop ạ", "cats": ["ask_product_suggestion"]}
+{"text": "hàng e tới đâu rùi sốp", "cats": ["ask_order_status"]}
+{"text": "cnay size nnao ạ?", "cats": ["ask_product_info"]}
+{"text": "có ảnh sau khi lắp xong k sốp", "cats": ["ask_product_image"]}
+{"text": "vs cho e xin giá ạ", "cats": ["ask_product_price"]}
+{"text": "giá nnao ạ", "cats": ["ask_product_price"]}
+{"text": "shop ơi bộ này bên shop còn ko ạ", "cats": ["ask_product_availability"]}
+{"text": "giá sao ạ", "cats": ["ask_product_price"]}
+{"text": "e xem qua ảnh thật vs box dc k ạ", "cats": ["ask_product_image"]}
+{"text": "porsche shop còn nhx mẫu nào khác k ạ? e xin giá lun ạ", "cats": ["ask_product_price", "ask_product_suggestion"]}
+{"text": "2 bộ này giá s ạ", "cats": ["ask_product_price"]}
+{"text": "shop oi thường bên shop mẫu nào đc chuộng nhất v ạ", "cats": ["ask_product_suggestion"]}
+{"text": "đang sẵn hàng r đk shop", "cats": ["ask_product_availability"]}
+{"text": "shop ship lun cho e vs", "cats": ["agree_order"]}
+{"text": "e muốn nhận trước t5 á", "cats": ["delivery_time_requirement"]}
+{"text": "tầm 5-6h chiều e qua lấy đc k ạ", "cats": ["get_product_direct", "delivery_time_requirement"]}
+{"text": "shop ơi h e qua nhé ạ", "cats": ["get_product_direct"]}
+{"text": "shop ơi mình có bộ hoa nào sẵn giá tầm 150 k ạa", "cats": ["provide_budget", "ask_product_suggestion"]}
+{"text": "hic v có những mẫu nào có sẵn k ạ, mai e cần lun 😭", "cats": ["ask_product_availability"]}
+{"text": "Shop còn bộ lego BMW và xe Merc ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Bạn ơi thế cho mình order nhé", "cats": ["agree", "agree_order"]}
+{"text": "2 bộ này nha", "cats": ["agree_order"]}
+{"text": "Hàng về báo mình ra lấy nhé, mình ở ngay gần đấy luôn", "cats": ["get_product_direct"]}
+{"text": "Bạn ơi cái lego mình đặt về chưa nhỉ", "cats": ["ask_order_status"]}
+{"text": "Bạn ơi lego của mình về chưa nhỉ", "cats": ["ask_order_status"]}
+{"text": "Bạn ơi cái hộp bộ này to khoảng thế nào thí", "cats": ["ask_product_info"]}
+{"text": "Hộp cao tầm nhiu thế bạn ơi", "cats": ["ask_product_info"]}
+{"text": "Tối bên mình mở cửa đến mấy giờ vậy thì hết giờ làm mình qua lấy nhé", "cats": ["get_product_direct"]}
+{"text": "Vậy mai bạn ship giúp mình nhé, trong giờ hành chính là đc nhé", "cats": ["delivery_time_requirement"]}
+{"text": "Cái mảnh thiếu này của mình thì hiện nó ra sao ùi 🥹🥹🥹", "cats": ["ask_order_status"]}
+{"text": "Sang tuần mình lấy nha", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn ơi trưa nay mình qua lấy đc ko thế", "cats": ["delivery_time_requirement"]}
+{"text": "Hiện tại ở shop đang có mẫu nào sẵn hàng không vậy", "cats": ["ask_product_availability"]}
+{"text": "Trước thứ 6 là được bạn ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Nếu không thì ngày mai ban ngày bạn ship cho mình là tiện nhất nhé", "cats": ["delivery_time_requirement"]}
+{"text": "Tầm 9h 9r cx đc", "cats": ["delivery_time_requirement"]}
+{"text": "B ơi, hiện bên mình có bộ nào sẵn ko", "cats": ["ask_product_availability"]}
+{"text": "Cho mình lấy con này nhé", "cats": ["agree_order"]}
+{"text": "Cho mình hỏi bộ stranger thing này mà mới thì giá bnh và bao giờ về đc Hn", "cats": ["ask_order_wait_time", "ask_product_price", "give_product"]}
+{"text": "Vậy cái xe cam này thì giá sao", "cats": ["ask_product_price", "give_product"]}
+{"text": "Với hộp này nữa thì giá sao vậy bạn", "cats": ["ask_product_price"]}
+{"text": "Dạ bạn ui v bộ này shop vẫn ship ra linh lang cho mình dko ạ", "cats": ["agree_order", "provide_cus_inf"]}
+{"text": "Cho mình đặt 2 bộ này nhé", "cats": ["agree_order"]}
+{"text": "2 bộ này bạn đặt ship giúp mình về Bắc Ninh nhé", "cats": ["agree_order", "provide_cus_inf"]}
+{"text": "B ơi, mình chưa thấy hàng giao ý, không biết là đơn đc đi chưa hay do bên vận chuyển chưa ship, b kiểm tra giúp mình với nhé", "cats": ["ask_order_status"]}
+{"text": "e muốn tìm 1 bộ tặng bạn trai dịp 14/2 í ạ", "cats": ["delivery_time_requirement"]}
+{"text": "cho mình xin giá con stitch vứi ạ", "cats": ["ask_product_price"]}
+{"text": "shop có sẵn khum ạ", "cats": ["ask_product_availability"]}
+{"text": "Shop ơi, bên mình còn hoa lego k ạ?", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "Bên mk có những mẫu nào hả shop? Có hoa hồng xanh lego / non-lego không ạ?", "cats": ["ask_product_suggestion"]}
+{"text": "Bao gồm mấy bông hả xốp?", "cats": ["ask_product_info"]}
+{"text": "Dạ z shop cho e đặt 1 bộ ạ", "cats": ["agree", "agree_order"]}
+{"text": "Chiều nay được không shop? Nhưng em đổi địa chỉ tý ạ", "cats": ["delivery_time_requirement"]}
+{"text": "À shop cho e hỏi, bên mình có nhânh order Lego ninjago k ạ?", "cats": ["ask_find_product"]}
+{"text": "Shop tìm hộ em xem có bộ này non-lego k ạ?", "cats": ["ask_find_product"]}
+{"text": "bộ này bao nhiu hả shop?", "cats": ["ask_product_price"]}
+{"text": "ad cho em hỏi thêm về giá của TIE fighter vs X-wing starfighter bên Star war ạ", "cats": ["ask_find_product", "ask_product_price", "give_product"]}
+{"text": "ad cho e giá của mẫu trên vs mẫu này đi", "cats": ["ask_product_price"]}
+{"text": "cho em con Tie nhọn 650k nhé", "cats": ["agree_order"]}
+{"text": "Trưa T5 ad giao cho e nhé", "cats": ["delivery_time_requirement"]}
+{"text": "Tầm 3h đc k ạ?", "cats": ["delivery_time_requirement"]}
+{"text": "Ad ơi, ad tìm hộ em bộ này xem có không ad?", "cats": ["ask_find_product"]}
+{"text": "sốp ới em xin giá lego loopy bên mình zới ạh", "cats": ["ask_product_price"]}
+{"text": "shop b còn những mẫu technic nào nhỉ cho mình xem với ạ", "cats": ["ask_product_suggestion"]}
+{"text": "mẫu này giá sao ạ", "cats": ["ask_product_price"]}
+{"text": "Cho e xin giá xe trong post và khung với ạ", "cats": ["ask_product_price"]}
+{"text": "Cho e cả 2 luon nhé ạ", "cats": ["agree_order"]}
+{"text": "lambo countach còn sẵn kh shop", "cats": ["ask_product_availability"]}
+{"text": "cho e lấy cái đó nhé ạ", "cats": ["agree_order"]}
+{"text": "có về trc 24/10 ko ạ 😭", "cats": ["delivery_time_requirement"]}
+{"text": "dạ v cho em lấy cái đó nhe ạ", "cats": ["agree_order"]}
+{"text": "em xin giá lego stranger things với ạ", "cats": ["ask_product_price"]}
+{"text": "có mấy cái oto nnao", "cats": ["ask_product_suggestion"]}
+{"text": "em ở hnoi thì mình sẵn cái đó k ạ", "cats": ["ask_product_availability"]}
+{"text": "oki ạ trc halloween nà oki", "cats": ["delivery_time_requirement"]}
+{"text": "sốp đang sẵn cnao dạ", "cats": ["ask_product_availability"]}
+{"text": "cho em order con trắng nhé ạ:)) tặng vui vui th cu vậy", "cats": ["agree_order"]}
+{"text": "mìh coá đồ ch sópp", "cats": ["ask_order_status"]}
+{"text": "coá ch sóp", "cats": ["ask_order_status"]}
+{"text": "vậy cuối tuần nì sop ship cho em dc hong", "cats": ["delivery_time_requirement"]}
+{"text": "oki ạ v tầm 4h dc k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "cho em con nay nua nha", "cats": ["agree_order"]}
+{"text": "thêm cho em con wall e nhen", "cats": ["add_product", "agree_order"]}
+{"text": "oki sóp nếu ngon hơn thì chiều sop nhé", "cats": ["delivery_time_requirement"]}
+{"text": "v sôốp đến trc 10h giúp em nhá", "cats": ["delivery_time_requirement"]}
+{"text": "Shop ơ còn hoa lego sẵn k ạ", "cats": ["ask_product_availability", "give_product"]}
+{"text": "Mình xin mẫu với ạ", "cats": ["ask_product_suggestion"]}
+{"text": "dạ sốp ơi mình còn mẫu porsche 911 hong ạa", "cats": ["ask_product_availability", "give_product"]}
+{"text": "helu shop ơi cho e hỏi đồ bên mình có sẵn k ý tầm 10/7 e cần rui", "cats": ["ask_product_availability", "delivery_time_requirement"]}
+{"text": "e xin giá con trắng", "cats": ["ask_product_price"]}
+{"text": "Shop có đang sẵn con lego xe porsche nào k ạ", "cats": ["ask_product_availability", "ask_product_suggestion", "give_product"]}
+{"text": "Mình xin giá con porsche với", "cats": ["ask_product_price"]}
+{"text": "Bộ đấy tỉ lệ ntn ạ", "cats": ["ask_product_info"]}
+{"text": "Ship cho mình trg hnay đc k ạ?", "cats": ["delivery_time_requirement"]}
+{"text": "Có con bmw nào k ạ", "cats": ["ask_product_availability", "give_product"]}
+{"text": "bộ này giá bao nhiêu ạ", "cats": ["ask_product_price"]}
+{"text": "bộ này còn sẵn ko ạ", "cats": ["ask_product_availability"]}
+{"text": "shop có bộ nào có sẵn ship ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Còn ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Vg thế cho e đặt đi ạ", "cats": ["agree_order"]}
+{"text": "Sáng mai e nhận đc luôn r nha", "cats": ["delivery_time_requirement"]}
+{"text": "Shop ship ch ạ", "cats": ["ask_order_status"]}
+{"text": "Có sẵn ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Có hàng sẵn ko shop ơi", "cats": ["ask_product_availability"]}
+{"text": "Giá bnhiu ạ", "cats": ["ask_product_price"]}
+{"text": "Còn lego hoa ko shop", "cats": ["ask_product_availability", "give_product"]}
+{"text": "Còn ko hả shop", "cats": ["ask_product_availability"]}
+{"text": "Thế shop ddg có sẵn Lego hay Lego technic j ko ạ", "cats": ["ask_product_availability"]}
+{"text": "em xin giá con stitch", "cats": ["ask_product_price"]}
+{"text": "sẵn hnoi k ạ", "cats": ["ask_product_availability"]}
+{"text": "mẫu này còn k ạ", "cats": ["ask_product_availability"]}
+{"text": "bên mình có mẫu nào có sẵn k ạ", "cats": ["ask_product_availability"]}
+{"text": "sốp còn sẵn bộ này ko ạ", "cats": ["ask_product_availability"]}
+{"text": "cho mình xin giá lego technic với ạ", "cats": ["ask_product_price"]}
+{"text": "bên mình có sẵn mẫu nào ạ", "cats": ["ask_product_availability"]}
+{"text": "sốp ơi sốp có mẫu lego máy ảnh xinh nào tặng cho bạn nam k ạ", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "em cần trc ngày 13 ạ", "cats": ["delivery_time_requirement"]}
+{"text": "sốp có ảnh lắp lên rùi k ạ", "cats": ["ask_product_image"]}
+{"text": "dạ sốp báo em giá lun nha", "cats": ["ask_product_price"]}
+{"text": "chắc em lấy nha", "cats": ["agree_order"]}
+{"text": "Mẫu này sẵn k ạ", "cats": ["ask_product_availability"]}
+{"text": "Bnhiu ạ", "cats": ["ask_product_price"]}
+{"text": "Oki z xe thui ạ", "cats": ["agree", "agree_order"]}
+{"text": "Kịp trước noel đúng hem ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Đơn của e về chưa ạ", "cats": ["ask_order_status"]}
+{"text": "Giờ nao cx dc ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Tầm chiều í ạ", "cats": ["delivery_time_requirement"]}
+{"text": "em xin giá shop ui", "cats": ["ask_product_price"]}
+{"text": "còn mẫu hoa nào khác hong ạ", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "cho em xem với ạ", "cats": ["ask_product_image"]}
+{"text": "cho em đặt bộ này đi shop", "cats": ["agree_order"]}
+{"text": "có chưa ạ", "cats": ["ask_order_status"]}
+{"text": "z nào giao tới đây vậy ạ 🥺", "cats": ["ask_order_wait_time", "ask_order_status"]}
+{"text": "trc t7 dc hong shop", "cats": ["delivery_time_requirement"]}
+{"text": "sốp giao đến đâu rùi ạ", "cats": ["ask_order_status"]}
+{"text": "shop có kích thước của sản phẩm em mua k ạ", "cats": ["ask_product_info"]}
+{"text": "e xin giá lego technic ạ", "cats": ["ask_product_price"]}
+{"text": "dạ shop sẵn mẫu nào k ạ", "cats": ["ask_product_availability"]}
+{"text": "e xin giá ah", "cats": ["ask_product_price"]}
+{"text": "Sốp còn sẵn những bộ nào ạ", "cats": ["ask_product_availability"]}
+{"text": "Mai mình lấy dc hem", "cats": ["get_product_direct", "delivery_time_requirement"]}
+{"text": "B có ảnh xe 911 và Porsche lúc lắp xong k ạ", "cats": ["ask_product_image"]}
+{"text": "Cả 2 xe to bằng nhau ạ", "cats": ["ask_product_info"]}
+{"text": "Mai mình muốn lấy tầm 9-10h b có tiện hong ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Z chắc mình lấy bản 300k ạ", "cats": ["agree_order"]}
+{"text": "Mai mình qua lấy đc hem ạ", "cats": ["get_product_direct", "delivery_time_requirement"]}
+{"text": "Sáng maii", "cats": ["delivery_time_requirement"]}
+{"text": "Chắc cũng phải tầm trưa ạ", "cats": ["delivery_time_requirement"]}
+{"text": "11-12h", "cats": ["delivery_time_requirement"]}
+{"text": "Tầm 10h,11h được khum ạ", "cats": ["delivery_time_requirement"]}
+{"text": "e xin giá ạ", "cats": ["ask_product_price"]}
+{"text": "to tầm bnh ạ", "cats": ["ask_product_info"]}
+{"text": "real thì có sẵn k ạ", "cats": ["ask_product_availability"]}
+{"text": "real bnh ạ", "cats": ["ask_product_price"]}
+{"text": "Sốp uii mih còn bộ này k ạ", "cats": ["ask_product_availability"]}
+{"text": "cho e xin giá con này voi ạ", "cats": ["ask_product_price"]}
+{"text": "kích thước như nào ấy ah", "cats": ["ask_product_info"]}
+{"text": "cho e xin giá con này ạ", "cats": ["ask_product_price"]}
+{"text": "này là dc bao nhiêu bông bó đó thế ạ", "cats": ["ask_product_info"]}
+{"text": "cái này thì là bnhieu ạ", "cats": ["ask_product_price"]}
+{"text": "cho e bộ này với ah", "cats": ["agree_order"]}
+{"text": "budget e khoảng 200-250 thi có nhiều mẫu khônng ạ", "cats": ["provide_budget", "ask_product_suggestion"]}
+{"text": "mẫu nay bnh ạ", "cats": ["ask_product_price"]}
+{"text": "cho e cnay a", "cats": ["agree_order"]}
+{"text": "xnay bnh a", "cats": ["ask_product_price"]}
+{"text": "shop có thêm ảnh bộ này k ạ", "cats": ["ask_product_image"]}
+{"text": "2 cnay đồng giá ạ", "cats": ["ask_product_price"]}
+{"text": "thế cho e bộ đó luôn ạ", "cats": ["agree_order"]}
+{"text": "cho e luôn bộ đó nhe a", "cats": ["agree_order"]}
+{"text": "thế chốt cho e bộ kia nhe ạ", "cats": ["agree_order"]}
+{"text": "mảnh lego nnay bên shop co k ạ =))", "cats": ["ask_find_product", "ask_product_availability"]}
+{"text": "shop ơi sắp có hàng ch ậ", "cats": ["ask_order_status"]}
+{"text": "shop ship lun e e cần trc t7 shop ưi", "cats": ["delivery_time_requirement"]}
+{"text": "shop ơi hàng về chưa ạ", "cats": ["ask_order_status"]}
+{"text": "350 tỉ lệ 1:8 dk ạ", "cats": ["ask_product_price"]}
+{"text": "còn cháu nào na ná 911 mà nhỉnh hơn tí k ạ", "cats": ["ask_product_suggestion"]}
+{"text": "giá nnao í nhỉ", "cats": ["ask_product_price"]}
+{"text": "oder bi giừo tới 19/11 là đẹp dk ạ", "cats": ["delivery_time_requirement"]}
+{"text": "ê nma e qua lấy dc shop ạ", "cats": ["get_product_direct"]}
+{"text": "nma e qua lấy dc", "cats": ["get_product_direct"]}
+{"text": "mai em qua lấy cho chắc nhá", "cats": ["delivery_time_requirement"]}
+{"text": "mai tầm 5r em qua ạ", "cats": ["delivery_time_requirement"]}
+{"text": "cho e hỏi lego hoa với ạ", "cats": ["ask_product_suggestion"]}
+{"text": "có kiểu như này k ạ", "cats": ["ask_find_product"]}
+{"text": "thế cái này giá sao ạ", "cats": ["ask_product_price"]}
+{"text": "sốp ơii mình còn porsche 911 không ạ", "cats": ["ask_product_availability"]}
+{"text": "dạ mình lấy mẫu này với ạ", "cats": ["agree_order"]}
+{"text": "shop ơi shop chuyển hàng cho mình chưa ạ", "cats": ["ask_order_status"]}
+{"text": "Bên mình có sẵn lego xe k ạ", "cats": ["ask_product_availability"]}
+{"text": "V cho mình order một bộ r2-d2 vs ạ", "cats": ["agree_order"]}
+{"text": "Hàng của mình bao h có v ạ", "cats": ["ask_order_status"]}
+{"text": "b có ship tối dc k ạ tại trong tuần mình bận á😢", "cats": ["delivery_time_requirement"]}
+{"text": "Hoặc chiều a", "cats": ["delivery_time_requirement"]}
+{"text": "Bên mình có sẵn lego f1 k ạ", "cats": ["ask_product_availability"]}
+{"text": "shop ơi cho em hỏi chiếc porsche 911 rsr chính hãng giá ntn ạ", "cats": ["ask_product_price"]}
+{"text": "xin giá ạ", "cats": ["ask_product_price"]}
+{"text": "Mk 1 con màu vàng nhé bn", "cats": ["agree_order"]}
+{"text": "Bên bạn còn bộ này k ạ", "cats": ["ask_product_availability"]}
+{"text": "mình xin giá lego shop ơi", "cats": ["ask_product_price"]}
+{"text": "Bạn đang muốn tìm sản phẩm lego tặng bạn nữ ạ", "cats": ["ask_product_suggestion"]}
+{"text": "mình có mẫu nào k ạ mình muốn tham khảo", "cats": ["ask_product_suggestion"]}
+{"text": "shop ui hàng chính hãng shop có những mẫu nào ạ", "cats": ["ask_product_suggestion"]}
+{"text": "budget của e cx sinh viên thui ạ tầm 3-400, b ấy chắc là thíc xe, đá bóng, mấy nvat marvel ncla e kím cái nào đệp đệp là dc ạ", "cats": ["provide_budget", "ask_product_suggestion"]}
+{"text": "budget đó lego auth có nhg loại nào ạ", "cats": ["ask_product_suggestion"]}
+{"text": "E xin giá", "cats": ["ask_product_price"]}
+{"text": "xe này giá bao nhiêu ạ", "cats": ["ask_product_price"]}
+{"text": "cho em hỏi con f1 này giá bnh ạ", "cats": ["ask_product_price", "give_product"]}
+{"text": "con này lắp xong dài bnh an", "cats": ["ask_product_info"]}
+{"text": "Mình còn mẫu này k ạ", "cats": ["ask_product_availability"]}
+{"text": "Cho e ord", "cats": ["agree_order"]}
+{"text": "Trc t7 tuần sau nhe shop", "cats": ["delivery_time_requirement"]}
+{"text": "Ủa giá bộ này", "cats": ["ask_product_price"]}
+{"text": "Có hàng chưa ạ", "cats": ["ask_order_status"]}
+{"text": "gần e qua ah", "cats": ["get_product_direct"]}
+{"text": "qá tuyệt sốp ơi knang mai e qua", "cats": ["get_product_direct", "delivery_time_requirement"]}
+{"text": "shop ơi mình xin giá bộ f1 ferarri với", "cats": ["ask_product_price", "give_product"]}
+{"text": "Em hỏi lego xe với ạ", "cats": ["ask_find_product"]}
+{"text": "Em bày 309k đk ạ", "cats": ["ask_product_price"]}
+{"text": "Mẫu này là 1:10 hay s ạ", "cats": ["ask_product_info"]}
+{"text": "Là bự khoảng 50cm đk sốp", "cats": ["ask_product_info"]}
+{"text": "Chào sốp m mua mua quà tặng cho b trai budget dưới 300k ạ sốp có thể gợi í giúp mình đc ko ạ? B ý sn ngày 4/5. M cảm ơn sốp nhé", "cats": ["provide_budget", "ask_product_suggestion", "delivery_time_requirement"]}
+{"text": "Cho e xin giá ạ", "cats": ["ask_product_price"]}
+{"text": "Thế hộp bên ngoài nó ntn ạ", "cats": ["ask_product_image"]}
+{"text": "Từ 4h-5h chiều ạ", "cats": ["delivery_time_requirement"]}
+{"text": "mình xin giá con này", "cats": ["ask_product_price"]}
+{"text": "shop có sẵn ko hay em phải order ạ", "cats": ["ask_product_availability"]}
+{"text": "vs size này là size bn ạ", "cats": ["ask_product_info"]}
+{"text": "có bộ nào bé hơn k ạ", "cats": ["ask_product_suggestion"]}
+{"text": "giá ntn ạ", "cats": ["ask_product_price"]}
+{"text": "sốp có sẵn porsche 911 kh a", "cats": ["ask_product_availability"]}
+{"text": "bản 1:10 thì giá bnh ạ", "cats": ["ask_product_price"]}
+{"text": "tối mai dc kh ạ", "cats": ["delivery_time_requirement"]}
+{"text": "tầm sau 7h ạ", "cats": ["delivery_time_requirement"]}
+{"text": "mai dc kh ạ", "cats": ["delivery_time_requirement"]}
+{"text": "a oi bên a còn porsche 919 k ạ", "cats": ["ask_product_availability"]}
+{"text": "còn lego đó k ạ", "cats": ["ask_product_availability"]}
+{"text": "choa e 1 hộ vứii", "cats": ["agree_order"]}
+{"text": "tầm chiều tói e qua dc k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "v sau 8r e qua nhe a", "cats": ["delivery_time_requirement"]}
+{"text": "Mẫu này có ph ord k ạ", "cats": ["ask_product_availability"]}
+{"text": "huhu shop cho e đặt bộ này với ạ", "cats": ["agree_order"]}
+{"text": "Shop cho em xin vài ảnh thật dc khumm ạ", "cats": ["ask_product_image"]}
+{"text": "The shop lay cho em voi", "cats": ["agree_order"]}
+{"text": "Tầm cn tuần này ship dc kh shoppp", "cats": ["delivery_time_requirement"]}
+{"text": "sánggg mai hoặc trưa mai đều dc ạ", "cats": ["delivery_time_requirement"]}
+{"text": "e xin giá hàng chính hãng ạ", "cats": ["ask_product_price", "ask_legit"]}
+{"text": "mình xin giá bộ này nhé ạ", "cats": ["ask_product_price"]}
+{"text": "hàng chính hãng giá bnhieu v bạn nhỉ", "cats": ["ask_product_price", "ask_legit"]}
+{"text": "còn cnay kh ạ", "cats": ["ask_product_availability"]}
+{"text": "bnhieu ạ", "cats": ["ask_product_price"]}
+{"text": "có ship dc kh ạ", "cats": ["delivery_time_requirement"]}
+{"text": "bộ nì còn sẵn hog z sóp", "cats": ["ask_product_availability"]}
+{"text": "Mình còn nhận mẫu này không ạ?", "cats": ["ask_find_product", "ask_product_availability"]}
+{"text": "Nguyễn Quỳnh Trang\n0963245695\nEm lấy hàng trực tiếp ạ", "cats": ["get_product_direct", "provide_cus_inf"]}
+{"text": "nhà mình còn bộ này k shop", "cats": ["ask_product_availability"]}
+{"text": "sẵn hong ạ", "cats": ["ask_product_availability"]}
+{"text": "hàng em đến đâu rùi sop oi", "cats": ["ask_order_status"]}
+{"text": "shop ui shop có xem đc đơn của e đến đâu rùi hog", "cats": ["ask_order_status"]}
+{"text": "b ơi xem hộ t xem hàng đến đâu r với", "cats": ["ask_order_status"]}
+{"text": "shop còn lego hoa hồng k ạ", "cats": ["ask_product_availability", "give_product"]}
+{"text": "bộ trên threads còn k ạ", "cats": ["ask_product_availability"]}
+{"text": "mình sẵn k ạ", "cats": ["ask_product_availability"]}
+{"text": "mình có ảnh fb k ạa", "cats": ["ask_product_image"]}
+{"text": "dạ cho t ord ạa", "cats": ["agree_order"]}
+{"text": "mình ship trc t7 hông ạa", "cats": ["delivery_time_requirement"]}
+{"text": "shop cho mình xin giá 2 bộ này đc k, cảm ơn shop", "cats": ["ask_product_price"]}
+{"text": "mình muốn xem thử Ferrari SF24", "cats": ["ask_product_image", "give_product"]}
+{"text": "với lại giá cả như nào á?", "cats": ["ask_product_price"]}
+{"text": "sốp ơi cho mình xin giá RB20 với ảnh review với nha", "cats": ["ask_product_image", "ask_product_price", "give_product"]}
+{"text": "mình muốn mua con này, thanh toán như nào á sốp ơi", "cats": ["agree_order", "ask_payment_method"]}
+{"text": "shop có sẵn mô hình lego xe nào v ạ", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "em lấy cái này ạ", "cats": ["agree_order"]}
+{"text": "giá ntn ạ", "cats": ["ask_product_price"]}
+{"text": "em lấy bộ đó nhé ạ", "cats": ["agree_order"]}
+{"text": "bạn ui sao hàng của mình về lâu thế ạ", "cats": ["complain_shipping_issue", "ask_order_status"]}
+{"text": "có gì gửi trc 13/2 cho em là đc ọ hiu", "cats": ["delivery_time_requirement"]}
+{"text": "ko bt lag bh hang về v shop", "cats": ["ask_order_status", "ask_order_wait_time"]}
+{"text": "sốp ơi mình có sẵn bộ nào nhiều details xíu k ạ", "cats": ["ask_product_suggestion"]}
+{"text": "mấy mẫu này sẵn hn hết đko ạ", "cats": ["ask_product_availability"]}
+{"text": "shop sẵn lego k ah", "cats": ["ask_product_availability"]}
+{"text": "E mua lego bộ F1 ạ", "cats": ["agree_order", "give_product"]}
+{"text": "Trước 10/1 có k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Đang sẵn những bộ nào thế ạ", "cats": ["ask_product_availability"]}
+{"text": "Cho e lấy bộ này ạ", "cats": ["agree_order"]}
+{"text": "Trước m9 là dc ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Lego cua m sắp có chưa thế ạ", "cats": ["ask_order_status"]}
+{"text": "Ngày mai shop ship minh với ah", "cats": ["delivery_time_requirement"]}
+{"text": "thế t2 ship cũng dc ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Shop ơi mai tầm 5r shop ship cho mình dc k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "5 rưỡi mai shop ship cho mình nha", "cats": ["delivery_time_requirement"]}
+{"text": "B ơi chiều mai mình có vc đột xuất nên có thể ship về địa chỉ này lúc 4h được không ạ", "cats": ["delivery_time_requirement"]}
+{"text": "4h hôm nay ý ạ", "cats": ["delivery_time_requirement"]}
+{"text": "5h dc k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Vậy 5h kém 15 cũng dc ạ", "cats": ["delivery_time_requirement"]}
+{"text": "bộ xon stitch có sẵn hàng khong ạ", "cats": ["ask_product_availability", "give_product"]}
+{"text": "chiều nay luôn dc khum ạ", "cats": ["immediate_ship", "delivery_time_requirement"]}
+{"text": "kh thì mai giờ nào cũng dc á ạ", "cats": ["delivery_time_requirement"]}
+{"text": "shop ơi cho mình hỏi con porche trắng với", "cats": ["ask_find_product", "ask_product_suggestion"]}
+{"text": "v cho mình ord đi", "cats": ["agree_order"]}
+{"text": "tối nay là dc ạ", "cats": ["delivery_time_requirement"]}
+{"text": "sốp có nhận ord lego kh", "cats": ["ask_find_product"]}
+{"text": "mình muốn ord 1 bộ nma kh có trên ig của sốp ấy", "cats": ["ask_find_product"]}
+{"text": "thế cho mình lấy hoa này với cái ferrari sp3 nha", "cats": ["agree_order"]}
+{"text": "sốp ơi hoa của mình về ch ah \nvới cả bộ daily bugle bao tiền z sốp", "cats": ["ask_product_price", "give_product"]}
+{"text": "Shop ơi bộ Lamborghini Sian này giá bao nhiêu vậy ạ?", "cats": ["ask_product_price"]}
+{"text": "Em muốn hỏi giá set Porsche 911 nha shop.", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi xin giá bộ Ferrari Daytona SP3.", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá LEGO Titanic với ạ.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Millennium Falcon không, giá sao vậy?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá bộ Hogwarts Castle nha.", "cats": ["ask_product_price"]}
+{"text": "Anh ơi set Eiffel Tower bao nhiêu tiền vậy?", "cats": ["ask_product_price"]}
+{"text": "Chị muốn biết giá bộ Orchid.", "cats": ["ask_product_price"]}
+{"text": "Shop cho em xin giá Bonsai Tree với.", "cats": ["ask_product_price"]}
+{"text": "Bộ Flower Bouquet giá bao nhiêu á shop?", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá Land Rover Defender nha.", "cats": ["ask_product_price"]}
+{"text": "Chị cho em xin giá Ford GT với ạ.", "cats": ["ask_product_price"]}
+{"text": "Shop ơi bộ Peugeot 9X8 giá sao vậy?", "cats": ["ask_product_price"]}
+{"text": "Em muốn hỏi giá Ferrari 488 GTE.", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi giá Dom’s Dodge Charger nhé.", "cats": ["ask_product_price"]}
+{"text": "Bộ Vespa 125 này bao nhiêu vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá Disney Castle nha.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Tree House không, giá nhiêu ạ?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá bộ Pac-Man Arcade Machine.", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi biết giá set DeLorean với.", "cats": ["ask_product_price"]}
+{"text": "Bộ Jazz Quartet này bn tiền vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Chị muốn hỏi giá LEGO Globe.", "cats": ["ask_product_price"]}
+{"text": "Shop ơi Starry Night giá sao á?", "cats": ["ask_product_price"]}
+{"text": "Em cần giá bộ Concorde nha.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá LEGO NES với.", "cats": ["ask_product_price"]}
+{"text": "Chị cho em xin giá Atari 2600.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Avengers Tower không, bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Em muốn biết giá Daily Bugle.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá Sanctum Sanctorum nha.", "cats": ["ask_product_price"]}
+{"text": "Bộ Hulkbuster này giá sao vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá Optimus Prime với ạ.", "cats": ["ask_product_price"]}
+{"text": "Shop cho em xin giá Bumblebee Transformer.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá Black Panther Bust nha.", "cats": ["ask_product_price"]}
+{"text": "Bộ Venom Mask bn vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Chị muốn biết giá Tiny Plants.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Succulents không, giá sao ạ?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá Rose Bouquet nha 🌹", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi giá Tranquil Garden với.", "cats": ["ask_product_price"]}
+{"text": "Bộ Boutique Hotel này nhiêu tiền vậy?", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá Police Station modular.", "cats": ["ask_product_price"]}
+{"text": "Shop ơi Assembly Square giá sao?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá Jazz Club nha.", "cats": ["ask_product_price"]}
+{"text": "Anh muốn biết giá Natural History Museum.", "cats": ["ask_product_price"]}
+{"text": "Chị cho em xin giá Bookshop.", "cats": ["ask_product_price"]}
+{"text": "Bộ Viking Village này bn tiền shop?", "cats": ["ask_product_price"]}
+{"text": "Shop còn Medieval Blacksmith không, giá sao vậy?", "cats": ["ask_product_price"]}
+{"text": "Em cần giá Pirate Ship nha.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá LEGO Lighthouse.", "cats": ["ask_product_price"]}
+{"text": "Chị muốn biết giá Motorized Lighthouse.", "cats": ["ask_product_price"]}
+{"text": "Bộ LEGO Typewriter này bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Shop cho em giá Camera Retro với.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá Polaroid OneStep nha.", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá Mario Starter Course.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Bowser lớn không, giá sao ạ?", "cats": ["ask_product_price"]}
+{"text": "Em muốn hỏi giá Sonic Green Hill 😄", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi xin giá Minecraft Fox Lodge.", "cats": ["ask_product_price"]}
+{"text": "Bộ Ninjago City Markets bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Chị hỏi giá Dragon Stone Shrine nha.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Kai’s Mech Rider không, giá sao?", "cats": ["ask_product_price"]}
+{"text": "Em muốn biết giá bộ crane Technic lớn.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá excavator Liebherr nha.", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá helicopter rescue với.", "cats": ["ask_product_price"]}
+{"text": "Shop ơi Creator tiger 3in1 bn vậy?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá bộ astronaut nha 🚀", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi xin giá Space Shuttle Discovery.", "cats": ["ask_product_price"]}
+{"text": "Bộ Artemis Launch System giá sao shop?", "cats": ["ask_product_price"]}
+{"text": "Chị muốn biết giá Moon Lander.", "cats": ["ask_product_price"]}
+{"text": "Shop còn ISS không, bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Em cần giá Ferrari F1 mới ra nha.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá McLaren F1 với.", "cats": ["ask_product_price"]}
+{"text": "Chị muốn biết giá Mercedes AMG F1.", "cats": ["ask_product_price"]}
+{"text": "Shop ơi Ducati Panigale bn tiền vậy?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá Nissan GTR nha.", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi xin giá Toyota Supra xanh.", "cats": ["ask_product_price"]}
+{"text": "Bộ LEGO Tokyo skyline này bao nhiêu shop?", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá Singapore skyline với.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Great Pyramid không, giá sao?", "cats": ["ask_product_price"]}
+{"text": "Em muốn hỏi giá Taj Mahal.", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi giá Himeji Castle nha.", "cats": ["ask_product_price"]}
+{"text": "Bộ Hogwarts Express này bn vậy?", "cats": ["ask_product_price"]}
+{"text": "Chị hỏi giá The Office với ạ.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Friends Apartment không, bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Em muốn biết giá Home Alone house.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá WALL-E nha 😭", "cats": ["ask_product_price"]}
+{"text": "Chị cho em xin giá R2-D2.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Grogu không, giá sao vậy?", "cats": ["ask_product_price"]}
+{"text": "Em cần giá Darth Vader Helmet.", "cats": ["ask_product_price"]}
+{"text": "Anh hỏi giá Stormtrooper Helmet nha.", "cats": ["ask_product_price"]}
+{"text": "Bộ Batman Cowl này bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Chị muốn biết giá Iron Man Helmet.", "cats": ["ask_product_price"]}
+{"text": "Shop ơi Infinity Gauntlet giá sao?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá Captain America Shield nha.", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi giá Thor Hammer với.", "cats": ["ask_product_price"]}
+{"text": "Bộ Diagon Alley bn tiền vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Chị muốn biết giá Gringotts Bank.", "cats": ["ask_product_price"]}
+{"text": "Shop còn Ford Mustang không, giá sao ạ?", "cats": ["ask_product_price"]}
+{"text": "Em hỏi giá Camaro Z28 nha.", "cats": ["ask_product_price"]}
+{"text": "Anh cho tôi giá LEGO cherry blossom 🌸", "cats": ["ask_product_price"]}
+{"text": "Bộ dinosaur fossil này bao nhiêu vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Chị cần giá LEGO police helicopter với ạ.", "cats": ["ask_product_price"]}
+{"text": "Shop còn LEGO Bugatti Chiron không ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Chị cho em hỏi set Hogwarts Castle còn không.", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Orchid không vậy ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Colosseum không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Tree House không ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Ideas Globe không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop ơi còn Atari 2600 không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Hulkbuster không vậy?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Venom Mask không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn bộ Tranquil Garden không ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Jazz Club không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Medieval Blacksmith không ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Typewriter không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Guitar không vậy?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Sonic Green Hill không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Ninjago Dragon Stone Shrine không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO crane yellow không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO astronaut không ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn bộ International Space Station không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Technic Yamaha MT10 không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Nissan GTR không vậy?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Singapore skyline không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Hogwarts Express không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO WALL-E không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Stormtrooper Helmet không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Nano Gauntlet không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Hedwig không ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Ford Mustang không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Koenigsegg Jesko không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Fast X Dodge Charger không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO wildflower bouquet không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO Guardians ship không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Miles Morales không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn pirate island không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Dobby LEGO không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn burger van không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO tram không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn city airport không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn LEGO cement mixer không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn gingerbread house không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn hidden side không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn samurai mech không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn vinyl player không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn bookstore modular không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn museum modular không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn velociraptor chase không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn cargo aircraft không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn tiny plants không?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop còn Paris skyline không ạ?", "cats": ["give_product", "ask_product_availability"]}
+{"text": "Shop ơi bộ Lamborghini Sian này giá bao nhiêu vậy ạ?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Em muốn hỏi giá set Porsche 911 nha shop.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi xin giá bộ Ferrari Daytona SP3.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá LEGO Titanic với ạ.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Millennium Falcon không, giá sao vậy?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em hỏi giá bộ Hogwarts Castle nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh ơi set Eiffel Tower bao nhiêu tiền vậy?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn biết giá bộ Orchid.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop cho em xin giá Bonsai Tree với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Flower Bouquet giá bao nhiêu á shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá Land Rover Defender nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cho em xin giá Ford GT với ạ.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop ơi bộ Peugeot 9X8 giá sao vậy?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Em muốn hỏi giá Ferrari 488 GTE.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi giá Dom’s Dodge Charger nhé.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Vespa 125 này bao nhiêu vậy shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá Disney Castle nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Tree House không, giá nhiêu ạ?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em hỏi giá bộ Pac-Man Arcade Machine.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi biết giá set DeLorean với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Jazz Quartet này bn tiền vậy shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn hỏi giá LEGO Globe.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop ơi Starry Night giá sao á?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Em cần giá bộ Concorde nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá LEGO NES với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cho em xin giá Atari 2600.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Avengers Tower không, bao nhiêu vậy?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em muốn biết giá Daily Bugle.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá Sanctum Sanctorum nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Hulkbuster này giá sao vậy shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá Optimus Prime với ạ.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop cho em xin giá Bumblebee Transformer.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá Black Panther Bust nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn biết giá Tiny Plants.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Succulents không, giá sao ạ?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em hỏi giá Rose Bouquet nha 🌹", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi giá Tranquil Garden với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Boutique Hotel này nhiêu tiền vậy?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá Police Station modular.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop ơi Assembly Square giá sao?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Em hỏi giá Jazz Club nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh muốn biết giá Natural History Museum.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cho em xin giá Bookshop.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Viking Village này bn tiền shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Medieval Blacksmith không, giá sao vậy?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em cần giá Pirate Ship nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá LEGO Lighthouse.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn biết giá Motorized Lighthouse.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ LEGO Typewriter này bao nhiêu vậy?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop cho em giá Camera Retro với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá Polaroid OneStep nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá Mario Starter Course.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Bowser lớn không, giá sao ạ?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em muốn hỏi giá Sonic Green Hill 😄", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi xin giá Minecraft Fox Lodge.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Ninjago City Markets bao nhiêu vậy?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị hỏi giá Dragon Stone Shrine nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Kai’s Mech Rider không, giá sao?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em muốn biết giá bộ crane Technic lớn.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá excavator Liebherr nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá helicopter rescue với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Em hỏi giá bộ astronaut nha 🚀", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi xin giá Space Shuttle Discovery.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Artemis Launch System giá sao shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn biết giá Moon Lander.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn ISS không, bao nhiêu vậy?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em cần giá Ferrari F1 mới ra nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá McLaren F1 với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn biết giá Mercedes AMG F1.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop ơi Ducati Panigale bn tiền vậy?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Em hỏi giá Nissan GTR nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi xin giá Toyota Supra xanh.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ LEGO Tokyo skyline này bao nhiêu shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá Singapore skyline với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Great Pyramid không, giá sao?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em muốn hỏi giá Taj Mahal.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi giá Himeji Castle nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị hỏi giá The Office với ạ.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Friends Apartment không, bao nhiêu?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em muốn biết giá Home Alone house.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá WALL-E nha 😭", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cho em xin giá R2-D2.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Grogu không, giá sao vậy?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em cần giá Darth Vader Helmet.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh hỏi giá Stormtrooper Helmet nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Batman Cowl này bao nhiêu vậy?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn biết giá Iron Man Helmet.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop ơi Infinity Gauntlet giá sao?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Em hỏi giá Captain America Shield nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi giá Thor Hammer với.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ Diagon Alley bn tiền vậy shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị muốn biết giá Gringotts Bank.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop còn Ford Mustang không, giá sao ạ?", "cats": ["give_product", "ask_product_availability", "ask_product_price"]}
+{"text": "Em hỏi giá Camaro Z28 nha.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Anh cho tôi giá LEGO cherry blossom 🌸", "cats": ["give_product", "ask_product_price"]}
+{"text": "Bộ dinosaur fossil này bao nhiêu vậy shop?", "cats": ["give_product", "ask_product_price"]}
+{"text": "Chị cần giá LEGO police helicopter với ạ.", "cats": ["give_product", "ask_product_price"]}
+{"text": "Shop cho chị xin địa chỉ để qua lấy hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Admin cho anh xin địa chỉ cụ thể để qua lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh cho em xin thông tin để qua nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bạn cho mình xin địa chỉ để tự qua lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad gửi em vị trí để em qua trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Cửa hàng có chỗ nhận hàng trực tiếp không?", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop có hỗ trợ lấy hàng tại cửa hàng không?", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị cho anh xin thông tin để tới lấy hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh ơi cửa hàng có nhận khách trực tiếp không?", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Shop cho chị xin địa chỉ để qua vào cuối tuần.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop có địa chỉ cụ thể để tự đến lấy không?", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh cho em xin địa chỉ để tiện qua mua trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Em muốn qua shop lấy trực tiếp, chị cho em xin địa chỉ với ạ.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị cho em xin địa chỉ để chiều nay em ghé lấy hàng nhé.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh cho tôi xin địa chỉ cửa hàng để tôi qua nhận trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Shop ở đâu vậy, mình muốn tới lấy hàng luôn.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad gửi em địa chỉ để em qua lấy bộ này nhé.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Admin cho chị xin số điện thoại và địa chỉ để tiện qua nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Cửa hàng cho tôi xin thông tin để tôi đến lấy trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bạn cho mình xin vị trí shop để mình ghé lấy hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop ở đâu ạ, em muốn tự qua lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị ơi cho em xin địa chỉ để tối nay em qua nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh ơi shop ở quận nào để tôi ghé lấy trực tiếp?", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Shop cho chị xin Google Maps để chị tới lấy hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad cho em xin địa chỉ cụ thể để em qua lấy luôn.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Admin gửi anh vị trí cửa hàng để anh tự đến nhận.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Cửa hàng ở đâu vậy, tôi muốn tới lấy thay vì ship.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bạn cho mình xin số điện thoại để mình gọi trước khi qua lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop có cửa hàng offline không, em muốn tới nhận trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị cho anh xin địa chỉ để sau giờ làm anh ghé lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh ơi gửi em địa chỉ shop để em qua lấy hàng nhé.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Shop cho chị xin thông tin cửa hàng để chị tới nhận sản phẩm.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad gửi em link Google Maps để em qua lấy hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Admin cho anh xin địa chỉ và giờ mở cửa để anh ghé qua.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Cửa hàng cho tôi xin địa chỉ, tôi không cần ship đâu.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bạn cho mình xin vị trí để mình tự tới lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop ở khu vực nào vậy, em muốn qua nhận trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị ơi cho em xin địa chỉ, em sẽ tự qua lấy cho nhanh.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh cho tôi xin thông tin liên hệ để tôi tới cửa hàng nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Shop ở đâu vậy, chị muốn ghé lấy vào cuối tuần.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad cho em xin số điện thoại và địa chỉ để tiện qua.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Admin gửi anh pin vị trí để anh tới lấy bộ này.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Cửa hàng có địa chỉ cụ thể không, tôi muốn đến nhận trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bạn cho mình xin địa chỉ để mình qua lấy và thanh toán.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop mở cửa đến mấy giờ, em muốn ghé nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị cho anh xin Google Maps để anh tự qua lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh ơi shop ở gần khu vực nào để em tiện ghé lấy?", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Shop cho chị xin địa chỉ để chị qua nhận trong hôm nay.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad gửi em vị trí chính xác để em tới lấy tận nơi.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Admin cho anh xin hotline để anh liên hệ trước khi qua.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Cửa hàng ở đâu vậy, tôi muốn tới xem và lấy hàng luôn.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bạn cho mình xin thông tin đầy đủ để mình qua shop nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop có showroom không, em muốn tới lấy trực tiếp.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị ơi gửi em địa chỉ để sáng mai em ghé nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh cho tôi xin vị trí cửa hàng để tôi tự đến lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Shop cho chị xin địa chỉ và giờ mở cửa để chị tiện qua.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad cho em xin bản đồ đường đi để em tới lấy hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Admin gửi anh địa chỉ chi tiết để anh ghé lấy trong tuần này.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Cửa hàng cho tôi xin số điện thoại để tôi gọi trước khi tới.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bạn cho mình xin địa chỉ, mình muốn lấy hàng thay vì giao tận nơi.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Bên shop ở đâu vậy, em sẽ qua nhận trực tiếp nhé.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị cho anh xin toàn bộ thông tin cửa hàng để anh tới lấy sản phẩm.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Em muốn qua shop lấy hàng trực tiếp ạ.", "cats": ["get_product_direct"]}
+{"text": "Chị cho em qua cửa hàng nhận hàng nhé.", "cats": ["get_product_direct"]}
+{"text": "Anh muốn đến tận nơi lấy sản phẩm.", "cats": ["get_product_direct"]}
+{"text": "Shop cho mình ghé lấy hàng được không?", "cats": ["get_product_direct"]}
+{"text": "Ad ơi em sẽ qua lấy trực tiếp.", "cats": ["get_product_direct"]}
+{"text": "Admin cho chị đến nhận hàng tại cửa hàng nhé.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng cho tôi qua lấy hàng được chứ?", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình tới lấy sản phẩm trực tiếp nhé.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em sẽ tự qua nhận hàng.", "cats": ["get_product_direct"]}
+{"text": "Chị ơi em muốn đến lấy tận nơi.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi mình ghé shop lấy hàng được không?", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị qua lấy trực tiếp nhé.", "cats": ["get_product_direct"]}
+{"text": "Ad cho em tự đến nhận hàng.", "cats": ["get_product_direct"]}
+{"text": "Admin em sẽ qua cửa hàng lấy.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng cho tôi đến lấy tận nơi được không?", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình qua nhận hàng nhé.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em không cần ship đâu ạ, em tự lấy.", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh ghé lấy hàng sau giờ làm.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em muốn tới cửa hàng lấy trực tiếp.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị qua lấy bộ này nhé.", "cats": ["get_product_direct"]}
+{"text": "Ad em sẽ qua lấy hàng trong hôm nay.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh tới nhận sản phẩm.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi muốn tự đến lấy.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình qua shop lấy luôn nhé.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em tới lấy trực tiếp được không?", "cats": ["get_product_direct"]}
+{"text": "Chị ơi em không cần giao hàng, em tự qua lấy.", "cats": ["get_product_direct"]}
+{"text": "Anh cho tôi đến nhận hàng tại cửa hàng.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị ghé lấy vào chiều nay.", "cats": ["get_product_direct"]}
+{"text": "Ad em sẽ đến lấy sau khi chuyển khoản.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh tự tới lấy hàng.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi muốn qua lấy trong tuần này.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình đến tận nơi nhận sản phẩm.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em sẽ qua cửa hàng lấy giúp.", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh tới shop lấy trực tiếp nhé.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em muốn nhận hàng tại cửa hàng.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị tự đến lấy sản phẩm.", "cats": ["get_product_direct"]}
+{"text": "Ad em có thể ghé lấy trong tối nay.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh đến lấy sau 6 giờ tối.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi sẽ qua nhận hàng trực tiếp.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình lấy tại shop thay vì ship nhé.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em muốn qua lấy trong ngày mai.", "cats": ["get_product_direct"]}
+{"text": "Chị ơi em sẽ ghé cửa hàng để nhận hàng.", "cats": ["get_product_direct"]}
+{"text": "Anh cho tôi tự tới shop lấy.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị nhận hàng tại cửa hàng.", "cats": ["get_product_direct"]}
+{"text": "Ad em muốn lấy tận nơi cho tiện.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh qua nhận trực tiếp.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi không cần ship, tôi tự đến lấy.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình qua cửa hàng lấy hàng.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em ghé lấy sau giờ làm được không?", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh tới lấy trong buổi tối.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em sẽ tự qua nhận bộ này.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị đến lấy vào cuối tuần.", "cats": ["get_product_direct"]}
+{"text": "Ad em muốn tới shop lấy luôn.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh ghé nhận hàng trong hôm nay.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi có thể đến lấy trực tiếp không?", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình qua lấy để khỏi tốn phí ship.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em sẽ tự tới nhận hàng nhé.", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh qua cửa hàng lấy vào chiều mai.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em muốn tới lấy để kiểm tra hàng.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị ghé lấy tận nơi.", "cats": ["get_product_direct"]}
+{"text": "Ad em qua shop lấy được chứ?", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh đến lấy sản phẩm vào ngày mai.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi sẽ ghé nhận trong tuần này.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình tới cửa hàng lấy trực tiếp.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em muốn nhận hàng tại shop.", "cats": ["get_product_direct"]}
+{"text": "Chị ơi em qua lấy cho nhanh.", "cats": ["get_product_direct"]}
+{"text": "Anh cho tôi tới lấy và thanh toán trực tiếp.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị ghé lấy sau giờ hành chính.", "cats": ["get_product_direct"]}
+{"text": "Ad em sẽ qua nhận hàng thay vì giao tận nơi.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh tới lấy vào sáng thứ Bảy.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi muốn tự tới nhận để tiết kiệm phí ship.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình ghé lấy bộ này nhé.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em qua lấy sau khi tan làm.", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh tới lấy trong giờ nghỉ trưa.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em muốn đến shop lấy và xem hàng luôn.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị nhận trực tiếp tại cửa hàng.", "cats": ["get_product_direct"]}
+{"text": "Ad em sẽ qua lấy trước cuối tuần.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh tự đến lấy không cần ship.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi tới lấy trong ngày mai được không?", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình tới nhận sản phẩm tại shop.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em ghé lấy vào tối nay.", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh qua lấy để khỏi chờ giao hàng.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em muốn nhận trực tiếp tại cửa hàng.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị tự qua lấy bộ này.", "cats": ["get_product_direct"]}
+{"text": "Ad em sẽ tới shop lấy trong chiều nay.", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh ghé cửa hàng nhận hàng.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi sẽ qua tận nơi lấy.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình nhận hàng trực tiếp nhé.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em qua lấy thay vì dùng ship.", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh tới lấy vào Chủ nhật.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em muốn tự đến lấy và thanh toán.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị ghé lấy hàng trong tuần này.", "cats": ["get_product_direct"]}
+{"text": "Ad em tới cửa hàng lấy được không?", "cats": ["get_product_direct"]}
+{"text": "Admin cho anh nhận hàng tại shop.", "cats": ["get_product_direct"]}
+{"text": "Cửa hàng tôi sẽ đến nhận bộ này trực tiếp.", "cats": ["get_product_direct"]}
+{"text": "Bạn cho mình qua shop lấy sau 5 giờ chiều.", "cats": ["get_product_direct"]}
+{"text": "Bên shop em muốn tự qua nhận trong hôm nay.", "cats": ["get_product_direct"]}
+{"text": "Chị cho anh ghé lấy hàng ngay khi có.", "cats": ["get_product_direct"]}
+{"text": "Anh ơi em muốn nhận tận nơi thay vì ship.", "cats": ["get_product_direct"]}
+{"text": "Shop cho chị qua lấy trực tiếp khi thuận tiện nhé.", "cats": ["get_product_direct"]}
+{"text": "Em cần nhận hàng trước thứ Sáu tuần này ạ.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao giúp em vào chiều mai nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh cho tôi nhận hàng trước 5 giờ chiều được không?", "cats": ["delivery_time_requirement"]}
+{"text": "Shop giao vào sáng thứ Hai giúp mình nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad ship cho em vào tối nay với ạ.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin giao giúp chị trong giờ hành chính nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi cho tôi trước cuối tuần được không?", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao vào buổi sáng giúp mình nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng vào chiều thứ Bảy.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị ơi em cần hàng trước sinh nhật vào ngày 20.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh ơi giao giúp mình trước tối nay nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng sau 6 giờ tối được không?", "cats": ["delivery_time_requirement"]}
+{"text": "Ad giao vào giờ nghỉ trưa giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin ship cho anh vào sáng mai nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng giao cho tôi trước ngày 30 được không?", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giúp mình nhận hàng vào cuối tuần nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop giao vào Chủ nhật được không ạ?", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao sau 7 giờ tối giúp anh nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh hỗ trợ giao trước buổi họp ngày mai cho em.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng trước lễ 30/4.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad giao trước 12 giờ trưa giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin ship cho anh vào chiều thứ Tư.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi hàng trước Tết giúp tôi nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao vào sáng sớm giúp mình được không?", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận trước ngày 15.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị ơi em cần hàng vào đúng ngày sinh nhật của bé.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh giao trước giờ tan làm giúp tôi nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop giao vào tối thứ Sáu được không?", "cats": ["delivery_time_requirement"]}
+{"text": "Ad cho em nhận hàng vào buổi tối.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin giao trước 8 giờ sáng giúp chị.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi hàng vào ngày mai giúp tôi.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao vào buổi chiều nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng trước chuyến công tác vào thứ Hai.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao vào khung giờ 14h đến 17h giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh hỗ trợ ship trước 9 giờ tối cho em.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng vào sáng Chủ nhật.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad giao vào đúng ngày kỷ niệm giúp em nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin ship cho anh trước Noel.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi hàng trước ngày khai trương của tôi.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao sau 18h giúp mình nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận trước dịp Trung thu.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao vào khoảng 3 giờ chiều giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh cho em nhận hàng vào sáng thứ Bảy.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop giao trước cuối tháng cho chị nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad giao vào tối mai giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin gửi hàng trước ngày đi du lịch của anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng giao cho tôi vào thứ Năm tuần sau.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn ship trong khung giờ 9h đến 11h giúp mình.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng vào giờ hành chính.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao trước ngày 1/6 giúp anh nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh hỗ trợ giao sau 5 giờ chiều cho em.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng vào chiều Chủ nhật.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad ship trước sinh nhật mẹ em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin giao vào sáng đầu tuần giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi hàng trước ngày cưới của tôi.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao trước giờ học giúp mình.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng vào tối Chủ nhật.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao vào buổi trưa giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh giao trước dịp Giáng sinh cho em nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng vào ngày 8/3.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad giao vào khoảng 7 giờ tối giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin gửi hàng trước kỳ nghỉ lễ của anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng giao cho tôi vào ngày 2/9.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn ship trước buổi tiệc giúp mình.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng vào chiều thứ Hai.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao đúng ngày 1/6 giúp anh nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh hỗ trợ giao vào sáng mai cho em.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng trước giờ đón con.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad giao vào khoảng 10 giờ sáng giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin ship trước dịp Valentine cho anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi hàng trước ngày khai giảng của tôi.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao vào cuối giờ chiều giúp mình.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng trước cuối tuần này.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao trong khung 19h đến 21h giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh giao trước ngày kỷ niệm cho em nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng vào thứ Sáu tới.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad ship trước ngày 20 giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin giao sau giờ làm cho anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi hàng vào sáng thứ Tư giúp tôi.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao đúng ngày sinh nhật giúp mình nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng vào chiều mai.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao trước giờ họp giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh hỗ trợ ship vào tối thứ Bảy cho em.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng trước ngày lễ Quốc khánh.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad giao vào sáng Chủ nhật giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin gửi hàng trước chuyến bay của anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng giao cho tôi vào cuối tuần sau.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn ship trước ngày nghỉ phép giúp mình.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng vào khung giờ 8h đến 10h.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao vào buổi tối sau 7 giờ giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh giao trước ngày tốt nghiệp cho em nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng vào đầu tháng tới.", "cats": ["delivery_time_requirement"]}
+{"text": "Ad ship vào ngày mai trước 4 giờ chiều.", "cats": ["delivery_time_requirement"]}
+{"text": "Admin giao vào chiều thứ Sáu giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cửa hàng gửi hàng trước dịp năm mới.", "cats": ["delivery_time_requirement"]}
+{"text": "Bạn giao vào tối muộn giúp mình nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop cho em nhận hàng vào ngày cuối cùng của tháng.", "cats": ["delivery_time_requirement"]}
+{"text": "Chị giao trước giờ tổ chức tiệc giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Anh hỗ trợ ship đúng ngày em cần.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop cho chị nhận hàng vào thời gian cụ thể như đã trao đổi nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "Đơn hàng của mình đang tới đâu rồi shop?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp mình tình trạng đơn hàng nhé.", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình hiện đang ở đâu vậy?", "cats": ["ask_order_status"]}
+{"text": "Mình muốn xem trạng thái đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Hàng đã được gửi chưa shop?", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đã xuất kho chưa?", "cats": ["ask_order_status"]}
+{"text": "Hiện tại đơn đang được xử lý đến đâu?", "cats": ["ask_order_status"]}
+{"text": "Shop cập nhật giúp mình tình trạng đơn nhé.", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng đã giao cho bên vận chuyển chưa?", "cats": ["ask_order_status"]}
+{"text": "Mã đơn của mình đang ở đâu rồi?", "cats": ["ask_order_status"]}
+{"text": "Hàng đang trên đường chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã được đóng gói chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop đã gửi hàng cho mình chưa?", "cats": ["ask_order_status"]}
+{"text": "Khi nào đơn bắt đầu giao vậy?", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đã được xác nhận chưa?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã rời kho chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop cho mình hỏi đơn đang ở trạng thái nào.", "cats": ["ask_order_status"]}
+{"text": "Đơn có đang vận chuyển không?", "cats": ["ask_order_status"]}
+{"text": "Bên ship đã nhận hàng chưa?", "cats": ["ask_order_status"]}
+{"text": "Hàng của mình hiện ở đâu vậy?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã đến bưu cục chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp mình xem hàng tới đâu rồi.", "cats": ["ask_order_status"]}
+{"text": "Mình muốn biết tiến độ đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình có cập nhật gì mới không?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã tới tỉnh của mình chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn có bị chậm không shop?", "cats": ["ask_order_status"]}
+{"text": "Hiện đơn đang nằm ở kho nào?", "cats": ["ask_order_status"]}
+{"text": "Mình chưa thấy cập nhật đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đã giao thành công chưa?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã được chuyển phát chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop báo giúp mình tình hình đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Đơn hiện tại còn ở shop hay đã gửi đi?", "cats": ["ask_order_status"]}
+{"text": "Bên vận chuyển đã lấy hàng chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đang chờ xử lý hay đã gửi?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã tới gần khu vực mình chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn có đang ở bưu cục địa phương không?", "cats": ["ask_order_status"]}
+{"text": "Mình muốn kiểm tra xem đơn đang ở đâu.", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng của mình có vấn đề gì không?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã được giao cho shipper chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop cho mình xin cập nhật mới nhất về đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Đơn đang trên đường giao phải không?", "cats": ["ask_order_status"]}
+{"text": "Hàng của mình đã tới thành phố chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã chuyển sang trạng thái vận chuyển chưa?", "cats": ["ask_order_status"]}
+{"text": "Mình cần biết đơn đang ở bước nào.", "cats": ["ask_order_status"]}
+{"text": "Hàng đã được giao đi hôm nay chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn có đang chờ bên vận chuyển lấy không?", "cats": ["ask_order_status"]}
+{"text": "Shop đã in vận đơn chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đang được giao hay chưa?", "cats": ["ask_order_status"]}
+{"text": "Hàng có đang về tới nơi không?", "cats": ["ask_order_status"]}
+{"text": "Đơn hiện còn mất bao lâu nữa?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp mình xem shipper đã nhận chưa.", "cats": ["ask_order_status"]}
+{"text": "Hàng của mình có bị giữ ở kho không?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã rời khỏi kho tổng chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop cho mình hỏi hàng đã tới đâu.", "cats": ["ask_order_status"]}
+{"text": "Đơn có đang giao lần đầu không?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã tới bưu cục gần nhà mình chưa?", "cats": ["ask_order_status"]}
+{"text": "Trạng thái đơn hiện tại là gì vậy shop?", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng có đang được phát không?", "cats": ["ask_order_status"]}
+{"text": "Hàng của mình đã lên xe chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã được bàn giao cho đơn vị vận chuyển chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop có thể gửi cho mình tình trạng đơn không?", "cats": ["ask_order_status"]}
+{"text": "Hàng hiện tại còn ở đâu vậy?", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đã được shipper mang đi chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop xem giúp mình đơn có cập nhật mới không.", "cats": ["ask_order_status"]}
+{"text": "Hàng đã tới quận của mình chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn có đang trên xe giao không?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra xem đơn còn ở kho hay không.", "cats": ["ask_order_status"]}
+{"text": "Hàng của mình có bị thất lạc không?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã được xử lý xong chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop cho mình biết đơn đang ở đâu nhé.", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng có đang giao trong hôm nay không?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã được phân loại tại kho chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn hiện đang ở trung tâm khai thác nào?", "cats": ["ask_order_status"]}
+{"text": "Hàng của mình còn bao lâu nữa tới?", "cats": ["ask_order_status"]}
+{"text": "Shop có thể theo dõi giúp mình đơn hàng không?", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đang chờ giao hay đã giao?", "cats": ["ask_order_status"]}
+{"text": "Hàng có đang được vận chuyển liên tỉnh không?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã tới kho đích chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop cập nhật giúp mình đơn đang tới đâu.", "cats": ["ask_order_status"]}
+{"text": "Hàng đã được xuất phát từ kho chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn có đang trong quá trình giao phát không?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã về đến khu vực của mình chưa?", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng có bị hoàn hay không?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp mình đơn có bị trễ không.", "cats": ["ask_order_status"]}
+{"text": "Hàng đang ở bưu cục nào vậy?", "cats": ["ask_order_status"]}
+{"text": "Đơn hiện tại đang ở bước đóng gói hay vận chuyển?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã giao cho tài xế chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop cho mình xin mã vận đơn để theo dõi.", "cats": ["ask_order_status"]}
+{"text": "Đơn của mình đã cập nhật trạng thái mới chưa?", "cats": ["ask_order_status"]}
+{"text": "Hàng có đang trên đường tới nhà mình không?", "cats": ["ask_order_status"]}
+{"text": "Đơn đã rời kho phân phối chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop giúp mình kiểm tra vị trí đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Hàng hiện đang được vận chuyển đến đâu?", "cats": ["ask_order_status"]}
+{"text": "Đơn có phát sinh sự cố gì không?", "cats": ["ask_order_status"]}
+{"text": "Hàng đã được chuyển tới kho cuối chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop xem giúp mình đơn còn ở đâu.", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng có dự kiến giao hôm nay không?", "cats": ["ask_order_status"]}
+{"text": "Hàng đang trong trạng thái nào vậy?", "cats": ["ask_order_status"]}
+{"text": "Shop báo giúp mình hàng đã tới đâu rồi.", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng của mình hiện được xử lý tới bước nào?", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng của em đang tới đâu rồi ạ?", "cats": ["ask_order_status"]}
+{"text": "Chị kiểm tra giúp em xem hàng đã gửi chưa nhé.", "cats": ["ask_order_status"]}
+{"text": "Anh cho tôi hỏi đơn hàng hiện đang ở đâu.", "cats": ["ask_order_status"]}
+{"text": "Ad xem giúp em tình trạng đơn hàng với ạ.", "cats": ["ask_order_status"]}
+{"text": "Admin kiểm tra giúp chị đơn đang đến đâu rồi.", "cats": ["ask_order_status"]}
+{"text": "Shop cho anh hỏi hàng đã xuất kho chưa.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng xem giúp tôi đơn đã giao cho bên vận chuyển chưa.", "cats": ["ask_order_status"]}
+{"text": "Bạn kiểm tra giúp mình đơn hàng nhé.", "cats": ["ask_order_status"]}
+{"text": "Bên shop cho em xin cập nhật đơn hàng với.", "cats": ["ask_order_status"]}
+{"text": "Chị ơi đơn của em đang ở đâu rồi ạ?", "cats": ["ask_order_status"]}
+{"text": "Anh ơi hàng của tôi đã được gửi đi chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp chị xem đơn có đang vận chuyển không.", "cats": ["ask_order_status"]}
+{"text": "Ad cho em hỏi đơn hiện tại ở bước nào rồi.", "cats": ["ask_order_status"]}
+{"text": "Admin xem giúp anh hàng đã tới đâu nhé.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng cho tôi biết tình trạng đơn hàng được không?", "cats": ["ask_order_status"]}
+{"text": "Bạn ơi đơn của mình đã được xác nhận chưa?", "cats": ["ask_order_status"]}
+{"text": "Bên mình đã bàn giao hàng cho shipper chưa ạ?", "cats": ["ask_order_status"]}
+{"text": "Shop xem giúp em hàng đang trên đường chưa.", "cats": ["ask_order_status"]}
+{"text": "Chị kiểm tra giúp anh đơn hàng có cập nhật gì mới không.", "cats": ["ask_order_status"]}
+{"text": "Anh cho em hỏi đơn của em đã đóng gói chưa.", "cats": ["ask_order_status"]}
+{"text": "Đơn hàng của chị hiện đang ở đâu vậy shop?", "cats": ["ask_order_status"]}
+{"text": "Tôi muốn biết đơn hàng đã rời kho chưa.", "cats": ["ask_order_status"]}
+{"text": "Bên shop cho mình xin mã vận đơn với.", "cats": ["ask_order_status"]}
+{"text": "Ad kiểm tra giúp em xem hàng đã tới tỉnh em chưa.", "cats": ["ask_order_status"]}
+{"text": "Admin cho chị hỏi đơn có bị chậm không.", "cats": ["ask_order_status"]}
+{"text": "Shop ơi hàng của anh đang ở kho nào vậy?", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng xem giúp tôi đơn đã đến bưu cục chưa.", "cats": ["ask_order_status"]}
+{"text": "Bạn cho mình hỏi bên vận chuyển đã lấy hàng chưa.", "cats": ["ask_order_status"]}
+{"text": "Bên shop kiểm tra giúp em đơn còn ở shop hay đã gửi đi.", "cats": ["ask_order_status"]}
+{"text": "Chị ơi đơn của em có đang giao không ạ?", "cats": ["ask_order_status"]}
+{"text": "Anh ơi hàng đã tới khu vực của tôi chưa?", "cats": ["ask_order_status"]}
+{"text": "Shop xem giúp chị đơn còn bao lâu nữa thì tới.", "cats": ["ask_order_status"]}
+{"text": "Ad cho em hỏi hàng hiện đang ở đâu.", "cats": ["ask_order_status"]}
+{"text": "Admin kiểm tra giúp anh xem đơn có phát sinh sự cố gì không.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng cho tôi biết đơn đang ở trạng thái nào.", "cats": ["ask_order_status"]}
+{"text": "Bạn xem giúp mình hàng đã được giao cho shipper chưa.", "cats": ["ask_order_status"]}
+{"text": "Bên shop cho em hỏi đơn có dự kiến giao hôm nay không.", "cats": ["ask_order_status"]}
+{"text": "Chị kiểm tra giúp anh đơn đang chờ xử lý hay đã vận chuyển.", "cats": ["ask_order_status"]}
+{"text": "Anh cho em hỏi hàng đã đến bưu cục gần nhà chưa.", "cats": ["ask_order_status"]}
+{"text": "Shop ơi đơn của chị đã cập nhật trạng thái mới chưa?", "cats": ["ask_order_status"]}
+{"text": "Tôi muốn kiểm tra vị trí hiện tại của đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Ad xem giúp em đơn đã rời kho tổng chưa.", "cats": ["ask_order_status"]}
+{"text": "Admin cho anh hỏi hàng có đang trên xe giao không.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng kiểm tra giúp tôi đơn còn ở kho hay không.", "cats": ["ask_order_status"]}
+{"text": "Bạn cho mình hỏi đơn hiện đang được xử lý tới đâu.", "cats": ["ask_order_status"]}
+{"text": "Bên shop xem giúp em hàng có bị giữ ở kho không.", "cats": ["ask_order_status"]}
+{"text": "Chị ơi đơn của anh đã tới thành phố chưa?", "cats": ["ask_order_status"]}
+{"text": "Anh ơi hàng của em còn bao lâu nữa tới nơi?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp chị đơn có đang phát không.", "cats": ["ask_order_status"]}
+{"text": "Ad cho em xin tình trạng mới nhất của đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Admin xem giúp anh hàng đã được phân loại tại kho chưa.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng cho tôi hỏi đơn đã giao cho đơn vị vận chuyển chưa.", "cats": ["ask_order_status"]}
+{"text": "Bạn kiểm tra giúp mình đơn có bị hoàn hay không.", "cats": ["ask_order_status"]}
+{"text": "Bên shop cho em hỏi hàng đã tới quận em chưa.", "cats": ["ask_order_status"]}
+{"text": "Chị xem giúp anh đơn hiện đang ở trung tâm khai thác nào.", "cats": ["ask_order_status"]}
+{"text": "Anh kiểm tra giúp em đơn có bị trễ không ạ.", "cats": ["ask_order_status"]}
+{"text": "Shop cho chị hỏi hàng đã được shipper mang đi chưa.", "cats": ["ask_order_status"]}
+{"text": "Ad xem giúp em đơn có đang giao lần đầu không.", "cats": ["ask_order_status"]}
+{"text": "Admin cho anh biết hàng đang ở bưu cục nào nhé.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng kiểm tra giúp tôi đơn đã xuất phát từ kho chưa.", "cats": ["ask_order_status"]}
+{"text": "Bạn cho mình hỏi đơn hiện ở bước đóng gói hay vận chuyển.", "cats": ["ask_order_status"]}
+{"text": "Bên shop xem giúp em hàng có đang trên đường tới nhà không.", "cats": ["ask_order_status"]}
+{"text": "Chị ơi đơn của anh có cập nhật mới gì không?", "cats": ["ask_order_status"]}
+{"text": "Anh cho em hỏi hàng đã tới kho đích chưa.", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp chị xem đơn có đang phát hôm nay không.", "cats": ["ask_order_status"]}
+{"text": "Ad cho em hỏi bên vận chuyển đã nhận hàng chưa.", "cats": ["ask_order_status"]}
+{"text": "Admin xem giúp anh đơn hàng hiện còn ở đâu.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng cho tôi xin cập nhật mới nhất về đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Bạn kiểm tra giúp mình xem hàng đã tới đâu rồi.", "cats": ["ask_order_status"]}
+{"text": "Bên shop cho em hỏi đơn có đang trong quá trình giao phát không.", "cats": ["ask_order_status"]}
+{"text": "Chị ơi đơn của em đã lên xe chưa ạ?", "cats": ["ask_order_status"]}
+{"text": "Anh ơi hàng của tôi đang được vận chuyển đến đâu?", "cats": ["ask_order_status"]}
+{"text": "Shop xem giúp chị đơn đã tới kho cuối chưa.", "cats": ["ask_order_status"]}
+{"text": "Ad kiểm tra giúp em xem đơn còn mất bao lâu nữa.", "cats": ["ask_order_status"]}
+{"text": "Admin cho anh hỏi hàng đã về đến khu vực của anh chưa.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng cho tôi biết đơn có vấn đề gì không.", "cats": ["ask_order_status"]}
+{"text": "Bạn xem giúp mình hàng đã được chuyển phát chưa.", "cats": ["ask_order_status"]}
+{"text": "Bên shop kiểm tra giúp em đơn có bị thất lạc không.", "cats": ["ask_order_status"]}
+{"text": "Chị cho anh hỏi hàng đã rời khỏi trung tâm phân phối chưa.", "cats": ["ask_order_status"]}
+{"text": "Anh ơi đơn của em hiện đang ở đâu vậy?", "cats": ["ask_order_status"]}
+{"text": "Shop cho chị xin mã vận chuyển để tự theo dõi.", "cats": ["ask_order_status"]}
+{"text": "Ad xem giúp em hàng có dự kiến giao trong hôm nay không.", "cats": ["ask_order_status"]}
+{"text": "Admin kiểm tra giúp anh xem đơn đang ở bước nào.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng cho tôi hỏi hàng đã tới bưu cục địa phương chưa.", "cats": ["ask_order_status"]}
+{"text": "Bạn kiểm tra giúp mình đơn còn ở đâu trong hệ thống.", "cats": ["ask_order_status"]}
+{"text": "Bên shop cho em biết đơn đã được xử lý xong chưa.", "cats": ["ask_order_status"]}
+{"text": "Chị ơi hàng của anh có đang trên đường giao không?", "cats": ["ask_order_status"]}
+{"text": "Anh kiểm tra giúp em xem đơn có cập nhật mới chưa.", "cats": ["ask_order_status"]}
+{"text": "Shop cho chị hỏi hàng đã tới gần khu vực của chị chưa.", "cats": ["ask_order_status"]}
+{"text": "Ad xem giúp em đơn hiện đang ở trạng thái nào.", "cats": ["ask_order_status"]}
+{"text": "Admin cho anh hỏi hàng đã tới nơi chưa.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng kiểm tra giúp tôi xem đơn còn ở kho nào.", "cats": ["ask_order_status"]}
+{"text": "Bạn cho mình hỏi đơn hàng có đang giao hôm nay không.", "cats": ["ask_order_status"]}
+{"text": "Bên shop cho em xin thông tin theo dõi đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Chị ơi đơn của anh đang tới đâu rồi nhé.", "cats": ["ask_order_status"]}
+{"text": "Anh ơi hàng của em đã được gửi đi chưa ạ?", "cats": ["ask_order_status"]}
+{"text": "Shop kiểm tra giúp chị xem hàng hiện ở đâu.", "cats": ["ask_order_status"]}
+{"text": "Ad cho em hỏi đơn hàng còn bao lâu thì tới.", "cats": ["ask_order_status"]}
+{"text": "Admin xem giúp anh tình trạng hiện tại của đơn hàng.", "cats": ["ask_order_status"]}
+{"text": "Cửa hàng cho tôi biết đơn đang được xử lý tới bước nào.", "cats": ["ask_order_status"]}
+{"text": "Mình lấy bộ này nhé.", "cats": ["agree_order"]}
+{"text": "Chốt bộ này cho mình.", "cats": ["agree_order"]}
+{"text": "Mình đặt bộ này.", "cats": ["agree_order"]}
+{"text": "Lấy giúp mình mẫu này nhé.", "cats": ["agree_order"]}
+{"text": "Cho mình mua bộ này.", "cats": ["agree_order"]}
+{"text": "Mình quyết định lấy sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Chốt đơn giúp mình nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy luôn.", "cats": ["agree_order"]}
+{"text": "Mình đặt luôn bộ này.", "cats": ["agree_order"]}
+{"text": "Cho mình lên đơn nhé.", "cats": ["agree_order"]}
+{"text": "Mình mua mẫu này.", "cats": ["agree_order"]}
+{"text": "Ok, mình lấy bộ này.", "cats": ["agree_order"]}
+{"text": "Oke, chốt cho mình nhé.", "cats": ["agree_order"]}
+{"text": "Mình đồng ý đặt hàng.", "cats": ["agree_order"]}
+{"text": "Cho mình đặt sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Mình lấy một bộ này.", "cats": ["agree_order"]}
+{"text": "Chốt mẫu này giúp mình.", "cats": ["agree_order"]}
+{"text": "Mình chọn bộ này.", "cats": ["agree_order"]}
+{"text": "Mình quyết định mua bộ này.", "cats": ["agree_order"]}
+{"text": "Đặt cho mình sản phẩm này nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy cái này.", "cats": ["agree_order"]}
+{"text": "Cho mình chốt đơn.", "cats": ["agree_order"]}
+{"text": "Mình lấy ngay bộ này.", "cats": ["agree_order"]}
+{"text": "Mình mua luôn nhé.", "cats": ["agree_order"]}
+{"text": "Chốt hàng cho mình.", "cats": ["agree_order"]}
+{"text": "Mình xác nhận đặt mua.", "cats": ["agree_order"]}
+{"text": "Lên đơn cho mình sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Mình chọn mua bộ này.", "cats": ["agree_order"]}
+{"text": "Giữ cho mình bộ này nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy bản này.", "cats": ["agree_order"]}
+{"text": "Ok shop, mình chốt bộ này.", "cats": ["agree_order"]}
+{"text": "Oke shop, lên đơn giúp mình.", "cats": ["agree_order"]}
+{"text": "Mình lấy sản phẩm này luôn.", "cats": ["agree_order"]}
+{"text": "Chốt đơn sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Mình đồng ý mua mẫu này.", "cats": ["agree_order"]}
+{"text": "Đặt luôn giúp mình nhé.", "cats": ["agree_order"]}
+{"text": "Mình sẽ lấy bộ này.", "cats": ["agree_order"]}
+{"text": "Chốt ngay cho mình.", "cats": ["agree_order"]}
+{"text": "Mình lấy một set này.", "cats": ["agree_order"]}
+{"text": "Đăng ký mua bộ này.", "cats": ["agree_order"]}
+{"text": "Mình chọn sản phẩm này nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy món này.", "cats": ["agree_order"]}
+{"text": "Chốt giúp mình một bộ.", "cats": ["agree_order"]}
+{"text": "Mình mua sản phẩm này nhé.", "cats": ["agree_order"]}
+{"text": "Mình quyết lấy bộ này.", "cats": ["agree_order"]}
+{"text": "Ok, lên đơn đi shop.", "cats": ["agree_order"]}
+{"text": "Shop chốt đơn giúp mình.", "cats": ["agree_order"]}
+{"text": "Mình lấy hàng này.", "cats": ["agree_order"]}
+{"text": "Mình xác nhận mua.", "cats": ["agree_order"]}
+{"text": "Mình chọn bộ này để mua.", "cats": ["agree_order"]}
+{"text": "Đặt hàng cho mình luôn.", "cats": ["agree_order"]}
+{"text": "Mình mua bộ này làm quà.", "cats": ["agree_order"]}
+{"text": "Lấy giúp mình 1 bộ này.", "cats": ["agree_order"]}
+{"text": "Mình muốn đặt ngay.", "cats": ["agree_order"]}
+{"text": "Chốt bộ này luôn.", "cats": ["agree_order"]}
+{"text": "Ok, đặt cho mình nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy ngay sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Mình mua luôn sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Giúp mình lên đơn luôn.", "cats": ["agree_order"]}
+{"text": "Chốt cho mình 1 set.", "cats": ["agree_order"]}
+{"text": "Mình xác nhận chốt đơn.", "cats": ["agree_order"]}
+{"text": "Mình lấy bộ này trước.", "cats": ["agree_order"]}
+{"text": "Mình đồng ý chốt đơn.", "cats": ["agree_order"]}
+{"text": "Shop lên đơn ngay giúp mình.", "cats": ["agree_order"]}
+{"text": "Mình quyết định đặt luôn.", "cats": ["agree_order"]}
+{"text": "Mình lấy hàng này nhé.", "cats": ["agree_order"]}
+{"text": "Chốt sản phẩm này cho mình.", "cats": ["agree_order"]}
+{"text": "Mình đặt mua bộ này.", "cats": ["agree_order"]}
+{"text": "Cho mình chốt mẫu này.", "cats": ["agree_order"]}
+{"text": "Mình mua mẫu này luôn.", "cats": ["agree_order"]}
+{"text": "Ok, mình quyết định lấy.", "cats": ["agree_order"]}
+{"text": "Đặt giúp mình một sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Chốt cho mình ngay nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy set này.", "cats": ["agree_order"]}
+{"text": "Mình đồng ý lấy bộ này.", "cats": ["agree_order"]}
+{"text": "Lấy cho mình sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Mình chọn mua ngay.", "cats": ["agree_order"]}
+{"text": "Mình mua bộ này luôn nhé.", "cats": ["agree_order"]}
+{"text": "Chốt cho mình một bộ này.", "cats": ["agree_order"]}
+{"text": "Shop giữ hàng và lên đơn giúp mình.", "cats": ["agree_order"]}
+{"text": "Mình xác nhận đặt bộ này.", "cats": ["agree_order"]}
+{"text": "Đặt bộ này cho mình nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy hàng luôn.", "cats": ["agree_order"]}
+{"text": "Mình quyết định chốt đơn hôm nay.", "cats": ["agree_order"]}
+{"text": "Lấy sản phẩm này cho mình.", "cats": ["agree_order"]}
+{"text": "Mình chốt mẫu này luôn.", "cats": ["agree_order"]}
+{"text": "Shop đặt đơn giúp mình.", "cats": ["agree_order"]}
+{"text": "Mình muốn mua ngay sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Chốt hàng này nhé.", "cats": ["agree_order"]}
+{"text": "Mình lấy ngay mẫu này.", "cats": ["agree_order"]}
+{"text": "Đặt cho mình một set này.", "cats": ["agree_order"]}
+{"text": "Mình chọn sản phẩm này để mua.", "cats": ["agree_order"]}
+{"text": "Lên đơn sản phẩm này giúp mình.", "cats": ["agree_order"]}
+{"text": "Ok, mình lấy luôn nhé.", "cats": ["agree_order"]}
+{"text": "Chốt cho mình bộ này ngay.", "cats": ["agree_order"]}
+{"text": "Mình xác nhận mua bộ này.", "cats": ["agree_order"]}
+{"text": "Cho mình đặt hàng luôn.", "cats": ["agree_order"]}
+{"text": "Mình lấy bộ này làm quà.", "cats": ["agree_order"]}
+{"text": "Mình đồng ý lấy sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Mình quyết định mua ngay bộ này.", "cats": ["agree_order"]}
+{"text": "Shop tư vấn giúp mình một mẫu phù hợp nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào đẹp shop gợi ý giúp mình với.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop recommend cho mình vài bộ nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Mình chưa biết chọn bộ nào, shop tư vấn giúp.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào phù hợp cho bé trai không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý giúp mình vài mẫu cho bé gái.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào phù hợp cho trẻ 8 tuổi không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình cần tìm quà cho bé 10 tuổi, shop tư vấn giúp.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào phù hợp cho người mới chơi không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý cho mình bộ dễ lắp nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào dành cho người lớn không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn tìm bộ dành cho người thích xe hơi.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giới thiệu vài bộ chủ đề kiến trúc giúp mình.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào về siêu anh hùng không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý bộ về xe đua nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào về thành phố không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn tìm bộ về tàu hỏa.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào về hoa hoặc cây cảnh không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn bộ trưng bày đẹp giúp mình.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào phù hợp làm quà sinh nhật không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý quà cho bạn trai giúp mình.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào tặng bạn gái đẹp không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình cần quà cho chồng, shop tư vấn giúp.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào phù hợp cho bố mình không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý quà cho đồng nghiệp nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào bán chạy nhất không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giới thiệu vài mẫu hot nhất nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Mẫu nào đang được nhiều người mua?", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào được đánh giá tốt không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop chọn giúp mình mẫu đẹp nhất trong tầm giá.", "cats": ["ask_product_suggestion"]}
+{"text": "Mình có ngân sách khoảng 1 triệu, shop tư vấn giúp.", "cats": ["ask_product_suggestion", "provide_budget"]}
+{"text": "Có bộ nào dưới 500k không?", "cats": ["ask_product_suggestion", "provide_budget"]}
+{"text": "Shop gợi ý vài mẫu từ 1 đến 2 triệu.", "cats": ["ask_product_suggestion", "provide_budget"]}
+{"text": "Có sản phẩm nào vừa đẹp vừa giá hợp lý không?", "cats": ["ask_product_suggestion", "provide_budget"]}
+{"text": "Mình muốn bộ ít mảnh nhưng đẹp.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào nhiều chi tiết không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn bộ độ khó vừa phải nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào phù hợp để trưng bàn làm việc không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn tìm bộ có kích thước lớn.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào phù hợp để sưu tầm không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giới thiệu bộ đáng mua nhất nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Mình không biết nên chọn mẫu nào.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giúp mình chọn một bộ thật ấn tượng.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào phù hợp cho người yêu thích kỹ thuật không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn vài mẫu độc đáo nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn bộ có thiết kế sang trọng.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào mang phong cách cổ điển không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý mẫu mới ra mắt.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào phù hợp cho dân văn phòng không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn mua bộ thư giãn cuối tuần.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào lắp trong 1-2 giờ không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn bộ không quá khó.", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn bộ thật thử thách.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào phù hợp cho người thích công nghệ không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giới thiệu vài mẫu giới hạn nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào đáng sưu tầm lâu dài không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình cần một bộ thật nổi bật để làm quà.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào phù hợp cho cặp đôi cùng lắp không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn bộ phù hợp cho mẹ mình.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào về động vật không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình thích chủ đề không gian, shop gợi ý giúp.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào về máy bay không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giới thiệu vài bộ về xe mô tô.", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn tìm bộ có đèn hoặc chuyển động.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào hợp với người thích nghệ thuật không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn bộ trang trí phòng khách.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào phù hợp đặt trong phòng ngủ không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình cần quà cho người yêu thích phim ảnh.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý bộ phù hợp cho người bận rộn.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào dễ bảo quản không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn bộ không chiếm nhiều diện tích.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn bộ phù hợp cho người kiên nhẫn.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào phù hợp cho người mới sưu tầm không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn bắt đầu chơi, nên mua bộ nào?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giới thiệu bộ kinh điển nhất nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào đáng tiền nhất không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mẫu nào đẹp nhất trong phân khúc này?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giúp mình chọn quà thật ý nghĩa.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào được nhiều khách nữ yêu thích không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn sản phẩm phù hợp với sở thích xe hơi.", "cats": ["ask_product_suggestion"]}
+{"text": "Mình cần một bộ để giảm stress.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào vừa dễ lắp vừa đẹp không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý vài bộ cao cấp.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào cho người thích thử thách không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn bộ có tính trưng bày cao.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop chọn giúp mình một bộ thật độc.", "cats": ["ask_product_suggestion"]}
+{"text": "Có sản phẩm nào phù hợp cho học sinh không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình cần quà cho em trai.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn quà cho bạn thân.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào cho người thích xây dựng không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn bộ về công trình nổi tiếng.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop giới thiệu vài bộ phong cảnh.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào cho người thích xe cổ không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình cần quà cho người mê LEGO.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop tư vấn bộ đáng sưu tập.", "cats": ["ask_product_suggestion"]}
+{"text": "Có mẫu nào mới và đẹp không?", "cats": ["ask_product_suggestion"]}
+{"text": "Mình muốn mua bộ được nhiều người khen.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop gợi ý giúp mình vài lựa chọn tốt.", "cats": ["ask_product_suggestion"]}
+{"text": "Có bộ nào phù hợp với ngân sách của mình không?", "cats": ["ask_product_suggestion", "provide_budget"]}
+{"text": "Shop tư vấn cho mình sản phẩm phù hợp nhất nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Shop còn bộ LEGO Rivendell không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Titanic hiện còn hàng không shop?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi LEGO Concorde còn không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn bộ Orchid không ạ?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Bonsai Tree hiện có sẵn không?", "cats": ["ask_product_availability"]}
+{"text": "Millennium Falcon còn hàng không shop?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi bộ Avengers Tower còn không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO The Office hiện còn hàng chứ?", "cats": ["ask_product_availability"]}
+{"text": "Shop có sẵn bộ PAC-MAN Arcade không?", "cats": ["ask_product_availability"]}
+{"text": "Ferrari Daytona SP3 còn không vậy?", "cats": ["ask_product_availability"]}
+{"text": "Lamborghini Sián còn hàng không ạ?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn Artemis Space Launch System không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ LEGO Eiffel Tower có sẵn không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn bộ Jazz Club không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO Boutique Hotel hiện còn hàng không?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi bộ tàu hỏa Harry Potter còn không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Lion Knights' Castle còn hàng chứ shop?", "cats": ["ask_product_availability"]}
+{"text": "Shop có sẵn LEGO Nintendo Entertainment System không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Starry Night còn không ạ?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO A-Frame Cabin không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ này còn hàng không shop?", "cats": ["ask_product_availability"]}
+{"text": "Sản phẩm này hiện có sẵn không?", "cats": ["ask_product_availability"]}
+{"text": "Mẫu này còn trong kho không ạ?", "cats": ["ask_product_availability"]}
+{"text": "Hiện shop còn bộ này không?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi còn hàng không nhé.", "cats": ["ask_product_availability"]}
+{"text": "Bộ này còn bán không shop?", "cats": ["ask_product_availability"]}
+{"text": "Còn hàng để giao luôn không ạ?", "cats": ["ask_product_availability"]}
+{"text": "Sản phẩm này hết hàng chưa?", "cats": ["ask_product_availability"]}
+{"text": "Hiện tại còn bao nhiêu bộ vậy shop?", "cats": ["ask_product_availability"]}
+{"text": "Mẫu này còn sẵn không để mình đặt?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO Orchid k ạ 😄", "cats": ["ask_product_availability"]}
+{"text": "Rivendell còn hàng hem shop", "cats": ["ask_product_availability"]}
+{"text": "Titanic còn slot nào không 😆", "cats": ["ask_product_availability"]}
+{"text": "Con Concorde còn k shop ơi", "cats": ["ask_product_availability"]}
+{"text": "Bonsai Tree còn hàng ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Con SP3 còn hàng hông 😁", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi bộ này còn available không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO này còn không ad?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn hàng để ship ngay không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ này mình đặt luôn được chưa?", "cats": ["ask_product_availability"]}
+{"text": "Hiện tại còn sẵn trong kho không?", "cats": ["ask_product_availability"]}
+{"text": "Mình thấy mẫu này đẹp, còn hàng chứ?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình check tồn kho bộ này với.", "cats": ["ask_product_availability"]}
+{"text": "Shop còn bộ Botanical Garden không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Tiny Plants còn hàng không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO Tranquil Garden có sẵn không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn bộ Dune Atreides Royal Ornithopter không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ NASA Artemis còn hàng không vậy?", "cats": ["ask_product_availability"]}
+{"text": "Shop có sẵn LEGO Icons Corvette không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Avengers Tower còn mấy bộ thế?", "cats": ["ask_product_availability"]}
+{"text": "Rivendell có sẵn để giao luôn không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Titanic còn nguyên seal không và còn hàng chứ?", "cats": ["ask_product_availability"]}
+{"text": "Con Millennium Falcon UCS còn không shop?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO Porsche 911 không?", "cats": ["ask_product_availability"]}
+{"text": "Xe Vespa hiện còn hàng không?", "cats": ["ask_product_availability"]}
+{"text": "Shop có LEGO Land Rover Defender không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ LEGO Batwing còn bán không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO Batmobile không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ LEGO Globe có sẵn không?", "cats": ["ask_product_availability"]}
+{"text": "Tree House hiện còn hàng chứ shop?", "cats": ["ask_product_availability"]}
+{"text": "LEGO Colosseum còn trong kho không?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi LEGO Boutique Hotel còn không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO Jazz Club có sẵn để lấy luôn không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO Natural History Museum không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Medieval Blacksmith còn hàng không?", "cats": ["ask_product_availability"]}
+{"text": "Shop có LEGO Friends Apartments không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO Home Alone hiện còn không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ The Office còn sẵn không shop?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO Atari 2600 không?", "cats": ["ask_product_availability"]}
+{"text": "Con PAC-MAN còn hàng không ạ?", "cats": ["ask_product_availability"]}
+{"text": "Mình muốn mua bộ này, còn hàng không?", "cats": ["ask_product_availability"]}
+{"text": "Sản phẩm này có sẵn tại shop không?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi tình trạng tồn kho bộ này nhé.", "cats": ["ask_product_availability"]}
+{"text": "Hiện bộ này còn để đặt không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ này có phải order không hay có sẵn?", "cats": ["ask_product_availability"]}
+{"text": "Còn hàng tại kho Hà Nội không shop?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn hàng ở TP.HCM không?", "cats": ["ask_product_availability"]}
+{"text": "Có sẵn để giao trong hôm nay không?", "cats": ["ask_product_availability", "immediate_ship"]}
+{"text": "Mẫu này còn đủ số lượng không?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi bộ này đã hết hàng chưa?", "cats": ["ask_product_availability"]}
+{"text": "Bộ này còn bán chính thức không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO này còn sản xuất không vậy?", "cats": ["ask_product_availability"]}
+{"text": "Bộ này còn nhập được không shop?", "cats": ["ask_product_availability"]}
+{"text": "Hiện còn bộ nào trong kho không?", "cats": ["ask_product_availability"]}
+{"text": "Con này còn hàng hả shop 😄", "cats": ["ask_product_availability"]}
+{"text": "Còn 1 bộ nào để em chốt luôn k ạ", "cats": ["ask_product_availability"]}
+{"text": "Shop check giúp em còn hàng ko 😁", "cats": ["ask_product_availability"]}
+{"text": "Bộ này sold out chưa vậy 😅", "cats": ["ask_product_availability"]}
+{"text": "Còn hàng để ship luôn hong shop", "cats": ["ask_product_availability"]}
+{"text": "Con này còn available không ạ", "cats": ["ask_product_availability"]}
+{"text": "LEGO này còn trong stock không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn giữ bộ này không?", "cats": ["ask_product_availability"]}
+{"text": "Cho mình hỏi còn hàng để làm quà không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ này hiện có thể mua ngay không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO 10333 không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ Orchid còn hàng chứ?", "cats": ["ask_product_availability"]}
+{"text": "LEGO 10281 còn không?", "cats": ["ask_product_availability"]}
+{"text": "LEGO 10316 Rivendell có sẵn không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ tháp Effle còn hàng không?", "cats": ["ask_product_availability"]}
+{"text": "Shop còn LEGO 10341 NASA Artemis không?", "cats": ["ask_product_availability"]}
+{"text": "Bộ này hiện còn để đặt mua không shop?", "cats": ["ask_product_availability"]}
+{"text": "Shop có ảnh bộ LEGO Creator Expert Ford Mustang 10265 không ạ?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xin vài ảnh thực tế của bộ Mustang 10265 nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ LEGO Tree House 21318 có ảnh thật không shop?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Gửi mình xem hình bộ Tree House được không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop cho xin ảnh chi tiết bộ Friends Central Perk 21319 nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có ảnh thực tế bộ Central Perk không ạ?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem ảnh bộ LEGO NASA Apollo Saturn V 21309.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xin hình thật của Saturn V với shop.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ LEGO Technic Bugatti Chiron 42083 có ảnh không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop gửi giúp mình vài ảnh Bugatti Chiron nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho xem hình bộ LEGO Creator Expert Volkswagen T1 Camper Van 10220 được không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem ảnh thực tế Volkswagen Camper Van.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop có ảnh bộ LEGO Ideas Ship in a Bottle 21313 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xin vài tấm hình Ship in a Bottle nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ LEGO Disney Castle 71040 có ảnh thật không shop?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Gửi mình xem hình bộ Disney Castle với.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem ảnh bộ LEGO Stranger Things The Upside Down 75810.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có ảnh thực tế bộ Stranger Things không ạ?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop cho xin hình bộ LEGO Fiat 500 10271 nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ Fiat 500 có ảnh chụp thật không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xem ảnh LEGO Pirates of Barracuda Bay 21322.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có thể gửi hình Barracuda Bay được không shop?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop có ảnh bộ LEGO Haunted House 10273 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem ảnh thực tế Haunted House.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xin ảnh bộ LEGO Lamborghini Sián FKP 37 42115 nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ Sián màu xanh có ảnh thật không shop?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem hình LEGO NES 71374.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop gửi vài ảnh bộ Nintendo NES giúp mình nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có ảnh thực tế bộ LEGO Bookshop 10270 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xem ảnh Bookshop được không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop cho xin ảnh LEGO Gingerbread House 10267.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem hình thật bộ Gingerbread House.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ LEGO Jurassic Park T-Rex Rampage 75936 có ảnh không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xin vài ảnh chi tiết T-Rex Rampage nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop có ảnh bộ LEGO Batmobile 1989 76139 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem hình Batmobile 1989.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xin ảnh LEGO Crocodile Locomotive 10277.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có ảnh thực tế đầu tàu Crocodile không shop?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ LEGO Empire State Building 21046 có hình thật không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop gửi giúp mình ảnh Empire State Building nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xem ảnh LEGO Trafalgar Square 21045.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có hình thực tế Trafalgar Square không ạ?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop cho xin ảnh bộ LEGO Old Fishing Store 21310.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem ảnh thật Old Fishing Store.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có thể gửi ảnh bộ LEGO Roller Coaster 10261 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xem vài góc chụp Roller Coaster nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop có ảnh LEGO Downtown Diner 10260 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem hình thực tế Downtown Diner.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho xin ảnh LEGO Assembly Square 10255 với ạ.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Assembly Square có ảnh thật không shop?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem ảnh LEGO Taj Mahal 10256.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop gửi hình Taj Mahal giúp mình nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xin ảnh bộ LEGO Voltron 21311.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có hình thực tế Voltron không ạ?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Shop có ảnh LEGO Ford F-150 Raptor 42126 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Cho mình xem ảnh thực tế con Raptor nhé.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Bộ này có ảnh thật không shop 📸", "cats": ["ask_product_image"]}
+{"text": "Inbox mình vài tấm hình thực tế với ạ 😄", "cats": ["ask_product_image"]}
+{"text": "Có ảnh chụp ngoài đời không vậy shop?", "cats": ["ask_product_image"]}
+{"text": "Cho mình xem ảnh lúc hoàn thiện bộ này nha.", "cats": ["ask_product_image"]}
+{"text": "Shop gửi mình vài góc chụp được không?", "cats": ["ask_product_image"]}
+{"text": "Có hình thực tế thay vì ảnh hãng không ạ?", "cats": ["ask_product_image"]}
+{"text": "Mình muốn xem ảnh khách đã lắp xong.", "cats": ["ask_product_image"]}
+{"text": "Cho mình xin ảnh cận cảnh sản phẩm nhé.", "cats": ["ask_product_image"]}
+{"text": "Bộ này ngoài đời nhìn thế nào, gửi ảnh giúp mình với.", "cats": ["ask_product_image"]}
+{"text": "Có album ảnh của bộ này không shop?", "cats": ["ask_product_image"]}
+{"text": "Cho xem ảnh mặt trước hộp nhé.", "cats": ["ask_product_image"]}
+{"text": "Mình muốn xem mặt sau hộp luôn.", "cats": ["ask_product_image"]}
+{"text": "Có ảnh các túi linh kiện bên trong không?", "cats": ["ask_product_image"]}
+{"text": "Cho mình xem ảnh sản phẩm khi trưng bày.", "cats": ["ask_product_image"]}
+{"text": "Bộ này lắp xong trông ra sao nhỉ, có ảnh không?", "cats": ["ask_product_image"]}
+{"text": "Shop gửi vài ảnh thật nha 👀", "cats": ["ask_product_image"]}
+{"text": "Có thể cho mình xem hình chi tiết không?", "cats": ["ask_product_image"]}
+{"text": "Cho xin ít ảnh review thực tế với shop.", "cats": ["ask_product_image"]}
+{"text": "Có video hay ảnh thật của bộ này không?", "cats": ["ask_product_image"]}
+{"text": "Mình muốn xem sản phẩm ngoài đời trước khi mua.", "cats": ["ask_product_image"]}
+{"text": "Shop gửi hình sản phẩm giúp em với ạ.", "cats": ["ask_product_image"]}
+{"text": "Ad ơi cho em xin ảnh bộ này 😍", "cats": ["ask_product_image"]}
+{"text": "Có ảnh thật k shop?", "cats": ["ask_product_image"]}
+{"text": "Ib mình vài ảnh nha shop.", "cats": ["ask_product_image"]}
+{"text": "Cho xin hình thực tế với ạ 🙏", "cats": ["ask_product_image"]}
+{"text": "Bộ này nhìn ngoài đời ổn không, có ảnh ko?", "cats": ["ask_product_image"]}
+{"text": "Cho em xem ảnh thật trước khi chốt đơn nhé.", "cats": ["ask_product_image"]}
+{"text": "Shop gửi vài pic sản phẩm được không?", "cats": ["ask_product_image"]}
+{"text": "Có hình cận cảnh từng mặt của sản phẩm không?", "cats": ["ask_product_image"]}
+{"text": "Mình muốn xem ảnh kích thước thực tế.", "cats": ["ask_product_image"]}
+{"text": "Cho mình xem ảnh đặt trên bàn làm việc nhé.", "cats": ["ask_product_image"]}
+{"text": "Có ảnh so sánh kích thước với vật dụng khác không?", "cats": ["ask_product_image"]}
+{"text": "Shop cho xem hình thực tế bộ đang có sẵn nhé.", "cats": ["ask_product_image"]}
+{"text": "Có thể gửi ảnh hàng trong kho được không?", "cats": ["ask_product_image"]}
+{"text": "Mình muốn xem ảnh nguyên seal.", "cats": ["ask_product_image"]}
+{"text": "Cho mình xem ảnh hộp còn mới nhé.", "cats": ["ask_product_image"]}
+{"text": "Có ảnh sản phẩm từ khách trước không shop?", "cats": ["ask_product_image"]}
+{"text": "Cho mình xin vài ảnh chụp bằng điện thoại thực tế.", "cats": ["ask_product_image"]}
+{"text": "Bộ này có ảnh thật từ nhiều góc không?", "cats": ["ask_product_image"]}
+{"text": "Shop gửi mình ảnh sản phẩm đang bán nha.", "cats": ["ask_product_image"]}
+{"text": "Có ảnh thực tế update mới nhất không?", "cats": ["ask_product_image"]}
+{"text": "Cho xem vài hình trước khi mình quyết định nhé 😊", "cats": ["ask_product_image"]}
+{"text": "Mình cần ảnh thật để tham khảo thêm.", "cats": ["ask_product_image"]}
+{"text": "Shop có thể gửi ảnh sản phẩm qua chat không?", "cats": ["ask_product_image"]}
+{"text": "Cho mình xin bộ ảnh thực tế của mẫu này nhé.", "cats": ["ask_product_image"]}
+{"text": "Mình muốn xem ảnh ngoài đời của bộ LEGO này.", "cats": ["ask_product_image"]}
+{"text": "Có hình sản phẩm đã lắp hoàn chỉnh không shop?", "cats": ["ask_product_image"]}
+{"text": "Shop gửi giúp mình ảnh thực tế sản phẩm nhé.", "cats": ["ask_product_image"]}
+{"text": "Bộ LEGO Creator Expert Ford Mustang 10265 có bao nhiêu mảnh vậy shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Cho mình hỏi kích thước hoàn thiện của Mustang 10265 là bao nhiêu?", "cats": ["ask_product_info", "give_product"]}
+{"text": "LEGO Tree House 21318 phù hợp độ tuổi nào ạ?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Tree House 21318 lắp có khó không shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Friends Central Perk 21319 có bao nhiêu minifigure vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Cho mình xin thông số kích thước bộ Central Perk nhé.", "cats": ["ask_product_info", "give_product"]}
+{"text": "NASA Apollo Saturn V 21309 cao bao nhiêu cm sau khi lắp xong?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Saturn V 21309 có bao nhiêu chi tiết vậy shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bugatti Chiron 42083 gồm bao nhiêu mảnh thế ạ?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Chiron 42083 thuộc mức độ khó nào vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Volkswagen T1 Camper Van 10220 dài bao nhiêu cm?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Camper Van 10220 có nội thất bên trong không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Ship in a Bottle 21313 có bao nhiêu mảnh vậy shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Ship in a Bottle có kích thước trưng bày thế nào?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Disney Castle 71040 cao bao nhiêu vậy ạ?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Disney Castle có phù hợp cho người mới chơi không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Stranger Things The Upside Down 75810 gồm mấy minifig?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Upside Down 75810 có khó lắp không shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "LEGO Fiat 500 10271 dài rộng cao bao nhiêu?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Fiat 500 10271 có bao nhiêu mảnh vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Pirates of Barracuda Bay 21322 có bao nhiêu nhân vật?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Barracuda Bay 21322 thuộc nhóm độ tuổi nào?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Haunted House 10273 cao bao nhiêu cm sau khi dựng xong?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Haunted House có cơ chế chuyển động không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Lamborghini Sián FKP 37 42115 có bao nhiêu chi tiết vậy shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Sián 42115 lắp mất khoảng bao lâu?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Nintendo NES 71374 có kích thước thế nào?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ NES 71374 gồm những phần nào bên trong?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bookshop 10270 có bao nhiêu tầng vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bookshop 10270 gồm bao nhiêu mảnh?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Gingerbread House 10267 phù hợp cho bé mấy tuổi?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Gingerbread House có bao nhiêu chi tiết vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Jurassic Park T-Rex Rampage 75936 dài bao nhiêu cm?", "cats": ["ask_product_info", "give_product"]}
+{"text": "T-Rex Rampage 75936 có bao nhiêu minifigure?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Batmobile 1989 76139 có kích thước thực tế thế nào?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Batmobile 1989 thuộc độ khó nào vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Crocodile Locomotive 10277 dài bao nhiêu sau khi hoàn thiện?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Đầu tàu Crocodile có bao nhiêu mảnh vậy shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Empire State cao bao nhiêu cm?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Empire State Building gồm bao nhiêu chi tiết?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Trafalgar Square 21045 có kích thước trưng bày thế nào?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Trafalgar Square có khó lắp không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Old Fishing Store 21310 gồm bao nhiêu mảnh vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Old Fishing Store phù hợp người mới chơi không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Roller Coaster 10261 cao và dài bao nhiêu vậy shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Roller Coaster 10261 có cơ chế hoạt động như thế nào?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Downtown Diner 10260 gồm bao nhiêu tầng vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ Downtown Diner có bao nhiêu minifigure?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Assembly Square 10255 có tổng cộng bao nhiêu mảnh?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Assembly Square phù hợp độ tuổi nào vậy?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Taj Mahal 10256 cao bao nhiêu cm thế shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Taj Mahal 10256 lắp mất khoảng bao lâu?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Voltron 21311 có thể tách thành các robot nhỏ không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Voltron gồm bao nhiêu mảnh vậy ạ?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Ford F-150 Raptor 42126 có hệ thống treo hoạt động không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Raptor 42126 thuộc dòng Technic phải không shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Bộ này có bao nhiêu mảnh vậy shop?", "cats": ["ask_product_info"]}
+{"text": "Cho mình hỏi kích thước sau khi lắp xong là bao nhiêu?", "cats": ["ask_product_info"]}
+{"text": "Sản phẩm này phù hợp cho độ tuổi nào?", "cats": ["ask_product_info"]}
+{"text": "Bộ này lắp có khó không ạ?", "cats": ["ask_product_info"]}
+{"text": "Có bao nhiêu nhân vật đi kèm trong bộ này vậy?", "cats": ["ask_product_info"]}
+{"text": "Bộ này thuộc dòng nào của LEGO vậy shop?", "cats": ["ask_product_info"]}
+{"text": "Mất khoảng bao lâu để hoàn thành bộ này?", "cats": ["ask_product_info"]}
+{"text": "Bộ này có hướng dẫn giấy hay app vậy?", "cats": ["ask_product_info"]}
+{"text": "Kích thước hộp sản phẩm là bao nhiêu?", "cats": ["ask_product_info"]}
+{"text": "Số lượng túi linh kiện trong bộ này nhiều không?", "cats": ["ask_product_info"]}
+{"text": "Bộ này có sticker hay in trực tiếp vậy?", "cats": ["ask_product_info"]}
+{"text": "Có chi tiết chuyển động nào không shop?", "cats": ["ask_product_info"]}
+{"text": "Mẫu này phù hợp để trưng bày hay để chơi hơn?", "cats": ["ask_product_info"]}
+{"text": "Bộ này có dễ tháo lắp không ạ?", "cats": ["ask_product_info"]}
+{"text": "Độ khó của sản phẩm này khoảng mấy trên 10?", "cats": ["ask_product_info"]}
+{"text": "Có cần kỹ năng đặc biệt để lắp không? 😄", "cats": ["ask_product_info"]}
+{"text": "Bộ này có nhiều chi tiết nhỏ không vậy?", "cats": ["ask_product_info"]}
+{"text": "Sản phẩm có đi kèm minifigure không?", "cats": ["ask_product_info"]}
+{"text": "Màu sắc chủ đạo của bộ này là gì?", "cats": ["ask_product_info"]}
+{"text": "Bộ này nặng khoảng bao nhiêu kg?", "cats": ["ask_product_info"]}
+{"text": "Có phù hợp làm quà cho bé 10 tuổi không?", "cats": ["ask_product_info"]}
+{"text": "Người mới chơi LEGO có lắp được không?", "cats": ["ask_product_info"]}
+{"text": "Bộ này trưng bàn làm việc có vừa không?", "cats": ["ask_product_info"]}
+{"text": "Có bao nhiêu bước lắp ráp vậy shop?", "cats": ["ask_product_info"]}
+{"text": "Bộ này có phụ kiện đặc biệt nào không?", "cats": ["ask_product_info"]}
+{"text": "Cho mình hỏi chiều cao thành phẩm với.", "cats": ["ask_product_info"]}
+{"text": "Mẫu này có nhiều chi tiết kỹ thuật không?", "cats": ["ask_product_info"]}
+{"text": "Có thể lắp trong một buổi tối không? 😆", "cats": ["ask_product_info"]}
+{"text": "Bộ này thiên về sưu tầm hay trải nghiệm lắp ráp?", "cats": ["ask_product_info"]}
+{"text": "Có thông tin số mảnh cụ thể không shop?", "cats": ["ask_product_info"]}
+{"text": "Sản phẩm này thuộc mức beginner hay advanced?", "cats": ["ask_product_info"]}
+{"text": "Bộ này có cơ chế điện hay motor không?", "cats": ["ask_product_info"]}
+{"text": "Cho mình xin thông số kỹ thuật của bộ này nhé.", "cats": ["ask_product_info"]}
+{"text": "Khi hoàn thiện thì chiếm diện tích khoảng bao nhiêu?", "cats": ["ask_product_info"]}
+{"text": "Bộ này có phù hợp cho người lớn không?", "cats": ["ask_product_info"]}
+{"text": "Có bao nhiêu màu gạch trong sản phẩm vậy?", "cats": ["ask_product_info"]}
+{"text": "Bộ này dùng để trưng bày đẹp không? 👀", "cats": ["ask_product_info"]}
+{"text": "Cho mình hỏi độ tuổi khuyến nghị với ạ.", "cats": ["ask_product_info"]}
+{"text": "Sản phẩm này có nhiều chi tiết hiếm không?", "cats": ["ask_product_info"]}
+{"text": "Bộ này thuộc mức độ thử thách nào vậy shop?", "cats": ["ask_product_info"]}
+{"text": "Có thể cho mình biết số lượng mảnh không?", "cats": ["ask_product_info"]}
+{"text": "Mẫu này lắp xong cao khoảng bao nhiêu?", "cats": ["ask_product_info"]}
+{"text": "Bộ này giá bao nhiêu vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Cho mình xin giá sản phẩm này nhé.", "cats": ["ask_product_price"]}
+{"text": "Hiện tại bộ này bán bao nhiêu tiền?", "cats": ["ask_product_price"]}
+{"text": "Shop báo giá giúp mình với.", "cats": ["ask_product_price"]}
+{"text": "Mẫu này giá sao vậy ạ?", "cats": ["ask_product_price"]}
+{"text": "Cho mình hỏi giá hiện tại nhé.", "cats": ["ask_product_price"]}
+{"text": "Bộ này đang có giá bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Shop cho xin báo giá sản phẩm.", "cats": ["ask_product_price"]}
+{"text": "Giá của mẫu này là bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Sản phẩm này hiện bán giá bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Cho mình biết giá bộ này với ạ.", "cats": ["ask_product_price"]}
+{"text": "Giá hiện tại của sản phẩm là bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Shop báo giá nhanh giúp mình nhé 😄", "cats": ["ask_product_price"]}
+{"text": "Cho em xin giá với ạ.", "cats": ["ask_product_price"]}
+{"text": "Bộ này bn tiền vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Giá nhiêu thế ad?", "cats": ["ask_product_price"]}
+{"text": "Inbox mình giá sản phẩm nhé.", "cats": ["ask_product_price"]}
+{"text": "Cho mình hỏi giá chưa tính ship nha.", "cats": ["ask_product_price"]}
+{"text": "Mẫu này bao nhiêu xiền vậy 😆", "cats": ["ask_product_price"]}
+{"text": "Giá riêng sản phẩm là bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Tower Bridge giá bao nhiêu vậy shop?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá bộ Tower Bridge.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ xe cắm trại Volkswagen hiện giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Camper Van giá thế nào vậy?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ 10218 hiện tại bao nhiêu tiền?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá Pet Shop nhé.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ lego Emporium giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Grand Emporium còn giá bao nhiêu vậy shop?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Sydney Opera House hiện bán bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá Opera House.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ LEGO Palace Cinema 10232 giá bao nhiêu vậy?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Palace Cinema 10232 hiện có giá thế nào?", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Horizon Express 10233 giá bao nhiêu tiền?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình báo giá Horizon Express 10233 nhé.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ LEGO Maersk Train 10219 hiện giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Maersk Train 10219 bán bao nhiêu vậy shop?", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Volkswagen Beetle giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá bộ Beetle nhé.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ LEGO Parisian Restaurant hiện bao nhiêu tiền?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Parisian Restaurant 10243 giá sao vậy shop?", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Ghostbusters Ecto-1 giá bao nhiêu vậy?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá Ecto-1.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ LEGO The Simpsons House 71006 hiện giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Nhà Simpson giá thế nào vậy ạ?", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Research Institute 21110 giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin báo giá Research Institute 21110.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ LEGO Mini Cooper MK VII 10242 giá bao nhiêu vậy?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Mini Cooper 10242 hiện bán bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Ferris Wheel 10247 giá hiện tại là bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá Ferris Wheel nhé.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ này đang sale còn bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Giá sau giảm của bộ này là bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Shop báo giá hiện tại giúp mình nhé.", "cats": ["ask_product_price"]}
+{"text": "Mẫu này giá mềm không shop?", "cats": ["ask_product_price"]}
+{"text": "Cho mình xin mức giá của sản phẩm.", "cats": ["ask_product_price"]}
+{"text": "Hiện bên mình bán bộ này bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Cho mình hỏi giá niêm yết của bộ này.", "cats": ["ask_product_price"]}
+{"text": "Giá đang áp dụng cho sản phẩm là bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Bộ này có giá tốt không vậy?", "cats": ["ask_product_price"]}
+{"text": "Xin báo giá để mình tham khảo nhé.", "cats": ["ask_product_price"]}
+{"text": "Con xe đỏ đó giá bao nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Bộ tàu hỏa kia hiện bán bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Mẫu lâu đài đó giá sao vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Bộ hoa bên mình giá bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Con robot khổng lồ kia bán giá thế nào?", "cats": ["ask_product_price"]}
+{"text": "Bộ kiến trúc đó hiện giá bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Mẫu xe cổ kia giá nhiêu vậy?", "cats": ["ask_product_price"]}
+{"text": "Bộ tàu cướp biển đó giá sao ạ?", "cats": ["ask_product_price"]}
+{"text": "Mẫu nhà phố kia bán bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Bộ máy bay đó hiện giá thế nào?", "cats": ["ask_product_price"]}
+{"text": "Shop cho mình xin giá chính xác nhé.", "cats": ["ask_product_price"]}
+{"text": "Giá riêng sản phẩm thôi là bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Mình cần biết giá bộ này trước khi quyết định.", "cats": ["ask_product_price"]}
+{"text": "Cho mình xin báo giá chi tiết.", "cats": ["ask_product_price"]}
+{"text": "Bộ này hiện có giá bao nhiêu tiền vậy?", "cats": ["ask_product_price"]}
+{"text": "Giá sản phẩm hiện tại thế nào shop?", "cats": ["ask_product_price"]}
+{"text": "Cho mình xin giá chưa gồm vận chuyển nhé.", "cats": ["ask_product_price"]}
+{"text": "Shop báo giá để mình cân nhắc với.", "cats": ["ask_product_price"]}
+{"text": "Giá bộ này có thay đổi gì không?", "cats": ["ask_product_price"]}
+{"text": "Cho mình hỏi mức giá hiện nay của sản phẩm.", "cats": ["ask_product_price"]}
+{"text": "Ad ơi giá bộ này nhiêu vậy 😍", "cats": ["ask_product_price"]}
+{"text": "Cho em xin giá với nha ❤️", "cats": ["ask_product_price"]}
+{"text": "Giá sản phẩm bn vậy ạ?", "cats": ["ask_product_price"]}
+{"text": "Ib giá giúp em nha 😄", "cats": ["ask_product_price"]}
+{"text": "Mẫu này bao nhiêu tiền thế shop 👀", "cats": ["ask_product_price"]}
+{"text": "Báo giá em phát với 😆", "cats": ["ask_product_price"]}
+{"text": "Con này giá sao ad?", "cats": ["ask_product_price"]}
+{"text": "Cho em xin giá chốt sản phẩm nhé.", "cats": ["ask_product_price"]}
+{"text": "Giá hiện tại của bộ này là bn?", "cats": ["ask_product_price"]}
+{"text": "Shop báo giá nhanh giúp em với 🙏", "cats": ["ask_product_price"]}
+{"text": "LEGO Sea Cow hiện giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá bộ Sea Cow.", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Haunted House 10228 giá hiện tại thế nào?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bộ nhà ma ám bán bao nhiêu vậy?", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Detective's Office 10246 giá bao nhiêu tiền?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá văn phòng thám tử nhé.", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO Helicarrier hiện giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Helicarrier giá sao vậy shop?", "cats": ["ask_product_price", "give_product"]}
+{"text": "LEGO 75059 bán bao nhiêu tiền?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Cho mình xin giá Sandcrawler 75059.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Mẫu này giá bao nhiêu để mình còn cân đối ngân sách?", "cats": ["ask_product_price"]}
+{"text": "Giá sản phẩm hiện tại có ưu đãi gì không?", "cats": ["ask_product_price"]}
+{"text": "Shop cho mình xin mức giá tốt nhất nhé.", "cats": ["ask_product_price"]}
+{"text": "Bên mình đang bán bộ này với giá bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "Cho mình tham khảo giá của sản phẩm này.", "cats": ["ask_product_price"]}
+{"text": "Giá hiện giờ của bộ này là bao nhiêu vậy shop?", "cats": ["ask_product_price"]}
+{"text": "Mình muốn biết giá trước khi đặt hàng.", "cats": ["ask_product_price"]}
+{"text": "Cho mình hỏi giá chính thức của bộ này.", "cats": ["ask_product_price"]}
+{"text": "Giá sản phẩm hiện còn như đăng không?", "cats": ["ask_product_price"]}
+{"text": "Cho mình xin giá bộ này với nhé.", "cats": ["ask_product_price"]}
+{"text": "Shop tìm giúp mình bộ này với.", "cats": ["ask_find_product"]}
+{"text": "Bên mình có bán mẫu này không ạ?", "cats": ["ask_find_product"]}
+{"text": "Shop check giúp mình sản phẩm này nhé.", "cats": ["ask_find_product"]}
+{"text": "Mình đang tìm một bộ LEGO, shop hỗ trợ được không?", "cats": ["ask_find_product"]}
+{"text": "Cho mình hỏi bên shop có bộ này không?", "cats": ["ask_find_product"]}
+{"text": "Shop tìm giúp mình mẫu này với nhé.", "cats": ["ask_find_product"]}
+{"text": "Mình cần tìm một bộ để làm quà.", "cats": ["ask_find_product"]}
+{"text": "Có thể kiểm tra giúp mình sản phẩm này không?", "cats": ["ask_find_product"]}
+{"text": "Shop còn bán mẫu này không vậy?", "cats": ["ask_find_product"]}
+{"text": "Nhờ shop tìm giúp bộ LEGO này.", "cats": ["ask_find_product"]}
+{"text": "Mình tìm bộ xe Mustang màu xanh đậm ấy.", "cats": ["ask_find_product"]}
+{"text": "Shop có bộ quán cafe trong phim Friends không?", "cats": ["ask_find_product"]}
+{"text": "Mình cần tìm bộ tên lửa NASA cao hơn 1m.", "cats": ["ask_find_product"]}
+{"text": "Có bộ lâu đài Disney nào không shop?", "cats": ["ask_find_product"]}
+{"text": "Shop tìm giúp mình bộ xe Fiat cổ màu vàng nhé.", "cats": ["ask_find_product"]}
+{"text": "Mình muốn tìm bộ cướp biển có con tàu lớn.", "cats": ["ask_find_product"]}
+{"text": "Có bộ ngôi nhà ma nào đang bán không?", "cats": ["ask_find_product"]}
+{"text": "Shop có bộ Lamborghini màu xanh lá không?", "cats": ["ask_find_product"]}
+{"text": "Mình tìm bộ xe cổ Volkswagen nhé.", "cats": ["ask_find_product"]}
+{"text": "Có bộ mô hình quán sách nào không?", "cats": ["ask_find_product"]}
+{"text": "Tìm giúp em bộ này vớiiii", "cats": ["ask_find_product"]}
+{"text": "Có bộ LEGO nào giống quán cafe ngoài đời không?", "cats": ["ask_find_product"]}
+{"text": "Mình tìm bộ xe thể thao màu đỏ.", "cats": ["ask_find_product"]}
+{"text": "Shop tìm giúp bộ hoa nhìn giống thật nhé.", "cats": ["ask_find_product"]}
+{"text": "Có bộ nào mô phỏng một công trình nổi tiếng không?", "cats": ["ask_find_product"]}
+{"text": "Mình cần bộ LEGO dành cho dân văn phòng.", "cats": ["ask_find_product"]}
+{"text": "Tìm giúp mình bộ phù hợp người mới sưu tầm.", "cats": ["ask_find_product"]}
+{"text": "Có bộ nào đang được nhiều người săn không?", "cats": ["ask_find_product"]}
+{"text": "Mình muốn tìm một set hiếm hiếm chút.", "cats": ["ask_find_product"]}
+{"text": "Có bộ LEGO đang hot dạo này không?", "cats": ["ask_find_product"]}
+{"text": "Tìm giúp mình một bộ thật ấn tượng nhé.", "cats": ["ask_find_product"]}
+{"text": "tại mình muốn tặng quà cho ny kh biết nên chọn mẫu nào, thấy Mario thì có vẻ xinh hơn", "cats": ["ask_product_suggestion"]}
+{"text": "bạn í cũng ít khi lắp nên mình mới phân vân chọn em Mario", "cats": ["ask_product_suggestion"]}
+{"text": "Dạ bên mình không còn hàng sẵn ạ", "cats": ["ask_product_availability"]}
+{"text": "đâu em xem !!!", "cats": ["ask_product_image"]}
+{"text": "a cứ gửi đi nhá tý nx xong việc em xem", "cats": ["ask_product_image"]}
+{"text": "giá iu là zư lào", "cats": ["ask_product_price"]}
+{"text": "gửi em lựa với ạ", "cats": ["ask_product_image"]}
+{"text": "Mai anh qua kho chụp e xem với a", "cats": ["ask_product_image"]}
+{"text": "Nma khong còn các mẫu khác ạ", "cats": ["ask_find_product"]}
+{"text": "hay sốp ở đâu em lượn qua lấy =)))", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "hehe tối em qua lấy được hong", "cats": ["get_product_direct"]}
+{"text": "z em chọn bé tam thể màu cam hen", "cats": ["give_product", "agree_order"]}

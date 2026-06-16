@@ -1,0 +1,1602 @@
+[
+  {
+    "text": "chào shop, bên mình có đồ chơi cho bé tầm 100k đến 300k không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 42,
+        "end": 46,
+        "label": "MIN_BUDGET",
+        "text": "100k"
+      },
+      {
+        "start": 51,
+        "end": 55,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "text": "mình muốn tìm lego cho con trai, khoảng 200 nghìn - 500 nghìn nha shop.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 40,
+        "end": 49,
+        "label": "MIN_BUDGET",
+        "text": "200 nghìn"
+      },
+      {
+        "start": 52,
+        "end": 61,
+        "label": "MAX_BUDGET",
+        "text": "500 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "có bộ nào từ 300k tới 1tr không shop ơi?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "label": "MIN_BUDGET",
+        "text": "300k"
+      },
+      {
+        "start": 22,
+        "end": 25,
+        "label": "MAX_BUDGET",
+        "text": "1tr"
+      }
+    ]
+  },
+  {
+    "text": "nhà mình có quà tặng sinh nhật, tầm 500k đến 1.5tr là đẹp.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 40,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "label": "MAX_BUDGET",
+        "text": "1.5tr"
+      }
+    ]
+  },
+  {
+    "text": "tư vấn giúp mình bộ lắp ráp xe hơi, khoảng 1 triệu - 2 triệu củ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 43,
+        "end": 50,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "mình thích mấy bộ lắp ghép kiến trúc, tầm 2 triệu đến 5 triệu nha.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 42,
+        "end": 49,
+        "label": "MIN_BUDGET",
+        "text": "2 triệu"
+      },
+      {
+        "start": 54,
+        "end": 61,
+        "label": "MAX_BUDGET",
+        "text": "5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "hàng mới về có gì hot không shop, tầm 500k-1tr ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "label": "MAX_BUDGET",
+        "text": "1tr"
+      }
+    ]
+  },
+  {
+    "text": "tìm giúp mình bộ mô hình khủng long, từ 1.5 triệu tới 3 triệu nha.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 40,
+        "end": 49,
+        "label": "MIN_BUDGET",
+        "text": "1.5 triệu"
+      },
+      {
+        "start": 54,
+        "end": 61,
+        "label": "MAX_BUDGET",
+        "text": "3 triệu"
+      }
+    ]
+  },
+  {
+    "text": "bên mình có đồ chơi cho bé gái tầm 300k-600k không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "label": "MIN_BUDGET",
+        "text": "300k"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "MAX_BUDGET",
+        "text": "600k"
+      }
+    ]
+  },
+  {
+    "text": "tầm 500 nghìn đến 1 triệu củ là ổn cho bộ lego này.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "label": "MIN_BUDGET",
+        "text": "500 nghìn"
+      },
+      {
+        "start": 18,
+        "end": 28,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu củ"
+      }
+    ]
+  },
+  {
+    "text": "Chào shop, bên mình có đồ chơi xếp hình nào tầm 100 nghìn đến 300 nghìn không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 48,
+        "end": 57,
+        "label": "MIN_BUDGET",
+        "text": "100 nghìn"
+      },
+      {
+        "start": 62,
+        "end": 71,
+        "label": "MAX_BUDGET",
+        "text": "300 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "Mình đang tìm một món quà cho bé, ngân sách khoảng 200k-500k thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 51,
+        "end": 55,
+        "label": "MIN_BUDGET",
+        "text": "200k"
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "text": "Cho mình hỏi có mẫu LEGO nào từ 300 nghìn tới 1 triệu không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 32,
+        "end": 41,
+        "label": "MIN_BUDGET",
+        "text": "300 nghìn"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn mua một bộ đồ chơi, tầm 500k đến 1.5tr là ổn ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "label": "MAX_BUDGET",
+        "text": "1.5tr"
+      }
+    ]
+  },
+  {
+    "text": "Shop ơi, mình muốn xem các bộ LEGO Ninjago, khoảng 1 triệu - 2 triệu ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 51,
+        "end": 58,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 61,
+        "end": 68,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Tìm cho mình bộ Lego Technic từ 2 triệu tới 5 triệu nha shop.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 32,
+        "end": 39,
+        "label": "MIN_BUDGET",
+        "text": "2 triệu"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "label": "MAX_BUDGET",
+        "text": "5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Có mẫu nào tầm 500k đến 1 triệu không shop ơi?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn mua bộ lắp ráp, budget khoảng 300-500 nghìn là được ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 40,
+        "end": 43,
+        "label": "MIN_BUDGET",
+        "text": "300"
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "label": "MAX_BUDGET",
+        "text": "500 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "Tầm 1.5 triệu đến 2 triệu có những mẫu đồ chơi nào cho bé 6 tuổi?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "label": "MIN_BUDGET",
+        "text": "1.5 triệu"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Em tìm lego Creator, khoảng 500k đến 1 triệu củ là được ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu củ"
+      }
+    ]
+  },
+  {
+    "text": "Shop ơi, mình muốn tìm bộ LEGO Star Wars tầm 500k đến 800k ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 45,
+        "end": 49,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 54,
+        "end": 58,
+        "label": "MAX_BUDGET",
+        "text": "800k"
+      }
+    ]
+  },
+  {
+    "text": "Tư vấn giúp mình mấy mẫu xe điều khiển, ngân sách của mình khoảng 300-500 nghìn thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 66,
+        "end": 69,
+        "label": "MIN_BUDGET",
+        "text": "300"
+      },
+      {
+        "start": 70,
+        "end": 79,
+        "label": "MAX_BUDGET",
+        "text": "500 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "Tìm bộ LEGO Technic nào tầm 1.5 triệu đến 2 triệu cho bé nhà mình nha shop.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "label": "MIN_BUDGET",
+        "text": "1.5 triệu"
+      },
+      {
+        "start": 42,
+        "end": 49,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn mua đồ chơi cho bé gái, tầm 100k đến 200k có mẫu nào xinh xinh không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "label": "MIN_BUDGET",
+        "text": "100k"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "label": "MAX_BUDGET",
+        "text": "200k"
+      }
+    ]
+  },
+  {
+    "text": "Có bộ xếp hình 3D nào từ 400k tới 600k không shop ơi?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "label": "MIN_BUDGET",
+        "text": "400k"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "label": "MAX_BUDGET",
+        "text": "600k"
+      }
+    ]
+  },
+  {
+    "text": "Bên mình có robot lắp ráp nào khoảng 700 nghìn - 1 triệu không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 37,
+        "end": 46,
+        "label": "MIN_BUDGET",
+        "text": "700 nghìn"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Cần tìm bộ LEGO City, tầm 800k đến 1.2 triệu là ổn nha.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 26,
+        "end": 30,
+        "label": "MIN_BUDGET",
+        "text": "800k"
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "label": "MAX_BUDGET",
+        "text": "1.2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình có khoảng 2 triệu đến 3 triệu để mua quà sinh nhật, có gợi ý gì không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 15,
+        "end": 22,
+        "label": "MIN_BUDGET",
+        "text": "2 triệu"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "label": "MAX_BUDGET",
+        "text": "3 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Tìm cho mình mấy món đồ chơi phát triển trí tuệ từ 300-500 củ ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 51,
+        "end": 54,
+        "label": "MIN_BUDGET",
+        "text": "300"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "label": "MAX_BUDGET",
+        "text": "500 củ"
+      }
+    ]
+  },
+  {
+    "text": "Tầm 1.5tr đến 2.5tr cho bộ lắp ráp mô hình xe hơi ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "label": "MIN_BUDGET",
+        "text": "1.5tr"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "label": "MAX_BUDGET",
+        "text": "2.5tr"
+      }
+    ]
+  },
+  {
+    "text": "Cho mình hỏi bên mình có đồ chơi cho bé 5 tuổi tầm 100k đến 200k không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 51,
+        "end": 55,
+        "label": "MIN_BUDGET",
+        "text": "100k"
+      },
+      {
+        "start": 60,
+        "end": 64,
+        "label": "MAX_BUDGET",
+        "text": "200k"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn tìm bộ lego siêu anh hùng khoảng 500k-700k.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 43,
+        "end": 47,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 48,
+        "end": 52,
+        "label": "MAX_BUDGET",
+        "text": "700k"
+      }
+    ]
+  },
+  {
+    "text": "Tư vấn giúp mình bộ lắp ráp từ 300k tới 500k cho bé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "label": "MIN_BUDGET",
+        "text": "300k"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "text": "Mình có ngân sách khoảng 1 triệu đến 1.5 triệu cho bộ quà tặng.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 32,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "label": "MAX_BUDGET",
+        "text": "1.5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Tìm cho mình bộ lego city tầm 2tr đến 3tr ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 33,
+        "label": "MIN_BUDGET",
+        "text": "2tr"
+      },
+      {
+        "start": 38,
+        "end": 41,
+        "label": "MAX_BUDGET",
+        "text": "3tr"
+      }
+    ]
+  },
+  {
+    "text": "Bên mình có đồ chơi điều khiển từ xa không, giá từ 400 nghìn tới 600 nghìn là ổn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 51,
+        "end": 60,
+        "label": "MIN_BUDGET",
+        "text": "400 nghìn"
+      },
+      {
+        "start": 65,
+        "end": 74,
+        "label": "MAX_BUDGET",
+        "text": "600 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "Mình thích đồ chơi xếp hình, tầm 800k đến 1 triệu là được.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "label": "MIN_BUDGET",
+        "text": "800k"
+      },
+      {
+        "start": 42,
+        "end": 49,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Có bộ lego technic nào khoảng 3 triệu - 5 triệu không shop?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "label": "MIN_BUDGET",
+        "text": "3 triệu"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "label": "MAX_BUDGET",
+        "text": "5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Cho xem mấy mẫu xe điều khiển, từ 500k tới 800k thôi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 34,
+        "end": 38,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "label": "MAX_BUDGET",
+        "text": "800k"
+      }
+    ]
+  },
+  {
+    "text": "Tìm bộ đồ chơi cho bé gái tầm 600k đến 1 triệu ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "label": "MIN_BUDGET",
+        "text": "600k"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Chào shop, mình muốn tìm quà cho bé, ngân sách tầm 200k đến 300k thì có những món đồ chơi nào ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 51,
+        "end": 55,
+        "label": "MIN_BUDGET",
+        "text": "200k"
+      },
+      {
+        "start": 60,
+        "end": 64,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "text": "Mình đang tìm bộ xếp hình Lego cho con, khoảng 500 nghìn đến 1 triệu là đẹp ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 47,
+        "end": 56,
+        "label": "MIN_BUDGET",
+        "text": "500 nghìn"
+      },
+      {
+        "start": 61,
+        "end": 68,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Shop ơi, có bộ Lego nào giá từ 300k tới 500k không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "label": "MIN_BUDGET",
+        "text": "300k"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "text": "Tầm 1 triệu đến 1.5 triệu là ok rồi shop ơi, tư vấn giúp mình nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "label": "MAX_BUDGET",
+        "text": "1.5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn mua đồ chơi Lego cao cấp hơn chút, budget từ 2 triệu đến 5 triệu ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 55,
+        "end": 62,
+        "label": "MIN_BUDGET",
+        "text": "2 triệu"
+      },
+      {
+        "start": 67,
+        "end": 74,
+        "label": "MAX_BUDGET",
+        "text": "5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình đang xem mấy bộ Lego City, tầm 600k đến 800k có mẫu nào đẹp không shop?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 40,
+        "label": "MIN_BUDGET",
+        "text": "600k"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "label": "MAX_BUDGET",
+        "text": "800k"
+      }
+    ]
+  },
+  {
+    "text": "Tìm giúp mình bộ Lego Creator từ 400 nghìn tới 700 nghìn nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 33,
+        "end": 42,
+        "label": "MIN_BUDGET",
+        "text": "400 nghìn"
+      },
+      {
+        "start": 47,
+        "end": 56,
+        "label": "MAX_BUDGET",
+        "text": "700 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "Cho mình hỏi có mẫu Lego Technic nào khoảng 1.5 triệu đến 2 triệu không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 44,
+        "end": 53,
+        "label": "MIN_BUDGET",
+        "text": "1.5 triệu"
+      },
+      {
+        "start": 58,
+        "end": 65,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn mua quà sinh nhật, dự trù từ 500k đến 1.2 triệu là ổn ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 39,
+        "end": 43,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "label": "MAX_BUDGET",
+        "text": "1.2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Chào shop, mình đang tìm đồ chơi cho bé tầm 100k đến 200k ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 44,
+        "end": 48,
+        "label": "MIN_BUDGET",
+        "text": "100k"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "label": "MAX_BUDGET",
+        "text": "200k"
+      }
+    ]
+  },
+  {
+    "text": "Sản phẩm bên mình có mẫu nào khoảng 300 nghìn tới 500 nghìn không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 45,
+        "label": "MIN_BUDGET",
+        "text": "300 nghìn"
+      },
+      {
+        "start": 50,
+        "end": 59,
+        "label": "MAX_BUDGET",
+        "text": "500 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "Cho mình hỏi có bộ Lego nào từ 500k tới 1 triệu không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 35,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn mua quà sinh nhật, tầm 1 triệu đến 1.5 triệu là ổn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 33,
+        "end": 40,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 45,
+        "end": 54,
+        "label": "MAX_BUDGET",
+        "text": "1.5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Shop ơi, có đồ chơi khủng long khoảng 200k-400k không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "label": "MIN_BUDGET",
+        "text": "200k"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "label": "MAX_BUDGET",
+        "text": "400k"
+      }
+    ]
+  },
+  {
+    "text": "Bên mình có xe ô tô điều khiển tầm 300k tới 600k không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 35,
+        "end": 39,
+        "label": "MIN_BUDGET",
+        "text": "300k"
+      },
+      {
+        "start": 44,
+        "end": 48,
+        "label": "MAX_BUDGET",
+        "text": "600k"
+      }
+    ]
+  },
+  {
+    "text": "Tìm giúp mình bộ xếp hình từ 800 nghìn tới 1.2 triệu nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "label": "MIN_BUDGET",
+        "text": "800 nghìn"
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "label": "MAX_BUDGET",
+        "text": "1.2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn mua bộ lắp ráp robot, tầm 1.5 triệu đến 2 triệu là ok.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 45,
+        "label": "MIN_BUDGET",
+        "text": "1.5 triệu"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Có đồ chơi cho bé 2 tuổi khoảng 500k-1tr không shop?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 37,
+        "end": 40,
+        "label": "MAX_BUDGET",
+        "text": "1tr"
+      }
+    ]
+  },
+  {
+    "text": "Tầm 3-5 củ cho con mình ạ, có đồ chơi gì hay không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "label": "MIN_BUDGET",
+        "text": "3"
+      },
+      {
+        "start": 6,
+        "end": 10,
+        "label": "MAX_BUDGET",
+        "text": "5 củ"
+      }
+    ]
+  },
+  {
+    "text": "chào shop, mình đang tìm đồ chơi cho bé tầm 100k đến 300k ạ",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 44,
+        "end": 48,
+        "label": "MIN_BUDGET",
+        "text": "100k"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "text": "bên mình có bộ lắp ráp nào khoảng 200 nghìn - 500 nghìn không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 34,
+        "end": 43,
+        "label": "MIN_BUDGET",
+        "text": "200 nghìn"
+      },
+      {
+        "start": 46,
+        "end": 55,
+        "label": "MAX_BUDGET",
+        "text": "500 nghìn"
+      }
+    ]
+  },
+  {
+    "text": "tư vấn giúp mình bộ lego từ 300k tới 1 triệu nha shop",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "label": "MIN_BUDGET",
+        "text": "300k"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "mình muốn xem mấy món tầm 500k đến 1.5tr",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 26,
+        "end": 30,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "label": "MAX_BUDGET",
+        "text": "1.5tr"
+      }
+    ]
+  },
+  {
+    "text": "cho mình hỏi có đồ chơi nào từ 1 triệu đến 2 triệu không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "mình tìm bộ điều khiển từ xa khoảng 2tr-5tr",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 36,
+        "end": 39,
+        "label": "MIN_BUDGET",
+        "text": "2tr"
+      },
+      {
+        "start": 40,
+        "end": 43,
+        "label": "MAX_BUDGET",
+        "text": "5tr"
+      }
+    ]
+  },
+  {
+    "text": "tầm 500 củ đến 1 triệu củ là đẹp nhất",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "label": "MIN_BUDGET",
+        "text": "500 củ"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu củ"
+      }
+    ]
+  },
+  {
+    "text": "bên bạn có xe mô hình từ 1.5 triệu tới 3 triệu không?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 25,
+        "end": 34,
+        "label": "MIN_BUDGET",
+        "text": "1.5 triệu"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "label": "MAX_BUDGET",
+        "text": "3 triệu"
+      }
+    ]
+  },
+  {
+    "text": "khoảng 3 triệu đến 6 triệu là ok đó shop",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "label": "MIN_BUDGET",
+        "text": "3 triệu"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "label": "MAX_BUDGET",
+        "text": "6 triệu"
+      }
+    ]
+  },
+  {
+    "text": "tầm 500k-800k có món nào hay không shop ơi?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 9,
+        "end": 13,
+        "label": "MAX_BUDGET",
+        "text": "800k"
+      }
+    ]
+  },
+  {
+    "text": "Chào shop, bên mình có đồ chơi lắp ráp nào tầm 100k đến 300k không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 47,
+        "end": 51,
+        "label": "MIN_BUDGET",
+        "text": "100k"
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn tìm một bộ LEGO giá khoảng 200k-500k thôi shop ơi.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 37,
+        "end": 41,
+        "label": "MIN_BUDGET",
+        "text": "200k"
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "label": "MAX_BUDGET",
+        "text": "500k"
+      }
+    ]
+  },
+  {
+    "text": "Tư vấn giúp mình mấy mẫu mô hình có giá từ 300k tới 1 triệu nhé.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 43,
+        "end": 47,
+        "label": "MIN_BUDGET",
+        "text": "300k"
+      },
+      {
+        "start": 52,
+        "end": 59,
+        "label": "MAX_BUDGET",
+        "text": "1 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Em đang tìm quà cho bé, khoảng 500 nghìn tới 1.5 triệu là ổn.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 31,
+        "end": 40,
+        "label": "MIN_BUDGET",
+        "text": "500 nghìn"
+      },
+      {
+        "start": 45,
+        "end": 54,
+        "label": "MAX_BUDGET",
+        "text": "1.5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Shop có bộ nào tầm 1 triệu đến 2 triệu không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "label": "MIN_BUDGET",
+        "text": "1 triệu"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "label": "MAX_BUDGET",
+        "text": "2 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Ngân sách của mình khoảng 2 triệu đến 5 triệu cho bộ LEGO Technic.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "label": "MIN_BUDGET",
+        "text": "2 triệu"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "label": "MAX_BUDGET",
+        "text": "5 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Tìm giúp mình bộ sưu tập nào đó từ 1.5 triệu tới 3 triệu.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 35,
+        "end": 44,
+        "label": "MIN_BUDGET",
+        "text": "1.5 triệu"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "label": "MAX_BUDGET",
+        "text": "3 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Tầm 3 triệu đến 7 triệu là mình có thể lấy được ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "label": "MIN_BUDGET",
+        "text": "3 triệu"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "label": "MAX_BUDGET",
+        "text": "7 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn xem các mẫu đồ chơi lắp ráp có giá khoảng 500k-1tr ạ.",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 52,
+        "end": 56,
+        "label": "MIN_BUDGET",
+        "text": "500k"
+      },
+      {
+        "start": 57,
+        "end": 60,
+        "label": "MAX_BUDGET",
+        "text": "1tr"
+      }
+    ]
+  },
+  {
+    "text": "Có bộ nào tầm 10 triệu đến 15 triệu không shop ơi?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 14,
+        "end": 22,
+        "label": "MIN_BUDGET",
+        "text": "10 triệu"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "MAX_BUDGET",
+        "text": "15 triệu"
+      }
+    ]
+  },
+  {
+    "text": "Shop ơi, bên mình có mẫu LEGO nào tầm 200k đến 300k không ạ?",
+    "cats": [
+      "provide_budget"
+    ],
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "label": "MIN_BUDGET",
+        "text": "200k"
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "label": "MAX_BUDGET",
+        "text": "300k"
+      }
+    ]
+  }
+]

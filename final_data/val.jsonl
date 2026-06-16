@@ -1,0 +1,454 @@
+{"text": "Bạn oi nếu muốn qua đấy lấy thì mấy h lấy dc v", "cats": ["get_product_direct"]}
+{"text": "Bộ này bnhiu ad shop", "cats": ["ask_product_price"]}
+{"text": "Chào shop, mình muốn được hỗ trợ.", "cats": ["greeting"]}
+{"text": "Cửa hàng ơi em đã nhận được bộ LEGO rồi.", "cats": ["confirm_received"]}
+{"text": "dạ drui", "cats": ["agree"]}
+{"text": "Mình muốn sản phẩm vừa túi tiền, khoảng 800k.", "cats": ["provide_budget"]}
+{"text": "Shop gợi ý mẫu mới ra mắt.", "cats": ["ask_product_suggestion"]}
+{"text": "Hẹn shop dịp khác.", "cats": ["Goodbye"]}
+{"text": "Cảm ơn shop nhiều.", "cats": ["buy_thanks"]}
+{"text": "Shop có ở Hnoi k á", "cats": ["ask_shop_info"]}
+{"text": "4h hôm nay ý ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Mẫu này có ph ord k ạ", "cats": ["ask_product_availability"]}
+{"text": "Bạn gửi nhanh nhất có thể giúp mình.", "cats": ["immediate_ship"]}
+{"text": "2 cnay đồng giá ạ", "cats": ["ask_product_price"]}
+{"text": "Shop ơi tính bill giúp em với 😍", "cats": ["ask_final_price"]}
+{"text": "Em xin mẫu này ạ", "cats": ["give_product"]}
+{"text": "Các khớp nối hơi lỏng shop ạ.", "cats": ["product_complaint"]}
+{"text": "Bên shop thêm giúp mình vài món nữa.", "cats": ["add_product"]}
+{"text": "Bugatti Chiron 42083 gồm bao nhiêu mảnh thế ạ?", "cats": ["ask_product_info", "give_product"]}
+{"text": "cho em con Tie nhọn 650k nhé", "cats": ["agree_order"]}
+{"text": "Shop kiểm tra giúp mình tình trạng đơn hàng nhé.", "cats": ["ask_order_status"]}
+{"text": "há", "cats": ["other"]}
+{"text": "Shop gợi ý bộ về xe đua nhé.", "cats": ["ask_product_suggestion"]}
+{"text": "Hic bạn báo ship ra Linh Lang giúp mình được không", "cats": ["provide_cus_inf"]}
+{"text": "Bộ LEGO Empire State Building 21046 có hình thật không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Thùng hàng bị ướt nữa shop ơi.", "cats": ["complain_shipping_issue"]}
+{"text": "Ad gửi em địa chỉ để em qua lấy bộ này nhé.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Chị cần giá Police Station modular.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Chị nhắn shipper gọi trước khi giao giúp em.", "cats": ["special_demand"]}
+{"text": "Mình out đây nhé.", "cats": ["Goodbye"]}
+{"text": "Khoảng giá 1,3 triệu.", "cats": ["provide_budget"]}
+{"text": "Bn gửi sang địa chỉ 26A ngõ 37 dịch vọng quận cầu giấy dùm mk", "cats": ["provide_cus_inf"]}
+{"text": "Admin cho anh tự tới lấy hàng.", "cats": ["get_product_direct"]}
+{"text": "Bao gồm mấy bông hả xốp?", "cats": ["ask_product_info"]}
+{"text": "Bạn ship trong ngày giúp mình được không?", "cats": ["immediate_ship"]}
+{"text": "Phí ship tới nhà mình khoảng bao nhiêu?", "cats": ["ask_shipping_fee"]}
+{"text": "Dạ được ạ", "cats": ["agree"]}
+{"text": "Shop ơi màu các mảnh không đều.", "cats": ["product_complaint"]}
+{"text": "Có mẫu nào tặng bạn gái đẹp không?", "cats": ["ask_product_suggestion"]}
+{"text": "mới và chính hãng phải không", "cats": ["ask_legit"]}
+{"text": "Anh muốn mua bộ Paris Architecture.", "cats": ["give_product"]}
+{"text": "còn lego đó k ạ", "cats": ["ask_product_availability"]}
+{"text": "Cảm ơn shop đã tư vấn đúng ngân sách.", "cats": ["buy_thanks"]}
+{"text": "Tín hiệu vũ trụ này ảo quá r ạ 😆", "cats": ["other"]}
+{"text": "Ad gửi em địa chỉ để qua xem hàng.", "cats": ["ask_shop_info"]}
+{"text": "đã từng lắp chưa", "cats": ["ask_legit"]}
+{"text": "Chị tên Lê Quốc Hưng, 0907766559, căn S2.0812 Vinhomes Ocean Park, Gia Lâm, Hà Nội.", "cats": ["provide_cus_inf"]}
+{"text": "Bên shop có chi nhánh nào ở Hà Nội không?", "cats": ["ask_shop_info"]}
+{"text": "Shop ơi mình đã nhận được sản phẩm rồi.", "cats": ["confirm_received"]}
+{"text": "Nma khong còn các mẫu khác ạ", "cats": ["ask_find_product"]}
+{"text": "Chị đang tìm LEGO Disney Castle.", "cats": ["give_product"]}
+{"text": "Ad em muốn lấy tận nơi cho tiện.", "cats": ["get_product_direct"]}
+{"text": "Bộ đấy tỉ lệ ntn ạ", "cats": ["ask_product_info"]}
+{"text": "Chào bạn.", "cats": ["greeting"]}
+{"text": "Mình cần sản phẩm khoảng 2 triệu trở xuống.", "cats": ["provide_budget"]}
+{"text": "Đơn hàng này chốt lại bao nhiêu tiền?", "cats": ["ask_final_price"]}
+{"text": "🍒 đã gửi một file đính kèm.", "cats": ["other"]}
+{"text": "dạ v shop cho t ord nha", "cats": ["agree_order"]}
+{"text": "like new hay brand new", "cats": ["ask_legit"]}
+{"text": "Anh ơi anh đã nhận đủ sản phẩm.", "cats": ["confirm_received"]}
+{"text": "Anh cho tôi xin giá Toyota Supra xanh.", "cats": ["ask_product_price"]}
+{"text": "Đơn của mình đã cập nhật trạng thái mới chưa?", "cats": ["ask_order_status"]}
+{"text": "Ui dạ vâng ạ", "cats": ["agree"]}
+{"text": "sốp đưa stk đây", "cats": ["ask_payment_method"]}
+{"text": "Shop còn Grogu không, giá sao vậy?", "cats": ["ask_product_availability", "ask_product_price", "give_product"]}
+{"text": "Shop gửi mình ảnh sản phẩm đang bán nha.", "cats": ["ask_product_image"]}
+{"text": "Khách dễ thương v không capcut giật giật thì phí quá ạ", "cats": ["other"]}
+{"text": "Dạ tầm 10h mình ship cho bạn nhé ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Anh ơi em đã cầm được đơn hàng.", "cats": ["confirm_received"]}
+{"text": "Shop cho chị nhận hàng vào đầu tháng tới.", "cats": ["delivery_time_requirement"]}
+{"text": "Tầm bao nhiêu ngày thì hàng về ạ", "cats": ["ask_order_wait_time"]}
+{"text": "Chị tên Nguyễn Quốc Bảo, 0949988773, 90 Điện Biên Phủ, Bình Thạnh, TP.HCM.", "cats": ["provide_cus_inf"]}
+{"text": "Mình muốn tìm bộ tầm trung, khoảng 1 triệu.", "cats": ["provide_budget"]}
+{"text": "Shop có ảnh LEGO Ford F-150 Raptor 42126 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "còn sẵn hoa lego k shop", "cats": ["ask_product_availability"]}
+{"text": "Sheet sticker bị gấp đôi luôn 😢", "cats": ["product_complaint"]}
+{"text": "Anh muốn lấy bộ McLaren F1 này.", "cats": ["give_product"]}
+{"text": "Hàng giao tới mà méo nguyên cái hộp luôn 😭", "cats": ["complain_shipping_issue"]}
+{"text": "Anh ghi chú cho shipper giao cổng sau giúp em.", "cats": ["special_demand"]}
+{"text": "Cảm ơn shop đã gửi ảnh.", "cats": ["buy_thanks"]}
+{"text": "Vâng ship cho m 1 em nhé", "cats": ["agree_order"]}
+{"text": "Shop cho em hỏi chút.", "cats": ["greeting"]}
+{"text": "e ck dc ko ạ", "cats": ["ask_payment_method"]}
+{"text": "Cửa hàng kiểm tra giúp tôi xem đơn còn ở kho nào.", "cats": ["ask_order_status"]}
+{"text": "Shop còn Orchid không vậy ạ?", "cats": ["ask_product_availability", "give_product"]}
+{"text": "Mảnh trong hộp với manual không giống nhau.", "cats": ["product_complaint"]}
+{"text": "Chị kiểm tra màu part trước giúp em với.", "cats": ["special_demand"]}
+{"text": "Cửa hàng có dễ tìm trên Google Maps không?", "cats": ["ask_shop_info"]}
+{"text": "Bonsai Tree còn hàng ko ạ", "cats": ["ask_product_availability"]}
+{"text": "Tower Bridge giá bao nhiêu vậy shop?", "cats": ["ask_product_price", "give_product"]}
+{"text": "tên: Trần Anh Hiếu\nSĐT: 0936488320\nĐịa chỉ: Toà A1, Chung cư Green Pearl, 378 Minh Khai, Hai Bà Trưng, Hn", "cats": ["provide_cus_inf"]}
+{"text": "nhà nhiều lắm rồi mà mua thêm vẫn thích lắm", "cats": ["other"]}
+{"text": "Shop gửi vài ảnh thật nha 👀", "cats": ["ask_product_image"]}
+{"text": "Chị muốn hỏi giá LEGO Globe.", "cats": ["ask_product_price"]}
+{"text": "Cửa hàng tôi muốn qua lấy trong tuần này.", "cats": ["get_product_direct"]}
+{"text": "Đồng giá 85k nha", "cats": ["other"]}
+{"text": "Chào shop, mình đang quan tâm sản phẩm.", "cats": ["greeting"]}
+{"text": "Shop còn LEGO Sonic Green Hill không?", "cats": ["ask_product_availability", "give_product"]}
+{"text": "tầm chiều tói e qua dc k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Okeee ạ", "cats": ["agree"]}
+{"text": "Admin cho chị nhận hàng càng sớm càng tốt.", "cats": ["immediate_ship"]}
+{"text": "Cho mình gom thêm bộ Haunted House vào đơn.", "cats": ["add_product", "give_product"]}
+{"text": "Shop ơi mình không lấy nữa đâu.", "cats": ["customer_reject"]}
+{"text": "Có bộ nào cho người thích thử thách không?", "cats": ["ask_product_suggestion"]}
+{"text": "Em lấy bộ Groot dancing nha 😄", "cats": ["give_product"]}
+{"text": "Hiện tại còn sẵn trong kho không?", "cats": ["ask_product_availability"]}
+{"text": "hay sốp ở đâu em lượn qua lấy =)))", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Ad ơi em không đủ tiền nên thôi nhé.", "cats": ["customer_reject"]}
+{"text": "Budget của mình không nhiều, khoảng 500k.", "cats": ["provide_budget"]}
+{"text": "Còn hàng để ship luôn hong shop", "cats": ["ask_product_availability"]}
+{"text": "Cho mình thêm món khác luôn nhé.", "cats": ["add_product"]}
+{"text": "B cho mình xin sdt với ạ", "cats": ["ask_shop_info"]}
+{"text": "Ship về Bình Dương hết bao nhiêu?", "cats": ["ask_shipping_fee"]}
+{"text": "LEGO Haunted House 10228 giá hiện tại thế nào?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Giao kiểu này thì khó giữ box đẹp lắm shop.", "cats": ["complain_shipping_issue"]}
+{"text": "cho t gửi nhaa", "cats": ["provide_cus_inf"]}
+{"text": "Bộ Camper Van 10220 có nội thất bên trong không?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Dạ vâng ạ", "cats": ["agree"]}
+{"text": "Anh cần bộ piano grand.", "cats": ["give_product"]}
+{"text": "Hàng đã được phân loại tại kho chưa?", "cats": ["ask_order_status"]}
+{"text": "cho em stk", "cats": ["ask_payment_method"]}
+{"text": "Anh cho tôi xin giá bộ Ferrari Daytona SP3.", "cats": ["ask_product_price"]}
+{"text": "Shop tư vấn dễ hiểu quá.", "cats": ["buy_thanks"]}
+{"text": "em lấy bộ đó nhé ạ", "cats": ["agree_order"]}
+{"text": "Dạ chào bạn ạ", "cats": ["greeting"]}
+{"text": "Bộ LEGO Technic Bugatti Chiron 42083 có ảnh không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "còn mẫu hoa nào khác hong ạ", "cats": ["ask_product_availability", "ask_product_suggestion"]}
+{"text": "Chúc shop buổi tối vui vẻ.", "cats": ["Goodbye"]}
+{"text": "Bên shop nhận thanh toán bằng thẻ tín dụng không?", "cats": ["ask_payment_method"]}
+{"text": "Có thể nhận hàng trong tuần này không?", "cats": ["ask_order_wait_time"]}
+{"text": "Bgio ship thế ạ", "cats": ["ask_order_wait_time"]}
+{"text": "Shop có thể bọc quà bằng giấy màu xanh cho chị không?", "cats": ["ask_gift_package"]}
+{"text": "Hình in trên sticker bị lem màu.", "cats": ["product_complaint"]}
+{"text": "Bạn ơi trưa nay mình qua lấy đc ko thế", "cats": ["delivery_time_requirement"]}
+{"text": "Anh ơi shop ở quận nào để tôi ghé lấy trực tiếp?", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Mình là Nguyễn Tuấn Kiệt, số 0988877663, 31 Võ Thị Sáu, Thống Nhất, Biên Hòa, Đồng Nai.", "cats": ["provide_cus_inf"]}
+{"text": "Hàng có đang được vận chuyển liên tỉnh không?", "cats": ["ask_order_status"]}
+{"text": "dạ em nhận dc rui a", "cats": ["confirm_received"]}
+{"text": "mình hỏi thật là auth chứ", "cats": ["ask_legit"]}
+{"text": "Dạ vâng ạ", "cats": ["agree"]}
+{"text": "Dạ hiện tại mấy mẫu đó shop chưa bán ạ", "cats": ["other"]}
+{"text": "Anh ơi cho tôi xin số tài khoản để thanh toán.", "cats": ["ask_payment_method"]}
+{"text": "Anh cho tôi giá Tranquil Garden với.", "cats": ["ask_product_price"]}
+{"text": "cnay size nnao ạ?", "cats": ["ask_product_info"]}
+{"text": "Trưa T5 ad giao cho e nhé", "cats": ["delivery_time_requirement"]}
+{"text": "Bên shop ở gần bến xe nào vậy?", "cats": ["ask_shop_info"]}
+{"text": "Nma nó cũng lắp ghép như bthg đúng không ạ", "cats": ["other"]}
+{"text": "Thank you shop.", "cats": ["buy_thanks"]}
+{"text": "Chào nhé shop.", "cats": ["Goodbye"]}
+{"text": "Sốp ơi", "cats": ["greeting"]}
+{"text": "có auth ko shop ơi", "cats": ["ask_legit"]}
+{"text": "Tiền ship khoảng bao nhiêu vậy?", "cats": ["ask_shipping_fee"]}
+{"text": "Mình muốn xem ảnh ngoài đời của bộ LEGO này.", "cats": ["ask_product_image"]}
+{"text": "Shop còn Bowser lớn không, giá sao ạ?", "cats": ["ask_product_price"]}
+{"text": "Bên shop có gói quà theo phong cách dễ thương không ạ?", "cats": ["ask_gift_package"]}
+{"text": "Shop kiểm tra giúp chị đơn có đang phát không.", "cats": ["ask_order_status"]}
+{"text": "Phạm Minh Quang\n0961288579\nKý túc xá khu A, Đường Tạ Quang Bửu, Khu phố 33, Dĩ An, Thành phố Hồ Chí Minh \nnote: Giao ở cổng chính ạ \nem gửi link gg map luôn ạ (https://maps.app.goo.gl/xjfQpdH4QhN17hza9?g_st=ic)", "cats": ["provide_cus_inf"]}
+{"text": "Shop nhiệt tình quá.", "cats": ["buy_thanks"]}
+{"text": "Dạ oki", "cats": ["agree"]}
+{"text": "Chị muốn mua LEGO Dubai skyline.", "cats": ["give_product"]}
+{"text": "Bên shop cho em nhận hàng vào khung giờ 8h đến 10h.", "cats": ["delivery_time_requirement"]}
+{"text": "Người nhận là Nguyễn Hoàng Nam, 0913344556, 23 Nguyễn Văn Linh, P. Vĩnh Trung, Thanh Khê, Đà Nẵng.", "cats": ["provide_cus_inf"]}
+{"text": "V bạn cho mình đặt bộ hình Venice ship về Vucng Tàu đc k ạ?", "cats": ["agree_order"]}
+{"text": "Hàng đã được xuất phát từ kho chưa?", "cats": ["ask_order_status"]}
+{"text": "bốc vừa quán trên thờ rét mà trúng ngay đồng hương mới ác", "cats": ["other"]}
+{"text": "Bổ sung thêm hàng giúp mình nha.", "cats": ["add_product"]}
+{"text": "Anh cho tôi xin giá Minecraft Fox Lodge.", "cats": ["ask_product_price"]}
+{"text": "Em muốn lấy LEGO dragon lớn nha.", "cats": ["give_product"]}
+{"text": "Bạn cho mình xin số điện thoại để mình gọi trước khi qua lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Anh lựa giúp em version mới nha.", "cats": ["special_demand"]}
+{"text": "Shop còn Great Pyramid không, giá sao?", "cats": ["ask_product_price"]}
+{"text": "Các chi tiết bị lỏng lẻo ghê.", "cats": ["product_complaint"]}
+{"text": "Anh cho tôi xin giá Space Shuttle Discovery.", "cats": ["ask_product_price"]}
+{"text": "shop mình ở đâu z ạa", "cats": ["ask_shop_info"]}
+{"text": "Mình muốn hỏi vài thông tin.", "cats": ["greeting"]}
+{"text": "Trafalgar Square 21045 có kích thước trưng bày thế nào?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Đang sẵn những bộ nào thế ạ", "cats": ["ask_product_availability"]}
+{"text": "Xin chào shop, mình cần hỗ trợ.", "cats": ["greeting"]}
+{"text": "LEGO này còn trong stock không?", "cats": ["ask_product_availability"]}
+{"text": "Dạ vâng ạ,", "cats": ["agree"]}
+{"text": "Cho mình xin giá Pet Shop nhé.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Em muốn lấy LEGO cherry blossom nha 🌸", "cats": ["give_product"]}
+{"text": "Bên shop có thể gửi link thanh toán không?", "cats": ["ask_payment_method"]}
+{"text": "Tầm 2 triệu đổ lại.", "cats": ["provide_budget"]}
+{"text": "Shop hỗ trợ giục ship giúp em với.", "cats": ["complain_shipping_issue"]}
+{"text": "Đơn hàng đã giao cho bên vận chuyển chưa?", "cats": ["ask_order_status"]}
+{"text": "e muốn tìm 1 bộ tặng bạn trai dịp 14/2 í ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Dưới 800k càng tốt.", "cats": ["provide_budget"]}
+{"text": "Shop hỗ trợ giao siêu tốc giúp mình nhé.", "cats": ["immediate_ship"]}
+{"text": "Chị muốn mua LEGO Moon Lander.", "cats": ["give_product"]}
+{"text": "Bên shop cho em hỏi hàng đã tới quận em chưa.", "cats": ["ask_order_status"]}
+{"text": "Admin gửi giúp anh vị trí trên bản đồ.", "cats": ["ask_shop_info"]}
+{"text": "chuẩn rồi á sốp", "cats": ["agree"]}
+{"text": "kkk bạn còn bộ nào giá như này ko ạ", "cats": ["ask_product_suggestion", "provide_budget"]}
+{"text": "Shop còn hàng để ship ngay không?", "cats": ["ask_product_availability"]}
+{"text": "giờ đấy m lại có việc đi mất rùi :))) hay nếu b tiện giờ hành chính thì b gửi ship giúp m ra toà DMC ở kim mã đc khum", "cats": ["provide_cus_inf"]}
+{"text": "Bộ Vespa 125 này bao nhiêu vậy shop?", "cats": ["ask_product_price"]}
+{"text": "kết bài rồi sốp đi nghỉ đi sốp =)))", "cats": ["other"]}
+{"text": "Admin giữ kín thông tin giá trị đơn giúp anh.", "cats": ["special_demand"]}
+{"text": "Shop giao trước cuối tháng cho chị nhé.", "cats": ["delivery_time_requirement"]}
+{"text": "F1 W14 E vs ạ", "cats": ["give_product"]}
+{"text": "Shop có ảnh bộ LEGO Batmobile 1989 76139 không?", "cats": ["ask_product_image", "give_product"]}
+{"text": "Có bộ nào mô phỏng một công trình nổi tiếng không?", "cats": ["ask_find_product"]}
+{"text": "sốp book ship hoả tốc tối nay dc kh ạ", "cats": ["immediate_ship"]}
+{"text": "fullbox không shop", "cats": ["ask_legit"]}
+{"text": "Bộ này có phụ kiện đặc biệt nào không?", "cats": ["ask_product_info"]}
+{"text": "Thôi mình xin phép nhé.", "cats": ["Goodbye"]}
+{"text": "Chị ơi anh không chốt nữa.", "cats": ["customer_reject"]}
+{"text": "Shop còn Ninjago Dragon Stone Shrine không?", "cats": ["ask_product_availability", "give_product"]}
+{"text": "Shop kiểm tra xem đơn còn ở kho hay không.", "cats": ["ask_order_status"]}
+{"text": "sẵn hnoi k ạ", "cats": ["ask_product_availability"]}
+{"text": "Cửa hàng tôi không cần ship, tôi tự đến lấy.", "cats": ["get_product_direct"]}
+{"text": "🫰🏻", "cats": ["other"]}
+{"text": "Chị muốn biết giá Moon Lander.", "cats": ["ask_product_price", "give_product"]}
+{"text": "cho em xin giá cả nữa ạ", "cats": ["ask_product_price"]}
+{"text": "Có mẫu nào phù hợp cho người mới chơi không?", "cats": ["ask_product_suggestion"]}
+{"text": "Hàng tới tay mà box tan nát luôn shop ơi 😭", "cats": ["complain_shipping_issue"]}
+{"text": "Bạn cho mình xin các phương thức thanh toán hiện có.", "cats": ["ask_payment_method"]}
+{"text": "Sốp cho e hỏi trong tầm giá 200-300 mua dc món nào k sốp🥲", "cats": ["ask_product_suggestion", "provide_budget"]}
+{"text": "Voltron gồm bao nhiêu mảnh vậy ạ?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Chốt bộ này luôn.", "cats": ["agree_order"]}
+{"text": "quá đả", "cats": ["other"]}
+{"text": "auth k shop", "cats": ["ask_legit"]}
+{"text": "Shop ơi cho mình hỏi.", "cats": ["greeting"]}
+{"text": "èo cái hộp nó móp dữ shop ha", "cats": ["product_complaint"]}
+{"text": "Bạn ơi mình đã lấy được hàng rồi.", "cats": ["confirm_received"]}
+{"text": "Add thêm giúp mình nha shop.", "cats": ["add_product"]}
+{"text": "Là mấy bông hoa kia", "cats": ["give_product"]}
+{"text": "Anh hỗ trợ ship vào tối thứ Bảy cho em.", "cats": ["delivery_time_requirement"]}
+{"text": "Đơn đã đến bưu cục chưa?", "cats": ["ask_order_status"]}
+{"text": "Sản phẩm rất chất lượng.", "cats": ["buy_thanks"]}
+{"text": "dạ", "cats": ["agree"]}
+{"text": "Chị muốn biết giá bộ Orchid.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Giao hơi lâu nha shop.", "cats": ["complain_shipping_issue"]}
+{"text": "Bên shop em ghé lấy vào tối nay.", "cats": ["get_product_direct"]}
+{"text": "Admin kiểm tra seal rồi quay video giúp anh.", "cats": ["special_demand"]}
+{"text": "QR hướng dẫn scan không được shop ạ.", "cats": ["product_complaint"]}
+{"text": "Tính luôn phí vận chuyển giúp mình nhé.", "cats": ["ask_final_price"]}
+{"text": "cho e hỏi lego hoa với ạ", "cats": ["ask_product_suggestion"]}
+{"text": "Người nhận là Đặng Hải Yến, số 0941122334, địa chỉ căn hộ C1502 Masteri Thảo Điền, phường Thảo Điền, thành phố Thủ Đức, TP. Hồ Chí Minh.", "cats": ["provide_cus_inf"]}
+{"text": "Chị ơi em muốn thêm thiệp chúc mừng sinh nhật.", "cats": ["ask_gift_package"]}
+{"text": "Bộ Titanic hiện còn hàng không shop?", "cats": ["ask_product_availability"]}
+{"text": "Mình thích sản phẩm lắm.", "cats": ["buy_thanks"]}
+{"text": "Chị cần bộ Creator 3in1 tiger.", "cats": ["give_product"]}
+{"text": "Thuỳ Linh\n0968587307\nsn 2a, ngõ 60 đường Lương Ngọc Quyến, Văn Quán, Hà Đông", "cats": ["provide_cus_inf"]}
+{"text": "shop còn sẵn bộ này k ạ", "cats": ["ask_product_availability"]}
+{"text": "sốp ơi", "cats": ["greeting"]}
+{"text": "Cửa hàng ơi em đã nhận hàng thành công.", "cats": ["confirm_received"]}
+{"text": "Chị xem giúp anh đơn hiện đang ở trung tâm khai thác nào.", "cats": ["ask_order_status"]}
+{"text": "Tổng tiền sau khi xác nhận đơn là bao nhiêu?", "cats": ["ask_final_price"]}
+{"text": "Mình đặt cái này ạ.", "cats": ["agree", "agree_order"]}
+{"text": "Ord thì bao lâu vậy b", "cats": ["ask_order_wait_time"]}
+{"text": "Chị cần giá LEGO Titanic với ạ.", "cats": ["ask_product_price"]}
+{"text": "Dạ", "cats": ["agree"]}
+{"text": "Search trên gg map là số 5b ngõ 111 xuân diệu ạ", "cats": ["provide_cus_inf"]}
+{"text": "Không quá 2 triệu nhé.", "cats": ["provide_budget"]}
+{"text": "Bộ LEGO Tree House 21318 có ảnh thật không shop?", "cats": ["ask_product_image", "give_product"]}
+{"text": "5h dc k ạ", "cats": ["delivery_time_requirement"]}
+{"text": "tại em đặt đồ sớm xong sốp về hàng sớm thui kekee", "cats": ["other"]}
+{"text": "mình lấy bộ này nhé", "cats": ["agree_order"]}
+{"text": "Cửa hàng xem giúp tôi đơn đã đến bưu cục chưa.", "cats": ["ask_order_status"]}
+{"text": "Chị cần chiếc AMG Mercedes F1.", "cats": ["give_product"]}
+{"text": "Shop còn Miles Morales không?", "cats": ["ask_product_availability", "give_product"]}
+{"text": "Shop gói quà sinh nhật giúp mình được không?", "cats": ["ask_gift_package"]}
+{"text": "shop oy", "cats": ["greeting"]}
+{"text": "Dịch vụ tuyệt vời.", "cats": ["buy_thanks"]}
+{"text": "Anh hỗ trợ giao ngay giúp em với.", "cats": ["immediate_ship"]}
+{"text": "Bạn cho mình đến tận nơi nhận sản phẩm.", "cats": ["get_product_direct"]}
+{"text": "Cho mình xin giá bộ Beetle nhé.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Không biết tầm 8r, 9h bình mình đã mọc để shop ship hàng cho bạn chưa ạ", "cats": ["delivery_time_requirement"]}
+{"text": "Mình lấy ngay mẫu này.", "cats": ["agree_order"]}
+{"text": "0582574886", "cats": ["provide_cus_inf"]}
+{"text": "Cửa hàng có yêu cầu chuyển khoản trước không?", "cats": ["ask_payment_method"]}
+{"text": "Giá s bn ơii", "cats": ["ask_product_price"]}
+{"text": "Chúc shop nhiều khách nhé.", "cats": ["Goodbye"]}
+{"text": "xe này giá bao nhiêu ạ", "cats": ["ask_product_price"]}
+{"text": "Mình muốn xem ảnh bộ LEGO NASA Apollo Saturn V 21309.", "cats": ["ask_product_image", "give_product"]}
+{"text": "Mình muốn xem ảnh khách đã lắp xong.", "cats": ["ask_product_image"]}
+{"text": "Bạn ơi mình tạm thời chưa mua nhé.", "cats": ["customer_reject"]}
+{"text": "rep khách không ngừng nghỉ", "cats": ["other"]}
+{"text": "Cửa hàng giao cho tôi vào thứ Năm tuần sau.", "cats": ["delivery_time_requirement"]}
+{"text": "mảnh lego nnay bên shop co k ạ =))", "cats": ["ask_find_product", "ask_product_availability"]}
+{"text": "Bạn cho mình xin số để gọi trước khi qua.", "cats": ["ask_shop_info"]}
+{"text": "Ad em có thể ghé lấy trong tối nay.", "cats": ["get_product_direct"]}
+{"text": "Cho mình xin báo giá chi tiết.", "cats": ["ask_product_price"]}
+{"text": "Đơn đã chuyển sang trạng thái vận chuyển chưa?", "cats": ["ask_order_status"]}
+{"text": "Chị đợi em confirm rồi hãy gửi nhé.", "cats": ["special_demand"]}
+{"text": "v h em bank full mình hay ship cod ặ", "cats": ["ask_payment_method"]}
+{"text": "kê sốp =)))", "cats": ["agree"]}
+{"text": "Bạn ơi mình chưa nhận đc hàng, shipper giao tới đt mình k cầm lúc đó, mình có gọi lại sau đó nhg shipper ko nghe, trên web check thig thấy giao về hub rồi.", "cats": ["complain_shipping_issue"]}
+{"text": "Bạn ơi mình đã lấy được kiện hàng.", "cats": ["confirm_received"]}
+{"text": "Anh hỏi giá WALL-E nha 😭", "cats": ["ask_product_price", "give_product"]}
+{"text": "Bạn giao vào cuối giờ chiều giúp mình.", "cats": ["delivery_time_requirement"]}
+{"text": "Budget khoảng 15 triệu.", "cats": ["provide_budget"]}
+{"text": "Dạ vâng ạ 😍", "cats": ["agree"]}
+{"text": "Em không muốn người nhà biết đơn này 😅", "cats": ["special_demand"]}
+{"text": "Cảm ơn bạn nhé.", "cats": ["buy_thanks"]}
+{"text": "Shop có LEGO Land Rover Defender không?", "cats": ["ask_product_availability"]}
+{"text": "Mình lấy bản này.", "cats": ["agree_order"]}
+{"text": "Phí ship có được báo trước không?", "cats": ["ask_shipping_fee"]}
+{"text": "Anh muốn mua bộ Back to the Future DeLorean.", "cats": ["give_product"]}
+{"text": "=)))))))))))", "cats": ["other"]}
+{"text": "Bạn ship trong vòng hôm nay giúp mình nhé.", "cats": ["immediate_ship"]}
+{"text": "nguyên seal đúng không", "cats": ["ask_legit"]}
+{"text": "Mình muốn add thêm trước khi ship 📦", "cats": ["add_product"]}
+{"text": "Liked a message", "cats": ["other"]}
+{"text": "hi ban", "cats": ["greeting"]}
+{"text": "cho mình xin qr với", "cats": ["ask_payment_method"]}
+{"text": "Shop còn Nano Gauntlet không?", "cats": ["ask_product_availability", "give_product"]}
+{"text": "Tôi là Đỗ Minh Châu, số 0971122338, 13 Trần Não, An Khánh, TP. Thủ Đức, TP.HCM.", "cats": ["provide_cus_inf"]}
+{"text": "Chị giao trước giờ tổ chức tiệc giúp anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Shop còn Kai’s Mech Rider không, giá sao?", "cats": ["ask_product_availability", "ask_product_price", "give_product"]}
+{"text": "z mình lấy con bên phải với ạ", "cats": ["agree_order"]}
+{"text": "Admin cho anh xin phép hủy đơn này.", "cats": ["customer_reject"]}
+{"text": "rui ạaa", "cats": ["agree"]}
+{"text": "Anh giúp em bỏ riêng hộp với túi part nha.", "cats": ["special_demand"]}
+{"text": "Cửa hàng cho tôi hỏi hàng đã tới bưu cục địa phương chưa.", "cats": ["ask_order_status"]}
+{"text": "Mình muốn bộ ít mảnh nhưng đẹp.", "cats": ["ask_product_suggestion"]}
+{"text": "Tổng cộng tất cả hết nhiu tiền vậy?", "cats": ["ask_final_price"]}
+{"text": "Admin gửi giúp anh số tài khoản và tên chủ tài khoản.", "cats": ["ask_payment_method"]}
+{"text": "Chị cho anh xin Google Maps để anh tự qua lấy.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Em tên Trần Khả Hân, 0899988772, 22 Nguyễn Công Trứ, Hải Châu, Đà Nẵng.", "cats": ["provide_cus_inf"]}
+{"text": "Bộ này kết nối không chắc lắm.", "cats": ["product_complaint"]}
+{"text": "Mình muốn mua bộ được nhiều người khen.", "cats": ["ask_product_suggestion"]}
+{"text": "Bye admin.", "cats": ["Goodbye"]}
+{"text": "Dạ vâng ạ", "cats": ["agree"]}
+{"text": "Có ảnh thật k shop?", "cats": ["ask_product_image"]}
+{"text": "Mình sẽ mua thêm lần nữa.", "cats": ["buy_thanks"]}
+{"text": "Shop còn bộ Dune Atreides Royal Ornithopter không?", "cats": ["ask_product_availability"]}
+{"text": "Mất bao lâu để nhận hàng ở tỉnh?", "cats": ["ask_order_wait_time"]}
+{"text": "shop cho mình xin giá 2 bộ này đc k, cảm ơn shop", "cats": ["ask_product_price"]}
+{"text": "dạ shop đâu thí", "cats": ["ask_shop_info"]}
+{"text": "Ad ưu tiên gửi đơn này giúp em.", "cats": ["immediate_ship"]}
+{"text": "budget đó lego auth có nhg loại nào ạ", "cats": ["ask_product_suggestion"]}
+{"text": "Admin cho anh hỏi hàng đã về đến khu vực của anh chưa.", "cats": ["ask_order_status"]}
+{"text": "vâng ạ", "cats": ["agree"]}
+{"text": "Cho mình thêm bộ LEGO Creator Expert Ford Mustang 10265 vào đơn nhé.", "cats": ["add_product", "give_product"]}
+{"text": "Chị ơi gửi em địa chỉ để sáng mai em ghé nhận hàng.", "cats": ["ask_shop_info", "get_product_direct"]}
+{"text": "Hello sốp oiii", "cats": ["greeting"]}
+{"text": "Bộ LEGO Palace Cinema 10232 giá bao nhiêu vậy?", "cats": ["ask_product_price", "give_product"]}
+{"text": "trước trung thu lun á b", "cats": ["delivery_time_requirement"]}
+{"text": "x10", "cats": ["other"]}
+{"text": "Đơn của anh chắc bị thất lạc rồi quá.", "cats": ["complain_shipping_issue"]}
+{"text": "Shop có thể gửi cho mình tình trạng đơn không?", "cats": ["ask_order_status"]}
+{"text": "Em lắp tới đoạn cuối thì thiếu mất 1 piece.", "cats": ["product_complaint"]}
+{"text": "Ad cho em xin tài khoản ngân hàng và chủ tài khoản.", "cats": ["ask_payment_method"]}
+{"text": "để khi nào unbox thì t báo lại với bên mình nha", "cats": ["agree"]}
+{"text": "Shop tính thử phí giao hàng giúp mình.", "cats": ["ask_shipping_fee"]}
+{"text": "Em tìm mãi không thấy miếng gạch đó đâu.", "cats": ["product_complaint"]}
+{"text": "Anh cần flower roses đỏ nha.", "cats": ["give_product"]}
+{"text": "Bên shop em ghé lấy sau giờ làm được không?", "cats": ["get_product_direct"]}
+{"text": "sốp ơi mẫu mẹc còn khum ạa", "cats": ["ask_product_availability"]}
+{"text": "Chào shop, cho mình hỏi thông tin sản phẩm.", "cats": ["greeting"]}
+{"text": "Shop cho chị đến lấy vào cuối tuần.", "cats": ["get_product_direct"]}
+{"text": "Shop ghi chú nhẹ tay giúp mình nha.", "cats": ["special_demand"]}
+{"text": "Mình lấy món này.", "cats": ["agree_order"]}
+{"text": "Shop ơi Infinity Gauntlet giá sao?", "cats": ["ask_product_price"]}
+{"text": "Hộp cao tầm nhiu thế bạn ơi", "cats": ["ask_product_info"]}
+{"text": "hàng mới hay secondhand", "cats": ["ask_legit"]}
+{"text": "Tên nhận hàng Nguyễn Minh Châu, 0937788994, căn M2.1405 Masteri Centre Point, Long Thạnh Mỹ, TP. Thủ Đức, TP.HCM.", "cats": ["provide_cus_inf"]}
+{"text": "Có sản phẩm nào phù hợp cho người thích công nghệ không?", "cats": ["ask_product_suggestion"]}
+{"text": "Shop còn Grogu không, giá sao vậy?", "cats": ["ask_product_price"]}
+{"text": "Anh ơi anh đã nhận được bộ quà tặng.", "cats": ["confirm_received"]}
+{"text": "Dạ vâng ạ", "cats": ["agree"]}
+{"text": "real thì có sẵn k ạ", "cats": ["ask_product_availability"]}
+{"text": "chọn trong này hả sốp", "cats": ["other"]}
+{"text": "Chào bạn nhé.", "cats": ["greeting"]}
+{"text": "Mình nhận hàng sau bao lâu?", "cats": ["ask_order_wait_time"]}
+{"text": "Thêm hàng giúp mình luôn nha 😄", "cats": ["add_product"]}
+{"text": "Mình đồng ý mua mẫu này.", "cats": ["agree_order"]}
+{"text": "chưa khui hộp chứ shop", "cats": ["ask_legit"]}
+{"text": "đã đã", "cats": ["other"]}
+{"text": "Tôi muốn biết đơn hàng đã rời kho chưa.", "cats": ["ask_order_status"]}
+{"text": "Bạn gửi trước cuối ngày giúp mình.", "cats": ["immediate_ship"]}
+{"text": "Chị cho anh xin đường link chỉ đường.", "cats": ["ask_shop_info"]}
+{"text": "đâu em xem !!!", "cats": ["ask_product_image"]}
+{"text": "Admin gửi hàng trước ngày đi du lịch của anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Dạa", "cats": ["agree"]}
+{"text": "Anh ơi em muốn đến shop lấy và xem hàng luôn.", "cats": ["get_product_direct"]}
+{"text": "Shop cho mình xin mã vận đơn để theo dõi.", "cats": ["ask_order_status"]}
+{"text": "Anh cho tôi hỏi cửa hàng có thể gói quà giúp được không?", "cats": ["ask_gift_package"]}
+{"text": "Tạm biệt và hẹn gặp lại.", "cats": ["Goodbye"]}
+{"text": "Anh muốn biết giá Natural History Museum.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Tìm giúp mình một bộ thật ấn tượng nhé.", "cats": ["ask_find_product"]}
+{"text": "Tầm 5 trăm nghìn có mẫu nào không?", "cats": ["provide_budget"]}
+{"text": "Giao tới nhà mình hết bao nhiêu tiền?", "cats": ["ask_shipping_fee"]}
+{"text": "hoặc nó nghe lén em", "cats": ["other"]}
+{"text": "cho e bộ này với ah", "cats": ["agree_order"]}
+{"text": "Anh ơi em đã nhận được đơn hàng như dự kiến.", "cats": ["confirm_received"]}
+{"text": "Giờ em phải chuyển shop bao nhiêu vậy ạ 😄", "cats": ["ask_final_price"]}
+{"text": "Bộ Tree House 21318 lắp có khó không shop?", "cats": ["ask_product_info", "give_product"]}
+{"text": "Đơn em bị pending mãi chưa giao.", "cats": ["complain_shipping_issue"]}
+{"text": "0854920304 sdt mình ạ", "cats": ["provide_cus_inf"]}
+{"text": "Cho mình hỏi còn hàng không nhé.", "cats": ["ask_product_availability"]}
+{"text": "Mình ở Đà Nẵng, tổng đơn là bao nhiêu vậy?", "cats": ["ask_final_price"]}
+{"text": "Anh muốn biết giá Natural History Museum.", "cats": ["ask_product_price"]}
+{"text": "bạn có bộ nào tầm 200 ko ạ", "cats": ["ask_product_suggestion"]}
+{"text": "Anh ơi em cần gấp để làm quà.", "cats": ["immediate_ship"]}
+{"text": "shop ơi", "cats": ["greeting"]}
+{"text": "Mình cần bộ LEGO dành cho dân văn phòng.", "cats": ["ask_find_product"]}
+{"text": "Có ảnh thực tế update mới nhất không?", "cats": ["ask_product_image"]}
+{"text": "Bộ Empire State cao bao nhiêu cm?", "cats": ["ask_product_info", "give_product"]}
+{"text": "shop ở đâu í nhỉ", "cats": ["ask_shop_info"]}
+{"text": "Sốp ơi", "cats": ["greeting"]}
+{"text": "uầy mà cái hộp siêu to luôn sốp…", "cats": ["confirm_received"]}
+{"text": "Chị ơi đơn của em đang ở đâu rồi ạ?", "cats": ["ask_order_status"]}
+{"text": "có gì gửi trc 13/2 cho em là đc ọ hiu", "cats": ["delivery_time_requirement"]}
+{"text": "Bên mình đã bàn giao hàng cho shipper chưa ạ?", "cats": ["ask_order_status"]}
+{"text": "Ad giao vào sáng Chủ nhật giúp em.", "cats": ["delivery_time_requirement"]}
+{"text": "Em nhận hàng mà thùng bị bể góc luôn.", "cats": ["complain_shipping_issue"]}
+{"text": "LEGO Helicarrier hiện giá bao nhiêu?", "cats": ["ask_product_price", "give_product"]}
+{"text": "Shop ơi chị không mua nữa.", "cats": ["customer_reject"]}
+{"text": "Admin cho chị xin số tài khoản ngân hàng.", "cats": ["ask_payment_method"]}
+{"text": "Chị cho em qua cửa hàng nhận hàng nhé.", "cats": ["get_product_direct"]}
+{"text": "Có bao nhiêu bước lắp ráp vậy shop?", "cats": ["ask_product_info"]}
+{"text": "giá nnao ạ", "cats": ["ask_product_price"]}
+{"text": "hàng chuẩn hãng đúng không", "cats": ["ask_legit"]}
+{"text": "Anh cho tôi hỏi cách trả tiền.", "cats": ["ask_payment_method"]}
+{"text": "Tạm biệt shop nhé.", "cats": ["Goodbye"]}
+{"text": "Bùi Minh Đức \n0345163163\n185 Nguyễn Khang, Yên Hoà, Cầu Giấy, Hà Nội", "cats": ["provide_cus_inf"]}
+{"text": "Chị lấy giúp em bộ Ferrari 488 GTE.", "cats": ["give_product"]}
+{"text": "Ship đến Bắc Ninh mất mấy hôm?", "cats": ["ask_order_wait_time"]}
+{"text": "Anh hỏi giá McLaren F1 với.", "cats": ["ask_product_price", "give_product"]}
+{"text": "Mình muốn thêm hàng, đừng tách đơn nhé.", "cats": ["add_product"]}
+{"text": "Shop kiểm tra giúp mình xem hàng tới đâu rồi.", "cats": ["ask_order_status"]}
+{"text": "hay sốp tag em để em rì up", "cats": ["other"]}
+{"text": "quá đẹp shop ơi😍😍", "cats": ["buy_thanks"]}
+{"text": "Shop đã gửi hàng cho mình chưa?", "cats": ["ask_order_status"]}
+{"text": "real bnh ạ", "cats": ["ask_product_price"]}
+{"text": "Admin ship trước dịp Valentine cho anh.", "cats": ["delivery_time_requirement"]}
+{"text": "Cho e ord", "cats": ["agree_order"]}
+{"text": "dạ e cảm ơn shop nhìuu", "cats": ["buy_thanks"]}
+{"text": "trời ơi =)))", "cats": ["other"]}
+{"text": "tôi từ chối mua", "cats": ["customer_reject"]}
+{"text": "Cho mình thêm LEGO Nintendo NES 71374 luôn.", "cats": ["add_product", "give_product"]}
+{"text": "Anh cần bộ retro TV nha.", "cats": ["give_product"]}
+{"text": "Bao lâu thì mình nhận được hàng?", "cats": ["ask_order_wait_time"]}
+{"text": "Bên shop cho em nhận hàng trong buổi tối nay.", "cats": ["immediate_ship"]}
+{"text": "Em cần giá Pirate Ship nha.", "cats": ["ask_product_price"]}
+{"text": "Chị cần bộ Radio cổ LEGO á.", "cats": ["give_product"]}
+{"text": "Bên shop ơi em đã nhận đủ số lượng sản phẩm.", "cats": ["confirm_received"]}
+{"text": "Bộ kiến trúc đó hiện giá bao nhiêu?", "cats": ["ask_product_price"]}
+{"text": "cod ai", "cats": ["ask_payment_method"]}
+{"text": "Cho e xin giá bộ này với ạ", "cats": ["ask_product_price"]}
+{"text": "Mình mua luôn sản phẩm này.", "cats": ["agree_order"]}
+{"text": "Dự kiến khi nào mình nhận được hàng?", "cats": ["ask_order_wait_time"]}
+{"text": "Ad gửi em số tài khoản để em cọc trước.", "cats": ["ask_payment_method"]}
+{"text": "Tại trước giờ shop bán mà siu đói fb lun", "cats": ["other"]}
+{"text": "Bye bye và cảm ơn shop.", "cats": ["Goodbye"]}
+{"text": "Chúc shop thuận buồm xuôi gió.", "cats": ["Goodbye"]}
+{"text": "ship ra nam tầm bao lâu ạ", "cats": ["ask_order_wait_time"]}
+{"text": "Đặt luôn giúp mình nhé.", "cats": ["agree_order"]}
+{"text": "Ship đến Nghệ An mất mấy ngày?", "cats": ["ask_order_wait_time"]}
+{"text": "Mình ở hnoi thì baoh mình nhận đc ạ", "cats": ["ask_order_wait_time"]}
