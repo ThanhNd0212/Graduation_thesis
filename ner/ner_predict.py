@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """NER inference — load trained ViSoBERT model and predict entities.
 
 Usage:
@@ -14,26 +14,25 @@ from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 import torch
 
-# ── Config ─────────────────────────────────────────────────────────────────────
+# Config
 MODEL_DIR  = Path(__file__).parent / 'results' / 'ner_model'
 MAX_LENGTH = 128
 DEVICE     = torch.device('cpu')
 
-# ── Load model + tokenizer ─────────────────────────────────────────────────────
+# Load model + tokenizer
 tokenizer = AutoTokenizer.from_pretrained(str(MODEL_DIR))
 model     = AutoModelForTokenClassification.from_pretrained(
     str(MODEL_DIR),
-    low_cpu_mem_usage=True,   # stream weights one layer at a time → peak RAM ~halved
+    low_cpu_mem_usage=True,   # stream weights one layer at a time -> peak RAM ~halved
     torch_dtype=torch.float32,
 )
-model.eval()
+model.eval
 # no .to(DEVICE) needed — already on CPU by default
 
 id2label = model.config.id2label  # loaded from config.json
 
 
-# ── Inference ──────────────────────────────────────────────────────────────────
-
+# Inference
 def predict_ner(text: str) -> list[dict]:
     """Return list of detected entities with span offsets.
 
@@ -46,12 +45,12 @@ def predict_ner(text: str) -> list[dict]:
         return_offsets_mapping=True,
         return_tensors='pt',
     )
-    offset_mapping = enc.pop('offset_mapping')[0].tolist()
-    word_ids       = tokenizer(text, max_length=MAX_LENGTH, truncation=True).word_ids()
+    offset_mapping = enc.pop('offset_mapping')[0].tolist
+    word_ids       = tokenizer(text, max_length=MAX_LENGTH, truncation=True).word_ids
     enc            = {k: v.to(DEVICE) for k, v in enc.items()}
 
-    with torch.inference_mode():   # lighter than no_grad — no version tracking at all
-        preds = model(**enc).logits[0].argmax(-1).tolist()
+    with torch.inference_mode:   # lighter than no_grad — no version tracking at all
+        preds = model(**enc).logits[0].argmax(-1).tolist
 
     entities = []
     cur_label, cur_start, cur_end = None, 0, 0
@@ -109,7 +108,7 @@ def predict_ner(text: str) -> list[dict]:
     return entities
 
 def extract_entities_from_text(text, model, tokenizer, id2label, device='cpu'):
-    model.eval()
+    model.eval
 
     inputs = tokenizer(
         text,
@@ -121,12 +120,12 @@ def extract_entities_from_text(text, model, tokenizer, id2label, device='cpu'):
 
     input_ids      = inputs['input_ids'].to(device)
     attention_mask = inputs['attention_mask'].to(device)
-    offset_mapping = inputs['offset_mapping'][0].tolist()
+    offset_mapping = inputs['offset_mapping'][0].tolist
     word_ids       = inputs.word_ids(batch_index=0)
 
-    with torch.inference_mode():
+    with torch.inference_mode:
         outputs     = model(input_ids=input_ids, attention_mask=attention_mask)
-        predictions = outputs.logits.argmax(-1)[0].cpu().tolist()
+        predictions = outputs.logits.argmax(-1)[0].cpu.tolist
 
     extracted_chunks = []
     current_entity   = None
@@ -191,18 +190,17 @@ def extract_entities_from_text(text, model, tokenizer, id2label, device='cpu'):
     return final_results
 
 
-# ── Interactive loop ───────────────────────────────────────────────────────────
-
+# Interactive loop
 if __name__ == '__main__':
     print('NER — ViSoBERT  (nhập tin nhắn, Enter trống để xác nhận, "q" để thoát)\n')
     while True:
         print('Nhập tin nhắn (Enter trống để kết thúc nhập):')
         lines = []
         while True:
-            line = input()
+            line = input
             if line.strip().lower() == 'q':
                 print('Thoát.')
-                exit()
+                exit
             if line == '':
                 break
             lines.append(line)
@@ -220,4 +218,4 @@ if __name__ == '__main__':
                     print(f'  {entity_type:<15} {v}')
         else:
             print('  (không tìm thấy entity)')
-        print()
+        print

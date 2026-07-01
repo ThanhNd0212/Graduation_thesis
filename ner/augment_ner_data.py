@@ -1,14 +1,14 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Augment NER training data using Gemini for weak entity classes.
 
 Targeted (not uniform) augmentation based on current label counts and F1 scores:
 
-  product_ner  +85  PRODUCT_COLOR  (15  → 100)   F1=0.55
+  product_ner  +85  PRODUCT_COLOR  (15  -> 100)   F1=0.55
   product_ner  +50  SHIP_TIME+SHIP_DATE adjacent   boundary bleed issue
-  product_ner  +77  QUANTITY       (23  → 100)
-  product_ner +109  COMPLEXITY     (91  → 200)   F1=0.33 — weakest
-  product_ner  +94  TYPE           (106 → 200)   F1=0.40
-  budget_ner   +80  MIN_BUDGET     (20  → 100)   skewed vs MAX_BUDGET
+  product_ner  +77  QUANTITY       (23  -> 100)
+  product_ner +109  COMPLEXITY     (91  -> 200)   F1=0.33 — weakest
+  product_ner  +94  TYPE           (106 -> 200)   F1=0.40
+  budget_ner   +80  MIN_BUDGET     (20  -> 100)   skewed vs MAX_BUDGET
   info_ner     +30  NAME lowercase                 case diversity
   info_ner     +20  CITY abbreviated               abbreviation diversity
 
@@ -40,10 +40,9 @@ REQUEST_DELAY = 1.0
 
 _FENCE_RE = re.compile(r'```(?:json)?\s*([\s\S]*?)```', re.IGNORECASE)
 
-# ── Task definitions ──────────────────────────────────────────────────────────
-
+# Task definitions
 TASKS = [
-    # ── product_ner ──────────────────────────────────────────────────────────
+    # product_ner
     {
         'name'           : 'product_color',
         'output_file'    : DATA_DIR / 'augmented_product_ner.json',
@@ -90,10 +89,10 @@ SHIP_TIME = time of day: sáng, chiều, tối, buổi sáng, buổi chiều, 8h
 SHIP_DATE = specific day/date: hôm nay, ngày mai, mai, thứ 2, thứ 3, thứ 4, thứ 5, thứ 6, thứ 7, cuối tuần, tuần sau, etc.
 
 CRITICAL: SHIP_TIME and SHIP_DATE are ALWAYS TWO separate entities — never merge them.
-  "sáng mai"     → SHIP_TIME="sáng", SHIP_DATE="mai"
-  "chiều thứ 5"  → SHIP_TIME="chiều", SHIP_DATE="thứ 5"
-  "3h hôm nay"   → SHIP_TIME="3h", SHIP_DATE="hôm nay"
-  "10h ngày mai" → SHIP_TIME="10h", SHIP_DATE="ngày mai"
+  "sáng mai"     -> SHIP_TIME="sáng", SHIP_DATE="mai"
+  "chiều thứ 5"  -> SHIP_TIME="chiều", SHIP_DATE="thứ 5"
+  "3h hôm nay"   -> SHIP_TIME="3h", SHIP_DATE="hôm nay"
+  "10h ngày mai" -> SHIP_TIME="10h", SHIP_DATE="ngày mai"
 
 Return ONLY a valid JSON array:
 [{{"text":"...","entities":[{{"label":"SHIP_TIME","text":"exact time"}},{{"label":"SHIP_DATE","text":"exact date"}}],"cats":["delivery_time_requirement"]}},...]
@@ -218,7 +217,7 @@ Examples:
 {{"text":"shop ơi loại xe đua còn hàng không","entities":[{{"label":"TYPE","text":"xe đua"}}],"cats":["ask_product_availability"]}}
 """,
     },
-    # ── budget_ner ────────────────────────────────────────────────────────────
+    # budget_ner
     {
         'name'           : 'budget_range',
         'output_file'    : DATA_DIR / 'augmented_budget_ner.json',
@@ -231,10 +230,10 @@ Generate {n} realistic Vietnamese customer chat messages for a LEGO/toy shop whe
 gives a PRICE RANGE with both a lower (MIN_BUDGET) and upper (MAX_BUDGET) bound.
 
 Formats (all must include BOTH min and max):
-  "tầm X đến Y"       → MIN_BUDGET=X, MAX_BUDGET=Y
-  "khoảng X-Y"        → MIN_BUDGET=X, MAX_BUDGET=Y
-  "từ X tới Y"        → MIN_BUDGET=X, MAX_BUDGET=Y
-  "X đến Y là ổn"     → MIN_BUDGET=X, MAX_BUDGET=Y
+  "tầm X đến Y"       -> MIN_BUDGET=X, MAX_BUDGET=Y
+  "khoảng X-Y"        -> MIN_BUDGET=X, MAX_BUDGET=Y
+  "từ X tới Y"        -> MIN_BUDGET=X, MAX_BUDGET=Y
+  "X đến Y là ổn"     -> MIN_BUDGET=X, MAX_BUDGET=Y
 
 Currency units to use (include with number): k, tr, triệu, nghìn, củ, m, xị
 Ranges to use: 100-300k, 200-500k, 300k-1tr, 500k-1.5tr, 1-2 triệu, 2-5 triệu, etc.
@@ -255,7 +254,7 @@ Examples:
 {{"text":"tầm 1.5tr đến 2tr ạ","entities":[{{"label":"MIN_BUDGET","text":"1.5tr"}},{{"label":"MAX_BUDGET","text":"2tr"}}],"cats":["provide_budget"]}}
 """,
     },
-    # ── info_ner ──────────────────────────────────────────────────────────────
+    # info_ner
     {
         'name'           : 'name_lowercase',
         'output_file'    : DATA_DIR / 'augmented_info_ner.json',
@@ -301,13 +300,13 @@ Generate {n} realistic Vietnamese customer chat messages where the customer ment
 using ABBREVIATIONS or informal forms.
 
 Abbreviations to use (mix of uppercase and lowercase):
-  hn / HN → Hà Nội
-  hp / HP → Hải Phòng
-  hcm / HCM / tphcm / sg / SG → Hồ Chí Minh / Sài Gòn
-  dn / ĐN → Đà Nẵng
-  ct / CT → Cần Thơ
-  vt / VT → Vũng Tàu
-  qn → Quảng Ninh
+  hn / HN -> Hà Nội
+  hp / HP -> Hải Phòng
+  hcm / HCM / tphcm / sg / SG -> Hồ Chí Minh / Sài Gòn
+  dn / ĐN -> Đà Nẵng
+  ct / CT -> Cần Thơ
+  vt / VT -> Vũng Tàu
+  qn -> Quảng Ninh
 
 Return ONLY a valid JSON array:
 [{{"text":"...","entities":[{{"label":"CITY","text":"exact abbrev from text"}},...],"cats":["provide_cus_inf"]}},...]
@@ -325,8 +324,7 @@ Examples:
     },
 ]
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
-
+# Helpers
 def parse_response(raw: str) -> list[dict]:
     raw = raw.strip()
     m = _FENCE_RE.search(raw)
@@ -385,7 +383,7 @@ def call_gemini(model, prompt: str, dry_run: bool) -> list[dict]:
 
 
 def load_existing(path: Path) -> list[dict]:
-    if not path.exists():
+    if not path.exists:
         return []
     return json.loads(path.read_text(encoding='utf-8'))
 
@@ -395,8 +393,7 @@ def save_json(path: Path, data: list[dict]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
-
+# Main
 def run_task(task: dict, gemini_model, dry_run: bool) -> list[dict]:
     name            = task['name']
     count           = task['count']
@@ -409,7 +406,7 @@ def run_task(task: dict, gemini_model, dry_run: bool) -> list[dict]:
     attempts  = 0
     max_attempts = (count // BATCH_SIZE + 2) * 3
 
-    print(f'\n── Task: {name}  (target: {count} samples) ──')
+    print(f'\n Task: {name}  (target: {count} samples) ')
     while len(collected) < count and attempts < max_attempts:
         remaining = count - len(collected)
         batch_n   = min(BATCH_SIZE, remaining + 5)
@@ -447,16 +444,16 @@ def run_task(task: dict, gemini_model, dry_run: bool) -> list[dict]:
     return collected
 
 
-def main():
-    parser = argparse.ArgumentParser()
+def main:
+    parser = argparse.ArgumentParser
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--tasks', default='',
                         help='Comma-separated task names to run (default: all). '
                              'Names: product_color, ship_time_date, quantity, complexity, '
                              'type_entity, budget_range, name_lowercase, city_abbrev')
-    args = parser.parse_args()
+    args = parser.parse_args
 
-    task_filter = set(args.tasks.split(',')) if args.tasks else set()
+    task_filter = set(args.tasks.split(',')) if args.tasks else set
     active_tasks = [t for t in TASKS if not task_filter or t['name'] in task_filter]
     if not active_tasks:
         sys.exit(f'[ERROR] No matching tasks for: {args.tasks}')
@@ -492,4 +489,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main

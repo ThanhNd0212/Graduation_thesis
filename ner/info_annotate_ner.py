@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """NER annotation using Gemini 2.5 Flash Lite.
 
 Pipeline:
   1. Read every message from final_data/provide_cus_inf.jsonl
   2. Ask Gemini to return entity texts (NAME / PHONE / ADDRESS) as JSON
-  3. Compute character offsets with str.find()
+  3. Compute character offsets with str.find
   4. Save to final_data/ner_annotations.json
 
 Usage:
@@ -24,20 +24,20 @@ from pathlib import Path
 from dotenv import load_dotenv
 import google.generativeai as genai
 
-# ── Paths ──────────────────────────────────────────────────────────────────────
+# Paths
 BASE        = Path(__file__).parent
 INPUT_FILE  = BASE / "final_data" / "provide_cus_inf.jsonl"
 OUTPUT_FILE = BASE / "final_data" / "info_ner.json"
 CHECKPOINT  = BASE / "final_data" / "ner_checkpoint.jsonl"  # one JSON line per done record
 
-# ── Gemini config ──────────────────────────────────────────────────────────────
+# Gemini config
 # Check available model IDs: https://ai.google.dev/gemini-api/docs/models
 MODEL_NAME    = "gemini-2.5-flash-lite"
 RETRY_LIMIT   = 3
 REQUEST_DELAY = 0.6   # seconds between API calls (stay under rate limits)
 SAVE_EVERY    = 10    # flush checkpoint every N records
 
-# ── Extraction prompt ──────────────────────────────────────────────────────────
+# Extraction prompt
 PROMPT_TEMPLATE = """\
 You are a Vietnamese NER system for customer chat messages in a toy/LEGO shop.
 
@@ -93,12 +93,11 @@ Output: [{"label":"PHONE","text":"0966283566"},{"label":"ADDRESS","text":"Số 1
 Input text:
 """
 
-# ── Regex to strip markdown code fences from model output ─────────────────────
+# Regex to strip markdown code fences from model output
 _FENCE_RE = re.compile(r"```(?:json)?\s*([\s\S]*?)```", re.IGNORECASE)
 
 
-# ── Core helpers ───────────────────────────────────────────────────────────────
-
+# Core helpers
 def load_input(path: Path) -> list[dict]:
     records = []
     with open(path, encoding="utf-8") as f:
@@ -112,7 +111,7 @@ def load_input(path: Path) -> list[dict]:
 def load_checkpoint(path: Path) -> dict[int, dict]:
     """Return {id: record} for already-processed records."""
     done = {}
-    if not path.exists():
+    if not path.exists:
         return done
     with open(path, encoding="utf-8") as f:
         for line in f:
@@ -135,13 +134,13 @@ def parse_llm_response(raw: str) -> list[dict]:
 
 
 def find_spans(text: str, entities: list[dict]) -> list[dict]:
-    """Map each entity dict {'label', 'text'} → {'start','end','label','text'}.
+    """Map each entity dict {'label', 'text'} -> {'start','end','label','text'}.
 
     For duplicate entity texts the search advances past the previous match so
     each occurrence maps to a different position.
     """
-    next_search: dict[tuple, int] = {}  # (label, needle) → next search offset
-    seen: set[tuple] = set()            # (start, label) — deduplication guard
+    next_search: dict[tuple, int] = {}  # (label, needle) -> next search offset
+    seen: set[tuple] = set            # (start, label) — deduplication guard
     spans = []
 
     for ent in entities:
@@ -211,13 +210,12 @@ def flush_checkpoint(path: Path, records: list[dict]) -> None:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 
-# ── Main ───────────────────────────────────────────────────────────────────────
-
-def main() -> None:
+# Main
+def main -> None:
     parser = argparse.ArgumentParser(description="Annotate NER entities with Gemini")
     parser.add_argument("--resume",  action="store_true", help="Skip already-processed records")
     parser.add_argument("--dry-run", action="store_true", help="Print prompts without calling API")
-    args = parser.parse_args()
+    args = parser.parse_args
 
     # Load .env
     load_dotenv(BASE / ".env")
@@ -237,7 +235,7 @@ def main() -> None:
 
     # Resume support
     done_map = {}
-    if args.resume and CHECKPOINT.exists():
+    if args.resume and CHECKPOINT.exists:
         done_map = load_checkpoint(CHECKPOINT)
         print(f"Resuming: {len(done_map)} records already done")
 
@@ -272,7 +270,7 @@ def main() -> None:
         # Periodic checkpoint flush
         if len(buffer) >= SAVE_EVERY:
             flush_checkpoint(CHECKPOINT, buffer)
-            buffer.clear()
+            buffer.clear
             print(f"  [checkpoint saved]")
 
         if not args.dry_run:
@@ -282,7 +280,7 @@ def main() -> None:
     if buffer:
         flush_checkpoint(CHECKPOINT, buffer)
 
-    # Merge checkpoint → final output (sorted by original order)
+    # Merge checkpoint -> final output (sorted by original order)
     all_records = [done_map[i] for i in range(len(samples)) if i in done_map]
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_records, f, ensure_ascii=False, indent=2)
@@ -291,4 +289,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    main
