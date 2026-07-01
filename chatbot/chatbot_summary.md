@@ -1,284 +1,277 @@
-# Tóm tắt Chatbot LEGO Shop — States, Rules & Reply Cases
+﻿# Chatbot State Machine Reference
 
----
+Documents session state, business constants, order stage transitions, and all dialogue actions.
+Applies to both Hybrid mode (`pipeline.py` / `reply.py`) and LLM mode (`llm_baseline.py`).
 
-## 1. Biến trạng thái (SessionState)
+## 1. Session State Variables
 
-| Biến | Kiểu | Ý nghĩa |
+| Variable | Type | Description |
 |---|---|---|
-| `order_stage` | `None \| 'await_info' \| 'await_confirm' \| 'await_payment' \| 'await_pickup' \| 'done'` | Giai đoạn luồng chốt đơn |
-| `cart` | list | Sản phẩm đã xác nhận (chỉ vào sau khi confirm) |
-| `customer` | dict | Thông tin khách: NAME, PHONE, ADDRESS, CITY |
-| `order` | dict | Slots đơn hàng: MAX_BUDGET, MIN_BUDGET, QUANTITY, SHIP_DATE, SHIP_TIME, TYPE, COMPLEXITY, PRODUCT_COLOR (list) |
-| `proposals` | dict | msg_id → danh sách ứng viên sản phẩm đề xuất (resolved/unresolved) |
-| `pending_gift` | bool | Đang chờ khách trả lời có/không về gói quà |
-| `gift_wrap` | bool | Khách đã chọn gói quà |
-| `agreed` | bool | Khách đã `agree_order` ít nhất một lần trong session |
-| `last_product_id` | str\|None | Sản phẩm đề xuất/xác nhận gần nhất (dùng cho info/image/legit) |
-| `last_intent` | str\|None | Intent có nghĩa gần nhất (dùng cho `give_product`) |
-| `pending_finalize` | bool | `ask_finalize` đã gửi, chờ khách trả lời chốt hay tìm thêm |
-| `pending_cancel` | bool | `ask_cancel_or_browse` đã gửi, chờ khách xác nhận hủy hay tiếp tục |
-| `unknown_streak` | int | Số lượt liên tiếp không hiểu được (≥5 → escalate) |
+| `order_stage` | `None \| 'await_info' \| 'await_confirm' \| 'await_payment' \| 'await_pickup' \| 'done'` | Current stage of the order flow |
+| `cart` | list | Confirmed products (added only after explicit selection or LLM extraction) |
+| `customer` | dict | Customer slots: NAME, PHONE, ADDRESS, CITY |
+| `order` | dict | Order slots: MAX_BUDGET, MIN_BUDGET, QUANTITY, SHIP_DATE, SHIP_TIME, TYPE, COMPLEXITY, PRODUCT_COLOR (list) |
+| `proposals` | dict | msg_id to candidate list with resolved/unresolved status |
+| `pending_gift` | bool | Waiting for customer yes/no on gift wrapping offer |
+| `gift_wrap` | bool | Customer selected gift wrapping |
+| `agreed` | bool | Customer has issued `agree_order` at least once in this session |
+| `last_product_id` | str\|None | Most recently proposed or confirmed product (used for info/image/legit queries) |
+| `last_intent` | str\|None | Last meaningful intent (used for `give_product` context inheritance) |
+| `pending_finalize` | bool | `ask_finalize` was sent; waiting for customer to confirm order or keep browsing |
+| `pending_cancel` | bool | `ask_cancel_or_browse` was sent; waiting for customer to confirm cancellation |
+| `pending_availability_product` | dict\|None | Product shown as in-stock, awaiting purchase confirmation |
+| `unknown_streak` | int | Consecutive turns with no recognized intent; triggers escalation at 5 |
 | `payment` | str\|None | `'chuyển khoản'` \| `'COD'` |
+| `order_done_persisted` | bool | True after the completed order has been written to the database |
+| `conversation_history` | list | `[{role, content}]` maintained for LLM mode context |
 
-### Luồng `order_stage`
+### Order Stage Transitions
 
 ```
 None
- └─ agree_order (có cart + đủ info)  → await_confirm
- └─ agree_order (có cart + thiếu info) → await_info
- └─ agree_order (giỏ trống)          → [order_empty_cart, về None]
+ |-- agree_order, cart not empty, info complete    --> await_confirm
+ |-- agree_order, cart not empty, info missing     --> await_info
+ |-- agree_order, cart empty                       --> [order_empty_cart, stay None]
 
 await_info
- └─ info đủ (sau update entities)    → await_confirm
- └─ customer_reject                  → None + cart=[] (order_cancel) ← A.5
+ |-- all required fields received                  --> await_confirm
+ |-- customer_reject                               --> None + cart cleared (order_cancel)
 
 await_confirm
- └─ khách đồng ý (affirmative)       → await_payment
- └─ customer_reject                  → None + cart=[] (order_cancel) ← A.5
+ |-- customer affirms                              --> await_payment
+ |-- customer_reject                               --> None + cart cleared (order_cancel)
 
 await_payment
- └─ chọn CK/COD                      → done
+ |-- 'chuyển khoản' or 'COD' selected             --> done
 
-await_pickup  (get_product_direct, chưa agreed)
- └─ khách đồng ý                     → done (get_direct_recap)
- └─ customer_reject                  → None + cart=[] (order_cancel) ← A.5
+await_pickup  (get_product_direct path)
+ |-- customer affirms                              --> done (get_direct_recap)
+ |-- customer_reject                               --> None + cart cleared (order_cancel)
 
 done
- └─ greeting                         → None + cart reset (giữ customer info) ← A.0
+ |-- greeting                                      --> None + cart reset (customer info kept)
 ```
 
----
+## 2. Business Constants
 
-## 2. Hằng số nghiệp vụ
-
-| Mục | Giá trị |
+| Item | Value |
 |---|---|
-| Phí ship | 20.000đ toàn quốc |
-| Giao thường | 2–3 ngày |
-| Giao hỏa tốc | Trước 12h → nhận trước 20h cùng ngày; sau 12h → trước 12h hôm sau |
-| Gói quà | 15.000đ/sản phẩm |
-| Tồn kho mặc định | 100 (mọi sản phẩm) |
-| Thanh toán | Chuyển khoản trước / COD |
-| Thông tin shop | Số 30 ngõ 20 đường xxx, SĐT 08689xxxxx, tiếp khách 8h–18h |
-| Giữ đơn (lấy trực tiếp) | Tối đa 2 ngày từ ngày xác nhận |
+| Shipping fee | 20.000đ toàn quốc |
+| Standard delivery | 2–3 ngày |
+| Express delivery | Đặt trước 12h -> nhận trước 20h cùng ngày; đặt sau 12h -> nhận trước 12h hôm sau |
+| Gift wrapping | 15.000đ/sản phẩm |
+| Default stock | 100 (all products; no inventory column in DB) |
+| Payment methods | Chuyển khoản trước / COD |
+| Shop address | Số 30 ngõ 20 đường xxx, SĐT 08689xxxxx, tiếp khách 8h–18h |
+| Hold period (pickup) | Tối đa 2 ngày từ ngày xác nhận |
 
----
+## 3. Dialogue Branches (Hybrid Mode)
 
-## 3. Bảng tất cả Reply (action) và điều kiện kích hoạt
+### Branch A.0 - Reset completed order on new greeting
 
-### Nhánh A.0 — Reset đơn cũ khi chào mới
-
-| Reply | Điều kiện |
+| Trigger | Effect |
 |---|---|
-| *(reset cart + order_stage + payment + agreed; giữ customer info)* | `order_stage='done'` **VÀ** intent `greeting` |
+| `order_stage='done'` AND intent `greeting` | Reset cart, order_stage, payment, agreed; keep customer info |
 
-### Nhánh A — Chờ xác nhận gói quà
+### Branch A.0-done - Lock all branches once order is complete
 
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| `gift_added` + order summary | `pending_gift=True` **VÀ** khách affirmative (agree/ok/đồng ý...) |
-| *(bỏ qua — `pending_gift` được reset về False unconditionally trước khi check)* | `pending_gift=True` **VÀ** khách KHÔNG đồng ý |
+| `order_done_reminder` | `action is None` AND `order_stage='done'` — blocks all branches below |
 
-### Nhánh A.3 — Chờ phản hồi chốt đơn (pending_finalize)
+### Branch A.1 - Auto-confirm a stock-checked product
 
-> `pending_finalize` luôn được reset về `False` ở dòng đầu block — unconditional, bất kể intent nào.
-
-| Reply | Điều kiện |
+| Effect | Trigger |
 |---|---|
-| **`order_payment`** | `pending_finalize=True` **VÀ** affirmative / `agree_order` → `order_stage='await_payment'` |
-| **`ask_cancel_or_browse`** (hỏi lại ý định) | `pending_finalize=True` **VÀ** `customer_reject` **VÀ** cart không trống → `pending_cancel=True` |
-| *(tiếp tục tư vấn)* | `pending_finalize=True` **VÀ** `customer_reject` **VÀ** cart trống |
+| Add `pending_availability_product` to cart | `pending_availability_product` set AND customer affirms / `agree_order` / `add_product` |
 
-### Nhánh A.4 — Xác nhận hủy giỏ
+### Branch A - Gift offer pending
 
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`order_cancel`** + reset cart + agreed | `pending_cancel=True` **VÀ** `customer_reject` → xác nhận hủy hẳn |
-| *(giữ giỏ, tiếp tục tư vấn)* | `pending_cancel=True` **VÀ** bất kỳ intent nào khác → khách muốn tìm thêm |
+| `gift_added` + order summary | `pending_gift=True` AND customer affirms |
+| (skipped, pending_gift reset) | `pending_gift=True` AND customer does not affirm |
 
-### Nhánh A.5 — Hủy đơn trong luồng chốt
+### Branch A.3 - Finalize prompt pending
 
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`order_cancel`** ("shop đã hủy đơn...") | `order_stage ∈ {await_info, await_confirm, await_pickup}` **VÀ** `customer_reject` → `order_stage=None`, `cart=[]`, **`agreed=False`** |
+| `order_payment` | `pending_finalize=True` AND customer affirms -> `order_stage='await_payment'` |
+| `ask_cancel_or_browse` | `pending_finalize=True` AND `customer_reject` AND cart not empty -> `pending_cancel=True` |
+| (continue browsing) | `pending_finalize=True` AND `customer_reject` AND cart empty |
 
----
+### Branch A.4 - Confirm cart cancellation
 
-### Nhánh B — Tiếp nối order_stage
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`order_done`** (CK: QR+bill / COD: xác nhận) | `order_stage='await_payment'` **VÀ** phát hiện lựa chọn CK hoặc COD |
-| **`order_payment`** (hỏi lại CK/COD) | `order_stage='await_payment'` **VÀ** không nhận ra lựa chọn |
-| **`order_payment`** (chuyển sang chọn thanh toán) | `order_stage='await_confirm'` **VÀ** khách affirmative |
-| **`order_summary`** (tóm tắt đơn) | `order_stage='await_info'` **VÀ** `missing_for_order()` rỗng (đủ thông tin) |
-| **`order_need_info`** (hỏi thêm thông tin thiếu) | `order_stage='await_info'` **VÀ** vẫn thiếu thông tin **VÀ** (intent `provide_cus_inf` HOẶC có entities) |
-| **`get_direct_recap`** (recap lấy trực tiếp) | `order_stage='await_pickup'` **VÀ** khách affirmative |
+| `order_cancel` + reset cart + agreed | `pending_cancel=True` AND `customer_reject` |
+| (keep cart, continue) | `pending_cancel=True` AND any other intent |
 
----
+### Branch A.5 - Cancel during order flow
 
-### Nhánh B2 — Hỏi thông tin/ảnh/xác thực sản phẩm (INFO)
-
-> Ưu tiên cao hơn confirm/cart — KHÔNG thêm sản phẩm vào giỏ.
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`product_info`** (tên, hãng, dòng, số mảnh, giá) | Intent `ask_product_info` **VÀ** `last_product` tồn tại |
-| **`legit`** (xác nhận hãng chính hãng) | Intent `ask_legit` **VÀ** `last_product` tồn tại |
-| **`product_image`** (`[ảnh <tên>]`) | Intent `ask_product_image` **VÀ** `last_product` tồn tại |
-| **`need_product`** (hỏi tên mẫu) | Bất kỳ intent INFO (`ask_product_info`/`ask_legit`/`ask_product_image`) **VÀ** chưa có `last_product` |
-| *(tự động cập nhật `last_product_id`)* | Khách reply_to một msg đề xuất **VÀ** có lựa chọn tường minh (số thứ tự) → resolve chọn mẫu đó trước khi trả info |
+| `ask_cancel_or_browse` -> `pending_cancel=True` | `order_stage` in {await_info, await_confirm, await_pickup} AND `customer_reject` |
 
----
+### Branch B - Order stage continuation
 
-### Nhánh C — Khách từ chối sau đề xuất
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`find_reject`** ("shop không có SP bạn tìm...") | Intent `customer_reject` **VÀ** đang có pending_proposal chưa resolve |
+| `order_done` (QR or COD confirmation) | `order_stage='await_payment'` AND payment method recognized |
+| `order_payment` | `order_stage='await_payment'` AND payment method not recognized |
+| `order_payment` | `order_stage='await_confirm'` AND customer affirms (no QUANTITY change this turn) |
+| `order_summary` | `order_stage='await_confirm'` AND customer affirms AND QUANTITY updated this turn |
+| `order_summary` | `order_stage='await_info'` AND `missing_for_order()` is empty |
+| `order_need_info` | `order_stage='await_info'` AND info still missing AND intent `provide_cus_inf` or entities present |
+| `get_direct_recap` | `order_stage='await_pickup'` AND customer affirms |
 
----
+### Branch B2 - Product info / image / legitimacy
 
-### Nhánh D — Xác nhận chọn sản phẩm từ đề xuất
+Runs before proposal confirmation — never adds products to cart.
 
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`availability`** ("còn hàng, bạn có muốn đặt không?") | Có chọn rõ (số thứ tự) từ proposal **VÀ** proposal gốc có origin `ask_product_availability` **VÀ** KHÔNG có intent `agree_order`/`add_product` |
-| **`product_info`** (thông tin/giá) | Có chọn rõ từ proposal **VÀ** intent `ask_product_price` **VÀ** KHÔNG có `agree_order`/`add_product` → cập nhật `last_product`, **KHÔNG** thêm cart |
-| **`confirmed`** (chốt + hiển thị form nếu thiếu thông tin) | Có chọn rõ (số thứ tự) từ proposal **VÀ** intent là mua hàng (`add_product`/`agree_order`) hoặc không phải info/price query → sản phẩm vào cart |
-| **`reask_choice`** (hỏi lại số mấy) | Có proposal nhưng lựa chọn không rõ ràng (ambiguous) |
+| `product_info` | Intent `ask_product_info` AND `last_product` exists |
+| `legit` | Intent `ask_legit` AND `last_product` exists |
+| `product_image` | Intent `ask_product_image` AND `last_product` exists |
+| `need_product` | Any info intent AND no `last_product` |
 
-> Nguồn proposal: (1) `reply_to_msg_id` trỏ đúng msg đề xuất, hoặc (2) pending_proposal gần nhất + `has_explicit_choice(message)`.
+### Branch C - Reject after proposal
 
----
-
-### Nhánh E — Tìm kiếm sản phẩm mới
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`propose`** (top-3 SP theo tên) | Có `PRODUCT_NAME` trong entities **VÀ** intent thuộc `_PROPOSE_INTENTS` (`ask_product_price`, `ask_product_availability`, `ask_product_image`, `ask_find_product`, `add_product`, `agree_order`) |
-| **`propose`** (top-3 SP theo thuộc tính) | KHÔNG có tên SP **VÀ** có type/color **VÀ** intent thuộc `_SUGGEST_INTENTS` (`ask_product_availability`, `ask_find_product`, `ask_product_suggestion`) |
+| `find_reject` | Intent `customer_reject` AND pending unresolved proposal |
 
----
+### Branch D - Proposal confirmation
 
-### Nhánh F — agree_order (R3/R7)
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`order_empty_cart`** ("chưa chọn SP nào") | Intent `agree_order` **VÀ** cart trống |
-| **`order_need_info`** (hỏi thông tin thiếu) | Intent `agree_order` **VÀ** có cart **VÀ** thiếu NAME/PHONE/ADDRESS → `order_stage='await_info'` |
-| **`order_summary`** (tóm tắt xác nhận) | Intent `agree_order` **VÀ** có cart **VÀ** đủ thông tin → `order_stage='await_confirm'` |
+| `availability` | Explicit choice AND proposal origin is `ask_product_availability` AND no `agree_order`/`add_product` |
+| `product_info` | Explicit choice AND intent `ask_product_price` AND no `agree_order`/`add_product`; updates `last_product`, does NOT add to cart |
+| `suggest_confirm` | Explicit choice AND proposal origin is `suggest` AND no `agree_order`/`add_product` |
+| `confirmed` | Explicit choice AND any purchase intent -> product added to cart |
+| `reask_choice` | Proposal present but choice is ambiguous |
 
----
+### Branch E - New product search
 
-### Nhánh G — Thanh toán / gợi ý
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`order_payment`** (CK/COD) | Intent `ask_payment_method` (không có action trước) |
-| **`suggest`** (gợi ý theo thuộc tính) | Intent `ask_product_suggestion` **VÀ** đã có budget/màu/type **VÀ** chưa có action |
+| `propose` (top-3 by name) | `PRODUCT_NAME` in entities AND intent in `_PROPOSE_INTENTS` |
+| `propose` (top-3 by attributes) | No product name AND type/color available AND intent in `_SUGGEST_INTENTS` |
 
----
+### Branch F - agree_order / affirm with cart
 
-### Nhánh H — Hỏi đáp về đơn hàng / shop
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`final_price`** (tổng = hàng + ship + gói quà) | Intent `ask_final_price` **VÀ** cart không trống |
-| **`gift_offer`** (giới thiệu gói quà 15k/SP) | Intent `ask_gift_package` → đặt `pending_gift=True` |
-| **`complaint`** (xin lỗi + chuyển nhân viên) | Intent `product_complaint` HOẶC `complain_shipping_issue` |
-| **`buy_thanks`** ("cảm ơn bạn tin tưởng shop") | Intent `buy_thanks` |
-| **`immediate_ship`** (thông tin giao hỏa tốc) | Intent `immediate_ship` **VÀ** có cart **VÀ** đủ thông tin khách |
-| **`immediate_ship_need`** (hỏi thông tin thiếu để giao hỏa tốc) | Intent `immediate_ship` **VÀ** (giỏ trống HOẶC thiếu thông tin khách) |
-| **`get_direct_recap`** (recap lấy trực tiếp, giữ đơn 2 ngày) | Intent `get_product_direct` (từ `give_product` HOẶC trực tiếp) **VÀ** `state.agreed=True` **VÀ** có cart → `order_stage='done'` |
-| **`get_direct_ask`** (hỏi đã muốn lấy trực tiếp chưa?) | Intent `get_product_direct` **VÀ** chưa `agreed` **VÀ** có cart → `order_stage='await_pickup'` |
-| **`shop_info`** (địa chỉ, SĐT, giờ mở cửa) | Intent `ask_shop_info` **HOẶC** intent `get_product_direct` với giỏ trống |
+| `order_empty_cart` | Intent `agree_order` AND cart empty |
+| `order_need_info` | Intent `agree_order` AND cart not empty AND info missing -> `order_stage='await_info'` |
+| `order_summary` | Intent `agree_order` AND cart not empty AND info complete -> `order_stage='await_confirm'` |
 
----
+### Branch G - Payment / suggestion
 
-### Nhánh I — Chủ động chốt đơn (§6)
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`ask_finalize`** (hiển thị order summary inline + hỏi chốt hay tìm thêm) | Intent `provide_cus_inf` **VÀ** cart không trống **VÀ** `missing_for_order()` rỗng **VÀ** `order_stage is None` → `pending_finalize=True` |
+| `order_payment` | Intent `ask_payment_method` |
+| `suggest` | Intent `ask_product_suggestion` AND budget/color/type available |
 
----
+### Branch H - Intent Q&A
 
-### Nhánh J — Escalation (§7)
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| **`escalate`** (chuyển nhân viên CSKH) | `unknown_streak >= 5` (5 lượt liên tiếp không có intent hoặc chỉ có intent `other`) |
+| `final_price` | Intent `ask_final_price` AND cart not empty |
+| `gift_offer` | Intent `ask_gift_package` -> sets `pending_gift=True` |
+| `complaint` | Intent `product_complaint` or `complain_shipping_issue` |
+| `buy_thanks` | Intent `buy_thanks` |
+| `immediate_ship` | Intent `immediate_ship` AND cart not empty AND info complete |
+| `immediate_ship_need` | Intent `immediate_ship` AND cart empty or info missing |
+| `get_direct_recap` + `order_stage='done'` | Intent `get_product_direct` AND `state.agreed=True` AND cart not empty |
+| `get_direct_ask` + `order_stage='await_pickup'` | Intent `get_product_direct` AND not agreed AND cart not empty |
+| `shop_info` | Intent `ask_shop_info` or `get_product_direct` with empty cart |
 
-> `unknown_streak` reset về 0 mỗi lượt bot xử lý được intent có nghĩa.
+### Branch I - Proactive finalize prompt
 
----
-
-### Replies theo intent (không cần action từ pipeline)
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| `"Dạ đơn giao trong 2–3 ngày ạ."` | Intent `ask_order_wait_time` (không có action trước) |
-| `"Dạ phí ship 20.000đ toàn quốc ạ."` | Intent `ask_shipping_fee` (không có action trước) |
-| PAYMENT_PROMPT | Intent `ask_payment_method` (không có action trước) |
-| `"Dạ shop đã ghi nhận thông tin ạ."` | Intent `provide_cus_inf` (không có action trước) |
-| `"Dạ shop nghe ạ, bạn cần tư vấn mẫu LEGO nào ạ?"` | Intent `greeting` |
-| `"Dạ cảm ơn bạn, hẹn gặp lại ạ!"` | Intent `Goodbye` |
-| `"Bạn cho shop xin tầm giá và sở thích..."` | Intent `ask_product_suggestion` HOẶC `provide_budget` (không có thuộc tính nào để suggest) |
-| `"Bạn cho shop xin tên mẫu bạn quan tâm..."` | Intent `ask_product_price` / `ask_product_availability` / `ask_product_image` / `ask_find_product` (không có product_query, không có action trước) |
+| `ask_finalize` -> `pending_finalize=True` | Intent `provide_cus_inf` AND cart not empty AND `missing_for_order()` empty AND `order_stage is None` |
 
----
+### Branch J - Escalation
 
-### Fallback (không có nhánh nào khớp)
-
-| Reply | Điều kiện |
+| Reply | Trigger |
 |---|---|
-| `"Dạ shop chưa rõ ý bạn lắm, bạn nói rõ hơn giúp shop ạ?"` | Tất cả nhánh A–J và intent-driven đều không khớp |
+| `escalate` | `unknown_streak >= 5` (five consecutive turns with `other` or no intent) |
 
----
+### Intent-driven defaults (no pipeline action matched)
 
-## 4. Intent → nhóm xử lý
-
-| Intent | Nhánh chính |
+| Reply | Intent |
 |---|---|
-| `agree` / `agree_order` | D (resolve proposal) → F (chốt đơn) |
-| `add_product` | E (propose) → D (confirm) |
-| `ask_product_price` | E (propose) → intent-default |
-| `ask_product_availability` | E (propose) / D (availability) |
-| `ask_product_image` | B2 (image) → E (propose) |
+| Delivery time | `ask_order_wait_time` |
+| Shipping fee | `ask_shipping_fee` |
+| Payment options (chuyển khoản / COD) | `ask_payment_method` |
+| Acknowledgement | `provide_cus_inf` |
+| Greeting | `greeting` |
+| Farewell | `Goodbye` |
+| Ask for budget/preferences | `ask_product_suggestion`, `provide_budget` |
+| Ask for product name | `ask_product_price`, `ask_product_availability`, `ask_product_image`, `ask_find_product` |
+
+### Fallback
+
+Generic re-ask when no branch A–J or intent default matches.
+
+## 4. Intent to Branch Mapping
+
+| Intent | Primary branch |
+|---|---|
+| `agree` / `agree_order` | D (resolve proposal) -> F (order flow) |
+| `add_product` | E (propose) -> D (confirm) |
+| `ask_product_price` | E (propose) -> intent default |
+| `ask_product_availability` | E (propose) / D (availability check) |
+| `ask_product_image` | B2 (image) -> E (propose) |
 | `ask_product_info` | B2 (info) |
 | `ask_legit` | B2 (legit) |
-| `ask_find_product` | E (propose/suggest) → C (reject) |
-| `ask_product_suggestion` | G (suggest) / E (suggest) / intent-default |
-| `provide_budget` | intent-default (hỏi thêm) |
-| `ask_payment_method` | G (payment) → intent-default |
-| `ask_order_wait_time` | intent-default |
-| `ask_shipping_fee` | intent-default |
-| `ask_final_price` | H (final_price) |
-| `ask_gift_package` | H (gift_offer) |
-| `immediate_ship` | H (immediate_ship / immediate_ship_need) |
-| `get_product_direct` | H (get_direct_recap / get_direct_ask / shop_info) |
-| `ask_shop_info` | H (shop_info) |
-| `product_complaint` / `complain_shipping_issue` | H (complaint) |
-| `buy_thanks` | H (buy_thanks) |
-| `customer_reject` | C (find_reject) |
-| `give_product` | mượn `last_intent` → xử lý theo intent đó |
-| `provide_cus_inf` | B (update info) → I (ask_finalize) → intent-default |
-| `greeting` | intent-default |
-| `Goodbye` | intent-default |
-| `other` / rỗng | J (đếm streak → escalate) |
+| `ask_find_product` | E (propose/suggest) -> C (reject) |
+| `ask_product_suggestion` | G (suggest) / E (suggest) / intent default |
+| `provide_budget` | intent default |
+| `ask_payment_method` | G -> intent default |
+| `ask_order_wait_time` | intent default |
+| `ask_shipping_fee` | intent default |
+| `ask_final_price` | H |
+| `ask_gift_package` | H |
+| `immediate_ship` | H |
+| `get_product_direct` | H |
+| `ask_shop_info` | H |
+| `product_complaint` / `complain_shipping_issue` | H |
+| `buy_thanks` | H |
+| `customer_reject` | C -> A.5 |
+| `give_product` | borrows `last_intent` -> handled as that intent |
+| `provide_cus_inf` | B (update info) -> I (ask_finalize) -> intent default |
+| `greeting` | intent default |
+| `Goodbye` | intent default |
+| `other` / empty | J (streak counter -> escalate) |
 
----
+## 5. LLM Mode (llm_baseline.py)
 
-## 5. Luật phụ quan trọng
+The LLM mode uses Gemini 2.5 Flash Lite with RAG over the product catalog. It shares the same `SessionState` and `SlotStore` as Hybrid mode so conversation state is consistent when the user switches modes.
 
-- **give_product (§4.6)**: mơ hồ → mượn `last_intent` gần nhất để xử lý, KHÔNG dùng `give_product` làm `last_intent`.
-- **Budget swap (§2.1)**: nếu MIN_BUDGET > MAX_BUDGET → tự đảo.
-- **PRODUCT_COLOR**: chỉ nhận màu trong từ điển (`COLOR_VOCAB`), bỏ NER noise.
-- **QUANTITY**: chỉ nhận nếu có chữ số, bỏ "ấy" hay các từ trống.
-- **Info intent ưu tiên chốt đơn**: B2 chạy trước D → `ask_product_image`/`ask_product_info`/`ask_legit` KHÔNG thêm vào cart dù đang có pending proposal.
-- **`agreed` flag**: bật một lần vĩnh viễn khi khách `agree_order` bất cứ lúc nào.
-- **Tổng đơn** = Σ(giá SP) + phí ship 20k (+ 15k/SP nếu gói quà).
+Each turn:
 
+1. RAG retrieves top-5 relevant products via Gemini embedding cosine search.
+2. Gemini Call 1: generate a reply using system prompt + product context + conversation history.
+3. Gemini Call 2: extract structured order state (JSON mode, temperature=0) from the conversation. Updates SessionState fields: customer name/phone/address, cart items, order_stage, payment method.
+4. `SlotStore.persist()` saves state; triggers `save_order()` to SQLite when `order_stage='done'`.
 
+State extraction uses `SessionState.update_from_llm_extraction()` with merge semantics:
+
+- Customer fields update only if the new value is non-null and different from the stored value.
+- Cart items are deduplicated by lowercase product name.
+- `order_stage` only advances (never retreats) using a rank map: None < await_info < await_payment < done.
+- `payment` is set once and never overwritten.
+
+## 6. Key Invariants
+
+- `give_product` borrows `last_intent` from the previous meaningful turn and is never stored as `last_intent` itself.
+- If MIN_BUDGET > MAX_BUDGET after an update, the two values are swapped automatically.
+- PRODUCT_COLOR: only colours matching `COLOR_VOCAB` are accepted; NER noise is discarded.
+- QUANTITY: rejected if the value contains no digit; rejected if parsed integer <= 0 or > 100.
+- Branch B2 (info intents) runs before proposal confirmation (D): `ask_product_image`, `ask_product_info`, and `ask_legit` never add to cart even when a proposal is pending.
+- `agreed` flag is set permanently the first time `agree_order` appears and is not reset on order cancel.
+- Order total = sum(price) x quantity + 20.000đ ship (+ 15.000đ/sản phẩm nếu gói quà).
