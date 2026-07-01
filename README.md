@@ -1,6 +1,14 @@
 # LEGO Sales Chatbot - Bachelor Thesis
 
+## Nguyễn Đức Thành 
+## MSV: 23BI14406
+
 A Vietnamese-language chatbot for an online LEGO store, running in two parallel modes to support the thesis research goal: **comparing operational cost** between a hybrid NLU + rule-based system and a full-LLM chatbot (Gemini).
+
+Video system demo:
+```
+https://drive.google.com/file/d/1Kb_Bhg6Nc_jNyrhyxZTyCE6uEjVnwCy6/view?usp=sharing
+```
 
 ## Research Questions
 
