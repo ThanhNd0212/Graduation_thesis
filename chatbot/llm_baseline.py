@@ -164,7 +164,7 @@ class LLMBaseline:
             'reply':    reply_text,
             'intents':  [],
             'entities': {},
-            'slots':    s.snapshot,
+            'slots':    s.snapshot(),
             'metrics': {
                 'latency_ms': latency_ms,
                 'llm_tokens_in':  tokens_in,

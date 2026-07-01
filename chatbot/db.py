@@ -9,7 +9,7 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-DB_PATH = Path(__file__).resolve.parent.parent / 'chatbot.db'
+DB_PATH = Path(__file__).resolve().parent.parent / 'chatbot.db'
 
 _SHIP_FEE = 20_000
 _GIFT_FEE = 15_000
@@ -49,15 +49,15 @@ CREATE TABLE IF NOT EXISTS order_items (
 """
 
 
-def _conn -> sqlite3.Connection:
+def _conn() -> sqlite3.Connection:
     con = sqlite3.connect(str(DB_PATH))
     con.row_factory = sqlite3.Row
     return con
 
 
-def init_db -> None:
+def init_db() -> None:
     """Create tables if they do not exist. Idempotent — safe to call multiple times."""
-    with _conn as con:
+    with _conn() as con:
         con.executescript(_DDL)
 
 
@@ -71,16 +71,16 @@ def save_order(session) -> int:
     payment_method = session.payment or 'lấy trực tiếp'
     delivery_type  = 'pickup' if is_pickup else 'ship'
 
-    qty         = session.quantity
+    qty         = session.quantity()
     subtotal    = session.order_total()
     gift_total  = _GIFT_FEE * len(session.cart) if session.gift_wrap else 0
     ship_total  = 0 if is_pickup else _SHIP_FEE
     final_total = subtotal + gift_total + ship_total
 
-    now = datetime.now.isoformat(sep=' ', timespec='seconds')
+    now = datetime.now().isoformat(sep=' ', timespec='seconds')
 
-    with _conn as con:
-        cur = con.cursor
+    with _conn() as con:
+        cur = con.cursor()
 
         cur.execute(
             "INSERT INTO customers (name, phone, address, city, created_at) VALUES (?,?,?,?,?)",
@@ -110,14 +110,14 @@ def save_order(session) -> int:
                 (order_id, item.get('product_id'), item['name'], item.get('price', 0)),
             )
 
-        con.commit
+        con.commit()
 
     return order_id
 
 
 def get_orders(limit: int = 100) -> list[dict]:
     """Return the most recent orders with customer info and line items."""
-    with _conn as con:
+    with _conn() as con:
         rows = con.execute(
             """SELECT o.id, o.session_id, o.payment_method, o.gift_wrap,
                       o.quantity, o.subtotal, o.final_total, o.delivery_type, o.created_at,
@@ -126,7 +126,7 @@ def get_orders(limit: int = 100) -> list[dict]:
                JOIN customers c ON c.id = o.customer_id
                ORDER BY o.created_at DESC LIMIT ?""",
             (limit,),
-        ).fetchall
+        ).fetchall()
 
         result = []
         for r in rows:
@@ -134,7 +134,7 @@ def get_orders(limit: int = 100) -> list[dict]:
             items = con.execute(
                 "SELECT product_name, price FROM order_items WHERE order_id=?",
                 (order['id'],),
-            ).fetchall
+            ).fetchall()
             order['items'] = [dict(i) for i in items]
             result.append(order)
         return result

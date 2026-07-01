@@ -195,7 +195,7 @@ class SessionState:
         return miss
 
     def order_total(self):
-        return sum((c.get('price') or 0) for c in self.cart) * self.quantity
+        return sum((c.get('price') or 0) for c in self.cart) * self.quantity()
 
     def update_from_llm_extraction(self, data: dict):
         """Apply structured order state extracted by LLM baseline. Merges, never overwrites non-null with null."""
@@ -275,7 +275,7 @@ class SlotStore:
     def persist(self, session: SessionState):
         if self.persist_dir:
             path = self.persist_dir / f'{session.session_id}.json'
-            data = {'snapshot': session.snapshot, 'history': session.history,
+            data = {'snapshot': session.snapshot(), 'history': session.history,
                     'cart': session.cart}
             path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 
