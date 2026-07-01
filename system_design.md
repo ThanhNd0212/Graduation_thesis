@@ -1,4 +1,4 @@
-# Full System Design: Rule-based Chatbot for LEGO Shop
+﻿# Full System Design: Rule-based Chatbot for LEGO Shop
 
 ## Overview
 
@@ -6,11 +6,11 @@ Hệ thống được xây dựng theo ba phase. Mục tiêu nghiên cứu cốt
 
 ```
 Customer message
-    → [Phase 1] Intent Classification  →  32-class multi-label intent labels (PhoBERT)
-    → [Phase 2] Named Entity Recognition  →  13 entity types (ViSoBERT)
-    → [Phase 3A] Hybrid (Natural Language Understanding + rule-based) Pipeline  →  rule-based slot-filling + template reply  (chi phí ~0)
+    -> [Phase 1] Intent Classification  ->  32-class multi-label intent labels (PhoBERT)
+    -> [Phase 2] Named Entity Recognition  ->  13 entity types (ViSoBERT)
+    -> [Phase 3A] Hybrid (Natural Language Understanding + rule-based) Pipeline  ->  rule-based slot-filling + template reply  (chi phí ~0)
       OR
-    → [Phase 3B] Full-LLM Baseline  →  Gemini 2.5 Flash Lite + RAG  (chi phí API)
+    -> [Phase 3B] Full-LLM Baseline  ->  Gemini 2.5 Flash Lite + RAG  (chi phí API)
 ```
 
 Kết quả đo được so sánh trực tiếp trên trang `/metrics`: latency, token count, cost/turn.
@@ -23,10 +23,10 @@ Chi tiết trong [approaches.md](approaches.md). Model được chọn: **PhoBER
 
 ```
 "sốp ơi còn hàng con ferrari k ạ"
-    → normalize()        → "shop ơi còn hàng con ferrari không ạ"
-    → underthesea        → "shop ơi còn hàng con ferrari không ạ"
-    → PhoBERT tokenizer  → token IDs
-    → PhoBERT + sigmoid  → ["ask_product_availability"]
+    -> normalize()        -> "shop ơi còn hàng con ferrari không ạ"
+    -> underthesea        -> "shop ơi còn hàng con ferrari không ạ"
+    -> PhoBERT tokenizer  -> token IDs
+    -> PhoBERT + sigmoid  -> ["ask_product_availability"]
 ```
 
 - **32 lớp intent** (multi-label), threshold tuning per-class trên val set
@@ -52,8 +52,8 @@ Tất cả 13 nhãn đều qua một model token-classification duy nhất — *
 
 ```
 "cho mình 2 bộ Porsche tầm 900k giao ngày mai nhé"
-    → ViSoBERT token classification (BIO)
-    → QUANTITY=["2 bộ"], PRODUCT_NAME=["Porsche"], MAX_BUDGET=["900k"], SHIP_DATE=["ngày mai"]
+    -> ViSoBERT token classification (BIO)
+    -> QUANTITY=["2 bộ"], PRODUCT_NAME=["Porsche"], MAX_BUDGET=["900k"], SHIP_DATE=["ngày mai"]
 ```
 
 - Model: `uitnlp/visobert` fine-tuned
@@ -62,13 +62,13 @@ Tất cả 13 nhãn đều qua một model token-classification duy nhất — *
 
 ### Post-processing
 
-**`PRODUCT_NAME` → product catalog lookup** (`product_matcher.py`):
+**`PRODUCT_NAME` -> product catalog lookup** (`product_matcher.py`):
 - `rapidfuzz` fuzzy matching + optional semantic search
 - Input: span text từ NER (`"Porsche"`, `"mclaren extreme"`)
 - Output: top-3 candidates từ 11.362 sản phẩm trong `final_data/products_2010_2026_updated.json`
 - Kết quả được đưa vào pipeline dưới dạng proposal list
 
-**`MAX_BUDGET` / `MIN_BUDGET`** → `parse_budget()` chuyển `"900k"` → `900000` (int)
+**`MAX_BUDGET` / `MIN_BUDGET`** -> `parse_budget()` chuyển `"900k"` -> `900000` (int)
 
 ---
 
@@ -93,14 +93,14 @@ Tất cả 13 nhãn đều qua một model token-classification duy nhất — *
 | **G** | `ask_payment_method` / `ask_product_suggestion` + thuộc tính | Hỏi thanh toán / suggest |
 | **H** | Intent Q&A (price, gift, complaint, thanks, ship...) | Trả lời trực tiếp |
 | **I** | `provide_cus_inf` + đủ thông tin + stage=None | Proactive hỏi chốt đơn |
-| **J** | 5 lượt liên tiếp không xử lý được | Escalate → nhân viên |
+| **J** | 5 lượt liên tiếp không xử lý được | Escalate -> nhân viên |
 
 ### State machine `order_stage`
 
 ```
-None  →  await_info  →  await_confirm  →  await_payment  →  done
+None  ->  await_info  ->  await_confirm  ->  await_payment  ->  done
                                    ↑                  ↑
-                           (await_pickup)    (lấy trực tiếp → done)
+                           (await_pickup)    (lấy trực tiếp -> done)
 ```
 
 ### Session state chính (`state.py`)
@@ -110,7 +110,7 @@ None  →  await_info  →  await_confirm  →  await_payment  →  done
 | `cart` | Danh sách sản phẩm đã xác nhận |
 | `customer` | `NAME`, `PHONE`, `ADDRESS`, `CITY` |
 | `order` | `QUANTITY`, `MAX_BUDGET`, `SHIP_DATE`... |
-| `proposals` | Dict `msg_id → {candidates, origin_action, resolved}` |
+| `proposals` | Dict `msg_id -> {candidates, origin_action, resolved}` |
 | `pending_*` | Cờ chờ xác nhận: `gift`, `finalize`, `cancel`, `availability_product` |
 | `agreed` | Khách đã `agree_order` ít nhất 1 lần |
 | `payment` | `'chuyển khoản'` \| `'COD'` \| `None` |
@@ -134,17 +134,17 @@ Chạy song song với hybrid (Natural Language Understanding + rule-based), dù
 
 ```
 User message
-    → RAG: embed query (Gemini gemini-embedding-2) → cosine search 11K products
+    -> RAG: embed query (Gemini gemini-embedding-2) -> cosine search 11K products
            hybrid retrieval: keyword match (Latin brand names) first, then semantic fill
-    → Build prompt: system_instruction + product context + conversation history (10 turns)
-    → Gemini 2.5 Flash Lite generate_content()
-    → Reply + log (tokens in/out, latency, RAG products retrieved)
+    -> Build prompt: system_instruction + product context + conversation history (10 turns)
+    -> Gemini 2.5 Flash Lite generate_content()
+    -> Reply + log (tokens in/out, latency, RAG products retrieved)
 ```
 
 ### RAG chi tiết
 
 - **Embed toàn bộ catalog** lần đầu (~2–5 phút với 11.362 sản phẩm), cache ra `.npy`
-- **Hybrid retrieval**: trích Latin token ≥4 ký tự từ query (porsche, ferrari, technic...) → keyword match trước → fill còn lại bằng cosine search. Đảm bảo brand name cụ thể luôn xuất hiện.
+- **Hybrid retrieval**: trích Latin token >=4 ký tự từ query (porsche, ferrari, technic...) -> keyword match trước -> fill còn lại bằng cosine search. Đảm bảo brand name cụ thể luôn xuất hiện.
 - **Lazy init**: server không bị block khi khởi động; lần đầu gọi llm_full trả 503, build trong background thread.
 
 ### Model
@@ -167,7 +167,7 @@ Mỗi lượt ghi `logs/chat_YYYYMMDD.jsonl` + `.log`:
   "session_id": "web", "turn": 23,
   "input": "cho mình 2 bộ đó đi",
   "intents": ["agree_order"], "entities": {"QUANTITY": ["2 bộ"]},
-  "trace": ["B: await_confirm + QUANTITY mới → cập nhật lại tóm tắt đơn"],
+  "trace": ["B: await_confirm + QUANTITY mới -> cập nhật lại tóm tắt đơn"],
   "action": "order_summary", "reply": "...", "latency_ms": 171.4
 }
 ```

@@ -1,4 +1,4 @@
-# Approach 1 — Improvements Notes
+﻿# Approach 1 — Improvements Notes
 
 Documents every change made in `approach1_svm_improved.ipynb` compared to the baseline `approach1_svm_tfidf.ipynb`, and the reasoning behind each decision.
 
@@ -7,7 +7,7 @@ Documents every change made in `approach1_svm_improved.ipynb` compared to the ba
 ## 1. Teen Code Normalization (Preprocessing)
 
 **What changed:**  
-Added a normalization step before TF-IDF vectorization. A dictionary maps common informal abbreviations to their standard Vietnamese equivalents (`k` → `không`, `đc` → `được`, `sốp` → `shop`, etc.). Repeated characters are also collapsed (`ơiiii` → `ơii`). English tokens (brand names, borrowed words like `lego`, `ferrari`, `ship`) are detected by ASCII pattern and skipped — they are never normalized.
+Added a normalization step before TF-IDF vectorization. A dictionary maps common informal abbreviations to their standard Vietnamese equivalents (`k` -> `không`, `đc` -> `được`, `sốp` -> `shop`, etc.). Repeated characters are also collapsed (`ơiiii` -> `ơii`). English tokens (brand names, borrowed words like `lego`, `ferrari`, `ship`) are detected by ASCII pattern and skipped — they are never normalized.
 
 **Why:**  
 PhoBERT treats `k` and `không` as completely different tokens even though they mean the same thing. Without normalization, TF-IDF learns two separate features for identical meaning, diluting the signal. Normalizing collapses them into one, making the vocabulary more compact and each feature more informative.

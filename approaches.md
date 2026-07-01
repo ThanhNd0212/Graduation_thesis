@@ -1,4 +1,4 @@
-# Intent Classification Approaches for Vietnamese Customer Chat
+﻿# Intent Classification Approaches for Vietnamese Customer Chat
 
 ## Project Goal
 
@@ -60,7 +60,7 @@ Every comparative NLP study needs a non-neural lower bound. SVM with TF-IDF feat
 
 ### Preprocessing
 ```
-Raw text → lowercase → remove extra whitespace → TF-IDF vectorization
+Raw text -> lowercase -> remove extra whitespace -> TF-IDF vectorization
 ```
 - No word segmentation needed (TF-IDF works on tokens as-is)
 - Character n-grams (2–4) can be added to capture teen code patterns (e.g., `"kh"`, `"ko"`)
@@ -68,8 +68,8 @@ Raw text → lowercase → remove extra whitespace → TF-IDF vectorization
 ### Model Architecture
 ```
 TF-IDF features (word unigrams + bigrams, optionally char n-grams)
-    → Multi-label SVM using One-vs-Rest strategy (OneVsRestClassifier)
-    → 32 binary SVM classifiers (one per intent class)
+    -> Multi-label SVM using One-vs-Rest strategy (OneVsRestClassifier)
+    -> 32 binary SVM classifiers (one per intent class)
 ```
 - Alternatively: Logistic Regression with `multi_label=True` (often competitive with SVM)
 
@@ -103,7 +103,7 @@ ViSoBERT (`uitnlp/visobert`) is a BERT model pretrained specifically on Vietname
 
 ### Preprocessing
 ```
-Raw text → lowercase → strip extra whitespace → ViSoBERT tokenizer
+Raw text -> lowercase -> strip extra whitespace -> ViSoBERT tokenizer
 ```
 - **No word segmentation, no normalization** — the model is designed to handle informal text as-is
 - ViSoBERT uses its own BPE tokenizer trained on social media vocabulary; do not substitute the PhoBERT tokenizer
@@ -112,11 +112,11 @@ Raw text → lowercase → strip extra whitespace → ViSoBERT tokenizer
 ### Model Architecture
 ```
 Input text
-    → ViSoBERT (uitnlp/visobert) [12 layers, 768-dim hidden]
-    → [CLS] token representation (768-dim)
-    → Dropout(p=0.3)
-    → Linear(768 → 32)
-    → Sigmoid (inference) / BCEWithLogitsLoss (training)
+    -> ViSoBERT (uitnlp/visobert) [12 layers, 768-dim hidden]
+    -> [CLS] token representation (768-dim)
+    -> Dropout(p=0.3)
+    -> Linear(768 -> 32)
+    -> Sigmoid (inference) / BCEWithLogitsLoss (training)
 ```
 
 ### Training Configuration
@@ -138,7 +138,7 @@ Input text
 
 ---
 
-## Approach 3: Rule-based Normalization → PhoBERT Fine-tuned
+## Approach 3: Rule-based Normalization -> PhoBERT Fine-tuned
 
 ### Why This Approach
 Approach 2 exposes PhoBERT to raw informal text it was not pretrained on. A natural hypothesis is: **if we first convert informal Vietnamese to standard Vietnamese, PhoBERT's pretrained knowledge becomes more useful**.
@@ -146,29 +146,29 @@ Approach 2 exposes PhoBERT to raw informal text it was not pretrained on. A natu
 This approach tests that hypothesis using a transparent, controllable rule-based normalization step. It answers a key research question: *Does text normalization compensate for PhoBERT's formal-text pretraining bias?*
 
 Rule-based normalization is chosen over neural normalization (seq2seq) because:
-- No parallel corpus (informal → formal) is available for this domain
+- No parallel corpus (informal -> formal) is available for this domain
 - Rules are interpretable and errors are easy to diagnose
 - Avoids introducing a second model whose errors compound into the classifier
 - Fast and lightweight — no additional GPU memory or training time
 
 ### Why Neural Normalization (Seq2Seq / BARTpho) Was Not Chosen
-Seq2Seq normalization requires a parallel corpus of (informal text, standard text) pairs. This data does not currently exist for this specific e-commerce domain. Additionally, seq2seq models risk incorrectly normalizing English brand names (`lego` → some Vietnamese equivalent) unless a brand protection step is added, significantly increasing pipeline complexity.
+Seq2Seq normalization requires a parallel corpus of (informal text, standard text) pairs. This data does not currently exist for this specific e-commerce domain. Additionally, seq2seq models risk incorrectly normalizing English brand names (`lego` -> some Vietnamese equivalent) unless a brand protection step is added, significantly increasing pipeline complexity.
 
 ### Preprocessing Pipeline
 ```
 Raw text
-    → Step 1: Lowercase
-    → Step 2: Protect English tokens (brand names, product codes)
-    → Step 3: Expand teen code abbreviations (normalization dictionary)
-    → Step 4: Collapse repeated characters
-    → Step 5: Strip extra whitespace
-    → PhoBERT tokenizer
+    -> Step 1: Lowercase
+    -> Step 2: Protect English tokens (brand names, product codes)
+    -> Step 3: Expand teen code abbreviations (normalization dictionary)
+    -> Step 4: Collapse repeated characters
+    -> Step 5: Strip extra whitespace
+    -> PhoBERT tokenizer
 ```
 
 **Step 2 — English token protection:**
 Before normalization, extract tokens matching `/^[a-zA-Z0-9\-]+$/` that are NOT in the teen code dictionary (these are brand names / borrowed words) and skip them during normalization.
 - Protected: `lego`, `ferrari`, `ford`, `mario`, `f1`, `porches`, `box`, `ship`, `ok`
-- Normalized: `k` → `không`, `đc` → `được`
+- Normalized: `k` -> `không`, `đc` -> `được`
 
 **Step 3 — Normalization dictionary (domain-specific, build from data):**
 
@@ -191,18 +191,18 @@ Before normalization, extract tokens matching `/^[a-zA-Z0-9\-]+$/` that are NOT 
 
 **Step 4 — Repeated character collapsing:**
 Regex: replace `(.)\1{2,}` with `\1\1` (keep at most 2 repetitions)
-- `"ơiiii"` → `"ơii"`, `"shoppp"` → `"shopp"`
+- `"ơiiii"` -> `"ơii"`, `"shoppp"` -> `"shopp"`
 
 **Step 5:** PhoBERT tokenizer (`vinai/phobert-base`)
 
 ### Model Architecture
 ```
 Normalized text
-    → PhoBERT-base (vinai/phobert-base) [12 layers, 768-dim hidden, 135M params]
-    → [CLS] token representation (768-dim)
-    → Dropout(p=0.3)
-    → Linear(768 → 32)
-    → Sigmoid (inference) / BCEWithLogitsLoss (training)
+    -> PhoBERT-base (vinai/phobert-base) [12 layers, 768-dim hidden, 135M params]
+    -> [CLS] token representation (768-dim)
+    -> Dropout(p=0.3)
+    -> Linear(768 -> 32)
+    -> Sigmoid (inference) / BCEWithLogitsLoss (training)
 ```
 
 ### Training Configuration
@@ -234,7 +234,7 @@ XLM-RoBERTa (`facebook/xlm-roberta-base`) was pretrained on text from 100 langua
 
 ### Preprocessing
 ```
-Raw text → lowercase → strip extra whitespace → XLM-RoBERTa tokenizer
+Raw text -> lowercase -> strip extra whitespace -> XLM-RoBERTa tokenizer
 ```
 - No word segmentation, no normalization
 - The XLM-RoBERTa tokenizer (SentencePiece) handles mixed-language text natively
@@ -243,11 +243,11 @@ Raw text → lowercase → strip extra whitespace → XLM-RoBERTa tokenizer
 ### Model Architecture
 ```
 Input text
-    → XLM-RoBERTa-base (facebook/xlm-roberta-base) [12 layers, 768-dim hidden, 278M params]
-    → [CLS] token representation (768-dim)
-    → Dropout(p=0.3)
-    → Linear(768 → 32)
-    → Sigmoid (inference) / BCEWithLogitsLoss (training)
+    -> XLM-RoBERTa-base (facebook/xlm-roberta-base) [12 layers, 768-dim hidden, 278M params]
+    -> [CLS] token representation (768-dim)
+    -> Dropout(p=0.3)
+    -> Linear(768 -> 32)
+    -> Sigmoid (inference) / BCEWithLogitsLoss (training)
 ```
 
 ### Training Configuration
@@ -298,55 +298,56 @@ Together, these four approaches form a structured comparison across three axes:
 **Notebook:** `approach3_results/approach3_phobert_normalized_after_trained.ipynb`
 **Checkpoint:** `approach3_results/results/intent_model/`
 
-Ngoài các kỹ thuật cơ bản đã mô tả ở trên, phiên bản cuối bổ sung:
+Beyond the base architecture described above, the final deployed version adds four techniques:
 
-### (A) Word segmentation với underthesea
+### (A) Word segmentation with underthesea
 
 ```python
 from underthesea import word_tokenize
 normalized_text = word_tokenize(after_teen_code_normalize, format='text')
-# "hà nội" → "hà_nội"  |  "chuyển khoản" → "chuyển_khoản"
+# "hà nội" -> "hà_nội"  |  "chuyển khoản" -> "chuyển_khoản"
 ```
 
-PhoBERT được pre-train trên văn bản đã word-segment — feeding segmented input khớp register và cải thiện F1. Dùng `underthesea` (pure Python, không cần Java) thay vì VnCoreNLP.
+PhoBERT was pretrained on word-segmented Vietnamese text, so feeding segmented input matches its training distribution and improves F1. `underthesea` is used (pure Python, no Java dependency) instead of VnCoreNLP.
 
-### (B) Layer freezing + weight decay mạnh hơn
+### (B) Layer freezing + stronger weight decay
 
 ```
-Freeze: embedding layer + 4/12 encoder layers đầu
-Weight decay: 0.05 (thay vì 0.01)
-Epochs: 30 (thay vì 100) để LR schedule decay đúng
+Freeze: embedding layer + first 4 of 12 encoder layers
+Weight decay: 0.05 (instead of 0.01)
+Epochs: 30 (instead of 100, so the LR schedule decays correctly)
 ```
 
-Train loss trước đây collapse về ~0.003 trong khi val F1 chững lại — dấu hiệu overfit. Freezing lower layers (đã encode Vietnamese syntax từ pre-training) giảm trainable params và ổn định training.
+Training loss previously collapsed to ~0.003 while validation F1 plateaued — a sign of overfitting. Freezing the lower layers (which already encode Vietnamese syntax from pretraining) reduces trainable parameters and stabilizes training.
 
 ### (C) Compositional augmentation
 
-Synthesize thêm multi-label samples bằng cách ghép 2 câu đơn nhãn hiếm:
+Synthesize additional multi-label samples by concatenating two single-label rare-class sentences:
 
 ```python
-# Ví dụ: ask_shipping_fee + ask_order_wait_time chỉ có 4 samples trong training
+# Example: ask_shipping_fee + ask_order_wait_time had only 4 training samples
 "ship bao nhiêu tiền vậy" + " với " + "bao lâu thì nhận được ạ"
-→ label: ["ask_shipping_fee", "ask_order_wait_time"]
+-> label: ["ask_shipping_fee", "ask_order_wait_time"]
 ```
 
-4 cặp intent mục tiêu × 40 samples/cặp = +160 samples tổng hợp.
+4 target intent pairs x 40 samples each = 160 synthetic samples added.
 
-### Random token masking
+### (D) Random token masking
 
-Thêm 1 bản sao masked (drop 15% token ngẫu nhiên) của toàn bộ tập augmented:
+A masked copy (15% of tokens dropped at random) of the full augmented set doubles training data:
+
 ```
-Augmented: 4.379 samples → sau masking: 8.758 samples
+Augmented set: 4,379 samples -> after masking: 8,758 samples
 ```
 
-### Kết quả test cuối
+### Final test results
 
-| Metric | Giá trị |
+| Metric | Value |
 |---|---|
 | **Macro-F1** | **0.9022** |
 | **Micro-F1** | **0.9073** |
 | Hamming Loss | 0.0065 |
 | Subset Accuracy | 0.8533 |
 
-Lớp F1 thấp nhất: `ask_find_product` (0.40) — do training data rất ít (4 test samples).
-Lớp F1 cao nhất: `Goodbye`, `add_product`, `ask_payment_method`, `ask_product_info`, `ask_shop_info` (1.00).
+Lowest per-class F1: `ask_find_product` (0.40) — very few training samples (4 test samples).
+Highest per-class F1: `Goodbye`, `add_product`, `ask_payment_method`, `ask_product_info`, `ask_shop_info` (1.00).
