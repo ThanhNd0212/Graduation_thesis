@@ -66,3 +66,31 @@ _minted*/
 .vscode/
 .idea/
 *.swp
+
+# Thesis & report documents
+images/
+thesis.tex
+thesis_en.tex
+thesis_en.pdf
+baocao_full.md
+baocao_full.docx
+danY_baocao.md
+2026 ICT Bachelor thesis template.docx
+
+# Demo & planning docs
+system-demo-screenshot/
+chatbot_demo_plan.md
+chat_history.md
+pipeline-processing-flowchart.md
+pipeline-flowchart-from-code.md
+fix_svg_font.py
+check_ner_output.txt
+use_cases.mmd
+
+# Logos / assets not part of codebase
+University-of-Science-Technology-of-Ha-Noi-logo.png
+
+# Data folders
+Data_analise/
+final_data/
+ner_data/
