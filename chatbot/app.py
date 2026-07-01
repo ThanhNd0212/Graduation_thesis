@@ -1,4 +1,4 @@
-"""FastAPI backend — serves the Messenger-style web UI and the /chat endpoint.
+﻿"""FastAPI backend — serves the Messenger-style web UI and the /chat endpoint.
 
 Run from the project root:
     python -m uvicorn chatbot.app:app --port 8000
@@ -23,7 +23,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-load_dotenv(Path(__file__).resolve().parent.parent / '.env')
+load_dotenv(Path(__file__).resolve.parent.parent / '.env')
 
 from product_matcher import ProductMatcher
 from .db import init_db, get_orders
@@ -34,42 +34,42 @@ from .rag import ProductRAG
 from .state import SlotStore
 from .logger import TurnLogger
 
-_ROOT    = Path(__file__).resolve().parent.parent
-WEB      = Path(__file__).resolve().parent / 'web'
+_ROOT    = Path(__file__).resolve.parent.parent
+WEB      = Path(__file__).resolve.parent / 'web'
 PRODUCTS = _ROOT / 'final_data' / 'products_2010_2026_updated.json'
 _API_KEY = os.environ.get('GOOGLE_API_KEY', '')
 
-# ── shared session store (cả 2 mode dùng chung để lịch sử xuyên suốt) ──────
+# shared session store (both modes share one store so state persists across mode switches)
 _store = SlotStore(persist_dir=str(_ROOT / 'sessions'))
 
-init_db()
+init_db
 
 print('Loading models (PhoBERT intent + ViSoBERT NER + matcher)...')
 _pipe = ChatPipeline(
-    NLU(),
+    NLU,
     ProductMatcher(str(PRODUCTS)),
     _store,
     logger=TurnLogger(str(_ROOT / 'logs')),
 )
 print('Ready.')
 
-# RAG + LLM được khởi tạo lazy khi lần đầu gọi llm_full
-# (build embedding cache cho 11K sản phẩm mất vài phút — không block startup)
+# RAG + LLM initialized lazily on the first llm_full call
+# (building the embedding cache for ~11K products takes a few minutes — don't block startup)
 _rag: 'ProductRAG | None' = None
 _llm: 'LLMBaseline | None' = None
-_rag_lock = threading.Lock()
+_rag_lock = threading.Lock
 _rag_status = {'ready': False, 'building': False, 'error': None}
 
 app = FastAPI(title='LEGO Shop Chatbot')
 
-# ── In-memory metrics accumulator (reset on server restart) ─────────────────
-def _empty_mode_stats():
+# In-memory metrics accumulator (reset on server restart)
+def _empty_mode_stats:
     return {'turns': 0, 'total_latency_ms': 0.0,
             'llm_tokens_in': 0, 'llm_tokens_out': 0}
 
 _metrics: dict = defaultdict(lambda: {
-    'hybrid':   _empty_mode_stats(),
-    'llm_full': _empty_mode_stats(),
+    'hybrid':   _empty_mode_stats,
+    'llm_full': _empty_mode_stats,
 })
 
 
@@ -89,8 +89,8 @@ class ChatIn(BaseModel):
     mode: str = 'hybrid'   # 'hybrid' | 'llm_full'
 
 
-def _ensure_rag() -> 'LLMBaseline':
-    """Khởi tạo RAG + LLM lần đầu (thread-safe). Trả về LLMBaseline đã sẵn sàng."""
+def _ensure_rag -> 'LLMBaseline':
+    """Initialize RAG + LLM on first call (thread-safe). Returns a ready LLMBaseline instance."""
     global _rag, _llm
     if _rag_status['ready']:
         return _llm
@@ -103,7 +103,7 @@ def _ensure_rag() -> 'LLMBaseline':
             raise HTTPException(500, f'RAG lỗi: {_rag_status["error"]}')
         _rag_status['building'] = True
 
-    def _build():
+    def _build:
         global _rag, _llm
         try:
             print('[RAG] Bắt đầu khởi tạo embedding (chạy nền)...')
@@ -117,7 +117,7 @@ def _ensure_rag() -> 'LLMBaseline':
             print(f'[RAG] Lỗi: {e}')
 
     t = threading.Thread(target=_build, daemon=True)
-    t.start()
+    t.start
     raise HTTPException(503, 'RAG đang khởi tạo lần đầu (embedding 11K sản phẩm). '
                              'Thử lại sau 1–2 phút. Xem tiến trình trong terminal.')
 
@@ -125,7 +125,7 @@ def _ensure_rag() -> 'LLMBaseline':
 @app.post('/chat')
 def chat(inp: ChatIn):
     if inp.mode == 'llm_full':
-        llm = _ensure_rag()
+        llm = _ensure_rag
         result = llm.process(inp.session_id, inp.message,
                              reply_to_msg_id=inp.reply_to_msg_id)
     else:
@@ -144,18 +144,18 @@ def reset(session_id: str = 'web'):
 
 @app.get('/orders')
 def orders(limit: int = 100):
-    """Danh sách đơn hàng đã hoàn tất (từ DB)."""
+    """Completed orders from the database."""
     return get_orders(limit=limit)
 
 
 @app.get('/api/rag-status')
-def rag_status():
+def rag_status:
     return _rag_status
 
 
 @app.get('/api/metrics')
-def api_metrics():
-    """Tổng hợp metrics in-memory cho tất cả sessions đang hoạt động."""
+def api_metrics:
+    """In-memory metrics summary for all active sessions."""
     sessions = []
     for sid, modes in _metrics.items():
         for mode, s in modes.items():
@@ -174,12 +174,12 @@ def api_metrics():
 
 
 @app.get('/')
-def index():
+def index:
     return FileResponse(str(WEB / 'index.html'))
 
 
 @app.get('/metrics')
-def metrics_page():
+def metrics_page:
     return FileResponse(str(WEB / 'metrics.html'))
 
 

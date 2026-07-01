@@ -1,5 +1,5 @@
-"""Per-turn logging for analysis: intent, NER, slot updates, and the bot's reasoning
-(the decision trace from input → output).
+﻿"""Per-turn logging for analysis: intent, NER, slot updates, and the bot's reasoning
+(the decision trace from input -> output).
 
 Writes two files per day under log_dir/:
   - chat_YYYYMMDD.jsonl : one JSON object per turn (machine-readable, for analysis)
@@ -37,11 +37,11 @@ class TurnLogger:
         L.append(f"  INTENT: {r['intents']}")
         L.append(f"  NER   : {r['entities']}")
         if r.get('slot_updates'):
-            ups = '; '.join(f"{u['label']}: {u['old']!r}→{u['new']!r}" for u in r['slot_updates'])
+            ups = '; '.join(f"{u['label']}: {u['old']!r}->{u['new']!r}" for u in r['slot_updates'])
             L.append(f"  SLOTS↑: {ups}")
         L.append("  THINK :")
         for step in r.get('trace', []):
-            L.append(f"     • {step}")
+            L.append(f"     - {step}")
         L.append(f"  ACTION: {r['action']}")
         out = (r['reply'] or '').replace('\n', ' / ')
         L.append(f"  OUT   : {out[:160]}")

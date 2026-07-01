@@ -1,4 +1,4 @@
-"""Product confirmation (§3/§4): propose top-3 from a PRODUCT_NAME, and resolve which
+﻿"""Product confirmation: propose top-3 from a PRODUCT_NAME, and resolve which
 candidate the customer picked. This is NOT intent classification — the intent model
 already told us it's a product/agree turn; here we only figure out WHICH of the 3.
 """
@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import re
 
-# ordinal words → 1-based position
+# ordinal words -> 1-based position
 _ORDINAL = {
     'đầu': 1, 'nhất': 1, 'một': 1, 'thứ nhất': 1, 'đầu tiên': 1,
     'hai': 2, 'nhì': 2, 'giữa': 2, 'thứ hai': 2,
@@ -62,7 +62,7 @@ def resolve_choice(text: str, candidates: list):
             if len(tok) >= 3 and re.search(rf'\b{re.escape(tok)}\b', low):
                 return 'chosen', i
 
-    # 4) bare "cái này / con đó" with no selector → ambiguous (unless only 1 candidate)
+    # 4) bare "cái này / con đó" with no selector -> ambiguous (unless only 1 candidate)
     if re.search(r'\b(này|đó|nó|chốt|lấy|chọn|ok|okê|đồng ý)\b', low):
         return ('chosen', 0) if n == 1 else ('ambiguous', None)
 
